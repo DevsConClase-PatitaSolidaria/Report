@@ -2,7 +2,7 @@
 
 Product: Pata Solidaria
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADASSS
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
 ![alt text](assets/images/commons/Logoupc.png)
 
@@ -176,6 +176,11 @@ Nuestra misión
 Nuestra visión
 
 #### 1.1.2. Perfiles de integrantes del equipo
+
+- Diego Alonso Rosado Iporre -   u201620127
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Diegoprofile.jpg"> </p> | Mi nombre es Diego Rosado, tengo 25 años. Mi interés en las base de datos y arquitectura de páginas web me impulsó a estudiar Ingeniería de Software. Tengo conocimiento de lenguajes como C#, C++, JavaScript, Python, base de datos como MySQL y me atrae el diseño de páginas web con HTML y CSS. Me considero una persona positiva, tolerante y creativa. Mi aporte al grupo es mi total compromiso, apoyo mutuo y el esfuerzo por asegurar que todos tengamos una visión compartida del proyecto a elaborar. Mis habilidades son resolución de problemas, adaptabilidad, trabajo en equipo y toma de decisiones. |
+|------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### 1.2. Solution Profile
 
