@@ -1,6 +1,6 @@
 # DevsConClase
 
-Product: Pata Solidaria
+Product: Pata Solidaria 
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
@@ -169,11 +169,7 @@ del ABET – EAC - Student Outcome 3.
 
 **Misión:**
 
-Nuestra misión
-
 **Visión:**
-
-Nuestra visión
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
