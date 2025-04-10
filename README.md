@@ -2,7 +2,7 @@
 
 Product: Pata Solidaria
 
-# UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
+# UNIVERSIDAD PERUANA DE CIENCIAS APLICADASS
 
 ![alt text](assets/images/commons/Logoupc.png)
 
