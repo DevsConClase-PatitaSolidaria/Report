@@ -59,6 +59,7 @@ TB1:<br>
 |-|--------------------------------------------|
 |Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
 |Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento, desarrollo del informe de participación|
+|Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento|
 ## Contenido
 
 ## Tabla de contenidos
