@@ -398,6 +398,58 @@ Estas estrategias buscan posicionar a **Pata Solidaria** como una alternativa co
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
+Como parte del proceso de validación del modelo de negocio de **Pata Solidaria**, se realizaron preguntas semiestructuradas dirigidas a los dos segmentos objetivos: personas interesadas en adoptar mascotas y protectores/rescatistas que gestionan casos de animales en situación de abandono.
+
+---
+
+#### a) Diseño de entrevista - Segmento 1: Adoptantes
+
+1. **Datos generales:**
+   - Nombre.
+   - Edad.
+   - Distrito de residencia.
+   - Ocupación.
+   - ¿Vive solo/a o con familia?
+
+2. **Motivaciones y comportamientos:**
+   - ¿Qué te motivó a considerar la adopción de una mascota?
+   - ¿Has adoptado antes? ¿Cómo fue tu experiencia?
+   - ¿Qué tipo de mascota te gustaría adoptar (raza, edad, tamaño)?
+   - ¿Qué medios utilizas para buscar mascotas en adopción?
+   - ¿Qué aspectos valoras más antes de adoptar (salud, comportamiento, historia)?
+
+3. **Miedos, expectativas y canales:**
+   - ¿Qué dudas o miedos tienes respecto al proceso de adopción?
+   - ¿Qué haría que confíes plenamente en una plataforma digital de adopción?
+   - ¿Qué redes sociales o plataformas digitales usas con más frecuencia?
+   - ¿Te gustaría recibir seguimiento post-adopción o apoyo luego de adoptar?
+
+---
+
+#### b) Diseño de entrevista - Segmento 2: Protectores
+
+1. **Datos generales:**
+   - Nombre.
+   - Tiempo dedicado al rescate/protección animal.
+   - ¿Trabajas de forma independiente o vinculado a un refugio?
+   - Número promedio de animales rescatados por mes.
+
+2. **Operaciones y herramientas:**
+   - ¿Cómo gestionas actualmente los procesos de adopción?
+   - ¿Qué medios utilizas para difundir los casos?
+   - ¿Qué información sueles recopilar del animal antes de darlo en adopción?
+   - ¿Qué dificultades enfrentas para encontrar adoptantes responsables?
+   - ¿Has usado alguna plataforma web o app para este fin?
+
+3. **Expectativas:**
+   - ¿Qué funcionalidades digitales serían útiles para ti (seguimiento, historial, etc.)?
+   - ¿Qué tipo de soporte o incentivo te motivaría a usar una nueva plataforma?
+   - ¿Cuáles son tus principales frustraciones en el proceso de adopción?
+   - ¿Qué esperas de los adoptantes para garantizar el bienestar del animal?
+
+---
+
+El presente diseño permitirá recopilar información clave sobre ambos segmentos, enfocándose en sus motivaciones, barreras, comportamientos y preferencias. Estos insumos serán esenciales para la validación del modelo y el diseño centrado en el usuario de la plataforma **Pata Solidaria**.
 
 #### 2.2.2. Registro de entrevistas
 
