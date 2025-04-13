@@ -41,6 +41,7 @@ Product: Pata Solidaria
 | TB1     | 09/04/25 | Diego Rosado | Creación organización y repositorios en GitHub para proyecto final |
 | TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final       |
 | TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe                              | 
+| TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 del informe                              |
 
 ## Project Report Collaboration Insights
 
