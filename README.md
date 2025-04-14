@@ -158,10 +158,10 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-| Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                  | Conclusiones                                                                                                                                                                                                                                                                 |
-|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución                                                                                                                                                            |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector.                                                                                                                           | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. |
+| Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales.                                                                                                               | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución                                                                                                                                                                                                     |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. |
 
 ## Capítulo I: Introducción
 
@@ -185,6 +185,7 @@ Ser la plataforma líder en Perú en conectar hogares con mascotas que necesitan
 |------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <p align="center"><img width="auto" height="auto" src="assets/images/commons/Andresprofile.png"></p> | Mi Nombre es Carlos Andrés Coca, tengo 19 años, actualmente me encuentro cursando el quinto ciclo de la carrera de Ingeniería de Software. Desde muy joven me ha interesado la ciberseguridad y el desarrollo de Software. Teniendo en cuenta el gran impacto que presentan a dia de hoy. |
 | <p align="center"><img width="auto" height="auto" src="assets/images/commons/ArnoldProfile.png?raw=true"></p> | Mi nombre es Arnold Morales Sosa, tengo 24 años y soy estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. 
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Pedroprofile.jpg"></p>  | Mi nombre es Pedro Lecca y actualmente estudio la carrera de Ingeniería de Software en la Universidad UPC, sede San Miguel. Tengo 20 años y me considero una persona responsable, comprometida con el cumplimiento de mis deberes académicos. Además, valoro profundamente mantener una buena relación con mi equipo de trabajo, ya que estoy convencido de que un ambiente colaborativo y respetuoso permite alcanzar mejores resultados y potencia el desarrollo colectivo.                                                                                                                                         |
 
 ### 1.2. Solution Profile
 
@@ -456,21 +457,253 @@ El presente diseño permitirá recopilar información clave sobre ambos segmento
 
 #### 2.2.2. Registro de entrevistas
 
+
+#### 1. Entrevistas del Segmento N°1: Personal de Refugios de Animales (Administradores y Cuidadores)
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/JuliaEvidence.png"> |
+|-------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Julia Mejía                                                                |
+| **Género:** Femenino                                                                            |
+| **Edad:** 21 años                                                                               |
+| **Link de la entrevista (YouTube):** https://youtu.be/ulyokJORm-U?si=jMSwigdXtaAr4DfN           |
+| Julia Mejía, una joven de 21 años que reside en San Isidro, trabaja de forma independiente en el rescate de animales, con un promedio de entre 4 y 6 casos mensuales. Aunque ocasionalmente colabora con refugios, su labor principal se basa en procesos digitalizados como formularios de Google, videollamadas y WhatsApp. Difunde los casos mediante redes sociales como Instagram, Facebook y Telegram. Antes de dar un animal en adopción, recopila información sobre edad, salud, vacunas y comportamiento. Julia expresa preocupación por adoptantes que mienten en formularios y el bajo compromiso, lo que a veces lleva al abandono. Le gustaría que las plataformas incluyan seguimiento, alertas, respaldo legal y atención médica. Desea que los adoptantes traten a los animales como parte de la familia.                                                                                                |
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/BrizaEvidence.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Briza Segura                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Género:** Femenino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Edad:** 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Link de la entrevista (YouTube):** https://youtu.be/XUgSsGW4AyM?si=tJXBtEz_pfVtTN3F                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Briza Segura, de 25 años y residente en San Borja, trabaja vinculada a un refugio y rescata entre 5 y 20 animales al mes. Los procesos de adopción incluyen formularios, entrevistas y visitas domiciliarias. Difunde casos mediante Facebook, Instagram y ferias locales. Antes de la adopción, recopila datos sobre salud, comportamiento y preferencias del animal. Identifica como problema principal la falta de compromiso y adopciones impulsivas. Le gustaría contar con plataformas que incluyan seguimiento, recordatorios y evaluaciones de adoptantes, además de soporte técnico y certificación para su labor. Busca adoptantes comprometidos, informados y comunicativos. |
+
+#### 2. Entrevistas del Segmento N°2: Adoptantes Potenciales (Personas interesadas en adoptar animales)
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/CeciliaEvidence.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Cecilia Izaguirre                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Género:** Femenino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Edad:** 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Link de la entrevista (YouTube):** https://youtu.be/_iQEJVC_PQI?si=rYEKzjlUyvX7vsPA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| Cecilia Izaguirre, una joven universitaria de 21 años de San Miguel, comparte su perspectiva sobre la adopción de mascotas. Menciona que le gustan mucho los animales y que la adopción es una forma bonita de brindarles una segunda oportunidad. Ya ha adoptado antes y valora más la necesidad del animal que factores como raza, edad o tamaño. Utiliza redes sociales como Facebook, Instagram y TikTok para buscar mascotas. Le interesa conocer la historia y salud de los animales antes de adoptar, y expresa preocupación por la falta de información transparente durante el proceso. También le gustaría recibir apoyo post-adopción. |
+
+
 #### 2.2.3. Análisis de entrevistas
+Según las entrevistas registradas y sus respectivos resúmenes, hemos realizado el siguiente análisis de entrevista según cada segmento, en donde se resaltan los puntos en común de los usuarios y algunas conclusiones.
+
+#### 1. Segmento N°1: Personal de Refugios de Animales (Administradores y Cuidadores)
+
+**Hallazgos:**
+
+- **Jóvenes comprometidos:**
+Ambas entrevistadas tienen entre 21 y 25 años y están activamente involucradas en el rescate animal de forma independiente o vinculadas a refugios.
+- **Procesos estructurados de adopción:** Realizan entrevistas, visitas domiciliarias y uso de formularios para filtrar adoptantes responsables.
+- **Difusión en redes y espacios físicos:** Utilizan principalmente Instagram y Facebook, y en algunos casos ferias locales o grupos como Telegram.
+- **Evaluación exhaustiva del animal:** Ambas recopilan información sobre salud, comportamiento y antecedentes antes de darlo en adopción.
+- **Falta de compromiso de los adoptantes:** Se identifica como principal dificultad la devolución de animales o su abandono por decisiones impulsivas.
+- **Demandas tecnológicas específicas:** Consideran necesarias herramientas como bases de datos centralizadas, recordatorios automáticos de vacunas, seguimiento post-adopción y sistemas de evaluación.
+- **Necesidad de respaldo institucional:** Se valora contar con certificaciones, soporte técnico y atención médica como incentivos para usar nuevas plataformas.
+
+**Conclusiones:**
+
+El segmento de protectores está compuesto por jóvenes altamente activos y organizados, con métodos claros para el proceso de adopción. La principal frustración se centra en la falta de responsabilidad de los adoptantes, lo que genera ciclos repetitivos de abandono. Además, valoran el soporte institucional y legal como un aspecto esencial para continuar y mejorar su labor. Las herramientas tecnológicas deben enfocarse en profesionalizar su trabajo, facilitar seguimiento y asegurar un entorno confiable para el bienestar de los animales.
+
+
+#### 2. Segmento N°2: Adoptantes Potenciales (Personas interesadas en adoptar animales)
+
+**Hallazgos:**
+
+- **Motivación emocional clara:** La entrevistada muestra un fuerte vínculo emocional hacia los animales, considerando la adopción como una oportunidad para brindar amor y hogar a quienes lo necesitan.
+- **Criterios flexibles de selección:** No prioriza raza, edad o tamaño del animal. Este patrón sugiere una tendencia a adoptar con enfoque solidario más que estético o funcional.
+- **Uso de medios digitales:** Se identificó que la principal vía para buscar animales en adopción son redes sociales como Facebook e Instagram.
+- **Preocupaciones en el proceso:** Existe un miedo a que se oculte información relevante sobre la salud del animal durante el proceso de adopción.
+- **Interés en el seguimiento post-adopción:** La entrevistada estaría dispuesta a recibir orientación o acompañamiento después de adoptar, lo cual indica un deseo de asegurar el bienestar del animal.
+
+**Conclusiones:**
+
+El perfil del adoptante identificado responde a una persona joven, urbana y con alto compromiso emocional hacia los animales. Su disposición a adoptar se basa en principios de empatía y responsabilidad, más allá de criterios físicos del animal. Aunque utilizan herramientas digitales, muestran incertidumbre respecto a la transparencia del proceso. Por ello, es clave considerar soluciones tecnológicas que brinden seguridad informativa y seguimiento posterior a la adopción.
+
 
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
 
+La creación de *User Personas* permite representar los perfiles típicos de los usuarios de la plataforma **Pata Solidaria**, facilitando un diseño centrado en sus necesidades reales.
+
+---
+
+### **User Persona #1: Mariana, Protectora Independiente**
+
+- **Nombre:** Mariana Gutiérrez
+- **Edad:** 24 años
+- **Ocupación:** Estudiante de veterinaria / Rescatista independiente
+- **Localización:** Lima, distrito de Jesús María
+- **Estado civil:** Soltera
+
+**Características:**
+- Rescata entre 4 y 6 animales al mes.
+- Gestiona adopciones con formularios de Google, videollamadas y seguimiento por WhatsApp.
+- Difunde casos mediante Instagram, Facebook y Telegram.
+- Recoge datos médicos, vacunación y comportamiento del animal.
+
+**Objetivos:**
+- Asegurar hogares responsables para animales rescatados.
+- Contar con herramientas de seguimiento post-adopción.
+- Recibir respaldo institucional en su labor voluntaria.
+
+**Frustraciones:**
+- Adoptantes que no cumplen compromisos o brindan información falsa.
+- Procesos desorganizados y dependencia total de redes sociales.
+- Ausencia de una plataforma integral para gestionar adopciones.
+
+**Necesidades:**
+- Plataforma accesible y organizada para registro y control.
+- Alertas automáticas y funcionalidades de seguimiento.
+- Validación de perfiles de adoptantes.
+- Opciones de soporte técnico y respaldo legal.
+
+---
+
+### **User Persona #2: Lucía, Adoptante Potencial**
+
+- **Nombre:** Lucía Fernández
+- **Edad:** 22 años
+- **Ocupación:** Estudiante universitaria
+- **Localización:** Lima, distrito de Pueblo Libre
+- **Estado civil:** Soltera
+
+**Características:**
+- Usa Instagram, TikTok y Facebook para buscar mascotas en adopción.
+- Ha adoptado previamente a través de redes sociales o conocidos.
+- Valora la transparencia sobre salud y cuidado del animal.
+
+**Objetivos:**
+- Brindar un hogar seguro a una mascota que lo necesite.
+- Tener acceso claro a información médica antes de adoptar.
+- Poder consultar o recibir orientación luego de la adopción.
+
+**Frustraciones:**
+- Falta de claridad o veracidad en publicaciones de adopción.
+- Miedo a enfermedades ocultas o problemas inesperados.
+- Ausencia de apoyo post-adopción.
+
+**Necesidades:**
+- Plataforma confiable con fichas médicas y datos completos.
+- Contacto directo con protectores y refugios.
+- Experiencias reales y referencias de otros adoptantes.
+- Acompañamiento durante el proceso de adaptación.
+
 #### 2.3.2. User Task Matrix
+
+En esta sección se presenta la *User Task Matrix*, que concentra las tareas que los *User Personas* realizan para cumplir sus objetivos.
+
+| **Tarea (Task)**                                  | **Mariana (Frecuencia)** | **Mariana (Importancia)** | **Lucía (Frecuencia)** | **Lucía (Importancia)** |
+|--------------------------------------------------|---------------------------|----------------------------|-------------------------|--------------------------|
+| Buscar información sobre animales disponibles     | 5                         | 5                          | 5                       | 5                        |
+| Recopilar historial médico del animal             | 5                         | 5                          | 3                       | 4                        |
+| Difundir casos de animales rescatados             | 5                         | 5                          | 0                       | 0                        |
+| Evaluar a posibles adoptantes                     | 4                         | 5                          | 0                       | 0                        |
+| Adoptar un animal                                 | 1                         | 2                          | 5                       | 5                        |
+| Dar seguimiento post-adopción                     | 5                         | 5                          | 3                       | 4                        |
+| Responder a consultas de adoptantes               | 4                         | 5                          | 2                       | 3                        |
+| Asistir a campañas o ferias de adopción           | 3                         | 4                          | 1                       | 2                        |
+| Registrar al animal en una base de datos          | 5                         | 5                          | 0                       | 0                        |
+| Visitar el refugio o lugar de acogida             | 2                         | 3                          | 2                       | 4                        |
+
+---
+
+### Conclusiones:
+
+- **Mariana** se enfoca en tareas operativas, como la gestión médica, adopciones seguras y seguimiento post-adopción. Necesita herramientas que simplifiquen y profesionalicen su labor.
+- **Lucía** prioriza conocer al animal, adoptar de forma responsable y sentirse acompañada durante el proceso.
+- Ambas coinciden en la **alta importancia del historial médico y del seguimiento post-adopción**, lo cual valida que estas funcionalidades sean el núcleo de valor de la plataforma *Pata Solidaria*.
 
 #### 2.3.3. User Journey Mapping
 
+### User Journey: Mariana, Protectora Independiente
+
+| **Etapa**                 | **Acción**                                                                 | **Herramientas/Canales**                        | **Emoción**        | **Punto de Dolor**                                            |
+|--------------------------|-----------------------------------------------------------------------------|-------------------------------------------------|--------------------|----------------------------------------------------------------|
+| Rescate                  | Encuentra un animal abandonado en mal estado                               | Calle, red de voluntarios                       | Preocupada       | No tiene apoyo logístico ni médico inmediato                   |
+| Evaluación del animal    | Lleva al veterinario o intenta atender con recursos propios                 | Veterinaria local, WhatsApp                     | Estresada         | Costos altos, sin historial previo, manejo informal            |
+| Difusión para adopción   | Publica fotos y datos en redes sociales                                     | Instagram, Facebook, Telegram                   | Esperanzada        | Poco alcance, respuestas poco serias o trolls                  |
+| Filtrado de adoptantes   | Recibe mensajes y aplica filtros mediante formularios y entrevistas         | Google Forms, llamadas, WhatsApp                | Ansiosa            | Dificultad para validar información de los adoptantes          |
+| Adopción final           | Coordina entrega en punto neutro y hace seguimiento por chat                | WhatsApp                                        | Satisfecha (a veces) | Algunos adoptantes desaparecen o no cumplen compromisos        |
+| Seguimiento post-adopción| Intenta hacer control, pero sin herramientas formales                       | Mensajes directos, recordatorios manuales       | Frustrada          | Falta de continuidad, pérdida de contacto, abandono reincidente|
+
+---
+
+### User Journey: Lucía, Adoptante Potencial
+
+| **Etapa**               | **Acción**                                                                | **Herramientas/Canales**         | **Emoción**    | **Punto de Dolor**                                               |
+|------------------------|----------------------------------------------------------------------------|----------------------------------|----------------|-------------------------------------------------------------------|
+| Motivación inicial     | Decide adoptar una mascota por amor y compromiso social                   | Conversaciones, redes sociales   | Emocionada     | No sabe dónde empezar ni a quién acudir                          |
+| Búsqueda               | Revisa perfiles de animales en redes sociales                             | Instagram, TikTok, Facebook      | Interesada     | Información dispersa, poca claridad médica o de antecedentes     |
+| Contacto con protectores| Envía mensaje privado o llena formulario                                  | DM, WhatsApp, Google Forms       | Insegura       | No sabe si la plataforma es confiable, recibe respuestas tardías |
+| Toma de decisión       | Evalúa qué mascota adoptar con base en fotos y breves descripciones        | Redes sociales, mensajes         | Dudosa         | Falta de orientación profesional o acompañamiento                |
+| Adopción               | Acorde lugar de encuentro, recibe mascota                                  | WhatsApp                         | Emocionada     | No siempre hay contrato ni garantía de salud del animal          |
+| Post-adopción          | Busca consejos o apoyo en caso de complicaciones                          | Chats, grupos, redes             | Agobiada       | No recibe respuesta o soporte por parte del protector            |
+
 #### 2.3.4. Empathy Mapping
+
+### Empathy Map: Mariana (Protectora Independiente)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/EmphatyMapMariana.png">
+
+### Empathy Map: Lucía (Adoptante Potencial)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/EmphatyMapLucia.png">
 
 #### 2.3.5. As-is Scenario Mapping
 
+### Mariana – Protectora Independiente
+
+| **Phase**         | **Doing**                                                                 | **Thinking**                                               | **Feeling**    |
+|------------------|----------------------------------------------------------------------------|------------------------------------------------------------|----------------|
+| Registro inicial  | Se registra como protectora validada, sube información de su refugio      | “Por fin una plataforma que nos toma en serio”             | Aliviada       |
+| Publicación       | Sube perfil de cada animal con fotos y ficha médica digital               | “Todo queda guardado y ordenado”                           | Segura         |
+| Evaluación        | Revisa postulaciones desde la plataforma con filtros automáticos          | “Puedo identificar adoptantes responsables fácilmente”     | Confiada       |
+| Adopción          | Agenda una entrega oficial con contrato digital                           | “Hay trazabilidad, todo queda registrado”                  | Profesionalizada |
+| Seguimiento       | Activa recordatorios de salud, seguimiento post-adopción desde la app     | “Estoy acompañando el proceso incluso después”             | Comprometida   |
+
+**Áreas positivas:** Organización, trazabilidad, respaldo legal.  
+**Mejoras observadas:** Se reduce abandono post-adopción.  
+**Oportunidades:** Incluir módulo de donaciones o comunidad.
+
+---
+
+### Lucía – Adoptante Potencial
+
+| **Phase**         | **Doing**                                                               | **Thinking**                                                | **Feeling** |
+|------------------|--------------------------------------------------------------------------|-------------------------------------------------------------|------------|
+| Exploración       | Navega la plataforma, filtra por tipo de mascota, tamaño, salud          | “Todo está claro, puedo decidir mejor”                      | Interesada |
+| Evaluación        | Lee fichas médicas y compara historias de vida                          | “Esta perrita necesita una oportunidad”                     | Conmovida  |
+| Postulación       | Completa formulario digital validado y carga su DNI                     | “Es un proceso serio pero accesible”                        | Tranquila  |
+| Adopción          | Agenda entrega con instructivo y contrato digital                       | “Todo fue fácil y ordenado”                                 | Satisfecha |
+| Seguimiento       | Recibe alertas de vacunas, contacto directo con protectora              | “No estoy sola, puedo resolver dudas rápido”                | Acompañada |
+
+**Áreas positivas:** Información médica clara, filtros, experiencia acompañada.  
+**Mejoras observadas:** Aumento en adopciones responsables y duraderas.  
+**Oportunidades:** Agregar testimonios en video o módulo de recomendaciones.
+
 ### 2.4. Ubiquitous Language
+
+El siguiente glosario recoge términos comunes y recurrentes dentro del dominio de negocio de Pata Solidaria. Su uso uniforme busca facilitar la comunicación entre el equipo de desarrollo, usuarios y demás stakeholders, evitando ambigüedades y garantizando alineamiento conceptual durante todo el desarrollo del proyecto.
+
+| **Término (Inglés)**     | **Término (Español)**          | **Definición (Español)**                                                                                                                                          |
+|--------------------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Shelter                  | Refugio                        | Espacio físico temporal donde se acoge a animales abandonados hasta encontrarles un hogar definitivo.                                                           |
+| Adopter                  | Adoptante                      | Persona interesada en brindar un hogar responsable y permanente a un animal rescatado.                                                                          |
+| Medical History          | Historial Médico               | Registro actualizado del estado de salud del animal, vacunas, tratamientos y condiciones especiales.                                                            |
+| Responsible Adoption     | Adopción Responsable           | Proceso mediante el cual un adoptante asume el compromiso ético y práctico del cuidado integral de una mascota.                                                 |
+| Animal Welfare           | Bienestar Animal               | Estado físico y emocional de los animales, garantizado por una correcta alimentación, salud, ambiente y trato respetuoso.                                      |
+| Protector                | Protector / Rescatista         | Persona u organización que se dedica al rescate, cuidado temporal y búsqueda de hogar para animales en situación de abandono.                                  |
+| Post-Adoption Follow-up  | Seguimiento Post-Adopción      | Etapa posterior a la entrega de la mascota, en la que se verifica su adaptación, salud y cumplimiento de los compromisos asumidos por el adoptante.            |
+| Adoption Request         | Solicitud de Adopción          | Formulario digital o físico que un adoptante llena para iniciar el proceso de evaluación antes de recibir a una mascota.                                       |
+| Adoption Agreement       | Contrato de Adopción           | Documento firmado entre adoptante y protector, donde se formalizan las condiciones y compromisos de la adopción.                                                |
+| Digital Profile          | Perfil Digital                 | Ficha pública del animal que incluye nombre, características, fotos y datos de salud, visible en la plataforma para postulantes.                               |
+| Foster Home              | Casa Temporal                  | Hogar voluntario que acoge animales de forma temporal mientras se concreta su adopción definitiva.                                                              |
+| Alert System             | Sistema de Alertas             | Mecanismo digital que permite recordar citas médicas, vacunas o seguimientos a realizar durante y después del proceso de adopción.                            |
+| Community of Practice    | Comunidad de Práctica          | Red de protectores, veterinarios y adoptantes que comparten buenas prácticas, experiencias y herramientas a través de la plataforma.                          |
 
 ## Capítulo III: Requirements Specification
 
