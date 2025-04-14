@@ -526,15 +526,183 @@ El perfil del adoptante identificado responde a una persona joven, urbana y con 
 
 #### 2.3.1. User Personas
 
+La creación de *User Personas* permite representar los perfiles típicos de los usuarios de la plataforma **Pata Solidaria**, facilitando un diseño centrado en sus necesidades reales.
+
+---
+
+### **User Persona #1: Mariana, Protectora Independiente**
+
+- **Nombre:** Mariana Gutiérrez
+- **Edad:** 24 años
+- **Ocupación:** Estudiante de veterinaria / Rescatista independiente
+- **Localización:** Lima, distrito de Jesús María
+- **Estado civil:** Soltera
+
+**Características:**
+- Rescata entre 4 y 6 animales al mes.
+- Gestiona adopciones con formularios de Google, videollamadas y seguimiento por WhatsApp.
+- Difunde casos mediante Instagram, Facebook y Telegram.
+- Recoge datos médicos, vacunación y comportamiento del animal.
+
+**Objetivos:**
+- Asegurar hogares responsables para animales rescatados.
+- Contar con herramientas de seguimiento post-adopción.
+- Recibir respaldo institucional en su labor voluntaria.
+
+**Frustraciones:**
+- Adoptantes que no cumplen compromisos o brindan información falsa.
+- Procesos desorganizados y dependencia total de redes sociales.
+- Ausencia de una plataforma integral para gestionar adopciones.
+
+**Necesidades:**
+- Plataforma accesible y organizada para registro y control.
+- Alertas automáticas y funcionalidades de seguimiento.
+- Validación de perfiles de adoptantes.
+- Opciones de soporte técnico y respaldo legal.
+
+---
+
+### **User Persona #2: Lucía, Adoptante Potencial**
+
+- **Nombre:** Lucía Fernández
+- **Edad:** 22 años
+- **Ocupación:** Estudiante universitaria
+- **Localización:** Lima, distrito de Pueblo Libre
+- **Estado civil:** Soltera
+
+**Características:**
+- Usa Instagram, TikTok y Facebook para buscar mascotas en adopción.
+- Ha adoptado previamente a través de redes sociales o conocidos.
+- Valora la transparencia sobre salud y cuidado del animal.
+
+**Objetivos:**
+- Brindar un hogar seguro a una mascota que lo necesite.
+- Tener acceso claro a información médica antes de adoptar.
+- Poder consultar o recibir orientación luego de la adopción.
+
+**Frustraciones:**
+- Falta de claridad o veracidad en publicaciones de adopción.
+- Miedo a enfermedades ocultas o problemas inesperados.
+- Ausencia de apoyo post-adopción.
+
+**Necesidades:**
+- Plataforma confiable con fichas médicas y datos completos.
+- Contacto directo con protectores y refugios.
+- Experiencias reales y referencias de otros adoptantes.
+- Acompañamiento durante el proceso de adaptación.
+
 #### 2.3.2. User Task Matrix
+
+En esta sección se presenta la *User Task Matrix*, que concentra las tareas que los *User Personas* realizan para cumplir sus objetivos.
+
+| **Tarea (Task)**                                  | **Mariana (Frecuencia)** | **Mariana (Importancia)** | **Lucía (Frecuencia)** | **Lucía (Importancia)** |
+|--------------------------------------------------|---------------------------|----------------------------|-------------------------|--------------------------|
+| Buscar información sobre animales disponibles     | 5                         | 5                          | 5                       | 5                        |
+| Recopilar historial médico del animal             | 5                         | 5                          | 3                       | 4                        |
+| Difundir casos de animales rescatados             | 5                         | 5                          | 0                       | 0                        |
+| Evaluar a posibles adoptantes                     | 4                         | 5                          | 0                       | 0                        |
+| Adoptar un animal                                 | 1                         | 2                          | 5                       | 5                        |
+| Dar seguimiento post-adopción                     | 5                         | 5                          | 3                       | 4                        |
+| Responder a consultas de adoptantes               | 4                         | 5                          | 2                       | 3                        |
+| Asistir a campañas o ferias de adopción           | 3                         | 4                          | 1                       | 2                        |
+| Registrar al animal en una base de datos          | 5                         | 5                          | 0                       | 0                        |
+| Visitar el refugio o lugar de acogida             | 2                         | 3                          | 2                       | 4                        |
+
+---
+
+### Conclusiones:
+
+- **Mariana** se enfoca en tareas operativas, como la gestión médica, adopciones seguras y seguimiento post-adopción. Necesita herramientas que simplifiquen y profesionalicen su labor.
+- **Lucía** prioriza conocer al animal, adoptar de forma responsable y sentirse acompañada durante el proceso.
+- Ambas coinciden en la **alta importancia del historial médico y del seguimiento post-adopción**, lo cual valida que estas funcionalidades sean el núcleo de valor de la plataforma *Pata Solidaria*.
 
 #### 2.3.3. User Journey Mapping
 
+### User Journey: Mariana, Protectora Independiente
+
+| **Etapa**                 | **Acción**                                                                 | **Herramientas/Canales**                        | **Emoción**        | **Punto de Dolor**                                            |
+|--------------------------|-----------------------------------------------------------------------------|-------------------------------------------------|--------------------|----------------------------------------------------------------|
+| Rescate                  | Encuentra un animal abandonado en mal estado                               | Calle, red de voluntarios                       | Preocupada       | No tiene apoyo logístico ni médico inmediato                   |
+| Evaluación del animal    | Lleva al veterinario o intenta atender con recursos propios                 | Veterinaria local, WhatsApp                     | Estresada         | Costos altos, sin historial previo, manejo informal            |
+| Difusión para adopción   | Publica fotos y datos en redes sociales                                     | Instagram, Facebook, Telegram                   | Esperanzada        | Poco alcance, respuestas poco serias o trolls                  |
+| Filtrado de adoptantes   | Recibe mensajes y aplica filtros mediante formularios y entrevistas         | Google Forms, llamadas, WhatsApp                | Ansiosa            | Dificultad para validar información de los adoptantes          |
+| Adopción final           | Coordina entrega en punto neutro y hace seguimiento por chat                | WhatsApp                                        | Satisfecha (a veces) | Algunos adoptantes desaparecen o no cumplen compromisos        |
+| Seguimiento post-adopción| Intenta hacer control, pero sin herramientas formales                       | Mensajes directos, recordatorios manuales       | Frustrada          | Falta de continuidad, pérdida de contacto, abandono reincidente|
+
+---
+
+### User Journey: Lucía, Adoptante Potencial
+
+| **Etapa**               | **Acción**                                                                | **Herramientas/Canales**         | **Emoción**    | **Punto de Dolor**                                               |
+|------------------------|----------------------------------------------------------------------------|----------------------------------|----------------|-------------------------------------------------------------------|
+| Motivación inicial     | Decide adoptar una mascota por amor y compromiso social                   | Conversaciones, redes sociales   | Emocionada     | No sabe dónde empezar ni a quién acudir                          |
+| Búsqueda               | Revisa perfiles de animales en redes sociales                             | Instagram, TikTok, Facebook      | Interesada     | Información dispersa, poca claridad médica o de antecedentes     |
+| Contacto con protectores| Envía mensaje privado o llena formulario                                  | DM, WhatsApp, Google Forms       | Insegura       | No sabe si la plataforma es confiable, recibe respuestas tardías |
+| Toma de decisión       | Evalúa qué mascota adoptar con base en fotos y breves descripciones        | Redes sociales, mensajes         | Dudosa         | Falta de orientación profesional o acompañamiento                |
+| Adopción               | Acorde lugar de encuentro, recibe mascota                                  | WhatsApp                         | Emocionada     | No siempre hay contrato ni garantía de salud del animal          |
+| Post-adopción          | Busca consejos o apoyo en caso de complicaciones                          | Chats, grupos, redes             | Agobiada       | No recibe respuesta o soporte por parte del protector            |
+
 #### 2.3.4. Empathy Mapping
+
+### Empathy Map: Mariana (Protectora Independiente)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/EmphatyMapMariana.png">
+
+### Empathy Map: Lucía (Adoptante Potencial)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/EmphatyMapLucia.png">
 
 #### 2.3.5. As-is Scenario Mapping
 
+### Mariana – Protectora Independiente
+
+| **Phase**         | **Doing**                                                                 | **Thinking**                                               | **Feeling**    |
+|------------------|----------------------------------------------------------------------------|------------------------------------------------------------|----------------|
+| Registro inicial  | Se registra como protectora validada, sube información de su refugio      | “Por fin una plataforma que nos toma en serio”             | Aliviada       |
+| Publicación       | Sube perfil de cada animal con fotos y ficha médica digital               | “Todo queda guardado y ordenado”                           | Segura         |
+| Evaluación        | Revisa postulaciones desde la plataforma con filtros automáticos          | “Puedo identificar adoptantes responsables fácilmente”     | Confiada       |
+| Adopción          | Agenda una entrega oficial con contrato digital                           | “Hay trazabilidad, todo queda registrado”                  | Profesionalizada |
+| Seguimiento       | Activa recordatorios de salud, seguimiento post-adopción desde la app     | “Estoy acompañando el proceso incluso después”             | Comprometida   |
+
+**Áreas positivas:** Organización, trazabilidad, respaldo legal.  
+**Mejoras observadas:** Se reduce abandono post-adopción.  
+**Oportunidades:** Incluir módulo de donaciones o comunidad.
+
+---
+
+### Lucía – Adoptante Potencial
+
+| **Phase**         | **Doing**                                                               | **Thinking**                                                | **Feeling** |
+|------------------|--------------------------------------------------------------------------|-------------------------------------------------------------|------------|
+| Exploración       | Navega la plataforma, filtra por tipo de mascota, tamaño, salud          | “Todo está claro, puedo decidir mejor”                      | Interesada |
+| Evaluación        | Lee fichas médicas y compara historias de vida                          | “Esta perrita necesita una oportunidad”                     | Conmovida  |
+| Postulación       | Completa formulario digital validado y carga su DNI                     | “Es un proceso serio pero accesible”                        | Tranquila  |
+| Adopción          | Agenda entrega con instructivo y contrato digital                       | “Todo fue fácil y ordenado”                                 | Satisfecha |
+| Seguimiento       | Recibe alertas de vacunas, contacto directo con protectora              | “No estoy sola, puedo resolver dudas rápido”                | Acompañada |
+
+**Áreas positivas:** Información médica clara, filtros, experiencia acompañada.  
+**Mejoras observadas:** Aumento en adopciones responsables y duraderas.  
+**Oportunidades:** Agregar testimonios en video o módulo de recomendaciones.
+
 ### 2.4. Ubiquitous Language
+
+El siguiente glosario recoge términos comunes y recurrentes dentro del dominio de negocio de Pata Solidaria. Su uso uniforme busca facilitar la comunicación entre el equipo de desarrollo, usuarios y demás stakeholders, evitando ambigüedades y garantizando alineamiento conceptual durante todo el desarrollo del proyecto.
+
+| **Término (Inglés)**     | **Término (Español)**          | **Definición (Español)**                                                                                                                                          |
+|--------------------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Shelter                  | Refugio                        | Espacio físico temporal donde se acoge a animales abandonados hasta encontrarles un hogar definitivo.                                                           |
+| Adopter                  | Adoptante                      | Persona interesada en brindar un hogar responsable y permanente a un animal rescatado.                                                                          |
+| Medical History          | Historial Médico               | Registro actualizado del estado de salud del animal, vacunas, tratamientos y condiciones especiales.                                                            |
+| Responsible Adoption     | Adopción Responsable           | Proceso mediante el cual un adoptante asume el compromiso ético y práctico del cuidado integral de una mascota.                                                 |
+| Animal Welfare           | Bienestar Animal               | Estado físico y emocional de los animales, garantizado por una correcta alimentación, salud, ambiente y trato respetuoso.                                      |
+| Protector                | Protector / Rescatista         | Persona u organización que se dedica al rescate, cuidado temporal y búsqueda de hogar para animales en situación de abandono.                                  |
+| Post-Adoption Follow-up  | Seguimiento Post-Adopción      | Etapa posterior a la entrega de la mascota, en la que se verifica su adaptación, salud y cumplimiento de los compromisos asumidos por el adoptante.            |
+| Adoption Request         | Solicitud de Adopción          | Formulario digital o físico que un adoptante llena para iniciar el proceso de evaluación antes de recibir a una mascota.                                       |
+| Adoption Agreement       | Contrato de Adopción           | Documento firmado entre adoptante y protector, donde se formalizan las condiciones y compromisos de la adopción.                                                |
+| Digital Profile          | Perfil Digital                 | Ficha pública del animal que incluye nombre, características, fotos y datos de salud, visible en la plataforma para postulantes.                               |
+| Foster Home              | Casa Temporal                  | Hogar voluntario que acoge animales de forma temporal mientras se concreta su adopción definitiva.                                                              |
+| Alert System             | Sistema de Alertas             | Mecanismo digital que permite recordar citas médicas, vacunas o seguimientos a realizar durante y después del proceso de adopción.                            |
+| Community of Practice    | Comunidad de Práctica          | Red de protectores, veterinarios y adoptantes que comparten buenas prácticas, experiencias y herramientas a través de la plataforma.                          |
 
 ## Capítulo III: Requirements Specification
 
