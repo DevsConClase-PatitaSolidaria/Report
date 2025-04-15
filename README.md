@@ -718,40 +718,159 @@ El siguiente glosario recoge términos comunes y recurrentes dentro del dominio 
 ## Capítulo IV: Product Design
 
 ### 4.1. Style Guidelines.
+Con base en los principios de diseño de DevsConClase, las "guías de estilo" describen los procedimientos para redactar, diseñar o presentar documentos, contenido web, software u otros trabajos creativos, describiendo parámetros esenciales como la identidad de marca, la paleta de colores, la tipografía. 
 
 #### 4.1.1. General Style Guidelines
+**Branding:**
+
+Patita Solidaria representa el compromiso, la empatía y la transformación social en el ámbito de la adopción responsable de mascotas. Nuestra plataforma está diseñada para conectar refugios, adoptantes y protectores, facilitando la creación de hogares amorosos para cada animal. Con servicios de gestión transparentes y una tecnología open source, buscamos potenciar la labor de quienes trabajan en favor del bienestar animal y brindar a cada mascota la oportunidad de encontrar un hogar seguro.
+
+**Logotipo:**
+El logotipo de Patita Solidaria se ha creado para comunicar de manera clara la misión y los valores fundamentales de la plataforma, fusionando elementos visuales que simbolizan el amor, la esperanza y la conexión con los animales:
+
+**Integración del Corazón:**
+La incorporación de un corazón entrelazado a los dos animales, enfatiza la empatía y el cariño que impulsa nuestra labor. Este detalle visual comunica que detrás de cada adopción está la pasión y el compromiso de ofrecer un hogar lleno de amor.
+
+**Integración del perro y gato:**
+Para enfatizar la dedicación de la plataforma a la diversidad animal, el logotipo incorpora las imágenes de un perro y un gato juntos. Esta integración simboliza la unión y la inclusividad en la búsqueda de hogares amorosos, dejando claro que Patita Solidaria apoya tanto a perros como a gatos.
+
+Colores y Estética:
+Los colores predominantes en el logotipo se extraen de nuestra paleta: tonos cálidos y naturales que evocan calidez, esperanza y solidez. El uso de verdes, naranjas y tonos claros refuerza la conexión con la naturaleza y la empatía, consolidando la imagen de Patita Solidaria como una plataforma confiable, humanizada y comprometida con el bienestar animal.
+
+<p align="center"> <img src="img/logo_patitasolidaria.png" alt="Logo Patita Solidaria" width="50%"> </p>
+
+**Tipografías:**
+Para garantizar una apariencia moderna, amigable y legible, hemos seleccionado la tipografía Open Sans para todos los textos, tanto en títulos como en cuerpo de contenido. Esta elección refuerza la identidad visual de Patita Solidaria, ofreciendo claridad y coherencia en cada interacción.
+
+<p align="center"> <img src="img/opensans_example.png" alt="Ejemplo de Open Sans" width="50%"> </p>
+
+
+**Paleta de Colores:**
+La selección de la paleta de colores de Patita Solidaria se fundamenta en principios estratégicos que refuerzan la identidad visual y la funcionalidad de la plataforma:
+
+Verde Oliva Suave (#A3B18A):
+Transmite esperanza y la conexión con la naturaleza, evocando la vitalidad y el cuidado.
+
+Tierra Clara / Beige Arena (#EDE6DB):
+Aporta calidez y naturalidad, creando una atmósfera acogedora y serena.
+
+Naranja Suave (#F4A261):
+Ideal para botones y llamados a la acción, este tono genera un efecto visual amigable y enérgico sin resultar agresivo.
+
+Verde Bosque (#588157):
+Se utiliza para encabezados y acentos, ofreciendo un matiz serio y confiable en la comunicación visual.
+
+Terracota (#D5896F):
+Representa la calidez y la empatía, reforzando el compromiso emocional hacia cada mascota.
+
+Marrón Claro / Toffee (#DDB892):
+Funciona como fondo de secciones, proporcionando estabilidad y una sensación de orden.
+
+<p align="center"> <img src="img/colores_patitasolidaria.png" alt="Paleta de Colores Patita Solidaria" width="100%"> </p>
+
+
+**Tonos de Comunicación:**
+El estilo de comunicación en Patita Solidaria es esencial para crear una conexión genuina con los usuarios. Se establecen los siguientes lineamientos:
+
+Cercano y Empático:
+Adoptamos un tono amistoso y compasivo, que demuestre comprensión ante las necesidades y preocupaciones tanto de adoptantes como de refugios y protectores.
+
+Confianza y Profesionalismo:
+Si bien la comunicación es cercana, se mantiene un nivel de seriedad que transmita profesionalismo y seguridad en los procesos de adopción.
+
+Memorable y Reconocible:
+La identidad de marca debe ser única y fácil de recordar, permitiendo que Patita Solidaria se distinga en el mercado y sea recordada con cariño por los usuarios.
+
+Claro y Directo:
+El lenguaje empleado es simple, conciso y orientado a la acción, facilitando la comprensión y promoviendo la usabilidad de la plataforma.
+
+
+**Lenguaje Aplicado:**
+El lenguaje en nuestros textos es claro, accesible y directo, con el propósito de facilitar la interacción de usuarios de todas las edades y niveles de conocimiento tecnológico. Se evita la jerga excesivamente técnica y se prioriza un tono conversacional que invite a la acción y a la participación.
+
+
+**Marca:**
+El nombre Patita Solidaria evoca la esencia misma de la misión: brindar un hogar amoroso y seguro para cada patita. Es un juego de palabras que fusiona la ternura y la solidaridad, reflejando la idea de unión entre la tecnología, la comunidad y el bienestar animal.
+
+
+**Spacing:**
+El espaciado entre elementos es uniforme y equilibrado para generar una sensación de orden y armonía en la interfaz. Se recomienda:
+
+Espacios entre 0 y 16 px en los elementos del logotipo, garantizando legibilidad y consistencia.
+
+Márgenes de 20 px entre secciones principales y 10 px entre componentes individuales en todas las páginas.
+
+
+Esta actualización de las General Style Guidelines consolida la identidad visual y comunicacional de Patita Solidaria, asegurando que cada elemento – desde el logotipo hasta el uso de colores y tipografías – trabaje en conjunto para transmitir confianza, empatía y profesionalismo en el proceso de adopción de mascotas.
 
 #### 4.1.2. Web Style Guidelines
+-Diseño responsive que se adapta a distintos dispositivos.
+-Uso de botones con bordes redondeados, sombras suaves y transiciones amigables.
+-Jerarquía visual clara: títulos grandes, subtítulos destacados y cuerpo del texto legible.
+-Elementos interactivos con retroalimentación visual (hover, clic).
 
 ### 4.2. Information Architecture
 
 #### 4.2.1. Organization Systems
+Estructura basada en roles: Adoptantes, Refugios y Administradores.
+Secciones principales: Inicio, Buscar Mascotas, Favoritos, Solicitudes, Perfil, Panel de Refugio, Administración.
 
 #### 4.2.2. Labeling Systems
+Uso de etiquetas directas y orientadas al usuario: "Buscar Mascotas", "Solicitar Adopción", "Ver Perfil", "Mis Favoritos".
+Claridad en los llamados a la acción: "Registrarse", "Iniciar sesión", "Publicar Mascota", "Editar Información".
 
 #### 4.2.3. SEO Tags and Meta Tags
+Títulos y descripciones únicas por página.
+Uso de etiquetas meta con palabras clave como "adopción de mascotas", "refugios de animales", "buscar perros y gatos".
+URLs amigables: /mascotas/perros/labrador, /refugios/huellitas, etc.
 
 #### 4.2.4. Searching Systems
+Motor de búsqueda con filtros por tipo de animal, edad, tamaño, ubicación, comportamiento.
+Búsqueda predictiva y sugerencias automáticas basadas en popularidad y perfil del usuario.
 
 #### 4.2.5. Navigation Systems
+Menú superior para navegación global.
+Menú lateral en el panel del refugio y administrador.
+Breadcrumbs para navegación contextual.
+Footer con accesos rápidos, contacto y enlaces legales.
 
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
+Encabezado con logo, menú y botón de llamada a la acción.
+Sección "¿Quiénes somos?" con imagen y descripción.
+Beneficios de adoptar con la plataforma.
+Testimonios de adoptantes y refugios.
+CTA final: "Únete como adoptante" / "Registra tu refugio".
 
 #### 4.3.2. Landing Page Mock-up
+Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico.
+Botones destacados y secciones bien diferenciadas visualmente.
 
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
+Estructura de páginas clave: búsqueda de mascotas, perfil de mascota, formulario de solicitud, panel de refugio, administración de usuarios.
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+Flujo desde el registro hasta la adopción:
+Usuario se registra → busca mascota → guarda favoritas → solicita adopción → recibe notificación.
+Refugio publica mascota → recibe solicitud → acepta/rechaza → se actualiza estado.
 
 #### 4.4.3. Web Applications Mock-ups
+Pantallas diseñadas con la identidad visual definida.
+Uso de cards para mostrar mascotas, formularios intuitivos, paneles organizados.
 
 #### 4.4.4. Web Applications User Flow Diagrams
+Diagramas de flujo centrados en tareas:
+Flujo del adoptante: búsqueda → favoritos → solicitud.
+Flujo del refugio: publicación → gestión de mascotas → respuesta a solicitudes.
+Flujo del administrador: gestión de usuarios → vista de estadísticas.
 
 ### 4.5. Web Applications Prototyping
+Prototipo funcional desarrollado con herramientas como Figma.
+Simulación de interacciones clave: registro, búsqueda, solicitud y administración.
+Pruebas de usabilidad realizadas para validar navegación e intuitividad.
 
 ### 4.6. Domain-Driven Software Architecture
 
