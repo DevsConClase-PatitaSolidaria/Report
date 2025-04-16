@@ -741,7 +741,7 @@ Para enfatizar la dedicación de la plataforma a la diversidad animal, el logoti
 
 Los colores predominantes en el logotipo se extraen de nuestra paleta: tonos cálidos y naturales que evocan calidez, esperanza y solidez. El uso de verdes, naranjas y tonos claros refuerza la conexión con la naturaleza y la empatía, consolidando la imagen de Patita Solidaria como una plataforma confiable, humanizada y comprometida con el bienestar animal.
 
-<p align="center"> <img src="img/logo_patitasolidaria.png" alt="Logo Patita Solidaria" width="50%"> </p>
+<p align="center"> <img src="/assets/images/commons/Logo%20Patita%20Solidaria.jpeg" alt="Logo Patita Solidaria" width="50%"> </p>
 
 **Tipografías:**
 
