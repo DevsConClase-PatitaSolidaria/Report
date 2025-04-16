@@ -775,36 +775,51 @@ Funciona como fondo de secciones, proporcionando estabilidad y una sensación de
 <p align="center"> <img src="/assets/images/commons/colores.jpg" alt="Paleta de Colores" width="100%"> </p>
 
 
+
 **Tonos de Comunicación:**
+
 El estilo de comunicación en Patita Solidaria es esencial para crear una conexión genuina con los usuarios. Se establecen los siguientes lineamientos:
 
-Cercano y Empático:
+
+-Cercano y Empático:
+
 Adoptamos un tono amistoso y compasivo, que demuestre comprensión ante las necesidades y preocupaciones tanto de adoptantes como de refugios y protectores.
 
-Confianza y Profesionalismo:
+
+-Confianza y Profesionalismo:
+
 Si bien la comunicación es cercana, se mantiene un nivel de seriedad que transmita profesionalismo y seguridad en los procesos de adopción.
 
-Memorable y Reconocible:
+
+-Memorable y Reconocible:
+
 La identidad de marca debe ser única y fácil de recordar, permitiendo que Patita Solidaria se distinga en el mercado y sea recordada con cariño por los usuarios.
 
-Claro y Directo:
+
+-Claro y Directo:
+
 El lenguaje empleado es simple, conciso y orientado a la acción, facilitando la comprensión y promoviendo la usabilidad de la plataforma.
 
 
+
 **Lenguaje Aplicado:**
+
 El lenguaje en nuestros textos es claro, accesible y directo, con el propósito de facilitar la interacción de usuarios de todas las edades y niveles de conocimiento tecnológico. Se evita la jerga excesivamente técnica y se prioriza un tono conversacional que invite a la acción y a la participación.
 
 
 **Marca:**
+
 El nombre Patita Solidaria evoca la esencia misma de la misión: brindar un hogar amoroso y seguro para cada patita. Es un juego de palabras que fusiona la ternura y la solidaridad, reflejando la idea de unión entre la tecnología, la comunidad y el bienestar animal.
 
 
 **Spacing:**
+
 El espaciado entre elementos es uniforme y equilibrado para generar una sensación de orden y armonía en la interfaz. Se recomienda:
 
 Espacios entre 0 y 16 px en los elementos del logotipo, garantizando legibilidad y consistencia.
 
 Márgenes de 20 px entre secciones principales y 10 px entre componentes individuales en todas las páginas.
+
 
 
 Esta actualización de las General Style Guidelines consolida la identidad visual y comunicacional de Patita Solidaria, asegurando que cada elemento – desde el logotipo hasta el uso de colores y tipografías – trabaje en conjunto para transmitir confianza, empatía y profesionalismo en el proceso de adopción de mascotas.
