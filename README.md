@@ -747,7 +747,7 @@ Los colores predominantes en el logotipo se extraen de nuestra paleta: tonos cá
 
 Para garantizar una apariencia moderna, amigable y legible, hemos seleccionado la tipografía Open Sans para todos los textos, tanto en títulos como en cuerpo de contenido. Esta elección refuerza la identidad visual de Patita Solidaria, ofreciendo claridad y coherencia en cada interacción.
 
-<p align="center"> <img src="img/opensans_example.png" alt="Ejemplo de Open Sans" width="50%"> </p>
+<p align="center"> <img src="/assets/images/commons/Open%20Sans.jpg" alt="Open Sans" width="50%"> </p>
 
 
 **Paleta de Colores:**
