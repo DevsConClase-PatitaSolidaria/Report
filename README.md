@@ -772,7 +772,7 @@ Representa la calidez y la empatía, reforzando el compromiso emocional hacia ca
 -Marrón Claro / Toffee (#DDB892):
 Funciona como fondo de secciones, proporcionando estabilidad y una sensación de orden.
 
-<p align="center"> <img src="img/colores_patitasolidaria.png" alt="Paleta de Colores Patita Solidaria" width="100%"> </p>
+<p align="center"> <img src="/assets/images/commons/colores.jpg" alt="Paleta de Colores" width="100%"> </p>
 
 
 **Tonos de Comunicación:**
