@@ -726,26 +726,32 @@ Con base en los principios de diseño de DevsConClase, las "guías de estilo" de
 Patita Solidaria representa el compromiso, la empatía y la transformación social en el ámbito de la adopción responsable de mascotas. Nuestra plataforma está diseñada para conectar refugios, adoptantes y protectores, facilitando la creación de hogares amorosos para cada animal. Con servicios de gestión transparentes y una tecnología open source, buscamos potenciar la labor de quienes trabajan en favor del bienestar animal y brindar a cada mascota la oportunidad de encontrar un hogar seguro.
 
 **Logotipo:**
+
 El logotipo de Patita Solidaria se ha creado para comunicar de manera clara la misión y los valores fundamentales de la plataforma, fusionando elementos visuales que simbolizan el amor, la esperanza y la conexión con los animales:
 
 **Integración del Corazón:**
+
 La incorporación de un corazón entrelazado a los dos animales, enfatiza la empatía y el cariño que impulsa nuestra labor. Este detalle visual comunica que detrás de cada adopción está la pasión y el compromiso de ofrecer un hogar lleno de amor.
 
 **Integración del perro y gato:**
+
 Para enfatizar la dedicación de la plataforma a la diversidad animal, el logotipo incorpora las imágenes de un perro y un gato juntos. Esta integración simboliza la unión y la inclusividad en la búsqueda de hogares amorosos, dejando claro que Patita Solidaria apoya tanto a perros como a gatos.
 
-Colores y Estética:
+**Colores y Estética:**
+
 Los colores predominantes en el logotipo se extraen de nuestra paleta: tonos cálidos y naturales que evocan calidez, esperanza y solidez. El uso de verdes, naranjas y tonos claros refuerza la conexión con la naturaleza y la empatía, consolidando la imagen de Patita Solidaria como una plataforma confiable, humanizada y comprometida con el bienestar animal.
 
 <p align="center"> <img src="img/logo_patitasolidaria.png" alt="Logo Patita Solidaria" width="50%"> </p>
 
 **Tipografías:**
+
 Para garantizar una apariencia moderna, amigable y legible, hemos seleccionado la tipografía Open Sans para todos los textos, tanto en títulos como en cuerpo de contenido. Esta elección refuerza la identidad visual de Patita Solidaria, ofreciendo claridad y coherencia en cada interacción.
 
 <p align="center"> <img src="img/opensans_example.png" alt="Ejemplo de Open Sans" width="50%"> </p>
 
 
 **Paleta de Colores:**
+
 La selección de la paleta de colores de Patita Solidaria se fundamenta en principios estratégicos que refuerzan la identidad visual y la funcionalidad de la plataforma:
 
 Verde Oliva Suave (#A3B18A):
