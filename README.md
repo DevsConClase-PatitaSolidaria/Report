@@ -754,22 +754,22 @@ Para garantizar una apariencia moderna, amigable y legible, hemos seleccionado l
 
 La selección de la paleta de colores de Patita Solidaria se fundamenta en principios estratégicos que refuerzan la identidad visual y la funcionalidad de la plataforma:
 
-Verde Oliva Suave (#A3B18A):
+-Verde Oliva Suave (#A3B18A):
 Transmite esperanza y la conexión con la naturaleza, evocando la vitalidad y el cuidado.
 
-Tierra Clara / Beige Arena (#EDE6DB):
+-Tierra Clara / Beige Arena (#EDE6DB):
 Aporta calidez y naturalidad, creando una atmósfera acogedora y serena.
 
-Naranja Suave (#F4A261):
+-Naranja Suave (#F4A261):
 Ideal para botones y llamados a la acción, este tono genera un efecto visual amigable y enérgico sin resultar agresivo.
 
-Verde Bosque (#588157):
+-Verde Bosque (#588157):
 Se utiliza para encabezados y acentos, ofreciendo un matiz serio y confiable en la comunicación visual.
 
-Terracota (#D5896F):
+-Terracota (#D5896F):
 Representa la calidez y la empatía, reforzando el compromiso emocional hacia cada mascota.
 
-Marrón Claro / Toffee (#DDB892):
+-Marrón Claro / Toffee (#DDB892):
 Funciona como fondo de secciones, proporcionando estabilidad y una sensación de orden.
 
 <p align="center"> <img src="img/colores_patitasolidaria.png" alt="Paleta de Colores Patita Solidaria" width="100%"> </p>
