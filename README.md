@@ -42,6 +42,7 @@ Product: Pata Solidaria
 | TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final       |
 | TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe                              | 
 | TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 del informe                              |
+| TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                | 
 
 ## Project Report Collaboration Insights
 
@@ -60,6 +61,7 @@ TB1:<br>
 |Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
 |Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento, desarrollo del informe de participación|
 |Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento|
+|Morales Sosa, Arnold Gabriel | Desarrollo del Capitulo 4 del documento, desarrollo del figma| 
 ## Contenido
 
 ## Tabla de contenidos
@@ -162,6 +164,8 @@ del ABET – EAC - Student Outcome 3.
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales.                                                                                                               | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución                                                                                                                                                                                                     |
 | 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. |
+
+| 3. 
 
 ## Capítulo I: Introducción
 
