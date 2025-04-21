@@ -1,6 +1,6 @@
 # DevsConClase
 
-Product: Pata Solidaria 
+Product: Patita Solidaria 
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
@@ -20,7 +20,7 @@ Product: Pata Solidaria
 
 ### "DevsConClase"
 
-### "Pata Solidaria"
+### "Patita Solidaria"
 
 ### **Integrantes:**
 
@@ -33,7 +33,7 @@ Product: Pata Solidaria
 
 ### Abril, 2025
 
-**Url del proyecto**: https://github.com/DevsConClase-PataSolidaria
+**Url del proyecto**: https://github.com/DevsConClase-PatitaSolidaria
 
 ## Registro de Versiones del Informe
 | Version | Fecha    | Autor        | Descripción                                                        |
@@ -47,11 +47,11 @@ Product: Pata Solidaria
 
 |  URL de la organización del proyecto  |             URL del repositorio del reporte          |
 | :-----------------------------------: |:----------------------------------------------------:| 
-| https://github.com/DevsConClase-PataSolidaria | https://github.com/DevsConClase-PataSolidaria/Report |
+| https://github.com/DevsConClase-PatitaSolidaria | https://github.com/DevsConClase-PatitaSolidaria/Report |
 
 |          URL del repositorio de la landing page           |
 |:---------------------------------------------------------:|
-| https://github.com/DevsConClase-PataSolidaria/LandingPage |
+| https://github.com/DevsConClase-PatitaSolidaria/LandingPage |
 
 TB1:<br>
 
@@ -170,24 +170,21 @@ del ABET – EAC - Student Outcome 3.
 
 #### 1.1.1. Descripción de la Startup
 
-Pata Solidaria es una plataforma tecnológica de impacto social que busca revolucionar el proceso de adopción de mascotas en el Perú, con un enfoque innovador en transparencia médica y bienestar animal. Nuestra solución conecta de manera inteligente a refugios, veterinarios y adoptantes a través de un ecosistema digital integrado, donde cada mascota tiene un perfil médico completo y verificable que incluye historial clínico, necesidades especiales y progreso en tratamientos.
+Patita Solidaria es una plataforma digital que conecta a adoptantes con refugios y rescatistas en el Perú, facilitando el proceso de adopción de mascotas de forma transparente, empática y accesible. Nos enfocamos en brindar información clara sobre cada mascota y en ofrecer herramientas simples para que refugios y rescatistas puedan publicar animales en adopción y gestionar sus procesos.
 
-No solo facilitamos adopciones, sino que construimos confianza:
-- **Para refugios**: Herramientas digitales que reducen en 70% el tiempo de gestión administrativa.
-- **Para adoptantes**: Información médica transparente y actualizada, disminuyendo en 60% las adopciones fallidas.
-- **Para mascotas**: Mayor visibilidad de animales con necesidades especiales, aumentando sus oportunidades de adopción en un 40%.
+Buscamos promover una adopción responsable y con corazón, acercando a cada patita a su nuevo hogar.
 
 **Misión:**
 
-Digitalizar el camino hacia la adopción responsable en el Perú, mediante una plataforma que humaniza la tecnología: donde cada dato médico compartido salva vidas, cada conexión hecha encuentra hogares, y cada refugio empoderado puede enfocarse en lo que realmente importa: el bienestar animal.
+Digitalizar el camino hacia la adopción responsable en el Perú mediante una plataforma empática y accesible, que conecta a personas, refugios y rescatistas. Queremos que cada conexión hecha encuentre un hogar, cada historia compartida inspire confianza, y cada esfuerzo contribuya al bienestar animal.
 
 **Visión:**
 
-Ser el partner tecnológico de todo el ecosistema de protección animal en Latinoamérica al 2030, reconocidos por:
+Ser la plataforma de referencia en adopción responsable en Perú y Latinoamérica al 2030, reconocidos por:
 
-- Reducir a la mitad el tiempo de espera en adopciones de mascotas con necesidades médicas.
+- Reducir a la mitad el tiempo de espera para mascotas con necesidades especiales.
 - Triplicar la tasa de adopciones exitosas en Lima Metropolitana.
-- Convertirnos en el estándar de oro para historiales clínicos animales en la región.
+- Impulsar la estandarización del historial clínico de mascotas en procesos de adopción.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
@@ -205,86 +202,135 @@ Ser el partner tecnológico de todo el ecosistema de protección animal en Latin
 
 #### 1.2.1. Antecedentes y problemática
 
-En Lima Metropolitana, los refugios de mascotas enfrentan grandes desafíos para gestionar adopciones de animales con necesidades médicas. La falta de un sistema digital que centralice historiales clínicos y procesos de adopción genera desconfianza en potenciales adoptantes, especialmente hacia animales con condiciones tratables. Por otro lado, la mayoría de refugios opera con métodos manuales o redes sociales sin estandarización, lo que ralentiza significativamente el proceso. Esta carencia de una plataforma especializada agrava el problema, limitando las oportunidades de vida para miles de mascotas abandonadas.
+En Lima Metropolitana, los refugios de mascotas enfrentan serios desafíos para gestionar adopciones, especialmente de animales con necesidades médicas. La falta de un sistema digital que centralice historiales clínicos y procesos de adopción genera desconfianza en los potenciales adoptantes, particularmente hacia mascotas con condiciones tratables.
+
+Además, la mayoría de refugios aún opera con métodos manuales o a través de redes sociales sin estandarización, lo que ralentiza y dificulta la adopción. Esta carencia de una plataforma especializada limita las oportunidades de vida para miles de animales abandonados en busca de un hogar.
 
 **What?**
 
 **¿Qué sucede exactamente?**<br>
-El núcleo del problema radica en tres fallas críticas del sistema actual. Primero, la información médica de las mascotas se encuentra dispersa en formatos incompatibles entre sí - desde registros en papel hasta mensajes dispersos en redes sociales. Segundo, no existe un puente digital que conecte eficientemente a refugios, veterinarios y adoptantes. Tercero, el proceso de adopción carece de estandarización, lo que genera experiencias frustrantes para todas las partes involucradas. Para los refugios, esto se traduce en dificultades para comunicar el verdadero potencial de animales con condiciones especiales. Para los adoptantes, significa tomar decisiones cruciales con información incompleta o poco confiable.
+El núcleo del problema radica en tres fallas críticas del sistema actual. Primero, la información médica de las mascotas está dispersa en formatos incompatibles — desde registros en papel hasta mensajes fragmentados en redes sociales. Segundo, no existe un puente digital eficiente que conecte a refugios, veterinarios y adoptantes. Tercero, el proceso de adopción carece de estandarización, generando experiencias frustrantes para todas las partes involucradas.
+
+Para los refugios, esto dificulta mostrar el verdadero potencial de mascotas con necesidades especiales. Para los adoptantes, implica tomar decisiones importantes con información incompleta o poco confiable.
 
 **¿Qué relación tiene el problema con el usuario?**<br>
-Para los refugios, significa dificultad para mostrar el verdadero valor de mascotas con necesidades especiales. Para adoptantes, implica tomar decisiones sin información médica confiable, aumentando el riesgo de adopciones fallidas.
+Los refugios enfrentan barreras para visibilizar adecuadamente a sus animales y generar confianza en el proceso. Los adoptantes, por su parte, deben decidir sin acceso a datos médicos claros, lo que incrementa el riesgo de adopciones fallidas y desanima futuras intenciones de adoptar.
 
 **Why?** 
 
 **¿Por qué ocurre este problema?**<br>
-La falta de información médica genera desconfianza o miedo en los posibles adoptantes. Además, los refugios carecen de herramientas para registrar y compartir el estado de salud de cada mascota. Como resultado, los animales con tratamientos o necesidades médicas específicas son constantemente ignorados, prolongando su estadía en los refugios.
+La falta de información médica confiable genera desconfianza o temor en los posibles adoptantes. Los refugios, por su parte, no cuentan con herramientas adecuadas para registrar y compartir el estado de salud de cada mascota. Como resultado, los animales con tratamientos o necesidades especiales suelen ser ignorados, lo que prolonga su estadía en los refugios y reduce sus oportunidades de adopción.
 
 **¿Por qué los refugios no han implementado soluciones digitales por su cuenta hasta ahora?**<br>
-La realidad es que la mayoría de refugios operan con recursos limitados (el 82% tiene presupuestos menores a S/5,000 mensuales), priorizando gastos urgentes como alimentación y atención veterinaria básica sobre inversión tecnológica. Además, muchos administradores son voluntarios con poca experiencia digital (67% supera los 50 años), lo que dificulta implementar sistemas complejos sin apoyo especializado. A esto se suma que cada organización usa sus propios métodos desconectados entre sí, creando una red de información fragmentada que hace inviable cualquier solución aislada. La verdadera barrera no es la necesidad -que todos reconocen-, sino la falta de un modelo accesible que combine tecnología simple con acompañamiento continuo para organizaciones sin expertise técnico.
+La mayoría de refugios opera con recursos muy limitados (el 82% tiene presupuestos menores a S/5,000 mensuales), priorizando gastos urgentes como alimentación y atención veterinaria básica por encima de la inversión tecnológica.
+
+Además, muchos administradores son voluntarios mayores de 50 años (67%), con poca experiencia digital, lo que dificulta adoptar soluciones complejas sin apoyo técnico. A esto se suma que cada organización gestiona la información de forma aislada y con métodos distintos, creando una red fragmentada e ineficiente.
+
+La verdadera barrera no es la necesidad —que todos reconocen—, sino la ausencia de un modelo accesible que combine tecnología simple con acompañamiento continuo para organizaciones sin expertise técnico.
 
 
 **When?** 
 
 **¿Cuándo ocurre el problema con mayor intensidad?**<br>
-El problema se agudiza especialmente en tres momentos críticos: durante las temporadas posteriores a vacaciones (enero y julio), cuando el abandono de mascotas aumenta en un 40%; al diagnosticarse condiciones médicas complejas en animales rescatados, donde el 68% de los casos no logran documentarse adecuadamente; y durante los procesos de adopción, cuando el 72% de los interesados abandonan el trámite al no encontrar información médica clara y actualizada.
+El problema se vuelve más crítico en tres momentos clave:
+
+- Durante las temporadas posteriores a vacaciones (enero y julio), cuando el abandono de mascotas aumenta hasta en un 40%.
+
+- Al diagnosticarse condiciones médicas complejas en animales rescatados, donde el 68% de los casos no logra documentarse adecuadamente.
+
+- Durante el proceso de adopción, cuando el 72% de los interesados desiste al no encontrar información médica clara y actualizada.
 
 **¿Cuándo se vuelve evidente la necesidad de una solución?**<br>
-La urgencia se hace palpable cuando mascotas con enfermedades tratables llevan más de 6 meses en refugios (35% de los casos), cuando los adoptantes devuelven animales por falta de información sobre sus necesidades especiales (25% de las adopciones fallidas), y cuando los refugios destinan más del 30% de su tiempo a gestiones administrativas repetitivas en lugar de cuidado directo. Estos puntos de quiebre muestran cómo el sistema actual colapsa ante demandas básicas de transparencia y eficiencia.
+La urgencia se hace palpable cuando:
+
+- Mascotas con enfermedades tratables permanecen más de 6 meses en refugios (35% de los casos).
+
+- Adoptantes devuelven animales por desconocer sus necesidades especiales (25% de las adopciones fallidas).
+
+- Refugios dedican más del 30% de su tiempo a gestiones administrativas repetitivas en lugar de atención directa.
+
+Estos puntos de quiebre evidencian cómo el sistema actual no responde a necesidades básicas de transparencia, agilidad y bienestar animal.
 
 
 **Where?**
 
 **¿Dónde es más crítica esta problemática?**<br>
-El problema alcanza su máxima gravedad en los distritos periféricos de Lima como San Juan de Lurigancho, Villa El Salvador y Comas, donde operan el 65% de los refugios independientes con mayor sobrepoblación (15-20 animales por espacio diseñado para 10). Estas zonas concentran el 80% de los casos de mascotas con necesidades especiales que superan el año de permanencia en refugios.
+El problema alcanza su máxima gravedad en los distritos periféricos de Lima, como San Juan de Lurigancho, Villa El Salvador y Comas, donde opera el 65% de los refugios independientes con mayor sobrepoblación (15-20 animales en espacios diseñados para 10). Estas zonas concentran el 80% de los casos de mascotas con necesidades especiales que superan el año de permanencia en refugios.
 
 **¿Dónde se manifiestan las mayores brechas del sistema actual?**<br>
-Las fallas son más evidentes en tres espacios clave: 
+Las principales fallas se hacen más evidentes en tres áreas clave:
 
-- Los refugios pequeños que carecen de personal capacitado para documentar historiales médicos (92% no tiene sistemas digitales). 
-- Las clínicas veterinarias de bajo costo que atienden a estos refugios pero no comparten bases de datos. 
-- Las plataformas digitales actuales (principalmente redes sociales) donde el 78% de las publicaciones de adopción omiten información médica esencial o presentan datos desactualizados.
+- Los refugios pequeños, que carecen de personal capacitado para documentar historiales médicos (92% no tiene sistemas digitales).
+
+- Las clínicas veterinarias de bajo costo, que atienden a estos refugios pero no comparten bases de datos.
+
+- Las plataformas digitales actuales (principalmente redes sociales), donde el 78% de las publicaciones de adopción omiten información médica esencial o presentan datos desactualizados.
 
 **Who?** 
 
 **¿Quiénes son los más afectados por esta situación?**<br>
-Los principales perjudicados son las mascotas con necesidades médicas especiales (35% de animales en refugios), que permanecen 3 veces más tiempo en adopción que las mascotas sanas. También los refugios independientes (72% del total), que destinan el 40% de sus recursos a gestiones manuales, y los adoptantes potenciales, donde el 68% abandona el proceso por falta de información confiable.
+Los principales afectados son:
+
+- Las mascotas con necesidades médicas especiales (35% de los animales en refugios), que permanecen tres veces más tiempo en adopción que las mascotas sanas.
+
+- Los refugios independientes (72% del total), que destinan el 40% de sus recursos a gestiones manuales.
+
+- Los adoptantes potenciales, donde el 68% abandona el proceso por falta de información confiable.
 
 **¿Quiénes podrían ser los principales aliados para cambiar esta realidad?**<br>
-Los actores clave para transformar el sistema incluyen: 
+Los actores clave para transformar el sistema incluyen:
 
-- Veterinarios jóvenes digitalmente capacitados (25-35 años) 
-- Universidades con carreras de tecnología que podrían desarrollar soluciones. 
-- Empresas de software interesadas en responsabilidad social. 
+- Veterinarios jóvenes digitalmente capacitados (25-35 años).
+
+- Universidades con carreras de tecnología que podrían desarrollar soluciones.
+
+- Empresas de software interesadas en responsabilidad social.
+
 - Organizaciones animalistas con alcance mediático, que podrían promover estándares unificados de información médica para adopciones.
 
 **How?** 
 
 **¿Cómo afecta el problema actual a los procesos de adopción?**<br>
-El sistema fragmentado actual crea un círculo vicioso: los refugios documentan información médica en formatos incompatibles (23% en papel, 61% en redes sociales), los veterinarios no pueden compartir datos eficientemente, y los adoptantes reciben información contradictoria en el 45% de los casos. Esto genera que: 
-- Las mascotas con necesidades especiales tengan 83% menos probabilidades de adopción.
-- Los refugios inviertan 15 horas semanales por animal en gestiones manuales. 
-- El 25% de las adopciones fracasen por expectativas médicas no alineadas.
+El sistema fragmentado actual crea un círculo vicioso: los refugios documentan información médica en formatos incompatibles (23% en papel, 61% en redes sociales), los veterinarios no pueden compartir datos eficientemente, y los adoptantes reciben información contradictoria en el 45% de los casos. Esto genera que:
+
+- Las mascotas con necesidades especiales tengan un 83% menos probabilidades de adopción.
+
+- Los refugios inviertan 15 horas semanales por animal en gestiones manuales.
+
+- El 25% de las adopciones fracasen debido a expectativas médicas no alineadas.
 
 **¿Cómo podría transformarse este sistema con una solución digital?**<br>
 Una plataforma integrada cambiaría radicalmente el flujo mediante:
 
-- Historiales médicos estandarizados y accesibles (reduciendo en 70% el tiempo de gestión)
-- Conexión directa entre refugios-veterinarios-adoptantes (disminuyendo un 60% los errores de información)
-- Procesos de adopción digitalizados con seguimiento médico incorporado (aumentando un 40% las adopciones exitosas de mascotas especiales). 
+- Historiales médicos estandarizados y accesibles, reduciendo en un 70% el tiempo de gestión.
 
-Esto liberaría el 30% de recursos de los refugios para atención directa en lugar de trámites administrativos.
+- Conexión directa entre refugios, veterinarios y adoptantes, disminuyendo un 60% los errores de información.
+
+- Procesos de adopción digitalizados con seguimiento médico incorporado, aumentando un 40% las adopciones exitosas de mascotas con necesidades especiales.
+
+Esto liberaría el 30% de los recursos de los refugios para atención directa en lugar de trámites administrativos.
 
 **How much?** 
 
 **¿Cuál es el costo real de mantener el sistema actual?**<br>
-El modelo fragmentado genera pérdidas económicas y operativas significativas: los refugios invierten hasta S/3,500 mensuales por animal no adoptado (40% más que mascotas sanas), las clínicas veterinarias pierden un 30% de eficiencia en seguimientos médicos, y el sistema en su conjunto desperdicia aproximadamente 1.2 millones de horas anuales en gestión manual de información según estimaciones de la Asociación de Protección Animal Peruana.
+El modelo fragmentado genera pérdidas económicas y operativas significativas:
+
+- Refugios: Invierten hasta S/3,500 mensuales por animal no adoptado, lo que representa un 40% más que las mascotas sanas.
+
+- Clínicas veterinarias: Pierden un 30% de eficiencia en los seguimientos médicos debido a la falta de integración de datos.
+
+- Sistema en su conjunto: Se estima que el sistema desperdicia aproximadamente 1.2 millones de horas anuales en gestión manual de información, según la Asociación de Protección Animal Peruana.
+
+
 
 **¿Qué beneficios económicos podría generar una solución digital?**<br>
 Una plataforma integrada podría:
-- Reducir costos operativos de refugios en hasta 35% (S/1.2 millones anuales en Lima)
-- Disminuir en 50% los gastos veterinarios por falta de historiales médicos.
-- Generar ahorros de S/800 anuales por adoptante al evitar adopciones fallidas. 
+
+- Reducir costos operativos de los refugios en hasta un 35%, lo que equivaldría a S/1.2 millones anuales en Lima.
+
+- Disminuir en un 50% los gastos veterinarios debido a la falta de historiales médicos.
+
+- Generar ahorros de S/800 anuales por adoptante al evitar adopciones fallidas.
 
 Además, aumentaría un 28% la eficiencia en donaciones al transparentar el uso de recursos en cuidados médicos.
 
@@ -292,15 +338,15 @@ Además, aumentaría un 28% la eficiencia en donaciones al transparentar el uso 
 
 ##### 1.2.2.1. Lean UX Problem Statements
 
-Nuestro entorno actual exige una mirada más humana y estructurada al problema del abandono de mascotas en Lima Metropolitana. Cada día, cientos de animales rescatados permanecen en refugios, esperando una segunda oportunidad. Muchos de ellos padecen enfermedades tratables o requieren atención médica continua, pero no logran ser adoptados debido a la falta de información confiable y herramientas digitales adecuadas para conectar a refugios con adoptantes.
+En Lima Metropolitana, el abandono de mascotas es un problema urgente. Cada día, cientos de animales rescatados permanecen en refugios, esperando una oportunidad de ser adoptados. Muchos de estos animales tienen necesidades médicas tratables o requieren atención continua, pero no logran ser adoptados debido a la falta de información confiable sobre su estado de salud y el proceso de adopción.
 
-Patita Solidaria nace para transformar este ecosistema mediante una plataforma que humaniza la tecnología. Nuestra solución va más allá de simples listados de mascotas disponibles, integrando historiales médicos certificados por veterinarios, sistemas de alerta para cuidados especiales y canales de seguimiento post-adopción. Lo que nos distingue es nuestro enfoque en construir confianza a través de transparencia médica, permitiendo que cada adopción se base en información verificable y expectativas realistas.
+Patita Solidaria nace para abordar esta problemática. Nuestra plataforma se enfoca en mejorar la visibilidad y adopción de mascotas con necesidades especiales. Ofrecemos un sistema que centraliza la información disponible sobre cada animal, facilitando el contacto entre refugios y adoptantes. Aunque no contamos con acceso a clínicas veterinarias, recopilamos y compartimos la información disponible sobre el estado de salud de los animales, lo que ayuda a los adoptantes a tomar decisiones informadas.
 
-Mientras otras plataformas se limitan a publicar fotos y datos básicos, Pata Solidaria revoluciona el proceso de adopción mediante un sistema integral que garantiza transparencia médica y acompañamiento continuo. Nuestro valor diferencial radica en convertir datos clínicos en confianza, permitiendo que cada adopción sea una decisión informada y responsable.
+Lo que nos distingue es la capacidad de transformar esta información en confianza, proporcionando detalles claros y comprensibles sobre las condiciones de cada animal. A diferencia de otras plataformas que solo muestran fotos y datos básicos, Patita Solidaria ofrece una experiencia integral para facilitar la adopción de animales con necesidades especiales.
 
-Nuestras investigaciones revelaron que el 72% de los adoptantes potenciales (Encuesta PUCP 2023) descartan mascotas con necesidades médicas por falta de información clara sobre su condición real y cuidados requeridos. Este hallazgo nos confronta con el desafío clave de diseño:
+Nuestra investigación revela que el 72% de los adoptantes potenciales (Encuesta PUCP 2023) desisten de adoptar animales con necesidades médicas por falta de información clara sobre su condición. Este hallazgo nos enfrenta al desafío de diseñar una experiencia que:
 
-**¿Cómo podemos diseñar una experiencia que no solo genere adopciones informadas, sino que también convierta el acto de adoptar una mascota con necesidades especiales en el inicio de una red de apoyo continua, donde refugios, adoptantes y veterinarios colaboren activamente en el bienestar del animal?**
+**¿Cómo podemos diseñar una plataforma que no solo brinde adopciones informadas, sino que también genere un compromiso activo de apoyo continuo, donde refugios y adoptantes colaboren para asegurar el bienestar de los animales con necesidades especiales, sin la necesidad de acceso a clínicas veterinarias?**
 
 ##### 1.2.2.2. Lean UX Assumptions
 
@@ -322,7 +368,7 @@ Sí, al facilitar y agilizar las adopciones responsables, las organizaciones pod
 
 5. ¿Crees que un seguimiento post-adopción mejora la calidad de vida del animal?
 
-Totalmente. Permitir que el refugio mantenga contacto con el adoptante en casos especiales garantiza continuidad en el tratamiento y atención médica adecuada.
+Creemos que ofrecer información continua sobre el estado de salud de las mascotas antes de la adopción ayuda a los adoptantes a tomar decisiones más responsables, lo cual puede mejorar la calidad de vida del animal y fomentar un mejor cuidado a largo plazo.
 
 6. ¿Podría esta plataforma ser una alternativa a las publicaciones desordenadas en redes sociales?
 
@@ -339,28 +385,23 @@ Definitivamente. Una plataforma que muestra tratamientos podría extenderse fác
 ##### 1.2.2.3. Lean UX Hypothesis Statements
 
 - Hipótesis 1:
-Creemos que al permitir a los usuarios visualizar el historial médico completo de las mascotas antes de adoptar, aumentará la confianza y la tasa de adopciones exitosas.
-Sabremos que hemos tenido éxito cuando observemos que las mascotas con condiciones médicas también están siendo adoptadas en proporción creciente.
+Creemos que al permitir a los usuarios acceder a información detallada sobre el estado de salud de las mascotas antes de adoptar, aumentará la confianza y la tasa de adopciones exitosas, especialmente en mascotas con necesidades médicas especiales. Sabremos que hemos tenido éxito cuando observemos un incremento en la adopción de animales con condiciones médicas tratables.
 
 
 - Hipótesis 2:
-Creemos que los refugios podrán mejorar su eficiencia operativa al gestionar digitalmente la información médica y solicitudes de adopción desde una plataforma centralizada.
-Sabremos que hemos tenido éxito cuando los refugios reporten mayor facilidad de gestión y menor tiempo de espera entre publicación y adopción.
+Creemos que los refugios podrán mejorar su eficiencia operativa al gestionar digitalmente los historiales médicos y las solicitudes de adopción a través de una plataforma centralizada, lo que permitirá una mayor coordinación y rapidez en el proceso. Sabremos que hemos tenido éxito cuando los refugios reporten una disminución en el tiempo de gestión y un aumento en la tasa de adopciones efectivas.
 
 
 - Hipótesis 3:
-Creemos que el seguimiento post-adopción en mascotas con tratamiento médico mejorará su calidad de vida y la satisfacción del adoptante.
-Sabremos que hemos tenido éxito cuando los adoptantes completen los seguimientos programados y mantengan contacto activo con el refugio.
+Creemos que proporcionar información clara y accesible sobre el estado de salud de las mascotas antes de la adopción mejorará tanto la calidad de vida del animal como la satisfacción del adoptante. Sabremos que hemos tenido éxito cuando los adoptantes tomen decisiones informadas y muestren un compromiso activo con el bienestar de la mascota.
 
 
 - Hipótesis 4:
-Creemos que las personas están dispuestas a adoptar si tienen herramientas claras y confiables para tomar decisiones informadas.
-Sabremos que hemos tenido éxito cuando se registre un aumento en las solicitudes de adopción por parte de usuarios registrados en la plataforma.
+Creemos que las personas estarán dispuestas a adoptar si tienen acceso a herramientas claras y confiables que les permitan tomar decisiones informadas sobre el estado de salud de las mascotas. Sabremos que hemos tenido éxito cuando se registre un aumento en el número de solicitudes de adopción realizadas por usuarios que han utilizado la plataforma.
 
 
 - Hipótesis 5:
-Creemos que al visibilizar historias de adopciones exitosas con mascotas que tuvieron tratamientos médicos, podremos inspirar a más personas a adoptar sin prejuicios.
-Sabremos que hemos tenido éxito cuando se viralicen estos casos en redes sociales y aumente la interacción con el Landing Page.
+Creemos que al visibilizar historias de adopciones exitosas de mascotas con necesidades médicas, podremos inspirar a más personas a adoptar sin prejuicios, aumentando su confianza en el proceso. Sabremos que hemos tenido éxito cuando estas historias sean compartidas y comentadas en redes sociales, lo que a su vez impulse el tráfico y la interacción con el sitio web.
 
 ##### 1.2.2.4. Lean UX Canvas
 
@@ -368,10 +409,10 @@ Sabremos que hemos tenido éxito cuando se viralicen estos casos en redes social
 
 ### 1.3. Segmentos objetivos
 
-### Segmento Objetivo #1: Personal de Refugios de Animales (Administradores y Cuidadores)
+### Segmento Objetivo #1: Personal de Refugios y Rescatistas de Animales (Administradores, Cuidadores y Voluntarios)
 Aspectos demográficos:
 
-- Sexo: Masculino y femenino
+- Sexo: No hay preferencia por género
 
 - Edades: Adultos entre 25 y 50 años (inclusive)
 
@@ -379,20 +420,17 @@ Aspectos geográficos:
 
 - Nacionalidad: Peruana
 
-- Zona geográfica en la que vive: Urbana y semiurbana
-
-- Departamento: Lima Metropolitana y regiones donde operan refugios reconocidos (Arequipa, Cusco, Trujillo, Piura)
+- Zona geográfica: Principalmente en áreas urbanas y semiurbanas, donde se concentran los refugios más grandes y activos, con énfasis en Lima Metropolitana
 
 Aspectos psicográficos:
 
 - Personas comprometidas con el bienestar animal, muchas veces voluntarios o trabajadores con vocación social.
 
-- Buscan herramientas que faciliten la gestión diaria del refugio (registro de animales, control de adopciones, tratamientos, etc.).
+- Buscan herramientas que faciliten la gestión diaria del refugio o el rescate (registro de animales, control de adopciones, tratamiento, etc.).
 
-- Están interesados en soluciones tecnológicas simples, gratuitas y efectivas que mejoren la organización interna y aumenten la tasa de adopciones.
+- Están interesados en soluciones tecnológicas simples, efectivas y accesibles que mejoren la organización interna y aumenten la tasa de adopciones.
 
-- Valoran la colaboración abierta y están abiertos a compartir datos o sugerencias con otros refugios a través de una comunidad.
-
+- Valoran la colaboración abierta y están dispuestos a compartir datos o sugerencias con otros refugios o grupos de rescate a través de una comunidad.
 
 ### Segmento Objetivo #2: Adoptantes Potenciales (Personas interesadas en adoptar animales)
 
@@ -420,43 +458,38 @@ Aspectos psicográficos:
 
 - Están motivados por el impacto positivo de adoptar y dar una segunda oportunidad a un animal rescatado.
 
-- Valoran la posibilidad de comunicarse directamente con el refugio y recibir seguimiento post-adopción.
-
-
-
-
 ## Capítulo II: Requirements Elicitation & Analysis
 
 ### 2.1. Competidores
 
 #### 2.1.1. Análisis competitivo
-El presente análisis competitivo permite identificar a los principales actores del ecosistema de adopción animal en Lima y evaluar cómo se posiciona la Start-Up **Pata Solidaria** frente a ellos.
+El presente análisis competitivo permite identificar a los principales actores del ecosistema de adopción animal en Lima y evaluar cómo se posiciona la Start-Up **Patita Solidaria** frente a ellos.
 
-|                                                    | **Pata Solidaria**                                                                                                                                                                                        | **WUF**                                                                                                                                                                      | **Wukta**                                                                                                                                                                                                            | **Voz Animal Perú**                                                                                                                                                                                                          |
+|                                                    | **Patita Solidaria**                                                                                                                                                                                        | **WUF**                                                                                                                                                                      | **Wukta**                                                                                                                                                                                                            | **Voz Animal Perú**                                                                                                                                                                                                          |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Nombre y Logo** <br> (coloca aquí su identidad)  | **Pata Solidaria** <br>*(puedes poner el logo si lo deseas)*                                                                                                                                              | **WUF** <br>*(ONG reconocida con respaldo corporativo)*                                                                                                                                                               | **Wukta** <br>*(Plataforma web para adopción)*                                                                                                                                                                           | **Voz Animal Perú** <br>*(ONG centrada en rescate y adopción)*                                                                                                                                                              |
-| **Overview**                                       | Plataforma digital que conecta adoptantes con protectores/as y refugios, brindando seguimiento post-adopción y control del historial médico del animal.                                                  | ONG consolidada que promueve adopciones, campañas de esterilización y educación. Tiene respaldo corporativo.                                                                                                          | Plataforma web que conecta adoptantes con rescatistas y albergues a través de perfiles de mascotas.                                                                                                                      | ONG centrada en rescate, rehabilitación y adopción de animales abandonados, con fuerte presencia en redes sociales.                                                                                                          |
-| **Ventaja competitiva**                            | Registro médico y seguimiento post-adopción. Verificación de refugios y protectores. Contacto directo entre partes.                                                                                      | Confianza institucional y alianzas con empresas. Plataforma sencilla para adoptar y donar.                                                                                                                                                                                                         | Foco en digitalización y conexión entre partes. Interfaz simple y rápida.                                                                                                                                             | Compromiso con casos críticos, campañas de ayuda directa. Visibilidad de casos sensibles.                                                                                                                                     |
+| **Nombre y Logo** <br>   | **Patita Solidaria** <br>                                                                                                                                              | **WUF** <br>*(ONG reconocida con respaldo corporativo)*                                                                                                                                                               | **Wukta** <br>*(Plataforma web para adopción)*                                                                                                                                                                           | **Voz Animal Perú** <br>*(ONG centrada en rescate y adopción)*                                                                                                                                                              |
+| **Overview**                                       | Patita Solidaria es una plataforma digital que facilita la adopción responsable de animales rescatados, proporcionando información médica clara y confiable para ayudar a los adoptantes a tomar decisiones informadas.                                                  | ONG consolidada que promueve adopciones, campañas de esterilización y educación. Tiene respaldo corporativo.                                                                                                          | Plataforma web que conecta adoptantes con rescatistas y albergues a través de perfiles de mascotas.                                                                                                                      | ONG centrada en rescate, rehabilitación y adopción de animales abandonados, con fuerte presencia en redes sociales.                                                                                                          |
+| **Ventaja competitiva**                            | Ofrecer información médica transparente y herramientas digitales sencillas para refugios, facilitando adopciones informadas y responsables.                                                                            | Confianza institucional y alianzas con empresas. Plataforma sencilla para adoptar y donar.                                                                                                                                                                                                         | Foco en digitalización y conexión entre partes. Interfaz simple y rápida.                                                                                                                                             | Compromiso con casos críticos, campañas de ayuda directa. Visibilidad de casos sensibles.                                                                                                                                     |
 | **Mercado objetivo**                               | Limeños interesados en adopción responsable, y protectores independientes o de refugios.                                                                                                                  | Público general interesado en ayuda animal y adopción segura.                                                                                                                                                                                                   | Adoptantes y albergues (informales o formales).                                                                                                                                                                        | Público general sensible al bienestar animal: voluntarios, familias, activistas.                                                                                                                                             |
-| **Estrategias de marketing**                       | Plataforma web + RRSS (Instagram, TikTok), alianzas con clínicas veterinarias.                                                                                                                             | RRSS, medios de comunicación, eventos y merchandising.                                                                                                                                                                                                         | RRSS, blog, convenios con albergues.                                                                                                                                                                                   | Activismo en redes sociales, campañas virales, publicaciones emocionales.                                                                                                                                                    |
-| **Productos & Servicios**                          | Plataforma de adopción con ficha médica completa, contacto directo con protectores, seguimiento post-adopción, alertas y garantías de bienestar.                                                         | Adopción, apadrinamiento, donaciones, esterilización y campañas educativas.                                                                                                                                                                                   | Adopción directa mediante perfiles digitales, contacto vía web, registro básico.                                                                                                                                       | Rescate, rehabilitación, adopción, campañas de salud, denuncias y actividades comunitarias.                                                                                                                                   |
+| **Estrategias de marketing**                       | Redes sociales, historias de adopciones exitosas y alianzas con influencers para aumentar la visibilidad y atraer adoptantes.                                                                                                                             | RRSS, medios de comunicación, eventos y merchandising.                                                                                                                                                                                                         | RRSS, blog, convenios con albergues.                                                                                                                                                                                   | Activismo en redes sociales, campañas virales, publicaciones emocionales.                                                                                                                                                    |
+| **Productos & Servicios**                          | Plataforma digital para refugios, con adopciones, fichas informativas, guía de refugios para donaciones y promoción en redes sociales.                                                         | Adopción, apadrinamiento, donaciones, esterilización y campañas educativas.                                                                                                                                                                                   | Adopción directa mediante perfiles digitales, contacto vía web, registro básico.                                                                                                                                       | Rescate, rehabilitación, adopción, campañas de salud, denuncias y actividades comunitarias.                                                                                                                                   |
 | **Precios & Costos**                               | Gratuito para adoptantes. Planes premium (futuros) para protectores/refugios.                                                                                                                             | Gratuito para adoptantes; se financia con donaciones y auspiciadores.                                                                                                                                                                                          | Gratuito; sostenibilidad mediante convenios con protectores/as y albergues.                                                                                                                                           | Gratuito; opera por voluntariado y donaciones puntuales.                                                                                                                                                                    |
 | **Canales de distribución** <br> (Web y/o Móvil)   | Plataforma web adaptativa; en desarrollo app móvil.                                                                                                                                                       | Web optimizada + presencia activa en Instagram y Facebook.                                                                                                                                                                                                     | Web responsive; sin app móvil conocida.                                                                                                                                                                                | Página en redes sociales (Facebook, Instagram) y sitio web básico.                                                                                                                                                           |
-| **Fortalezas**                                     | Propuesta integral (seguimiento + historial médico). Enfoque en experiencia y confianza.                                                                                                                   | Reconocimiento de marca, red de aliados corporativos, confianza pública.                                                                                                                                                                                        | Simplicidad y rapidez en la adopción. Buen enfoque digital.                                                                                                                                                           | Activismo fuerte, sensibilidad del público, reputación positiva en redes.                                                                                                                                                   |
+| **Fortalezas**                                     | Transparencia y centralización de información. Enfoque en experiencia y confianza.                                                                                                                   | Reconocimiento de marca, red de aliados corporativos, confianza pública.                                                                                                                                                                                        | Simplicidad y rapidez en la adopción. Buen enfoque digital.                                                                                                                                                           | Activismo fuerte, sensibilidad del público, reputación positiva en redes.                                                                                                                                                   |
 | **Debilidades**                                    | Nueva marca. Requiere posicionarse y generar confianza.                                                                                                                                                   | No involucra protectores como intermediarios; puede resultar impersonal.                                                                                                                                                                                         | Poca personalización, sin garantías post-adopción.                                                                                                                                                                     | Saturación de casos, poca trazabilidad en algunos rescates.                                                                                                                                                                |
-| **Oportunidades**                                  | Digitalización de refugios, alianzas con veterinarias, expansión en provincias.                                                                                                                           | Escalar a provincias, lanzar app, incluir más funcionalidades en línea.                                                                                                                                                                                          | Incluir seguimiento post-adopción. Alianzas con marcas afines.                                                                                                                                                         | Profesionalizar su modelo y estandarizar procesos. Potenciar su red.                                                                                                                                                        |
+| **Oportunidades**                                  | Creciente interés en adopción responsable, la digitalización del proceso y la posibilidad de formar alianzas con clínicas veterinarias, expandiendo nuestra presencia en nuevas ciudades y regiones.                                                                                                                           | Escalar a provincias, lanzar app, incluir más funcionalidades en línea.                                                                                                                                                                                          | Incluir seguimiento post-adopción. Alianzas con marcas afines.                                                                                                                                                         | Profesionalizar su modelo y estandarizar procesos. Potenciar su red.                                                                                                                                                        |
 | **Amenazas**                                       | Baja confianza inicial, saturación del mercado de adopción informal.                                                                                                                                       | Aparición de plataformas más tecnológicas o descentralizadas.                                                                                                                                                                                                    | Bajo margen de ingresos. Alta competencia en el mercado.                                                                                                                                                               | Volatilidad en donaciones. Dependencia del trabajo voluntario.                                                                                                                                                             |
 
-**Pata Solidaria** destaca frente a sus competidores por integrar seguimiento post-adopción, historial médico y contacto directo con protectores, lo que le permite ofrecer una experiencia más segura y responsable. Aunque aún debe posicionarse en el mercado, su propuesta innovadora representa una oportunidad clara para profesionalizar y digitalizar el proceso de adopción en Lima.
+**Patita Solidaria** se distingue de sus competidores al integrar historial médico y contacto directo con refugios, lo que ofrece una experiencia más segura y responsable. Aunque aún está en proceso de posicionamiento, su propuesta innovadora representa una oportunidad clara para profesionalizar y digitalizar el proceso de adopción en Lima.
 
 #### 2.1.2. Estrategias y tácticas frente a competidores
-Para enfrentar a la competencia y posicionarse de manera sólida en el mercado limeño, **Pata Solidaria** implementará estrategias enfocadas en sus principales ventajas competitivas y en la explotación de oportunidades no cubiertas por otras organizaciones. Entre las principales tácticas preliminares destacan:
+Para enfrentar a la competencia y posicionarse de manera sólida en el mercado limeño, **Patita Solidaria** implementará estrategias enfocadas en sus principales ventajas competitivas y en la explotación de oportunidades no cubiertas por otras organizaciones. Entre las principales tácticas preliminares destacan:
 
 1. **Estrategia de diferenciación tecnológica**  
-   A través del desarrollo de una plataforma web robusta y una futura aplicación móvil, se facilitará la interacción entre adoptantes y protectores, incorporando funcionalidades únicas como el historial médico digital del animal, seguimiento post-adopción y alertas de bienestar, lo que actualmente no ofrecen competidores como Voz Animal o Wukta.
+   A través del desarrollo de una plataforma web robusta y una futura aplicación móvil, se facilitará la interacción entre adoptantes y protectores, incorporando funcionalidades únicas como el historial de salud digital del animal y alertas de bienestar, lo que actualmente no ofrecen competidores como Voz Animal o Wukta.
 
 2. **Alianzas estratégicas con clínicas veterinarias y refugios formales**  
-   Para fortalecer la confianza de los usuarios y garantizar el estado de salud de los animales, se promoverán convenios con clínicas veterinarias que respalden el historial médico de cada mascota. Esto también permitirá acceder a precios preferenciales para servicios de salud y control.
+   Para fortalecer la confianza de los usuarios y garantizar el estado de salud de los animales, se promoverán convenios con clínicas veterinarias que respalden la salud de cada mascota. Esto también permitirá acceder a precios preferenciales para servicios de salud y control.
 
 3. **Campañas digitales con enfoque emocional y educativo**  
    Se impulsarán campañas en redes sociales orientadas a sensibilizar sobre la adopción responsable, destacando historias reales con seguimiento. A diferencia de campañas generalistas, se apostará por contenidos educativos y testimoniales que refuercen el vínculo entre usuarios y plataforma.
@@ -467,16 +500,16 @@ Para enfrentar a la competencia y posicionarse de manera sólida en el mercado l
 5. **Gestión de riesgos y amenazas**  
    Frente a la saturación de contenido en redes y la informalidad en adopciones, se promoverá un modelo de validación y seguimiento que genere confianza, evitando casos de abandono o maltrato posterior a la adopción.
 
-Estas estrategias buscan posicionar a **Pata Solidaria** como una alternativa confiable, tecnológica y socialmente comprometida, capaz de cubrir vacíos que aún persisten en el ecosistema actual de adopción animal.
+Estas estrategias buscan posicionar a **Patita Solidaria** como una alternativa confiable, tecnológica y socialmente comprometida, capaz de cubrir vacíos que aún persisten en el ecosistema actual de adopción animal.
 
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
-Como parte del proceso de validación del modelo de negocio de **Pata Solidaria**, se realizaron preguntas semiestructuradas dirigidas a los dos segmentos objetivos: personas interesadas en adoptar mascotas y protectores/rescatistas que gestionan casos de animales en situación de abandono.
+Como parte del proceso de validación del modelo de negocio de **Patita Solidaria**, se realizaron preguntas semi estructuradas dirigidas a los dos segmentos objetivos: personas interesadas en adoptar mascotas y protectores/rescatistas que gestionan casos de animales en situación de abandono.
 
 ---
 
-#### a) Diseño de entrevista - Segmento 1: Adoptantes
+#### Diseño de entrevista - Segmento 1: Adoptantes
 
 1. **Datos generales:**
    - Nombre.
@@ -523,7 +556,7 @@ Como parte del proceso de validación del modelo de negocio de **Pata Solidaria*
 
 ---
 
-El presente diseño permitirá recopilar información clave sobre ambos segmentos, enfocándose en sus motivaciones, barreras, comportamientos y preferencias. Estos insumos serán esenciales para la validación del modelo y el diseño centrado en el usuario de la plataforma **Pata Solidaria**.
+El presente diseño permitirá recopilar información clave sobre ambos segmentos, enfocándose en sus motivaciones, barreras, comportamientos y preferencias. Estos insumos serán esenciales para la validación del modelo y el diseño centrado en el usuario de la plataforma **Patita Solidaria**.
 
 #### 2.2.2. Registro de entrevistas
 
@@ -597,7 +630,7 @@ El perfil del adoptante identificado responde a una persona joven, urbana y con 
 
 #### 2.3.1. User Personas
 
-La creación de *User Personas* permite representar los perfiles típicos de los usuarios de la plataforma **Pata Solidaria**, facilitando un diseño centrado en sus necesidades reales.
+La creación de *User Personas* permite representar los perfiles típicos de los usuarios de la plataforma **Patita Solidaria**, facilitando un diseño centrado en sus necesidades reales.
 
 ---
 
@@ -669,23 +702,22 @@ En esta sección se presenta la *User Task Matrix*, que concentra las tareas que
 | **Tarea (Task)**                                  | **Mariana (Frecuencia)** | **Mariana (Importancia)** | **Lucía (Frecuencia)** | **Lucía (Importancia)** |
 |--------------------------------------------------|---------------------------|----------------------------|-------------------------|--------------------------|
 | Buscar información sobre animales disponibles     | 5                         | 5                          | 5                       | 5                        |
-| Recopilar historial médico del animal             | 5                         | 5                          | 3                       | 4                        |
+| Consultar historial médico disponible             | 5                         | 5                          | 3                       | 4                        |
 | Difundir casos de animales rescatados             | 5                         | 5                          | 0                       | 0                        |
-| Evaluar a posibles adoptantes                     | 4                         | 5                          | 0                       | 0                        |
+| Publicar perfil de animales en adopción	             | 5                         | 5                          | 0                       | 0                        |
 | Adoptar un animal                                 | 1                         | 2                          | 5                       | 5                        |
-| Dar seguimiento post-adopción                     | 5                         | 5                          | 3                       | 4                        |
-| Responder a consultas de adoptantes               | 4                         | 5                          | 2                       | 3                        |
-| Asistir a campañas o ferias de adopción           | 3                         | 4                          | 1                       | 2                        |
+| Responder consultas de interesados               | 4                         | 5                          | 2                       | 3                        |
+| Participar a campañas o ferias de adopción           | 3                         | 4                          | 1                       | 2                        |
 | Registrar al animal en una base de datos          | 5                         | 5                          | 0                       | 0                        |
-| Visitar el refugio o lugar de acogida             | 2                         | 3                          | 2                       | 4                        |
+| Ubicar refugios o centros de donación             | 3                         | 4                          | 3                       | 4                        |
 
 ---
 
 ### Conclusiones:
 
-- **Mariana** se enfoca en tareas operativas, como la gestión médica, adopciones seguras y seguimiento post-adopción. Necesita herramientas que simplifiquen y profesionalicen su labor.
-- **Lucía** prioriza conocer al animal, adoptar de forma responsable y sentirse acompañada durante el proceso.
-- Ambas coinciden en la **alta importancia del historial médico y del seguimiento post-adopción**, lo cual valida que estas funcionalidades sean el núcleo de valor de la plataforma *Pata Solidaria*.
+- **Mariana** se enfoca en tareas operativas como la publicación de animales, gestión de información médica y atención a interesados. Necesita herramientas que simplifiquen y profesionalicen su labor.
+- **Lucía** prioriza conocer al animal, adoptar de forma responsable y contar con información clara y confiable durante el proceso.
+- Ambas coinciden en la **alta importancia del historial médico** y la **comunicación directa**, lo que valida que estas funcionalidades sean el núcleo de valor de la plataforma **Patita Solidaria**.
 
 #### 2.3.3. User Journey Mapping
 
@@ -698,7 +730,7 @@ En esta sección se presenta la *User Task Matrix*, que concentra las tareas que
 | Difusión para adopción   | Publica fotos y datos en redes sociales                                     | Instagram, Facebook, Telegram                   | Esperanzada        | Poco alcance, respuestas poco serias o trolls                  |
 | Filtrado de adoptantes   | Recibe mensajes y aplica filtros mediante formularios y entrevistas         | Google Forms, llamadas, WhatsApp                | Ansiosa            | Dificultad para validar información de los adoptantes          |
 | Adopción final           | Coordina entrega en punto neutro y hace seguimiento por chat                | WhatsApp                                        | Satisfecha (a veces) | Algunos adoptantes desaparecen o no cumplen compromisos        |
-| Seguimiento post-adopción| Intenta hacer control, pero sin herramientas formales                       | Mensajes directos, recordatorios manuales       | Frustrada          | Falta de continuidad, pérdida de contacto, abandono reincidente|
+| Contacto posterior | Intenta mantenerse en contacto, aunque sin medios formales                       | Mensajes directos, recordatorios manuales       | Frustrada          | Falta de continuidad, pérdida de contacto, abandono reincidente|
 
 ---
 
@@ -711,7 +743,7 @@ En esta sección se presenta la *User Task Matrix*, que concentra las tareas que
 | Contacto con protectores| Envía mensaje privado o llena formulario                                  | DM, WhatsApp, Google Forms       | Insegura       | No sabe si la plataforma es confiable, recibe respuestas tardías |
 | Toma de decisión       | Evalúa qué mascota adoptar con base en fotos y breves descripciones        | Redes sociales, mensajes         | Dudosa         | Falta de orientación profesional o acompañamiento                |
 | Adopción               | Acorde lugar de encuentro, recibe mascota                                  | WhatsApp                         | Emocionada     | No siempre hay contrato ni garantía de salud del animal          |
-| Post-adopción          | Busca consejos o apoyo en caso de complicaciones                          | Chats, grupos, redes             | Agobiada       | No recibe respuesta o soporte por parte del protector            |
+| Etapa posterior         | Busca consejos o apoyo en caso de complicaciones                          | Chats, grupos, redes             | Agobiada       | No recibe respuesta o soporte por parte del protector            |
 
 #### 2.3.4. Empathy Mapping
 
@@ -733,11 +765,11 @@ En esta sección se presenta la *User Task Matrix*, que concentra las tareas que
 | Publicación       | Sube perfil de cada animal con fotos y ficha médica digital               | “Todo queda guardado y ordenado”                           | Segura         |
 | Evaluación        | Revisa postulaciones desde la plataforma con filtros automáticos          | “Puedo identificar adoptantes responsables fácilmente”     | Confiada       |
 | Adopción          | Agenda una entrega oficial con contrato digital                           | “Hay trazabilidad, todo queda registrado”                  | Profesionalizada |
-| Seguimiento       | Activa recordatorios de salud, seguimiento post-adopción desde la app     | “Estoy acompañando el proceso incluso después”             | Comprometida   |
+| Etapa posterior	       | Guarda datos básicos del adoptante y deja abierta la opción de contacto	     | “Al menos sé con quién quedó el animal”             | Tranquila   |
 
 **Áreas positivas:** Organización, trazabilidad, respaldo legal.  
-**Mejoras observadas:** Se reduce abandono post-adopción.  
-**Oportunidades:** Incluir módulo de donaciones o comunidad.
+**Mejoras observadas:** Mayor compromiso en las adopciones, menor abandono.
+**Oportunidades:** Agregar módulo de donaciones y espacio para comunidad.
 
 ---
 
@@ -751,13 +783,13 @@ En esta sección se presenta la *User Task Matrix*, que concentra las tareas que
 | Adopción          | Agenda entrega con instructivo y contrato digital                       | “Todo fue fácil y ordenado”                                 | Satisfecha |
 | Seguimiento       | Recibe alertas de vacunas, contacto directo con protectora              | “No estoy sola, puedo resolver dudas rápido”                | Acompañada |
 
-**Áreas positivas:** Información médica clara, filtros, experiencia acompañada.  
+**Áreas positivas:** Información médica clara, filtros útiles, experiencia guiada.  
 **Mejoras observadas:** Aumento en adopciones responsables y duraderas.  
 **Oportunidades:** Agregar testimonios en video o módulo de recomendaciones.
 
 ### 2.4. Ubiquitous Language
 
-El siguiente glosario recoge términos comunes y recurrentes dentro del dominio de negocio de Pata Solidaria. Su uso uniforme busca facilitar la comunicación entre el equipo de desarrollo, usuarios y demás stakeholders, evitando ambigüedades y garantizando alineamiento conceptual durante todo el desarrollo del proyecto.
+El siguiente glosario recoge términos comunes y recurrentes dentro del dominio de negocio de Patita Solidaria. Su uso uniforme busca facilitar la comunicación entre el equipo de desarrollo, usuarios y demás stakeholders, evitando ambigüedades y garantizando alineamiento conceptual durante todo el desarrollo del proyecto.
 
 | **Término (Inglés)**     | **Término (Español)**          | **Definición (Español)**                                                                                                                                          |
 |--------------------------|--------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -791,23 +823,23 @@ To Be Scenario Segmento Objetivo #2: Adoptantes Potenciales (Personas interesada
 
 | Storie ID | Título                           | Descripción                                                                 | Acceptance Criteria                                                                                                                                                                                                                                                    | Epic |
 |-----------|----------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| 01        | Registro de cuenta               | Como usuario, quiero crear una cuenta para ingresar a la aplicación.       | **Escenario 1: Registro correcto** <br> **Given** el usuario ha ingresado datos válidos. <br> **When** hace clic en el botón "Registrarse". <br> **Then** la cuenta debe ser creada exitosamente y el usuario debe ser redirigido a la página principal.           | 1    |
-| 02        | Iniciar sesión                   | Como usuario, quiero iniciar sesión para acceder a mis funciones.          | **Escenario 1: Login exitoso** <br> **Given** el usuario ha ingresado un correo y contraseña válidos. <br> **When** hace clic en "Iniciar sesión". <br> **Then** accede correctamente y se muestra su perfil.                                                       | 1    |
-| 03        | Recuperar contraseña             | Como usuario, quiero recuperar mi contraseña en caso de olvidarla.         | **Escenario 1: Solicitud de recuperación** <br> **Given** que el usuario ha olvidado su contraseña. <br> **When** hace clic en "¿Olvidaste tu contraseña?". <br> **Then** se le envía un correo con instrucciones de recuperación.                                   | 1    |
-| 04        | Buscar mascotas                  | Como adoptante, quiero buscar mascotas por filtros para encontrar una adecuada. | **Escenario 1: Filtro de búsqueda** <br> **Given** que el usuario accede a la sección de búsqueda. <br> **When** aplica filtros. <br> **Then** se muestran mascotas que cumplen con los criterios seleccionados.                                                | 2    |
-| 05        | Ver perfil de mascota            | Como adoptante, quiero ver información detallada de una mascota.           | **Escenario 1: Visualización de perfil** <br> **Given** que el usuario selecciona una mascota. <br> **When** accede a su perfil. <br> **Then** visualiza detalles como edad, raza, comportamiento e historial médico.                                               | 2    |
-| 06        | Guardar mascota favorita         | Como adoptante, quiero guardar mascotas favoritas para revisarlas luego.   | **Escenario 1: Agregar a favoritos** <br> **Given** que el usuario ve una mascota. <br> **When** hace clic en "Favorito". <br> **Then** se guarda en su lista personal.                                                                                             | 3    |
-| 07        | Solicitar adopción               | Como adoptante, quiero enviar una solicitud para adoptar una mascota.      | **Escenario 1: Envío de solicitud** <br> **Given** que el usuario accede a una mascota. <br> **When** hace clic en "Adoptar". <br> **Then** se envía una solicitud al refugio con sus datos personales.                                                             | 3    |
-| 08        | Editar perfil del adoptante      | Como usuario, quiero editar mis datos personales.                          | **Escenario 1: Edición exitosa** <br> **Given** que el usuario está autenticado. <br> **When** modifica su información. <br> **Then** se guarda correctamente y se muestra mensaje de confirmación.                                                                 | 1    |
-| 09        | Registrarse como refugio         | Como refugio, quiero registrarme para publicar mascotas.                   | **Escenario 1: Registro exitoso** <br> **Given** que el usuario ha ingresado los datos del refugio. <br> **When** hace clic en "Registrarse". <br> **Then** se crea su cuenta con rol de refugio.                                                                   | 4    |
-| 10        | Publicar mascota en adopción     | Como refugio, quiero registrar mascotas disponibles para adopción.         | **Escenario 1: Publicación exitosa** <br> **Given** que el refugio está autenticado. <br> **When** completa el formulario de nueva mascota. <br> **Then** la mascota aparece publicada en la plataforma.                                                             | 4    |
-| 11        | Editar información de mascota    | Como refugio, quiero editar los datos de una mascota publicada.            | **Escenario 1: Edición exitosa** <br> **Given** que el refugio accede a su panel. <br> **When** modifica datos de una mascota. <br> **Then** la información actualizada se guarda correctamente.                                                                     | 4    |
+| 01        | Registro de cuenta               | Como usuario, quiero crear una cuenta para ingresar a la aplicación.       | **Escenario 1: Registro correcto** <br> **Given** el usuario ha ingresado datos válidos. <br> **When** presiona "Registrarse". <br> **Then** la cuenta debe ser creada exitosamente y el usuario redirigido a la página principal. <br><br> **Escenario 2: Registro incorrecto** <br> **Given** que el usuario no ha ingresado todos los datos obligatorios. <br> **When** presiona "Registrarse". <br> **Then** el sistema muestra un mensaje de error indicando los campos faltantes.          | 1    |
+| 02        | Iniciar sesión                   | Como usuario, quiero iniciar sesión para acceder a mis funciones.          | **Escenario 1: Login exitoso** <br> **Given** el usuario ha ingresado un correo y contraseña válidos. <br> **When** presiona "Iniciar sesión". <br> **Then** el usuario accede a su perfil. <br><br> **Escenario 2: Login fallido** <br> **Given** que el usuario ingresa un correo o contraseña incorrectos. <br> **When** presiona "Iniciar sesión". <br> **Then** el sistema muestra un mensaje de error indicando los datos incorrectos.                                                       | 1    |
+| 03        | Recuperar contraseña             | Como usuario, quiero recuperar mi contraseña en caso de olvidarla.         | **Escenario 1: Solicitud de recuperación exitosa** <br> **Given** que el usuario ha olvidado su contraseña. <br> **When** presiona "¿Olvidaste tu contraseña?". <br> **Then** se envía un correo con las instrucciones para recuperar la contraseña. <br><br>  **Escenario 2: Correo no registrado** <br> **Given** que el correo proporcionado no está registrado. <br> **When** presiona "¿Olvidaste tu contraseña?". <br> **Then** el sistema muestra un mensaje indicando que el correo no está asociado a una cuenta.                                  | 1    |
+| 04        | Buscar mascotas                  | Como adoptante, quiero buscar mascotas por filtros para encontrar una adecuada. | **Escenario 1: Filtro de búsqueda exitoso** <br> **Given** que el usuario accede a la sección de búsqueda. <br> **When** aplica los filtros. <br> **Then** se muestran mascotas que cumplen con los criterios seleccionados. <br> <br> **Escenario 2: No se encuentran resultados** <br> **Given** que el usuario aplica filtros muy específicos. <br> **When** presiona "Buscar". <br> **Then** el sistema muestra un mensaje indicando que no se encontraron resultados.                                                | 2    |
+| 05        | Ver perfil de mascota            | Como adoptante, quiero ver información detallada de una mascota.           | **Escenario 1: Visualización de perfil** <br> **Given** que el usuario selecciona una mascota. <br> **When** accede al perfil de la mascota. <br> **Then** el perfil muestra información detallada como edad, raza, comportamiento e historial médico.                                               | 2    |
+| 06        | Guardar mascota favorita         | Como adoptante, quiero guardar mascotas favoritas para revisarlas luego.   | **Escenario 1: Agregar a favoritos** <br> **Given** que el usuario visualiza una mascota. <br> **When** presiona "Favorito". <br> **Then** la mascota se guarda en su lista de favoritos. <br><br> **Escenario 2: Mascota ya en favoritos** <br> **Given** que la mascota ya está en la lista de favoritos. <br> **When** presiona "Favorito" nuevamente. <br> **Then** el sistema muestra un mensaje indicando que ya está en la lista de favoritos.                                                                                           | 3    |
+| 07        | Solicitar adopción               | Como adoptante, quiero enviar una solicitud para adoptar una mascota.      | **Escenario 1: Solicitud enviada exitosamente** <br> **Given** que el usuario ha completado el formulario de solicitud. <br> **When** presiona "Enviar solicitud". <br> **Then** la solicitud es enviada al refugio con los datos del adoptante. <br><br> **Escenario 2: Solicitud incompleta** <br> **Given** que el usuario no ha completado todos los campos obligatorios del formulario. <br> **When** presiona "Enviar solicitud". <br> **Then** el sistema muestra un mensaje de error solicitando completar los campos faltantes.                                                              | 3    |
+| 08        | Editar perfil del adoptante      | Como usuario, quiero editar mis datos personales.                          | **Escenario 1: Edición exitosa** <br> **Given** que el usuario está autenticado. <br> **When** modifica su información. <br> **When** presiona "Guardar cambios". <br> **Then** los cambios se guardan correctamente y se muestra un mensaje de confirmación. <br><br> **Escenario 2: Edición fallida** <br> **Given** que el usuario ha intentado ingresar datos inválidos. <br> **When** presiona "Guardar cambios". <br> **Then** el sistema muestra un mensaje de error indicando los datos incorrectos.                                                                | 1    |
+| 09        | Registrarse como refugio         | Como refugio, quiero registrarme para publicar mascotas.                   | **Escenario 1: Registro exitoso** <br> **Given** que el usuario ha ingresado los datos del refugio. <br> **When** presiona "Registrarse". <br> **Then** se crea su cuenta con el rol de refugio y es redirigido a su panel. <br><br>  **Escenario 2: Registro fallido** <br> **Given** que el usuario no ha ingresado todos los datos obligatorios. <br> **When** presiona "Registrarse". <br> **Then** el sistema muestra un mensaje de error indicando los campos faltantes.                                                                  | 4    |
+| 10        | Publicar mascota en adopción     | Como refugio, quiero registrar mascotas disponibles para adopción.         | **Escenario 1: Publicación exitosa** <br> **Given** que el refugio está autenticado. <br> **When** completa el formulario de nueva mascota. <br> **When** presiona "Publicar". <br> **Then** la mascota aparece publicada en la plataforma. <br><br> **Escenario 2: Publicación fallida** <br> **Given** que el refugio ha dejado campos obligatorios vacíos. <br> **When** presiona "Publicar". <br> **Then** el sistema muestra un mensaje de error solicitando completar los campos faltantes.                                                           | 4    |
+| 11        | Editar información de mascota    | Como refugio, quiero editar los datos de una mascota publicada.            | **Escenario 1: Edición exitosa** <br> **Given** que el refugio accede a su panel. <br> **When** modifica los datos de una mascota. <br> **Then** los cambios se guardan correctamente y se muestra un mensaje de confirmación.                                                                     | 4    |
 | 12        | Ver solicitudes de adopción      | Como refugio, quiero ver solicitudes de adopción recibidas.                | **Escenario 1: Visualizar solicitudes** <br> **Given** que el refugio tiene mascotas publicadas. <br> **When** accede a su panel de solicitudes. <br> **Then** ve la lista de interesados con su información.                                                      | 5    |
-| 13        | Responder solicitud de adopción  | Como refugio, quiero aceptar o rechazar solicitudes recibidas.             | **Escenario 1: Aprobación o rechazo** <br> **Given** que hay solicitudes pendientes. <br> **When** el refugio hace clic en aceptar o rechazar. <br> **Then** el usuario es notificado con la decisión.                                                              | 5    |
-| 14        | Ver historial médico de mascota  | Como adoptante, quiero ver el historial médico de una mascota.             | **Escenario 1: Acceso al historial** <br> **Given** que el usuario accede al perfil de la mascota. <br> **When** navega a la sección de salud. <br> **Then** se muestra su historial médico disponible.                                                            | 2    |
+| 13        | Responder solicitud de adopción  | Como refugio, quiero aceptar o rechazar solicitudes recibidas.             | **Escenario 1: Aceptar solicitud** <br> **Given**  que el refugio ha revisado una solicitud de adopción. <br> **When** presiona "Aceptar". <br> **Then** el adoptante es notificado y la solicitud cambia de estado a "Aceptada". <br><br> **Escenario 2: Rechazar solicitud** <br> **Given**  que el refugio ha revisado una solicitud de adopción. <br> **When** presiona "Rechazar". <br> **Then** el adoptante es notificado y la solicitud cambia de estado a "Rechazada".                                                              | 5    |
+| 14        | Ver historial médico de mascota  | Como adoptante, quiero ver el historial médico de una mascota.             | **Escenario 1: Acceso al historial** <br> **Given** que el usuario accede al perfil de la mascota. <br> **When** navega a la sección de salud. <br> **Then** se muestra el historial médico disponible.                                                            | 2    |
 | 15        | Ver mascotas adoptadas           | Como refugio, quiero ver un historial de mascotas adoptadas.               | **Escenario 1: Historial de adopciones** <br> **Given** que el refugio ha aprobado adopciones. <br> **When** accede a su historial. <br> **Then** ve una lista de mascotas adoptadas con fecha y adoptante.                                                         | 5    |
 | 16        | Gestionar usuarios (admin)       | Como administrador, quiero gestionar cuentas de usuarios.                  | **Escenario 1: Acceso a gestión** <br> **Given** que el administrador ha iniciado sesión. <br> **When** entra al módulo de gestión. <br> **Then** puede ver, editar o eliminar cuentas según su rol.                                                              | 6    |
-| 17        | Ver recomendaciones de adopción  | Como adoptante, quiero recibir recomendaciones de mascotas según mi perfil.| **Escenario 1: Recomendación automática** <br> **Given** que el usuario ha completado su perfil. <br> **When** accede al home. <br> **Then** se muestran recomendaciones personalizadas basadas en sus preferencias y búsquedas.                                 | 2    |
+| 17        | Ver recomendaciones de adopción  | Como adoptante, quiero recibir recomendaciones de mascotas según mi perfil.| **Escenario 1: Recomendación automática** <br> **Given** que el usuario ha completado su perfil. <br> **When** accede a la página de inicio. <br> **Then** se muestran recomendaciones personalizadas basadas en sus preferencias y búsquedas.                                 | 2    |
 
 
 ### 3.3. Impact Mapping
