@@ -1107,6 +1107,48 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ##### 5.2.1.1. Sprint Planning 1
 
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Se incluye el resumen del planning, acompañado del objetivo del sprint y las user stories seleccionadas.
+
+---
+
+#### Sprint #1
+
+### Sprint Planning Background
+
+| Elemento                            | Detalle                                                                                      |
+|-------------------------------------|----------------------------------------------------------------------------------------------|
+| **Date**                            | 2025-04-22                                                                                   |
+| **Time**                            | 06:00 PM                                                                                     |
+| **Location**                        | Reunión virtual vía Google Meet                                                              |
+| **Prepared By**                     | Lecca Villalobos Pedro Omar                                                                  |
+| **Attendees (to planning meeting)** | Carlos Andrés Coca / Diego Rosado / Arnold Morales / Carlo Ramírez / Sebastián Carbajal     |
+| **Sprint n – 1 Review Summary**     | No aplica, este es el primer sprint del equipo.                                              |
+| **Sprint n – 1 Retrospective Summary** | N/A                                                                                         |
+
+---
+
+### Sprint Goal & User Stories
+
+#### Sprint Goal
+
+> **Our focus is on** delivering the minimum viable version of the landing page for the Pata Solidaria platform.  
+> **We believe it delivers** visibility, credibility and early engagement to potential users and stakeholders.  
+> **This will be confirmed when** the landing page is deployed on GitHub Pages with basic content, branding, and links to core sections.
+
+#### Sprint Velocity
+
+El equipo ha definido una velocidad de **10 Story Points** para este primer Sprint.
+
+#### Sum of Story Points
+
+| ID | Descripción                                                                                                  | Estimación |
+|----|--------------------------------------------------------------------------------------------------------------|------------|
+| 01 | Como adoptante, quiero crear una cuenta para ingresar a la aplicación.                                       | 3 pts      |
+| 02 | Como adoptante, quiero iniciar sesión con mi usuario y contraseña.                                           | 2 pts      |
+| 08 | Como refugio, quiero registrar nuevas mascotas con sus datos y fotos, para que estén visibles en la plataforma. | 5 pts      |
+
+**Total: 10 Story Points**
+
 ##### 5.2.1.2. Sprint Backlog 1
 
 ##### 5.2.1.3. Development Evidence for Sprint Review
