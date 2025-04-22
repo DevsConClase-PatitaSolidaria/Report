@@ -1289,7 +1289,32 @@ El equipo ha definido una velocidad de **10 Story Points** para este primer Spri
 
 **Total: 10 Story Points**
 
-##### 5.2.1.2. Sprint Backlog 1
+### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal de este Sprint es implementar la **versión mínima viable (MVP)** de la Landing Page de *Pata Solidaria*, con enfoque en el diseño visual, estructura en HTML/CSS, lógica básica de interacción (JavaScript) y funciones iniciales de registro/login. Para ello, se han desglosado las User Stories seleccionadas en tareas concretas, distribuidas entre los miembros del equipo.
+
+A continuación se presenta la tabla con los Work-Items / Tasks definidos para este Sprint:
+
+| **Sprint #** | **Sprint 1**                                                                                                           |
+|--------------|-------------------------------------------------------------------------------------------------------------------------|
+
+| **User Story** | **Work-Item / Task**                                                                                               |   |   |   |   |   |
+|---------------|------------------------------------------------------------------------------------------------------------------------|---|---|---|---|---|
+| **Id** | **Title**                            | **Id** | **Title**                                    | **Description**                                      | **Estimation (Hours)** | **Assigned To** | **Status**               |
+| 01      | Registro de cuenta                  | T01     | Crear formulario de registro en HTML           | Estructurar campos (nombre, correo, contraseña)     | 3                       | rhylow          | In-Process               |
+|         |                                     | T02     | Validar datos en JS                            | Validar campos obligatorios                         | 2                       | Arnold24x24     | To-do                    |
+|         |                                     | T03     | Estilizar formulario con CSS                   | Aplicar colores y tipografía de marca               | 1.5                     | MrAndres08DV    | To-do                    |
+| 02      | Iniciar sesión                      | T04     | Crear formulario de login                      | Estructura HTML básica de inicio de sesión          | 2                       | Carlo211        | To-do                    |
+|         |                                     | T05     | Validar credenciales con JS                    | Lógica básica de autenticación simulada             | 2                       | Arnold24x24     | To-do                    |
+| 08      | Publicar mascota en adopción        | T06     | Crear estructura de formulario de mascota      | Datos básicos + imagen                              | 3                       | diegoroip       | To-do                    |
+|         |                                     | T07     | Estilo visual del perfil de mascota            | CSS layout responsive                               | 2                       | MrAndres08DV    | To-do                    |
+|         |                                     | T08     | Subida simulada de imagen                      | Previsualización usando JavaScript                  | 1.5                     | rhylow          | To-do                    |
+| ---     | Task global sin User Story directa  | T09     | Estructura HTML de la landing page             | Header, sección principal, footer                   | 3.5                     | Carlo211        | To-do                    |
+|         |                                     | T10     | Despliegue en GitHub Pages                     | Publicación inicial de la landing                   | 1.5                     | Arnold24x24     | To-do                    |
+
+---
+
+**Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas, se detecten dependencias técnicas o se requiera redistribución de carga. La priorización de tareas sigue el criterio de impacto visual inmediato para una primera entrega funcional de la Landing Page.
 
 ##### 5.2.1.3. Development Evidence for Sprint Review
 
