@@ -939,12 +939,19 @@ Beneficios de adoptar con la plataforma.
 Testimonios de adoptantes y refugios.
 CTA final: "Únete como adoptante" / "Registra tu refugio".
 
-![Landing-PAge-Wireframe](/assets/images/commons/LandingPage-Wireframe.png)
+![Landing-Page-Wireframe](/assets/images/commons/LandingPage-Wireframe.png)
+
+![Landing-Page-Movil-Wireframe](/assets/images/commons/LandingPage%20Movil%20Wireframes.png)
 
 
 #### 4.3.2. Landing Page Mock-up
 Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico.
 Botones destacados y secciones bien diferenciadas visualmente.
+
+![Landing-Page-Mockup](/assets/images/commons/LandingPage-Mockup.png)
+
+![Landing-Page-Movil-Mockup](/assets/images/commons/LandingPage%20Movil.png)
+
 
 ### 4.4. Web Applications UX/UI Design
 
