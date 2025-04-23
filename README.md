@@ -1108,6 +1108,14 @@ Botones destacados y secciones bien diferenciadas visualmente.
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
+Web application login wireframe: Este wireframe muestra la pantalla de inicio de sesión de la aplicación web, con campos para correo electrónico y contraseña, y botón para iniciar sesión.
+
+![Login-Wireframe](/assets/images/commons/Login%20Wireflow.png)
+
+Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, y botón para registrarse.
+![Register-Wireframe](/assets/images/commons/Register%20Wireflow.png)
+
+
 Estructura de páginas clave: búsqueda de mascotas, perfil de mascota, formulario de solicitud, panel de refugio, administración de usuarios.
 
 #### 4.4.2. Web Applications Wireflow Diagrams
