@@ -1,0 +1,18 @@
+# Ignorar archivos de IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Ignorar archivos temporales y logs
+*.log
+*.tmp
+*.swp
+
+# Ignorar dependencias (Node, Python, etc.)
+node_modules/
+__pycache__/
+venv/
+
+# Ignorar archivos de entorno (variables sensibles)
+.env
+.env.local
