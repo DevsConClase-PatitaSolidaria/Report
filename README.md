@@ -939,6 +939,9 @@ Beneficios de adoptar con la plataforma.
 Testimonios de adoptantes y refugios.
 CTA final: "Únete como adoptante" / "Registra tu refugio".
 
+![Landing-PAge-Wireframe](images/commons/LandingPage-Wireframe.png)
+
+
 #### 4.3.2. Landing Page Mock-up
 Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico.
 Botones destacados y secciones bien diferenciadas visualmente.
