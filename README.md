@@ -828,36 +828,107 @@ Márgenes de 20 px entre secciones principales y 10 px entre componentes individ
 
 Esta actualización de las General Style Guidelines consolida la identidad visual y comunicacional de Patita Solidaria, asegurando que cada elemento – desde el logotipo hasta el uso de colores y tipografías – trabaje en conjunto para transmitir confianza, empatía y profesionalismo en el proceso de adopción de mascotas.
 
-#### 4.1.2. Web Style Guidelines
--Diseño responsive que se adapta a distintos dispositivos.
--Uso de botones con bordes redondeados, sombras suaves y transiciones amigables.
--Jerarquía visual clara: títulos grandes, subtítulos destacados y cuerpo del texto legible.
--Elementos interactivos con retroalimentación visual (hover, clic).
+## 4.1.2. Web Style Guidelines
 
-### 4.2. Information Architecture
+**Patita Solidaria** se compromete a ofrecer una interfaz web que no solo sea atractiva, sino que también responda de manera impecable en distintos dispositivos, priorizando la usabilidad, la accesibilidad y la coherencia visual. A continuación, se detallan los lineamientos para garantizar una experiencia unificada y eficiente:
 
-#### 4.2.1. Organization Systems
-Estructura basada en roles: Adoptantes, Refugios y Administradores.
-Secciones principales: Inicio, Buscar Mascotas, Favoritos, Solicitudes, Perfil, Panel de Refugio, Administración.
+### 1. Responsive Typography
 
-#### 4.2.2. Labeling Systems
-Uso de etiquetas directas y orientadas al usuario: "Buscar Mascotas", "Solicitar Adopción", "Ver Perfil", "Mis Favoritos".
-Claridad en los llamados a la acción: "Registrarse", "Iniciar sesión", "Publicar Mascota", "Editar Información".
+- **Tipografía principal:** Open Sans en todos los idiomas y dispositivos. Esta fuente sin serif ofrece un equilibrio perfecto entre profesionalismo y calidez, alineándose con nuestra identidad amigable.
+- **Escalado fluido de tamaños:** Utilizamos la técnica de "modular scale" para definir proporciones tipográficas armoniosas:
 
-#### 4.2.3. SEO Tags and Meta Tags
-Títulos y descripciones únicas por página.
-Uso de etiquetas meta con palabras clave como "adopción de mascotas", "refugios de animales", "buscar perros y gatos".
-URLs amigables: /mascotas/perros/labrador, /refugios/huellitas, etc.
+  - Móvil (<480px): H1 = 2.5rem, H2 = 2rem, H3 = 1.75rem, cuerpo = 1rem.  
+  - Tablet (481–768px): H1 = 3rem, H2 = 2.5rem, H3 = 2rem, cuerpo = 1.125rem.  
+  - Desktop (>768px): H1 = 3.5rem, H2 = 3rem, H3 = 2.5rem, cuerpo = 1.25rem.
 
-#### 4.2.4. Searching Systems
-Motor de búsqueda con filtros por tipo de animal, edad, tamaño, ubicación, comportamiento.
-Búsqueda predictiva y sugerencias automáticas basadas en popularidad y perfil del usuario.
+- **Line-height y espaciado de letra:** 1.6 y letter-spacing de 0.5px para asegurar legibilidad.
+- **Adaptación contextual:** Títulos en pantallas pequeñas pueden truncarse con puntos suspensivos si exceden 2 líneas.
 
-#### 4.2.5. Navigation Systems
-Menú superior para navegación global.
-Menú lateral en el panel del refugio y administrador.
-Breadcrumbs para navegación contextual.
-Footer con accesos rápidos, contacto y enlaces legales.
+### 2. Color Usage
+
+- **Primarios:** Verde Oliva Suave (#A3B18A), Naranja Suave (#F4A261).
+- **Secundarios:** Tierra Clara (#EDE6DB), Marrón Claro (#DDB892).
+- **Acentos:** Verde Bosque (#588157), Terracota (#D5896F).
+- **Contraste y accesibilidad:** Ratio mínimo de 4.5:1 entre texto y fondo.
+- **Estados de componentes:**
+  - Hover: Opacidad al 90% o desaturación de 10%.
+  - Active: Sombra interior sutil.
+  - Disabled: Grises suaves (#CCCCCC), cursor de espera.
+
+### 3. Spacing y Layout
+
+- **Sistema de grilla:** 12 columnas (desktop), 6 (tablet), 4 (móvil).
+- **Padding y márgenes:** Escalas modulares: 0.5rem, 1rem, 2rem, 4rem.
+- **Contenedores:** Máximo de 1200px, centrado.
+- **Stacking patterns:** Componentes apilados verticalmente en móviles.
+
+### 4. Componentes e Interactions
+
+- **Botones:** Border-radius de 8px, padding 0.75rem x 1.5rem.
+  - Primary: #F4A261 con texto #FFFFFF.
+  - Secondary: borde #588157.
+- **Forms & Inputs:** Borde 1px #A3B18A, border-radius 6px, placeholder #888888, focus #F4A261.
+- **Cards y Tiles:** Sombras suaves, border-radius 12px, hover con sombra elevada.
+- **Iconografía:** Íconos lineales en #588157, versión filled (#A3B18A).
+- **Micro-interactions:** Icono de "Favorito" con animación pulse, "Solicitud enviada" con toast notification (200ms).
+
+### 5. Accesibilidad
+
+- Navegación con teclado (TAB), outline visible.
+- ARIA labels y roles correctos.
+- Alt text descriptivo en imágenes.
+- Modo alto contraste (`prefers-contrast: more`).
+
+---
+
+## 4.2. Information Architecture
+
+La arquitectura de información (IA) en **Patita Solidaria** busca reducir la carga cognitiva, facilitar el descubrimiento de funcionalidades y guiar al usuario en su journey de adopción o gestión de refugio. Se articula en cinco pilares:
+
+### 4.2.1. Organization Systems
+
+- **Estructura basada en roles:** Adoptante, Refugio y Administrador con vistas diferenciadas.
+- **Mapas de sitio (Sitemap):**  
+  `Home → Search → Profile → Dashboard → Admin`
+- **Content Chunking:** Secciones temáticas: Hero, Benefits, How It Works, Testimonials, Donations.
+- **Progressive Disclosure:** Funciones avanzadas ocultas tras botón “More Filters”.
+
+### 4.2.2. Labeling Systems
+
+- **Taxonomía clara:**  
+  Ej. "Adopt Now", "Search Pets", "My Favorites", "Donation Plan".
+- **UX Writing:** Lenguaje claro, orientado a la acción, sin jerga técnica.
+- **Icon + Label Combo:** Íconos + texto en todos los elementos de menú y botones.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+- **Title tags:** Adaptados por sección (Ej. “Search Dogs in Lima - Patita Solidaria”).
+- **Meta descriptions:** Hasta 155 caracteres con palabras clave:  
+  Ej. “adoptar perro Perú, refuge mascotas”.
+- **Open Graph & Twitter Cards:**  
+  Imágenes de vista previa 1200×630 px con logo y lema.
+- **Structured Data (JSON-LD):**  
+  `schema.org` para `adoptableAnimal` y `Organization`.
+
+### 4.2.4. Searching Systems
+
+- **Búsqueda por facets:** Sidebar con filtros dinámicos y contadores en tiempo real.
+- **Search-as-you-type:** Sugerencias inmediatas de razas y refugios.
+- **Relevancia personalizada:** Algoritmo por historial del usuario y popularidad.
+- **Lazy Loading:** Carga progresiva con placeholders animados.
+
+### 4.2.5. Navigation Systems
+
+- **Landing Page Navigation:** Navbar fija con anclajes y scroll suave; menú hamburger en móvil.
+- **Web App Navigation:**  
+  - Sidebar colapsable en desktop.  
+  - Bottom navigation en móvil con ítems clave: Search, Favorites, Requests, Profile.
+- **Breadcrumbs:** Rastros en vistas profundas (ej. Home > Search > Pet Profile).
+- **Contextual Menus & Shortcuts:**  
+  Refugios pueden crear publicaciones desde cualquier vista.
+- **Help & Support:**  
+  Ícono de chat en vivo y sección FAQ accesible desde la navbar.
+
 
 ### 4.3. Landing Page UI Design
 
