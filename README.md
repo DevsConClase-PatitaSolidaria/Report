@@ -42,6 +42,7 @@ Product: Patita Solidaria
 | TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final       |
 | TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe                              | 
 | TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 del informe                              |
+| TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                | 
 
 ## Project Report Collaboration Insights
 
@@ -55,12 +56,13 @@ Product: Patita Solidaria
 
 TB1:<br>
 
-| Integrante                        | Tarea Asignada                                                                   |
-|-----------------------------------|----------------------------------------------------------------------------------|
-| Rosado Iporre, Diego Alonso       | Creación de github y Documentación Inicial                                       |
-| Coca Lavado, Carlos Andrés        | Desarrollo del Capitulo 1 del documento, desarrollo del informe de participación |
-| Lecca Villalobos, Pedro Omar      | Desarrollo del Capitulo 2 del documento                                          |
-| Ramirez Escalante, Carlo Patricio | Desarrollo del Capitulo 3 del documento                                          |
+|Integrante| Tarea Asignada                             |
+|-|--------------------------------------------|
+|Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
+|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento, desarrollo del informe de participación|
+|Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento|
+|Ramirez Escalante, Carlo Patricio | Desarrollo del Capitulo 3 del documento|
+|Morales Sosa, Arnold Gabriel | Desarrollo del Capitulo 4 del documento, desarrollo del figma| 
 
 ## Contenido
 
@@ -163,6 +165,8 @@ del ABET – EAC - Student Outcome 3.
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales.                                                                                                               | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución                                                                                                                                                                                                     |
 | 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. |
+
+| 3. 
 
 ## Capítulo I: Introducción
 
@@ -870,40 +874,261 @@ To Be Scenario Segmento Objetivo #2: Adoptantes Potenciales (Personas interesada
 ## Capítulo IV: Product Design
 
 ### 4.1. Style Guidelines.
+Con base en los principios de diseño de DevsConClase, las "guías de estilo" describen los procedimientos para redactar, diseñar o presentar documentos, contenido web, software u otros trabajos creativos, describiendo parámetros esenciales como la identidad de marca, la paleta de colores, la tipografía. 
 
 #### 4.1.1. General Style Guidelines
+**Branding:**
 
-#### 4.1.2. Web Style Guidelines
+Patita Solidaria representa el compromiso, la empatía y la transformación social en el ámbito de la adopción responsable de mascotas. Nuestra plataforma está diseñada para conectar refugios, adoptantes y protectores, facilitando la creación de hogares amorosos para cada animal. Con servicios de gestión transparentes y una tecnología open source, buscamos potenciar la labor de quienes trabajan en favor del bienestar animal y brindar a cada mascota la oportunidad de encontrar un hogar seguro.
 
-### 4.2. Information Architecture
+**Logotipo:**
 
-#### 4.2.1. Organization Systems
+El logotipo de Patita Solidaria se ha creado para comunicar de manera clara la misión y los valores fundamentales de la plataforma, fusionando elementos visuales que simbolizan el amor, la esperanza y la conexión con los animales:
 
-#### 4.2.2. Labeling Systems
+**Integración del Corazón:**
 
-#### 4.2.3. SEO Tags and Meta Tags
+La incorporación de un corazón entrelazado a los dos animales, enfatiza la empatía y el cariño que impulsa nuestra labor. Este detalle visual comunica que detrás de cada adopción está la pasión y el compromiso de ofrecer un hogar lleno de amor.
 
-#### 4.2.4. Searching Systems
+**Integración del perro y gato:**
 
-#### 4.2.5. Navigation Systems
+Para enfatizar la dedicación de la plataforma a la diversidad animal, el logotipo incorpora las imágenes de un perro y un gato juntos. Esta integración simboliza la unión y la inclusividad en la búsqueda de hogares amorosos, dejando claro que Patita Solidaria apoya tanto a perros como a gatos.
+
+**Colores y Estética:**
+
+Los colores predominantes en el logotipo se extraen de nuestra paleta: tonos cálidos y naturales que evocan calidez, esperanza y solidez. El uso de verdes, naranjas y tonos claros refuerza la conexión con la naturaleza y la empatía, consolidando la imagen de Patita Solidaria como una plataforma confiable, humanizada y comprometida con el bienestar animal.
+
+<p align="center"> <img src="/assets/images/commons/Logo%20Patita%20Solidaria.jpeg" alt="Logo Patita Solidaria" width="50%"> </p>
+
+**Tipografías:**
+
+Para garantizar una apariencia moderna, amigable y legible, hemos seleccionado la tipografía Open Sans para todos los textos, tanto en títulos como en cuerpo de contenido. Esta elección refuerza la identidad visual de Patita Solidaria, ofreciendo claridad y coherencia en cada interacción.
+
+<p align="center"> <img src="/assets/images/commons/Open%20Sans.jpg" alt="Open Sans" width="50%"> </p>
+
+
+**Paleta de Colores:**
+
+La selección de la paleta de colores de Patita Solidaria se fundamenta en principios estratégicos que refuerzan la identidad visual y la funcionalidad de la plataforma:
+
+-Verde Oliva Suave (#A3B18A):
+Transmite esperanza y la conexión con la naturaleza, evocando la vitalidad y el cuidado.
+
+-Tierra Clara / Beige Arena (#EDE6DB):
+Aporta calidez y naturalidad, creando una atmósfera acogedora y serena.
+
+-Naranja Suave (#F4A261):
+Ideal para botones y llamados a la acción, este tono genera un efecto visual amigable y enérgico sin resultar agresivo.
+
+-Verde Bosque (#588157):
+Se utiliza para encabezados y acentos, ofreciendo un matiz serio y confiable en la comunicación visual.
+
+-Terracota (#D5896F):
+Representa la calidez y la empatía, reforzando el compromiso emocional hacia cada mascota.
+
+-Marrón Claro / Toffee (#DDB892):
+Funciona como fondo de secciones, proporcionando estabilidad y una sensación de orden.
+
+<p align="center"> <img src="/assets/images/commons/colores.jpg" alt="Paleta de Colores" width="100%"> </p>
+
+
+
+**Tonos de Comunicación:**
+
+El estilo de comunicación en Patita Solidaria es esencial para crear una conexión genuina con los usuarios. Se establecen los siguientes lineamientos:
+
+
+-Cercano y Empático:
+
+Adoptamos un tono amistoso y compasivo, que demuestre comprensión ante las necesidades y preocupaciones tanto de adoptantes como de refugios y protectores.
+
+
+-Confianza y Profesionalismo:
+
+Si bien la comunicación es cercana, se mantiene un nivel de seriedad que transmita profesionalismo y seguridad en los procesos de adopción.
+
+
+-Memorable y Reconocible:
+
+La identidad de marca debe ser única y fácil de recordar, permitiendo que Patita Solidaria se distinga en el mercado y sea recordada con cariño por los usuarios.
+
+
+-Claro y Directo:
+
+El lenguaje empleado es simple, conciso y orientado a la acción, facilitando la comprensión y promoviendo la usabilidad de la plataforma.
+
+
+
+**Lenguaje Aplicado:**
+
+El lenguaje en nuestros textos es claro, accesible y directo, con el propósito de facilitar la interacción de usuarios de todas las edades y niveles de conocimiento tecnológico. Se evita la jerga excesivamente técnica y se prioriza un tono conversacional que invite a la acción y a la participación.
+
+
+**Marca:**
+
+El nombre Patita Solidaria evoca la esencia misma de la misión: brindar un hogar amoroso y seguro para cada patita. Es un juego de palabras que fusiona la ternura y la solidaridad, reflejando la idea de unión entre la tecnología, la comunidad y el bienestar animal.
+
+
+**Spacing:**
+
+El espaciado entre elementos es uniforme y equilibrado para generar una sensación de orden y armonía en la interfaz. Se recomienda:
+
+Espacios entre 0 y 16 px en los elementos del logotipo, garantizando legibilidad y consistencia.
+
+Márgenes de 20 px entre secciones principales y 10 px entre componentes individuales en todas las páginas.
+
+
+
+Esta actualización de las General Style Guidelines consolida la identidad visual y comunicacional de Patita Solidaria, asegurando que cada elemento – desde el logotipo hasta el uso de colores y tipografías – trabaje en conjunto para transmitir confianza, empatía y profesionalismo en el proceso de adopción de mascotas.
+
+## 4.1.2. Web Style Guidelines
+
+**Patita Solidaria** se compromete a ofrecer una interfaz web que no solo sea atractiva, sino que también responda de manera impecable en distintos dispositivos, priorizando la usabilidad, la accesibilidad y la coherencia visual. A continuación, se detallan los lineamientos para garantizar una experiencia unificada y eficiente:
+
+### 1. Responsive Typography
+
+- **Tipografía principal:** Open Sans en todos los idiomas y dispositivos. Esta fuente sin serif ofrece un equilibrio perfecto entre profesionalismo y calidez, alineándose con nuestra identidad amigable.
+- **Escalado fluido de tamaños:** Utilizamos la técnica de "modular scale" para definir proporciones tipográficas armoniosas:
+
+  - Móvil (<480px): H1 = 2.5rem, H2 = 2rem, H3 = 1.75rem, cuerpo = 1rem.  
+  - Tablet (481–768px): H1 = 3rem, H2 = 2.5rem, H3 = 2rem, cuerpo = 1.125rem.  
+  - Desktop (>768px): H1 = 3.5rem, H2 = 3rem, H3 = 2.5rem, cuerpo = 1.25rem.
+
+- **Line-height y espaciado de letra:** 1.6 y letter-spacing de 0.5px para asegurar legibilidad.
+- **Adaptación contextual:** Títulos en pantallas pequeñas pueden truncarse con puntos suspensivos si exceden 2 líneas.
+
+### 2. Color Usage
+
+- **Primarios:** Verde Oliva Suave (#A3B18A), Naranja Suave (#F4A261).
+- **Secundarios:** Tierra Clara (#EDE6DB), Marrón Claro (#DDB892).
+- **Acentos:** Verde Bosque (#588157), Terracota (#D5896F).
+- **Contraste y accesibilidad:** Ratio mínimo de 4.5:1 entre texto y fondo.
+- **Estados de componentes:**
+  - Hover: Opacidad al 90% o desaturación de 10%.
+  - Active: Sombra interior sutil.
+  - Disabled: Grises suaves (#CCCCCC), cursor de espera.
+
+### 3. Spacing y Layout
+
+- **Sistema de grilla:** 12 columnas (desktop), 6 (tablet), 4 (móvil).
+- **Padding y márgenes:** Escalas modulares: 0.5rem, 1rem, 2rem, 4rem.
+- **Contenedores:** Máximo de 1200px, centrado.
+- **Stacking patterns:** Componentes apilados verticalmente en móviles.
+
+### 4. Componentes e Interactions
+
+- **Botones:** Border-radius de 8px, padding 0.75rem x 1.5rem.
+  - Primary: #F4A261 con texto #FFFFFF.
+  - Secondary: borde #588157.
+- **Forms & Inputs:** Borde 1px #A3B18A, border-radius 6px, placeholder #888888, focus #F4A261.
+- **Cards y Tiles:** Sombras suaves, border-radius 12px, hover con sombra elevada.
+- **Iconografía:** Íconos lineales en #588157, versión filled (#A3B18A).
+- **Micro-interactions:** Icono de "Favorito" con animación pulse, "Solicitud enviada" con toast notification (200ms).
+
+### 5. Accesibilidad
+
+- Navegación con teclado (TAB), outline visible.
+- ARIA labels y roles correctos.
+- Alt text descriptivo en imágenes.
+- Modo alto contraste (`prefers-contrast: more`).
+
+---
+
+## 4.2. Information Architecture
+
+La arquitectura de información (IA) en **Patita Solidaria** busca reducir la carga cognitiva, facilitar el descubrimiento de funcionalidades y guiar al usuario en su journey de adopción o gestión de refugio. Se articula en cinco pilares:
+
+### 4.2.1. Organization Systems
+
+- **Estructura basada en roles:** Adoptante, Refugio y Administrador con vistas diferenciadas.
+- **Mapas de sitio (Sitemap):**  
+  `Home → Search → Profile → Dashboard → Admin`
+- **Content Chunking:** Secciones temáticas: Hero, Benefits, How It Works, Testimonials, Donations.
+- **Progressive Disclosure:** Funciones avanzadas ocultas tras botón “More Filters”.
+
+### 4.2.2. Labeling Systems
+
+- **Taxonomía clara:**  
+  Ej. "Adopt Now", "Search Pets", "My Favorites", "Donation Plan".
+- **UX Writing:** Lenguaje claro, orientado a la acción, sin jerga técnica.
+- **Icon + Label Combo:** Íconos + texto en todos los elementos de menú y botones.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+- **Title tags:** Adaptados por sección (Ej. “Search Dogs in Lima - Patita Solidaria”).
+- **Meta descriptions:** Hasta 155 caracteres con palabras clave:  
+  Ej. “adoptar perro Perú, refuge mascotas”.
+- **Open Graph & Twitter Cards:**  
+  Imágenes de vista previa 1200×630 px con logo y lema.
+- **Structured Data (JSON-LD):**  
+  `schema.org` para `adoptableAnimal` y `Organization`.
+
+### 4.2.4. Searching Systems
+
+- **Búsqueda por facets:** Sidebar con filtros dinámicos y contadores en tiempo real.
+- **Search-as-you-type:** Sugerencias inmediatas de razas y refugios.
+- **Relevancia personalizada:** Algoritmo por historial del usuario y popularidad.
+- **Lazy Loading:** Carga progresiva con placeholders animados.
+
+### 4.2.5. Navigation Systems
+
+- **Landing Page Navigation:** Navbar fija con anclajes y scroll suave; menú hamburger en móvil.
+- **Web App Navigation:**  
+  - Sidebar colapsable en desktop.  
+  - Bottom navigation en móvil con ítems clave: Search, Favorites, Requests, Profile.
+- **Breadcrumbs:** Rastros en vistas profundas (ej. Home > Search > Pet Profile).
+- **Contextual Menus & Shortcuts:**  
+  Refugios pueden crear publicaciones desde cualquier vista.
+- **Help & Support:**  
+  Ícono de chat en vivo y sección FAQ accesible desde la navbar.
+
 
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
+Encabezado con logo, menú y botón de llamada a la acción.
+Sección "¿Quiénes somos?" con imagen y descripción.
+Beneficios de adoptar con la plataforma.
+Testimonios de adoptantes y refugios.
+CTA final: "Únete como adoptante" / "Registra tu refugio".
+
+![Landing-Page-Wireframe](/assets/images/commons/LandingPage-Wireframe.png)
+
+![Landing-Page-Movil-Wireframe](/assets/images/commons/LandingPage%20Movil%20Wireframes.png)
+
 
 #### 4.3.2. Landing Page Mock-up
+Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico.
+Botones destacados y secciones bien diferenciadas visualmente.
+
+![Landing-Page-Mockup](/assets/images/commons/LandingPage-Mockup.png)
+
+![Landing-Page-Movil-Mockup](/assets/images/commons/LandingPage%20Movil-Mockup.png)
+
 
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
+Estructura de páginas clave: búsqueda de mascotas, perfil de mascota, formulario de solicitud, panel de refugio, administración de usuarios.
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+Flujo desde el registro hasta la adopción:
+Usuario se registra → busca mascota → guarda favoritas → solicita adopción → recibe notificación.
+Refugio publica mascota → recibe solicitud → acepta/rechaza → se actualiza estado.
 
 #### 4.4.3. Web Applications Mock-ups
+Pantallas diseñadas con la identidad visual definida.
+Uso de cards para mostrar mascotas, formularios intuitivos, paneles organizados.
 
 #### 4.4.4. Web Applications User Flow Diagrams
+Diagramas de flujo centrados en tareas:
+Flujo del adoptante: búsqueda → favoritos → solicitud.
+Flujo del refugio: publicación → gestión de mascotas → respuesta a solicitudes.
+Flujo del administrador: gestión de usuarios → vista de estadísticas.
 
 ### 4.5. Web Applications Prototyping
+Prototipo funcional desarrollado con herramientas como Figma.
+Simulación de interacciones clave: registro, búsqueda, solicitud y administración.
+Pruebas de usabilidad realizadas para validar navegación e intuitividad.
 
 ### 4.6. Domain-Driven Software Architecture
 
