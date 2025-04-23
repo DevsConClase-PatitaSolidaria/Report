@@ -825,8 +825,83 @@ To Be Scenario Segmento Objetivo #2: Adoptantes Potenciales (Personas interesada
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/db.jpg.jpg">
 
 #### 4.8.2. Database Dictionary
+
+##  Tabla: `roles`
+
+| Campo  | Tipo        | Clave | Nulo | Descripción                             |
+|--------|-------------|-------|------|-----------------------------------------|
+| id     | INT         | PK    | No   | Identificador único del rol             |
+| nombre | VARCHAR(20) |       | No   | Nombre del rol (adoptante, refugio, etc.) |
+
+---
+
+##  Tabla: `usuarios`
+
+| Campo      | Tipo          | Clave   | Nulo | Descripción                            |
+|------------|---------------|---------|------|----------------------------------------|
+| id         | INT           | PK      | No   | Identificador único del usuario        |
+| email      | VARCHAR(100)  | ÚNICO   | No   | Correo electrónico                     |
+| contrasena | VARCHAR(100)  |         | No   | Contraseña encriptada                  |
+| rol_id     | INT           | FK      | Sí   | Relación al rol que cumple el usuario  |
+
+---
+
+##  Tabla: `profiles`
+
+| Campo      | Tipo         | Clave      | Nulo | Descripción                           |
+|------------|--------------|------------|------|---------------------------------------|
+| id         | INT          | PK         | No   | Identificador único del perfil        |
+| usuario_id | INT          | FK, ÚNICO  | No   | Relación 1:1 con la tabla `usuarios`  |
+| nombre     | VARCHAR(50)  |            | Sí   | Nombre del usuario                    |
+| apellido   | VARCHAR(50)  |            | Sí   | Apellido del usuario                  |
+| telefono   | VARCHAR(20)  |            | Sí   | Número de contacto                    |
+| direccion  | TEXT         |            | Sí   | Dirección del usuario                 |
+| imagen     | MEDIUMBLOB   |            | Sí   | Foto de perfil                        |
+
+---
+
+##  Tabla: `mascotas`
+
+| Campo       | Tipo         | Clave | Nulo | Descripción                           |
+|-------------|--------------|-------|------|---------------------------------------|
+| id          | INT          | PK    | No   | Identificador único de la mascota     |
+| nombre      | VARCHAR(50)  |       | Sí   | Nombre de la mascota                  |
+| edad        | INT          |       | Sí   | Edad de la mascota en años            |
+| sexo        | ENUM         |       | Sí   | Sexo: Macho o Hembra                  |
+| tamanio     | VARCHAR(20)  |       | Sí   | Tamaño: pequeño, mediano, grande      |
+| descripcion | TEXT         |       | Sí   | Descripción general                   |
+| foto        | MEDIUMBLOB   |       | Sí   | Imagen de la mascota                  |
+| estado      | ENUM         |       | No   | Estado de adopción                    |
+| refugio_id  | INT          | FK    | Sí   | Relación con el refugio responsable   |
+
+---
+
+##  Tabla: `solicitudes`
+
+| Campo           | Tipo        | Clave | Nulo | Descripción                            |
+|------------------|-------------|-------|------|----------------------------------------|
+| id               | INT         | PK    | No   | Identificador único de solicitud       |
+| mascota_id       | INT         | FK    | No   | Mascota solicitada                     |
+| adoptante_id     | INT         | FK    | No   | Usuario que desea adoptar              |
+| fecha_solicitud  | DATE        |       | No   | Fecha de envío de la solicitud         |
+| estado           | ENUM        |       | No   | Estado: Pendiente, Aprobado, Rechazado |
+| mensaje          | TEXT        |       | Sí   | Mensaje adicional del adoptante        |
+
+---
+
+##  Tabla: `donaciones`
+
+| Campo      | Tipo          | Clave | Nulo | Descripción                          |
+|------------|---------------|-------|------|--------------------------------------|
+| id         | INT           | PK    | No   | Identificador único de la donación   |
+| usuario_id | INT           | FK    | No   | Usuario que realiza la donación      |
+| monto      | DECIMAL(10,2) |       | No   | Monto donado                         |
+| fecha      | DATETIME      |       | No   | Fecha y hora de la donación          |
+| mensaje    | TEXT          |       | Sí   | Comentario opcional del donante      |
+
 
 ## Capítulo V: Product Implementation, Validation & Deployment
 
