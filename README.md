@@ -1115,6 +1115,8 @@ Web application login wireframe: Este wireframe muestra la pantalla de inicio de
 Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, y botón para registrarse.
 ![Register-Wireframe](/assets/images/commons/Register%20Wireflow.png)
 
+Web application find pets - potential adopters: Este wireframe muestra la pantalla de bienvenida, cómo funciona la aplicación, una barra al costado en la que se puede acceder al buscador de mascotas, los refugios y un aparte para donaciones. Por último, está la sección de mascotas disponibles en la cual puedes escoger una gran variedad de animales rescatados que están dentro de la aplicación web gracias a los refugios y a los rescatistas, con filtros y resultados de búsqueda. Finalmente, está el footer que finaliza la página.
+![findpets-Wireframe](/assets/images/commons/web%20application-find%20pets.png)
 
 Estructura de páginas clave: búsqueda de mascotas, perfil de mascota, formulario de solicitud, panel de refugio, administración de usuarios.
 
