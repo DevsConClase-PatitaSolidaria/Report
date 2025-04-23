@@ -825,7 +825,7 @@ To Be Scenario Segmento Objetivo #2: Adoptantes Potenciales (Personas interesada
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
-<p align="center"><img width="auto" height="auto" src="assets/images/commons/db.jpg.jpg">
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/db.jpg">
 
 #### 4.8.2. Database Dictionary
 
