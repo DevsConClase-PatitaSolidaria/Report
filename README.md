@@ -1431,7 +1431,7 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 #### 5.2.1. Sprint 1
 
-##### 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
 
 En esta sección se detallan los aspectos principales de la reunión de planificación del Sprint 1 del proyecto “Patita Solidaria”. Se priorizó el diseño e implementación de la Landing Page inicial y la visualización de perfiles informativos de mascotas, enfocándose en usabilidad, diseño adaptable y estructura de navegación básica.
 
@@ -1450,7 +1450,7 @@ En esta sección se detallan los aspectos principales de la reunión de planific
 | **Sum of Story Points**                  | 5                                                                                        |
 
 
-### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1
 
 Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundamentales para la experiencia del usuario adoptante y la presentación visual del sistema. A continuación, se detallan las tareas asociadas a las historias de usuario priorizadas para este Sprint.
 
@@ -1473,7 +1473,7 @@ Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundament
 
 **Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas.
 
-##### 5.2.1.3. Development Evidence for Sprint Review
+#### 5.2.1.3. Development Evidence for Sprint Review
 
 Durante este Sprint se realizaron múltiples avances en la implementación de la solución, particularmente en la construcción de la Landing Page, formularios de autenticación y perfiles de mascotas. A continuación, se presenta la evidencia de commits relacionados al Sprint 1.
 
@@ -1490,7 +1490,7 @@ Durante este Sprint se realizaron múltiples avances en la implementación de la
 | DevsConClase-PatitaSolidaria/LandingPage | main   | 7071f55   | **feat:** add mascotas.js for dynamic filters | Se añadió el script mascotas.js para funcionalidad de filtros.                   | 2025-04-24           |
 | DevsConClase-PatitaSolidaria/LandingPage | main   | cc9be84   | **feat:** add hamburger menu for responsive nav | Se implementó el menú hamburguesa en `index.html` para dispositivos móviles.     | 2025-04-24           |
 
-##### 5.2.1.4. Testing Suite Evidence for Sprint Review
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
 Durante este Sprint, se realizaron pruebas funcionales manuales para verificar el correcto funcionamiento de las funcionalidades implementadas. Aún no se han incorporado pruebas automatizadas (unitarias, integración o aceptación), ya que la prioridad del equipo fue consolidar las funcionalidades de la Landing Page. Se planea incluir un conjunto completo de pruebas automatizadas en los siguientes sprints.
 
@@ -1502,7 +1502,7 @@ Durante este Sprint, se realizaron pruebas funcionales manuales para verificar e
 | main   | 301b6d2   | **test:** filtros en mascotas          | Pruebas funcionales de filtros múltiples y búsqueda por nombre.                     | 2025-04-24          |
 | main   | bf46def   | **test:** navegación landing           | Se probaron enlaces, navegación fluida y diseño responsivo en distintas vistas.     | 2025-04-24          |
 
-##### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
 Durante este Sprint se logró implementar de forma funcional las vistas clave del sistema web “Patita Solidaria”, enfocándose en ofrecer una experiencia inicial de navegación completa para los usuarios adoptantes. Las vistas fueron desarrolladas con estructura HTML, estilos personalizados y validaciones en tiempo real mediante JavaScript.
 
@@ -1534,7 +1534,7 @@ Durante este Sprint se logró implementar de forma funcional las vistas clave de
 Enlace al video explicativo con la ejecución completa del Sprint 1:  
 [https://youtu.be/GnGUlkga2v4?si=MECXe7OqUcTiwZhL](https://youtu.be/GnGUlkga2v4?si=MECXe7OqUcTiwZhL)
 
-##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page, perfiles de mascotas y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
 
@@ -1542,14 +1542,14 @@ La prioridad fue lograr una experiencia de usuario funcional desde el cliente. E
 
 ---
 
-### GitHub - Proyecto Web Services (planeado para Sprint 2)
+#### GitHub - Proyecto Web Services (planeado para Sprint 2)
 
 > URL estimada del repositorio de backend:  
 > `[https://github.com/DevsConClase-PatitaSolidaria/](https://github.com/DevsConClase-PatitaSolidaria/BackEnd)`
 
 ---
 
-### 🧑‍💻 Resumen de Acciones del Equipo
+#### Resumen de Acciones del Equipo
 
 | Integrante    | Acciones Realizadas                                                                               |
 |---------------|---------------------------------------------------------------------------------------------------|
@@ -1559,13 +1559,13 @@ La prioridad fue lograr una experiencia de usuario funcional desde el cliente. E
 
 > Nota: No se han generado commits relacionados a endpoints o servicios, ya que no fueron parte del alcance del Sprint 1.
 
-##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de usuario del sistema *Patita Solidaria* utilizando GitHub Pages como entorno de publicación. Esto permitió hacer accesible el desarrollo desde cualquier navegador, facilitando las pruebas funcionales, demostraciones al equipo y feedback en tiempo real.
 
 ---
 
-### Proceso de Deployment realizado
+#### Proceso de Deployment realizado
 
 - Se creó un repositorio GitHub para el proyecto: `https://github.com/DevsConClase-PatitaSolidaria/LandingPage`
 
@@ -1585,13 +1585,13 @@ Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de us
 
 ---
 
-### 🌐 URL de despliegue
+#### URL de despliegue
 
 > [https://9l7f3r.csb.app/](https://9l7f3r.csb.app/)
 
 ---
 
-### Capturas de Evidencia del Despliegue
+#### Capturas de Evidencia del Despliegue
 
 - C1: Vista general de la Landing Page desplegada
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/index1.png">
@@ -1622,11 +1622,11 @@ Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de us
 
 ---
 
-### 🧑‍💻 Responsable
+#### Responsable
 
 - **Pedro Lecca**: configuración del repositorio, estructura del proyecto.
 
-##### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada por **Pedro Lecca**, quien asumió todas las funciones de diseño, codificación, validación y despliegue de la solución.
 
@@ -1634,7 +1634,7 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 |--------------|------------------------------------------|
 | Lecca Pedro  | - Desarrollo de toda la interfaz HTML y maquetado CSS<br>- Implementación de validaciones en JavaScript<br>- Estructura de carpetas y componentes<br>- Subida al repositorio y despliegue |
 
-### Evidencia de colaboración en GitHub (Sprint 1)
+#### Evidencia de colaboración en GitHub (Sprint 1)
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionlandingpage.png">
 
