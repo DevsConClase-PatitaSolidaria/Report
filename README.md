@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0e919768-1b33-4177-8956-1105ecf1093d)# DevsConClase
+# DevsConClase
 
 Product: Patita Solidaria 
 
