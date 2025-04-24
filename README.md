@@ -1491,6 +1491,18 @@ Durante este Sprint se realizaron múltiples avances en la implementación de la
 
 ##### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
+Durante este Sprint, se realizaron pruebas funcionales manuales para verificar el correcto funcionamiento de las funcionalidades implementadas. Aún no se han incorporado pruebas automatizadas (unitarias, integración o aceptación), ya que la prioridad del equipo fue consolidar las funcionalidades de la Landing Page. Se planea incluir un conjunto completo de pruebas automatizadas en los siguientes sprints.
+
+
+| Branch | Commit Id | Commit Message                         | Commit Message Body                                                                 | Committed on (Date) |
+|--------|-----------|----------------------------------------|--------------------------------------------------------------------------------------|---------------------|
+| main   | caf624c   | **test:** add login & register validations | Se agregaron validaciones completas en JS para login y registro.                    | 2025-04-24          |
+| main   | 1cb30a6   | **test:** visual testing login/reg     | Se validaron los formularios en navegador con inputs válidos e inválidos.           | 2025-04-24          |
+| main   | 301b6d2   | **test:** filtros en mascotas          | Pruebas funcionales de filtros múltiples y búsqueda por nombre.                     | 2025-04-24          |
+| main   | bf46def   | **test:** navegación landing           | Se probaron enlaces, navegación fluida y diseño responsivo en distintas vistas.     | 2025-04-24          |
+
+##### 5.2.1.5. Execution Evidence for Sprint Review
+
 Durante este Sprint se logró implementar de forma funcional las vistas clave del sistema web “Patita Solidaria”, enfocándose en ofrecer una experiencia inicial de navegación completa para los usuarios adoptantes. Las vistas fueron desarrolladas con estructura HTML, estilos personalizados y validaciones en tiempo real mediante JavaScript.
 
 ---
@@ -1521,13 +1533,106 @@ Durante este Sprint se logró implementar de forma funcional las vistas clave de
 Enlace al video explicativo con la ejecución completa del Sprint 1:  
 [https://youtu.be/GnGUlkga2v4?si=MECXe7OqUcTiwZhL](https://youtu.be/GnGUlkga2v4?si=MECXe7OqUcTiwZhL)
 
-##### 5.2.1.5. Execution Evidence for Sprint Review
-
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page, perfiles de mascotas y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
+
+La prioridad fue lograr una experiencia de usuario funcional desde el cliente. En futuras iteraciones se documentarán las rutas REST necesarias para la gestión de adopciones y usuarios, usando OpenAPI como herramienta de especificación.
+
+---
+
+### GitHub - Proyecto Web Services (planeado para Sprint 2)
+
+> URL estimada del repositorio de backend:  
+> `[https://github.com/DevsConClase-PatitaSolidaria/](https://github.com/DevsConClase-PatitaSolidaria/BackEnd)`
+
+---
+
+### 🧑‍💻 Resumen de Acciones del Equipo
+
+| Integrante    | Acciones Realizadas                                                                               |
+|---------------|---------------------------------------------------------------------------------------------------|
+| Pedro Lecca   | Desarrollo completo de la Landing Page, galería de mascotas, perfiles individuales, login, registro y validaciones JS. |
+
+---
+
+> Nota: No se han generado commits relacionados a endpoints o servicios, ya que no fueron parte del alcance del Sprint 1.
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
+Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de usuario del sistema *Patita Solidaria* utilizando GitHub Pages como entorno de publicación. Esto permitió hacer accesible el desarrollo desde cualquier navegador, facilitando las pruebas funcionales, demostraciones al equipo y feedback en tiempo real.
+
+---
+
+### Proceso de Deployment realizado
+
+- Se creó un repositorio GitHub para el proyecto: `https://github.com/DevsConClase-PatitaSolidaria/LandingPage`
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/fotolanding.png">
+
+- Se organizó el proyecto con estructura de carpetas (`assets/`, `scripts/`)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/fotoestructura.png">
+
+- Se subieron los archivos HTML, CSS y JS de las vistas (index, login, registro, mascotas, perfiles)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/fotogeneral.png">
+
+- Se verificó el acceso público y funcionamiento multiplataforma
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index.png">
+
+---
+
+### 🌐 URL de despliegue
+
+> [https://9l7f3r.csb.app/](https://9l7f3r.csb.app/)
+
+---
+
+### Capturas de Evidencia del Despliegue
+
+- C1: Vista general de la Landing Page desplegada
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index2.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index3.png">
+
+- 2: Página de registro funcional en producción
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/login.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/register.png">
+
+- 3: Perfiles de mascotas accesibles desde la galería
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/mascotas.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/mascotas2.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/perfiles.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/perfiles2.png">
+
+---
+
+### 🧑‍💻 Responsable
+
+- **Pedro Lecca**: configuración del repositorio, estructura del proyecto.
+
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada por **Pedro Lecca**, quien asumió todas las funciones de diseño, codificación, validación y despliegue de la solución.
+
+| Integrante | Acciones realizadas durante el sprint 1 |
+| Lecca Pedro | - Desarrollo de toda la interfaz HTML y maquetado CSS
+- Implementación de validaciones en JavaScript
+- Estructura de carpetas y componentes
+- Subida al repositorio y despliegue |
+
+### Evidencia de colaboración en GitHub (Sprint 1)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionlandingpage.png">
 
 ## Conclusiones
 
