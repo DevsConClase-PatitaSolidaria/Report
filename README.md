@@ -1132,14 +1132,9 @@ Botones destacados y secciones bien diferenciadas visualmente.
 ![adopters-Wireframe](/assets/images/commons/Web%20application%20Adopters.png)
 
 
-- Web application Rescuers: Este wireframe muestra la pantalla de bienvenida y más opciones para que el rescatista pueda ubicarse fácilmente a donde quiere ir.
+- Web application Rescuers and Animal Shelters: Este wireframe muestra la pantalla de bienvenida y más opciones para que el rescatista o refugio pueda ubicarse fácilmente a donde quiere ir.
 
 ![rescuers-Wireframe](/assets/images/commons/Web%20application%20Rescuers.png)
-
-
-- Web application Animal Shelter: Este wireframe muestra la pantalla de bienvenida y más opciones para que el usuario dueño o trabajador de un refugio pueda ubicarse fácilmente a donde quiere ir.
-    
-![animal shelters-Wireframe](/assets/images/commons/Web%20application%20animal%20shelter.png)
 
 
 - View Profile Wireframe: Este wireframe muestra tu perfil y puedes editarlo a tu gusto para que los demás sepan más acerca de ti. Para los dos casos es igual el diseño.
