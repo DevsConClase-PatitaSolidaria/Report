@@ -44,6 +44,8 @@ Product: Patita Solidaria
 | TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 del informe                              |
 | TB1     | 20/04/25 | Pedro Lecca  | Documentación completa (5.2.1 -  5.2.1.8)                          |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                | 
+| TB1     | 24/04/25 | Diego Rosado | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática
+, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping       |
 
 ## Project Report Collaboration Insights
 
@@ -1046,7 +1048,7 @@ En este punto se busca mostrar cómo los actores principales (refugios y adoptan
 | 10            | Desarrollo de Funcionalidades de la Aplicación            | Como equipo de desarrollo, queremos implementar funcionalidades clave en la plataforma, como el sistema de adopción, gestión de perfiles, notificaciones y seguridad de datos, para garantizar una experiencia fluida y segura para todos los usuarios de **Patita Solidaria**. |
 | 11            | Implementación de Verificación de Identidad               | Como desarrollador, quiero implementar un sistema de verificación de identidad para refugios y adoptantes (como Onfido o soluciones locales), para asegurarme de que los usuarios sean quienes dicen ser y garantizar la seguridad en las adopciones. |
 
-| Storie ID | Título                           | Descripción                                                                 | Acceptance Criteria                                                                                                                                                                                                                                                    | Epic |
+| Storie ID | Título                           | Descripción                                                                 | Acceptance Criteria                                                                                                                                                                                                                                                    | Epic ID |
 |-----------|----------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
 | 01        | Registro de cuenta               | Como usuario, quiero crear una cuenta para ingresar a la aplicación.       | **Escenario 1: Registro correcto** <br> **Given** el usuario ha ingresado datos válidos. <br> **When** presiona "Registrarse". <br> **Then** la cuenta debe ser creada exitosamente y el usuario redirigido a la página principal. <br><br> **Escenario 2: Registro incorrecto** <br> **Given** que el usuario no ha ingresado todos los datos obligatorios. <br> **When** presiona "Registrarse". <br> **Then** el sistema muestra un mensaje de error indicando los campos faltantes.          | 1    |
 | 02        | Iniciar sesión                   | Como usuario, quiero iniciar sesión para acceder a mis funciones.          | **Escenario 1: Login exitoso** <br> **Given** el usuario ha ingresado un correo y contraseña válidos. <br> **When** presiona "Iniciar sesión". <br> **Then** el usuario accede a su perfil. <br><br> **Escenario 2: Login fallido** <br> **Given** que el usuario ingresa un correo o contraseña incorrectos. <br> **When** presiona "Iniciar sesión". <br> **Then** el sistema muestra un mensaje de error indicando los datos incorrectos.                                                       | 1    |
@@ -1078,24 +1080,35 @@ En este punto se busca mostrar cómo los actores principales (refugios y adoptan
 
 ### 3.4. Product Backlog
 
-| **ID** | **User Story**                                                                                                                                     | **Prioridad** | **Epic (N°)** | **Estimación (pts)** | **Sprint Sugerido** |
-|--------|----------------------------------------------------------------------------------------------------------------------------------------------------|---------------|---------------|------------------------|---------------------|
-| 01     | Como adoptante, quiero crear una cuenta para ingresar a la aplicación.                                                                            | Alta          | 1             | 3                      | Sprint 1            |
-| 02     | Como adoptante, quiero iniciar sesión con mi usuario y contraseña.                                                                                | Alta          | 1             | 2                      | Sprint 1            |
-| 03     | Como adoptante, quiero buscar mascotas según mis preferencias, para encontrar una que se adapte a mi estilo de vida.                             | Alta          | 2             | 5                      | Sprint 2            |
-| 04     | Como adoptante, quiero ver el historial médico de una mascota, para sentirme seguro de su estado de salud.                                       | Alta          | 3             | 3                      | Sprint 2            |
-| 05     | Como adoptante, quiero conocer el comportamiento de la mascota, para saber si es compatible con mi hogar.                                        | Media         | 3             | 2                      | Sprint 3            |
-| 06     | Como adoptante, quiero contactar rápidamente con el refugio, para resolver dudas antes de tomar una decisión.                                     | Alta          | 4             | 2                      | Sprint 3            |
-| 07     | Como adoptante, quiero completar la solicitud desde la plataforma, para no tener que hacerlo presencialmente.                                     | Alta          | 5             | 3                      | Sprint 3            |
-| 08     | Como refugio, quiero registrar nuevas mascotas con sus datos y fotos, para que estén visibles en la plataforma.                                  | Alta          | 6             | 5                      | Sprint 2            |
-| 09     | Como refugio, quiero actualizar la información de una mascota, para mantener datos precisos.                                                     | Media         | 6             | 3                      | Sprint 3            |
-| 10     | Como refugio, quiero marcar una mascota como adoptada, para mantener actualizada la disponibilidad.                                               | Alta          | 6             | 2                      | Sprint 3            |
-| 11     | Como refugio, quiero recibir notificaciones cuando alguien envíe una solicitud de adopción.                                                      | Media         | 7             | 2                      | Sprint 4            |
-| 12     | Como administrador, quiero ver estadísticas sobre adopciones realizadas, para evaluar el impacto de la plataforma.                               | Baja          | 8             | 5                      | Sprint 5            |
-| 13     | Como adoptante, quiero recibir confirmación por correo al registrar una solicitud, para estar seguro de que fue enviada correctamente.           | Media         | 7             | 2                      | Sprint 4            |
-| 14     | Como refugio, quiero recibir alertas sobre solicitudes pendientes, para atenderlas a tiempo.                                                     | Media         | 7             | 2                      | Sprint 4            |
-| 15     | Como administrador, quiero gestionar usuarios y roles (refugio/adoptante), para mantener el control del sistema.                                 | Alta          | 9             | 5                      | Sprint 5            |
-
+| #Orden | User Story ID | Título | Descripción | Story Points <br> (1/2/3/5/8) | Epic ID |
+|--------|---------------|--------|-------------|--------------------------------|-------|
+| EP01   |               | Experiencia del Usuario en la Landing Page | Como visitante de la plataforma **Patita Solidaria**, quiero tener una experiencia de usuario fluida y agradable al interactuar con la landing page, para que pueda comprender rápidamente la misión de la plataforma, registrarme sin complicaciones, explorar las mascotas disponibles para adopción y acceder a información útil, incluyendo preguntas frecuentes y políticas de privacidad. |  | 1 |
+| 1      | US01          | Registro de cuenta | Como usuario, quiero crear una cuenta para ingresar a la aplicación. | 1 | 1 |
+| 2      | US02          | Iniciar sesión | Como usuario, quiero iniciar sesión para acceder a mis funciones. | 1 | 1 |
+| 3      | US03          | Recuperar contraseña | Como usuario, quiero recuperar mi contraseña en caso de olvidarla. | 1 | 1 |
+| 4      | US08          | Editar perfil del adoptante | Como usuario, quiero editar mis datos personales. | 2 | 1 |
+| EP02   |               | Búsqueda y Filtrado de Mascotas | Como usuario adoptante, quiero poder buscar y filtrar mascotas disponibles para adopción basadas en criterios como tamaño, tipo de mascota, necesidades especiales, ubicación y otros factores, para encontrar la mascota que mejor se adapte a mis necesidades y espacio en casa. |  | 2 |
+| 5      | US04          | Buscar mascotas | Como adoptante, quiero buscar mascotas por filtros para encontrar una adecuada. | 3 | 2 |
+| 6      | US05          | Ver perfil de mascota | Como adoptante, quiero ver información detallada de una mascota. | 2 | 2 |
+| 7      | US16          | Ver historial médico de mascota | Como adoptante, quiero ver el historial médico de una mascota. | 2 | 2 |
+| 8      | US19          | Ver recomendaciones de adopción | Como adoptante, quiero recibir recomendaciones de mascotas según mi perfil. | 3 | 2 |
+| 9      | US20          | Ver preferencias de adopción | Como adoptante, quiero poder actualizar mis preferencias de adopción. | 2 | 2 |
+| EP03   |               | Gestión de Solicitudes de Adopción | Como adoptante, quiero poder completar y gestionar mis solicitudes de adopción, proporcionando información sobre mi hogar, experiencia con animales y otros factores importantes, para que la plataforma pueda procesar mi solicitud y contactar con los refugios o rescatistas para organizar la visita. |  | 3 |
+| 10     | US06          | Guardar mascota favorita | Como adoptante, quiero guardar mascotas favoritas para revisarlas luego. | 2 | 3 |
+| 11     | US07          | Solicitar adopción | Como adoptante, quiero enviar una solicitud para adoptar una mascota. | 3 | 3 |
+| 12     | US21          | Ver detalles de solicitud | Como adoptante, quiero ver detalles sobre el estado de mi solicitud. | 2 | 3 |
+| EP04   |               | Gestión del Perfil de Usuario | Como usuario de **Patita Solidaria**, quiero poder crear y gestionar mi perfil, que incluya mis datos personales, información sobre mis mascotas actuales (si las tengo) y mis preferencias de adopción, para asegurarme de que mis solicitudes y comunicaciones sean claras y efectivas. |  | 4 |
+| 13     | US09          | Registrarse como refugio | Como refugio, quiero registrarme para publicar mascotas. | 3 | 4 |
+| 14     | US10          | Registrarse como adoptante | Como adoptante, quiero registrarme para solicitar la adopción de mascotas. | 2 | 4 |
+| 15     | US11          | Registrarse como rescatista | Como rescatista, quiero registrarme para publicar mascotas que están en búsqueda de adopción. | 3 | 4 |
+| EP05   |               | Publicación de Mascotas | Como refugio o rescatista, quiero poder registrar y publicar información sobre las mascotas disponibles para adopción, incluyendo fotos, descripciones emocionales, historial médico y necesidades especiales, para ayudar a que las mascotas encuentren un hogar adecuado. |  | 5 |
+| 16     | US12          | Publicar mascota en adopción | Como refugio, quiero registrar mascotas disponibles para adopción. | 5 | 5 |
+| 17     | US13          | Editar información de mascota | Como refugio, quiero editar los datos de una mascota publicada. | 3 | 5 |
+| 18     | US14          | Ver solicitudes de adopción | Como refugio, quiero ver solicitudes de adopción recibidas. | 3 | 5 |
+| 19     | US15          | Responder solicitud de adopción | Como refugio, quiero aceptar o rechazar solicitudes recibidas. | 5 | 5 |
+| 20     | US17          | Ver mascotas adoptadas | Como refugio, quiero ver un historial de mascotas adoptadas. | 3 | 5 |
+| EP06   |               | Gestión de Visitas y Aprobación de Adopción | Como refugio o rescatista, quiero poder gestionar las visitas de los adoptantes a las mascotas, programar citas y realizar la aprobación de la adopción, para asegurarme de que las mascotas estén en un ambiente adecuado y con adoptantes responsables. |  | 6 |
+| 21     | US18          | Gestionar usuarios (admin) | Como administrador, quiero gestionar cuentas de usuarios. | 8 | 6 |
 
 ## Capítulo IV: Product Design
 
