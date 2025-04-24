@@ -1145,6 +1145,35 @@ Botones destacados y secciones bien diferenciadas visualmente.
   ![Delete-account-Wireframe](/assets/images/commons/Wireframe%20-%20Borrar%20cuenta.png)
   
 
+- Buscar mascotas disponibles:
+
+  ![buscar-mascotas](/assets/images/commons/Desktop%20-%20Buscar%20Animalitos.png)
+
+
+- Ver información de la mascota que se quiere adoptar:
+  
+  ![ver-información](/assets/images/commons/Desktop%20-%20Detalle%20de%20la%20mascota.png)
+
+
+- Editar información de la mascota (para rescatistas y refugios):
+  
+  ![editar-info-mascota](/assets/images/commons/Desktop%20-%20Editar%20información%20de%20la%20mascota.png)
+
+
+- Ver y agregar animalitos publicados (para rescatistas y refugios):
+
+  ![ver-animalitos-publicados](/assets/images/commons/Desktop%20-%20Ver%20Animalitos.png)
+
+
+- Ver tu historial de mascotas adoptadas y aprobadas: lista de mascotas adoptadas con fecha y adoptante (para rescatistas y refugios)
+  
+  - historial completo:
+  ![ver-historial](/assets/images/commons/Desktop%20-%20Ver%20historial.png) 
+
+  - historial detallado específico de una mascota en concreto:
+  ![ver-especifica-mascota-historial](/assets/images/commons/Desktop%20-%20Ver%20la%20mascota%20historial.png)
+
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 Flujo desde el registro hasta la adopción:
 Usuario se registra → busca mascota → guarda favoritas → solicita adopción → recibe notificación.
