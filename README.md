@@ -1,4 +1,4 @@
-# DevsConClase
+![image](https://github.com/user-attachments/assets/0e919768-1b33-4177-8956-1105ecf1093d)# DevsConClase
 
 Product: Patita Solidaria 
 
@@ -1432,78 +1432,94 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ##### 5.2.1.1. Sprint Planning 1
 
-En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Se incluye el resumen del planning, acompañado del objetivo del sprint y las user stories seleccionadas.
+En esta sección se detallan los aspectos principales de la reunión de planificación del Sprint 1 del proyecto “Patita Solidaria”. Se priorizó el diseño e implementación de la Landing Page inicial y la visualización de perfiles informativos de mascotas, enfocándose en usabilidad, diseño adaptable y estructura de navegación básica.
 
----
+| Elemento                                | Detalle                                                                                   |
+|-----------------------------------------|-------------------------------------------------------------------------------------------|
+| **Sprint #**                             | Sprint 1                                                                                 |
+| **Date**                                 | 2025-04-05                                                                               |
+| **Time**                                 | 07:00 PM                                                                                 |
+| **Location**                             | Google Meet (virtual)                                                                    |
+| **Prepared By**                          | Carlos Andrés, Coca Lavado                                                               |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar(desarrolladora principal del sprint)                        |
+| **Sprint n – 1 Review Summary**          | No aplica (este es el primer Sprint)                                                     |
+| **Sprint n – 1 Retrospective Summary**   | No aplica (no hay iteración anterior para retroalimentación)                             |
+| **Sprint n Goal**                        | Construir y estilizar la Landing Page y vistas individuales de mascotas, asegurando diseño responsive y navegación funcional |
+| **Sprint n Velocity**                    | 5 Story Points                                                                           |
+| **Sum of Story Points**                  | 5                                                                                        |
 
-#### Sprint #1
-
-### Sprint Planning Background
-
-| Elemento                            | Detalle                                                                                      |
-|-------------------------------------|----------------------------------------------------------------------------------------------|
-| **Date**                            | 2025-04-22                                                                                   |
-| **Time**                            | 06:00 PM                                                                                     |
-| **Location**                        | Reunión virtual vía Google Meet                                                              |
-| **Prepared By**                     | Lecca Villalobos Pedro Omar                                                                  |
-| **Attendees (to planning meeting)** | Carlos Andrés Coca / Diego Rosado / Arnold Morales / Carlo Ramírez / Sebastián Carbajal     |
-| **Sprint n – 1 Review Summary**     | No aplica, este es el primer sprint del equipo.                                              |
-| **Sprint n – 1 Retrospective Summary** | N/A                                                                                         |
-
----
-
-### Sprint Goal & User Stories
-
-#### Sprint Goal
-
-> **Our focus is on** delivering the minimum viable version of the landing page for the Pata Solidaria platform.  
-> **We believe it delivers** visibility, credibility and early engagement to potential users and stakeholders.  
-> **This will be confirmed when** the landing page is deployed on GitHub Pages with basic content, branding, and links to core sections.
-
-#### Sprint Velocity
-
-El equipo ha definido una velocidad de **10 Story Points** para este primer Sprint.
-
-#### Sum of Story Points
-
-| ID | Descripción                                                                                                  | Estimación |
-|----|--------------------------------------------------------------------------------------------------------------|------------|
-| 01 | Como adoptante, quiero crear una cuenta para ingresar a la aplicación.                                       | 3 pts      |
-| 02 | Como adoptante, quiero iniciar sesión con mi usuario y contraseña.                                           | 2 pts      |
-| 08 | Como refugio, quiero registrar nuevas mascotas con sus datos y fotos, para que estén visibles en la plataforma. | 5 pts      |
-
-**Total: 10 Story Points**
 
 ### 5.2.1.3. Sprint Backlog 1
 
-El objetivo principal de este Sprint es implementar la **versión mínima viable (MVP)** de la Landing Page de *Pata Solidaria*, con enfoque en el diseño visual, estructura en HTML/CSS, lógica básica de interacción (JavaScript) y funciones iniciales de registro/login. Para ello, se han desglosado las User Stories seleccionadas en tareas concretas, distribuidas entre los miembros del equipo.
+Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundamentales para la experiencia del usuario adoptante y la presentación visual del sistema. A continuación, se detallan las tareas asociadas a las historias de usuario priorizadas para este Sprint.
 
-A continuación se presenta la tabla con los Work-Items / Tasks definidos para este Sprint:
+| User Story ID | User Story Title             | Task ID  | Task Title                                                    | Description                                                                                       | Estimation (Hours) | Assigned To   | Status     |
+|---------------|------------------------------|----------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------|----------------|------------|
+| US01          | Registro de cuenta           | T01-01   | Diseño de formulario de registro                              | Maquetación básica del formulario HTML con campos requeridos.                                    | 2                  | Pedro Lecca    | Done      |
+| US01          | Registro de cuenta           | T01-02   | Validaciones básicas (JS)                                     | Validar campos obligatorios y formato de email.                                                   | 2                  | Pedro Lecca    | Done      |
+| US01          | Registro de cuenta           | T01-03   | Estilos personalizados                                        | Aplicación de estilos coherentes con la landing (`index.css`).                                   | 1                  | Pedro Lecca    | Done      |
+| US02          | Iniciar sesión               | T02-01   | Diseño de formulario de login                                 | HTML del formulario con campos de acceso.                                                         | 2                  | Pedro Lecca    | Doneo      |
+| US02          | Iniciar sesión               | T02-02   | Validaciones de campos (JS)                                   | Verificación de campos vacíos y formato de usuario.                                               | 2                  | Pedro Lecca    | Done      |
+| US02          | Iniciar sesión               | T02-03   | Integración visual con estilos globales                       | Estilos de formulario de login y botón de acción.                                                 | 1                  | Pedro Lecca    | Done      |
+| US04          | Buscar mascotas              | T04-01   | Diseño de filtros de búsqueda y menú lateral                  | Estructura y estilo visual del sistema de filtros.                                                | 2                  | Pedro Lecca    | Done       |
+| US04          | Buscar mascotas              | T04-02   | Funcionalidad de filtros dinámicos                            | Activación de filtros por sexo, edad, tamaño, etc.                                                | 2                  | Pedro Lecca    | Done       |
+| US04          | Buscar mascotas              | T04-03   | Barra de búsqueda y ordenamiento                             | Input para búsqueda por nombre y `select` para orden alfabético.                                 | 2                  | Pedro Lecca    | Done       |
+| US05          | Ver perfil de mascota        | T05-01   | Estructura del HTML para perfiles individuales                | Maquetación de `luna.html`, `toribio.html`, etc.                                                  | 3                  | Pedro Lecca    | Done       |
+| US05          | Ver perfil de mascota        | T05-02   | Aplicación de estilos CSS                                     | Aplicación de `perfil-mascota.css` y `mascotas.css` para diseño responsive.                      | 3                  | Pedro Lecca    | Done       |
+| US10          | Publicar mascota en adopción | T10-01   | Diseño de estructura estática de ficha de adopción            | HTML simulado de mascota publicada enlazada desde galería.                                       | 3                  | Pedro Lecca    | Done       |
+| US10          | Publicar mascota en adopción | T10-02   | Conexión a galería de `mascotas.html`                         | Integración de enlaces desde galería a páginas individuales.                                     | 3                  | Pedro Lecca    | Done       |
 
-| **Sprint #** | **Sprint 1**                                                                                                           |
-|--------------|-------------------------------------------------------------------------------------------------------------------------|
 
-| **User Story** | **Work-Item / Task**                                                                                               |   |   |   |   |   |
-|---------------|------------------------------------------------------------------------------------------------------------------------|---|---|---|---|---|
-| **Id** | **Title**                            | **Id** | **Title**                                    | **Description**                                      | **Estimation (Hours)** | **Assigned To** | **Status**               |
-| 01      | Registro de cuenta                  | T01     | Crear formulario de registro en HTML           | Estructurar campos (nombre, correo, contraseña)     | 3                       | rhylow          | In-Process               |
-|         |                                     | T02     | Validar datos en JS                            | Validar campos obligatorios                         | 2                       | rhylow     | To-do                    |
-|         |                                     | T03     | Estilizar formulario con CSS                   | Aplicar colores y tipografía de marca               | 1.5                     | rhylow    | To-do                    |
-| 02      | Iniciar sesión                      | T04     | Crear formulario de login                      | Estructura HTML básica de inicio de sesión          | 2                       | rhylow        | To-do                    |
-|         |                                     | T05     | Validar credenciales con JS                    | Lógica básica de autenticación simulada             | 2                       | rhylow     | To-do                    |
-| 08      | Publicar mascota en adopción        | T06     | Crear estructura de formulario de mascota      | Datos básicos + imagen                              | 3                       | diegoroip       | To-do                    |
-|         |                                     | T07     | Estilo visual del perfil de mascota            | CSS layout responsive                               | 2                       | MrAndres08DV    | To-do                    |
-|         |                                     | T08     | Subida simulada de imagen                      | Previsualización usando JavaScript                  | 1.5                     | rhylow          | To-do                    |
-| ---     | Task global sin User Story directa  | T09     | Estructura HTML de la landing page             | Header, sección principal, footer                   | 3.5                     | Carlo211        | To-do                    |
-|         |                                     | T10     | Despliegue en GitHub Pages                     | Publicación inicial de la landing                   | 1.5                     | Arnold24x24     | To-do                    |
-
----
-
-**Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas, se detecten dependencias técnicas o se requiera redistribución de carga. La priorización de tareas sigue el criterio de impacto visual inmediato para una primera entrega funcional de la Landing Page.
+**Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas.
 
 ##### 5.2.1.3. Development Evidence for Sprint Review
 
+Durante este Sprint se realizaron múltiples avances en la implementación de la solución, particularmente en la construcción de la Landing Page, formularios de autenticación y perfiles de mascotas. A continuación, se presenta la evidencia de commits relacionados al Sprint 1.
+
+| Repository                               | Branch | Commit Id | Commit Message                         | Commit Message Body                                                                 | Committed on (Date) |
+|------------------------------------------|--------|-----------|----------------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| DevsConClase-PatitaSolidaria/LandingPage | main   | caf624c   | **feat:** add login & register validations | Se agregaron validaciones en tiempo real para los formularios de login y registro. | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 1cb30a6   | **feat:** add login & register design     | Se diseñaron las páginas de login y registro con estilos consistentes.             | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 8244e03   | **refactor:** remove obsolete login.html  | Se eliminó el archivo login.html obsoleto.                                          | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 2f14fee   | **refactor:** remove unused login.css     | Se eliminó el archivo login.css no utilizado.                                       | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 301b6d2   | **fix:** update mascotas.html             | Se actualizó la página de mascotas con nuevos datos y mejoras de diseño.            | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | baa1afe   | **style:** update index.html for navigation | Se realizaron ajustes en la página principal para mejorar la navegación.            | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | bf46def   | **feat:** initial commit for Landing Page v1 | Se agregaron todas las páginas de la Landing Page en su versión inicial.         | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | e086ca2   | **data:** add animal adoption data        | Se incorporaron datos de animales para la sección de adopciones.                    | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 7071f55   | **feat:** add mascotas.js for dynamic filters | Se añadió el script mascotas.js para funcionalidad de filtros.                   | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | cc9be84   | **feat:** add hamburger menu for responsive nav | Se implementó el menú hamburguesa en `index.html` para dispositivos móviles.     | 2025-04-24           |
+
 ##### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+Durante este Sprint se logró implementar de forma funcional las vistas clave del sistema web “Patita Solidaria”, enfocándose en ofrecer una experiencia inicial de navegación completa para los usuarios adoptantes. Las vistas fueron desarrolladas con estructura HTML, estilos personalizados y validaciones en tiempo real mediante JavaScript.
+
+---
+
+- **Landing Page principal (index.html)**: incluye secciones de bienvenida, quienes somos, beneficios, perfiles de usuarios y llamado a la acción.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index.png">
+
+- **Página de búsqueda de mascotas (mascotas.html)**: galería con tarjetas dinámicas de mascotas, filtros por características, y campo de búsqueda.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/mascotas.png">
+
+- **Perfiles individuales de mascotas (guapisimo.html, luna.html, etc.)**: fichas con información detallada y botones de contacto.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/perfiles.png">
+
+- **Formulario de inicio de sesión (login.html)**: diseño estilizado con validaciones JS al enviar el formulario.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/login.png">
+  
+- **Formulario de registro (register.html)**: incluye validaciones de contraseña, confirmación y términos requeridos.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/register.png">
+
+---
+
+**Video de navegación y ejecución**  
+Enlace al video explicativo con la ejecución completa del Sprint 1:  
+[https://youtu.be/GnGUlkga2v4?si=MECXe7OqUcTiwZhL](https://youtu.be/GnGUlkga2v4?si=MECXe7OqUcTiwZhL)
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
