@@ -1115,7 +1115,8 @@ Botones destacados y secciones bien diferenciadas visualmente.
  - Incorrect password Wireframe:
    ![incorrect-password](/assets/images/commons/incorrect%20password%20Wireflow.png)
 
- - Reset password Wireframe:
+ - Reset password Wireframe: digitas tu correo vinculado a tu cuenta, luego lo confirmas mediante un enlace mandado al correo digitado que requiere el 
+   cambio (debe existir una cuenta para hacerlo, sino no saldrá nada en el correo) y podrás seguir con el cambio de contraseña.
    ![reset-password](/assets/images/commons/Reset%20password%20Wireflow.png)
 
  - Reset password Wireframe #2:
