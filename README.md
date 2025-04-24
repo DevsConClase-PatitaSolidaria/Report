@@ -40,7 +40,7 @@ Product: Patita Solidaria
 |---------|----------|--------------|--------------------------------------------------------------------|
 | TB1     | 09/04/25 | Diego Rosado | Creación organización y repositorios en GitHub para proyecto final |
 | TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final       |
-| TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe                              | 
+| TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe e implementación del diagrama de clases y el diccionario de clases| 
 | TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 del informe                              |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                | 
 
@@ -59,7 +59,7 @@ TB1:<br>
 |Integrante| Tarea Asignada                             |
 |-|--------------------------------------------|
 |Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
-|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento, desarrollo del informe de participación|
+|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento e implementación del diagrama de clases y el diccionario de clases|
 |Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento|
 |Ramirez Escalante, Carlo Patricio | Desarrollo del Capitulo 3 del documento|
 |Morales Sosa, Arnold Gabriel | Desarrollo del Capitulo 4 del documento, desarrollo del figma| 
