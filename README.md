@@ -44,8 +44,7 @@ Product: Patita Solidaria
 | TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 del informe                              |
 | TB1     | 20/04/25 | Pedro Lecca  | Documentación completa (5.2.1 -  5.2.1.8)                          |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                | 
-| TB1     | 24/04/25 | Diego Rosado | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática
-, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping       |
+| TB1     | 24/04/25 | Diego Rosado | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping       |
 
 ## Project Report Collaboration Insights
 
