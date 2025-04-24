@@ -1115,12 +1115,18 @@ Botones destacados y secciones bien diferenciadas visualmente.
 - Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, y botón para registrarse.
 ![Register-Wireframe](/assets/images/commons/Register%20Wireflow.png)
 
-- Web application find pets Adopters: Este wireframe muestra la pantalla de bienvenida, animales disponibles para adopción, una barra en la que se puede acceder a la landing page desde home, al buscador de mascotas, tu perfil y un apartado para donaciones, también aparece el formulario para que puedan aceptarte más rápido a la hora de solcitar adoptar a una mascota. Por último, está la sección de poder ve las reviews y nuestras redes sociales como startup.
+- Web application Adopters: Este wireframe muestra la pantalla de bienvenida, animales disponibles para adopción, una barra en la que se puede acceder a la landing page desde home, al buscador de mascotas, tu perfil y un apartado para donaciones, también aparece el formulario para que puedan aceptarte más rápido a la hora de solcitar adoptar a una mascota. Por último, está la sección de poder ve las reviews y nuestras redes sociales como startup.
+  
 ![adopters-Wireframe](/assets/images/commons/Web%20application%20Adopters.png)
-Estructura de páginas clave: búsqueda de mascotas, perfil de mascota, formulario de solicitud, panel de refugio, administración de usuarios.
+
+
+- Web application Rescuers: Este wireframe muestra la pantalla de bienvenida y más opciones para que el rescatista pueda ubicarse fácilmente a donde quiere ir.
 
 ![rescuers-Wireframe](/assets/images/commons/Web%20application%20Rescuers.png)
 
+
+- Web application Animal Shelter: Este wireframe muestra la pantalla de bienvenida y más opciones para que el usuario dueño o trabajador de un refugio pueda ubicarse fácilmente a donde quiere ir.
+    
 ![animal shelters-Wireframe](/assets/images/commons/Web%20application%20animal%20shelter.png)
 
 #### 4.4.2. Web Applications Wireflow Diagrams
