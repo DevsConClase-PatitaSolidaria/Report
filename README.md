@@ -42,6 +42,7 @@ Product: Patita Solidaria
 | TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final       |
 | TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe e implementación del diagrama de clases y el diccionario de clases| 
 | TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 del informe                              |
+| TB1     | 20/04/25 | Pedro Lecca  | Documentación completa (5.2.1 -  5.2.1.8)                          |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                | 
 
 ## Project Report Collaboration Insights
@@ -60,7 +61,7 @@ TB1:<br>
 |-|--------------------------------------------|
 |Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
 |Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento e implementación del diagrama de clases y el diccionario de clases|
-|Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento|
+|Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento, desarrollo de todo el punto 5.2.1 y sus subpuntos|
 |Ramirez Escalante, Carlo Patricio | Desarrollo del Capitulo 3 del documento|
 |Morales Sosa, Arnold Gabriel | Desarrollo del Capitulo 4 del documento, desarrollo del figma| 
 
@@ -163,8 +164,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales.                                                                                                               | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución                                                                                                                                                                                                     |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. |
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br>**Pedro Omar Lecca Villalobos** <br> TB1: Durante el desarrollo del informe y las evidencias del Sprint 1, he estructurado técnicamente los entregables de manera clara y coherente para facilitar su presentación oral.                                                                                                           | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución <br><br><br>**Pedro Omar Lecca Villalobos** <br> TB1: La forma en que desarrolle los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.                                                                                                                                                                                                    |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> Además, desarrolle y documentó completamente los puntos 5.2.1.1 al 5.2.1.8 del Sprint 1, incluyendo commits, validaciones JS, despliegue en GitHub Pages y evidencias Markdown. | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. |
 
 ## Capítulo I: Introducción
 
@@ -1593,10 +1594,15 @@ Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de us
 ### Capturas de Evidencia del Despliegue
 
 - C1: Vista general de la Landing Page desplegada
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index1.png">
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/index2.png">
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/index3.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index4.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index5.png">
 
 - 2: Página de registro funcional en producción
 
@@ -1624,11 +1630,9 @@ Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de us
 
 Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada por **Pedro Lecca**, quien asumió todas las funciones de diseño, codificación, validación y despliegue de la solución.
 
-| Integrante | Acciones realizadas durante el sprint 1 |
-| Lecca Pedro | - Desarrollo de toda la interfaz HTML y maquetado CSS
-- Implementación de validaciones en JavaScript
-- Estructura de carpetas y componentes
-- Subida al repositorio y despliegue |
+| Integrante   | Acciones realizadas durante el Sprint 1 |
+|--------------|------------------------------------------|
+| Lecca Pedro  | - Desarrollo de toda la interfaz HTML y maquetado CSS<br>- Implementación de validaciones en JavaScript<br>- Estructura de carpetas y componentes<br>- Subida al repositorio y despliegue |
 
 ### Evidencia de colaboración en GitHub (Sprint 1)
 
