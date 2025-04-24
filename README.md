@@ -1183,7 +1183,7 @@ Botones destacados y secciones bien diferenciadas visualmente.
 
 #### 4.4.2. Web Applications Wireflow Diagrams
 
-## User Goal: Registro e Inicio de Sesión
+##### User Goal: Registro e Inicio de Sesión
 
 User Persona: Adoptantes y rescatistas/refugio
 
@@ -1193,7 +1193,14 @@ El usuario accede a la aplicación desplegada y visualiza un formulario que soli
 
 ![wireflow-inicio-sesión](/assets/images/commons/wireflow%20inicio%20de%20sesion.png)
 
+##### User Goal: Navegación Rápida a Funciones Principales
+User Persona: Adoptantes y rescatistas/refugio
 
+Explicación del Flujo:
+
+El usuario puede navegar de manera rápida e intuitiva por las secciones principales de la plataforma. Si es adoptante, podrá acceder a su "perfil" y editarlo con toda la información posible para que los rescatistas o refugios puedan tenerle mayor confianza. Además, puede buscar y filtrar las mascotas que quiera adoptar, puede ver recomendaciones de animales basado en búsquedas anteriores y preferencias, puede actualizar sus preferencias de adopción, puede ver el estado del proceso de adopción y puede ver el historial médico de cualquier mascota de su interés. Si es rescatista o del refugio, tienen la opción de publicar una mascota que requiere dueño, editar dicha información, borrar si es necesario o si tuvieron algún error. También pueden ver el historial de las mascotas que ya han sido adoptadas y limpiar dicho historial si quiere, ver solicitudes de adopción recibidas y rechazarlas o aceptar las solicitudes según convenga. 
+
+![wireflow-funciones-principales](/assets/images/commons/wireflow%20funciones.png)
 #### 4.4.3. Web Applications Mock-ups
 Pantallas diseñadas con la identidad visual definida.
 Uso de cards para mostrar mascotas, formularios intuitivos, paneles organizados.
