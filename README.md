@@ -1080,7 +1080,7 @@ Botones destacados y secciones bien diferenciadas visualmente.
 
 ![Landing-Page-Mockup](/assets/images/commons/LandingPage-Mockup.png)
 
-![Landing-Page-Movil-Mockup](/assets/images/commons/LandingPage%20Movil-Mockup.png)
+![Landing-Page-Movil-Mockup](/assets/images/commons/LandingPage-Mockup.png)
 
 
 ### 4.4. Web Applications UX/UI Design
@@ -1179,9 +1179,16 @@ Explicación del Flujo:
 El usuario puede navegar de manera rápida e intuitiva por las secciones principales de la plataforma. Si es adoptante, podrá acceder a su "perfil" y editarlo con toda la información posible para que los rescatistas o refugios puedan tenerle mayor confianza. Además, puede buscar y filtrar las mascotas que quiera adoptar, puede ver recomendaciones de animales basado en búsquedas anteriores y preferencias, puede actualizar sus preferencias de adopción, puede ver el estado del proceso de adopción y puede ver el historial médico de cualquier mascota de su interés. Si es rescatista o del refugio, tienen la opción de publicar una mascota que requiere dueño, editar dicha información, borrar si es necesario o si tuvieron algún error. También pueden ver el historial de las mascotas que ya han sido adoptadas y limpiar dicho historial si quiere, ver solicitudes de adopción recibidas y rechazarlas o aceptar las solicitudes según convenga. 
 
 ![wireflow-funciones-principales](/assets/images/commons/wireflow%20funciones.png)
+
+
 #### 4.4.3. Web Applications Mock-ups
-Pantallas diseñadas con la identidad visual definida.
-Uso de cards para mostrar mascotas, formularios intuitivos, paneles organizados.
+
+##### Web application Adopters - Mockup:
+![adopters-Mockup](/assets/images/commons/Web%20application%20Adopters%20-%20Mockup.png)
+
+##### Web Application Rescuers/Animal-Shelter Mock-up:
+![Rescuers-Mockup](/assets/images/commons/Web%20application%20Rescuers%20-%20Mockup.png)
+
 
 #### 4.4.4. Web Applications User Flow Diagrams
 Diagramas de flujo centrados en tareas:
