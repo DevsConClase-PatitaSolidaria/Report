@@ -1116,7 +1116,6 @@ Link de Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2740810
 ### 4.1. Style Guidelines.
 
 #### 4.1.1. General Style Guidelines
-**Branding:**
 
 **Overview:** El diseño web es una parte fundamental de nuestro proyecto. Debe ser consistente con lo que queremos transmitir como empresa, así como agradable y fácil de procesar por los usuarios.
 
