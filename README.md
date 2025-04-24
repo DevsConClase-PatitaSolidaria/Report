@@ -1,6 +1,6 @@
 # DevsConClase
 
-Product: Pata Solidaria 
+Product: Pata Solidaria
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
@@ -40,7 +40,7 @@ Product: Pata Solidaria
 |---------|----------|--------------|--------------------------------------------------------------------|
 | TB1     | 09/04/25 | Diego Rosado | Creación organización y repositorios en GitHub para proyecto final |
 | TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final       |
-| TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe e implementación del diagrama de clases y el diccionario de clases| 
+| TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe                              | 
 
 ## Project Report Collaboration Insights
 
@@ -54,10 +54,10 @@ Product: Pata Solidaria
 
 TB1:<br>
 
-|Integrante| Tarea Asignada                             |
-|-|--------------------------------------------|
-|Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
-|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento e implementación del diagrama de clases y el diccionario de clases|
+|Integrante| Tarea Asignada                              |
+|-|---------------------------------------------|
+|Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial, |
+|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento, desarrollo del informe de participación|
 ## Contenido
 
 ## Tabla de contenidos
@@ -156,10 +156,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-| Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                  | Conclusiones                                                                                                                                                                                                                                                                 |
-|------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución                                                                                                                                                            |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector.                                                                                                                           | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. |
+| Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                              | Conclusiones                                                                                                                                                                                                                                                                 |
+|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet,                                                                                                                                 | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno                                                                                                                                                                                                             | 
+|                                                                       | **Carlos Andrés Coca Lavado**<br> TB1: <br> Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. | **Carlos Andrés Coca Lavado**<br> TB1: <br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución                         |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector.                       | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. |
 
 ## Capítulo I: Introducción
 
@@ -178,6 +179,8 @@ Brindar una solución digital que promueva la adopción responsable de mascotas 
 Ser la plataforma líder en Perú en conectar hogares con mascotas que necesitan una segunda oportunidad, revolucionando el proceso de adopción con empatía, innovación y compromiso social, y transformando vidas a través de la tecnología.
 
 #### 1.1.2. Perfiles de integrantes del equipo
+
+- Diego Alonso Rosado Iporre -   u201620127
 
 | <p align="center"><img width="auto" height="auto" src="assets/images/commons/Diegoprofile.jpg"> </p> | Mi nombre es Diego Rosado, tengo 25 años. Mi interés en las base de datos y arquitectura de páginas web me impulsó a estudiar Ingeniería de Software. Tengo conocimiento de lenguajes como C#, C++, JavaScript, Python, base de datos como MySQL y me atrae el diseño de páginas web con HTML y CSS. Me considero una persona positiva, tolerante y creativa. Mi aporte al grupo es mi total compromiso, apoyo mutuo y el esfuerzo por asegurar que todos tengamos una visión compartida del proyecto a elaborar. Mis habilidades son resolución de problemas, adaptabilidad, trabajo en equipo y toma de decisiones. |
 |------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -440,35 +443,6 @@ Aspectos psicográficos:
 ### 4.7. Software Object-Oriented Design
 
 #### 4.7.1. Class Diagrams
-
-<p align="center"><img width="auto" height="auto" src="assets/images/commons/Patita Solidaria UML.png"> </p>
-
-#### 4.7.2. Class Dictionary
-
-|Clase|Descripción|Atributos|Metodos|
-|-----|-----------|---------|-------|
-|Usuario (Interface)|Interface base para todos los usuarios.|No presenta atributos|autenticar(), completarPerfil()|
-|UsuarioBase (Abstracta)|Clase base para Adoptante, Refugio y Rescatista.|id: string, correo: string, contrasena: string|Hereda los metodos de la clase Usuario|
-|Adoptante|Usuario que desea adoptar una mascota.|Hereda de UsuarioBase|completarFormulario(), verEstadoSolicitud()|
-|Refugio|Institución que aloja y da en adopción mascotas.|ruc: string (además de atributos heredados)|registrarMascota(), validarCertificado()|
-|Rescatista|Usuario que rescata y registra mascotas.|Hereda de UsuarioBase|registrarMascota()|
-|UsuarioFactory|Crea instancias de usuarios.|No presenta atributos|crearUsuario(tipo: string): UsuarioBase|
-|Mascota|Representa una mascota del sistema.|id: string, nombre: string, descripcionEmocional: string, necesidadesEspeciales: bool, disponible: bool, fotos: List<string>, historial: List<HistorialMedico>|agregarFoto(), actualizarEstado(), agregarHistorial()|
-|HistorialMedico|Guarda registros médicos de una mascota.|fecha: string, detalle: string, veterinario: string|No presenta metodos|
-|FormularioAdopcion|Cuestionario respondido por el adoptante.|idAdoptante: string, idMascota: string, respuestas: List<string>, estado: string|evaluar(), notificar()|
-|SolicitudAdopcion|Solicitud formal de adopción, con lógica de estado.|estado: EstadoSolicitud, adoptante: Adoptante, mascota: Mascota|aprobar(), rechazar(), cambiarEstado()|
-|EstadoSolicitud (Interface)|Representa los estados de la solicitud de adopción.|no presenta atributos|manejar()|
-|EstadoEnRevision|Estado inicial donde se revisa la solicitud.|No presenta atributos|manejar()|
-|EstadoAprobada|Estado cuando se aprueba la solicitud.|no presenta atributos|manejar()|
-|EstadoRechazada|Estado cuando se rechaza la solicitud.|no presenta atributos|manejar()|
-|Observador (Interface)|Observador que reacciona a eventos.|No presenta atributos|actualizar()|
-|Notificador|Publicador que notifica a todos los observadores.|observadores: List<Observador>|agregarObservador(), notificarTodos()|
-|NotificacionEstado|Observador concreto que reacciona a cambios de estado.|No presenta atributos|actualizar()|
-|EstrategiaVerificacion (Interface)|Estrategia general para verificar documentos.|no presenta atributos|verificar()|
-|VerificadorDNI|Verifica usando DNI.|no presenta atributos|verificar()|
-|VerificadorAPIOnfido|Verifica usando API externa Onfido.|No presenta atributos|verificar()|
-|VerificadorAPIValidarID|Verifica usando otra API externa.|no presenta atributos|verificar()|
-|SistemaVerificacion|Utiliza una estrategia de verificación que puede cambiar dinámicamente.|estrategia: EstrategiaVerificacion|setEstrategia(e), verificar()|
 
 ### 4.8. Database Design
 
