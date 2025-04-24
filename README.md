@@ -1182,9 +1182,17 @@ Botones destacados y secciones bien diferenciadas visualmente.
 
 
 #### 4.4.2. Web Applications Wireflow Diagrams
-Flujo desde el registro hasta la adopción:
-Usuario se registra → busca mascota → guarda favoritas → solicita adopción → recibe notificación.
-Refugio publica mascota → recibe solicitud → acepta/rechaza → se actualiza estado.
+
+## User Goal: Registro e Inicio de Sesión
+
+User Persona: Adoptantes y rescatistas/refugio
+
+Explicación del Flujo:
+
+El usuario accede a la aplicación desplegada y visualiza un formulario que solicita su correo electrónico y contraseña. Una vez que se ingresan las credenciales, el sistema valida la información. Si la autenticación es exitosa, el usuario es redirigido a la página principal de su perfil. Si las credenciales son incorrectas, el sistema muestra un mensaje de error y permanece en la pantalla de inicio de sesión. En ese momento, el usuario tiene la opción de reintroducir sus credenciales o seleccionar “Olvidé mi contraseña” para iniciar el proceso de restablecimiento.
+
+![wireflow-inicio-sesión](/assets/images/commons/wireflow%20inicio%20de%20sesion.png)
+
 
 #### 4.4.3. Web Applications Mock-ups
 Pantallas diseñadas con la identidad visual definida.
