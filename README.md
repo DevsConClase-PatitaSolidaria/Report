@@ -1432,7 +1432,74 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ##### 5.2.1.1. Sprint Planning 1
 
-##### 5.2.1.2. Sprint Backlog 1
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting. Se incluye el resumen del planning, acompañado del objetivo del sprint y las user stories seleccionadas.
+
+---
+
+#### Sprint #1
+
+### Sprint Planning Background
+
+| Elemento                            | Detalle                                                                                      |
+|-------------------------------------|----------------------------------------------------------------------------------------------|
+| **Date**                            | 2025-04-22                                                                                   |
+| **Time**                            | 06:00 PM                                                                                     |
+| **Location**                        | Reunión virtual vía Google Meet                                                              |
+| **Prepared By**                     | Lecca Villalobos Pedro Omar                                                                  |
+| **Attendees (to planning meeting)** | Carlos Andrés Coca / Diego Rosado / Arnold Morales / Carlo Ramírez / Sebastián Carbajal     |
+| **Sprint n – 1 Review Summary**     | No aplica, este es el primer sprint del equipo.                                              |
+| **Sprint n – 1 Retrospective Summary** | N/A                                                                                         |
+
+---
+
+### Sprint Goal & User Stories
+
+#### Sprint Goal
+
+> **Our focus is on** delivering the minimum viable version of the landing page for the Pata Solidaria platform.  
+> **We believe it delivers** visibility, credibility and early engagement to potential users and stakeholders.  
+> **This will be confirmed when** the landing page is deployed on GitHub Pages with basic content, branding, and links to core sections.
+
+#### Sprint Velocity
+
+El equipo ha definido una velocidad de **10 Story Points** para este primer Sprint.
+
+#### Sum of Story Points
+
+| ID | Descripción                                                                                                  | Estimación |
+|----|--------------------------------------------------------------------------------------------------------------|------------|
+| 01 | Como adoptante, quiero crear una cuenta para ingresar a la aplicación.                                       | 3 pts      |
+| 02 | Como adoptante, quiero iniciar sesión con mi usuario y contraseña.                                           | 2 pts      |
+| 08 | Como refugio, quiero registrar nuevas mascotas con sus datos y fotos, para que estén visibles en la plataforma. | 5 pts      |
+
+**Total: 10 Story Points**
+
+### 5.2.1.3. Sprint Backlog 1
+
+El objetivo principal de este Sprint es implementar la **versión mínima viable (MVP)** de la Landing Page de *Pata Solidaria*, con enfoque en el diseño visual, estructura en HTML/CSS, lógica básica de interacción (JavaScript) y funciones iniciales de registro/login. Para ello, se han desglosado las User Stories seleccionadas en tareas concretas, distribuidas entre los miembros del equipo.
+
+A continuación se presenta la tabla con los Work-Items / Tasks definidos para este Sprint:
+
+| **Sprint #** | **Sprint 1**                                                                                                           |
+|--------------|-------------------------------------------------------------------------------------------------------------------------|
+
+| **User Story** | **Work-Item / Task**                                                                                               |   |   |   |   |   |
+|---------------|------------------------------------------------------------------------------------------------------------------------|---|---|---|---|---|
+| **Id** | **Title**                            | **Id** | **Title**                                    | **Description**                                      | **Estimation (Hours)** | **Assigned To** | **Status**               |
+| 01      | Registro de cuenta                  | T01     | Crear formulario de registro en HTML           | Estructurar campos (nombre, correo, contraseña)     | 3                       | rhylow          | In-Process               |
+|         |                                     | T02     | Validar datos en JS                            | Validar campos obligatorios                         | 2                       | rhylow     | To-do                    |
+|         |                                     | T03     | Estilizar formulario con CSS                   | Aplicar colores y tipografía de marca               | 1.5                     | rhylow    | To-do                    |
+| 02      | Iniciar sesión                      | T04     | Crear formulario de login                      | Estructura HTML básica de inicio de sesión          | 2                       | rhylow        | To-do                    |
+|         |                                     | T05     | Validar credenciales con JS                    | Lógica básica de autenticación simulada             | 2                       | rhylow     | To-do                    |
+| 08      | Publicar mascota en adopción        | T06     | Crear estructura de formulario de mascota      | Datos básicos + imagen                              | 3                       | diegoroip       | To-do                    |
+|         |                                     | T07     | Estilo visual del perfil de mascota            | CSS layout responsive                               | 2                       | MrAndres08DV    | To-do                    |
+|         |                                     | T08     | Subida simulada de imagen                      | Previsualización usando JavaScript                  | 1.5                     | rhylow          | To-do                    |
+| ---     | Task global sin User Story directa  | T09     | Estructura HTML de la landing page             | Header, sección principal, footer                   | 3.5                     | Carlo211        | To-do                    |
+|         |                                     | T10     | Despliegue en GitHub Pages                     | Publicación inicial de la landing                   | 1.5                     | Arnold24x24     | To-do                    |
+
+---
+
+**Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas, se detecten dependencias técnicas o se requiera redistribución de carga. La priorización de tareas sigue el criterio de impacto visual inmediato para una primera entrega funcional de la Landing Page.
 
 ##### 5.2.1.3. Development Evidence for Sprint Review
 
