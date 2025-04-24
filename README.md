@@ -1112,8 +1112,19 @@ Botones destacados y secciones bien diferenciadas visualmente.
 
 ![Login-Wireframe](/assets/images/commons/Login%20Wireflow.png)
 
-- Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, y botón para registrarse.
+ - Incorrect password Wireframe:
+   ![incorrect-password](/assets/images/commons/incorrect%20password%20Wireflow.png)
+
+ - Reset password Wireframe:
+   ![reset-password](/assets/images/commons/Reset%20password%20Wireflow.png)
+
+ - Reset password Wireframe #2:
+   ![reset-password-part2](/assets/images/commons/Reset%20password%20Wireflow%20%232.png)
+   
+
+- Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, tipo de usuario que va a usar la aplicación (adopter y animal shelter/rescue) y botón para registrarse.
 ![Register-Wireframe](/assets/images/commons/Register%20Wireflow.png)
+
 
 - Web application Adopters: Este wireframe muestra la pantalla de bienvenida, animales disponibles para adopción, una barra en la que se puede acceder a la landing page desde home, al buscador de mascotas, tu perfil y un apartado para donaciones, también aparece el formulario para que puedan aceptarte más rápido a la hora de solcitar adoptar a una mascota. Por último, está la sección de poder ve las reviews y nuestras redes sociales como startup.
   
