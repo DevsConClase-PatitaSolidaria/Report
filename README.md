@@ -1032,7 +1032,7 @@ En este punto se busca mostrar cómo los actores principales (refugios y adoptan
 
 ### 3.2. User Stories
 
-# EPICS para **Patita Solidaria**
+#### EPICS para **Patita Solidaria**
 
 | **EPIC (ID)** | **Título**                                                | **Descripción**                                                                                                                                                                          |
 |---------------|-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1110,167 +1110,54 @@ En este punto se busca mostrar cómo los actores principales (refugios y adoptan
 | EP06   |               | Gestión de Visitas y Aprobación de Adopción | Como refugio o rescatista, quiero poder gestionar las visitas de los adoptantes a las mascotas, programar citas y realizar la aprobación de la adopción, para asegurarme de que las mascotas estén en un ambiente adecuado y con adoptantes responsables. |  | 6 |
 | 21     | US18          | Gestionar usuarios (admin) | Como administrador, quiero gestionar cuentas de usuarios. | 8 | 6 |
 
+Link de Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2740810
+
 ## Capítulo IV: Product Design
 
 ### 4.1. Style Guidelines.
-Con base en los principios de diseño de DevsConClase, las "guías de estilo" describen los procedimientos para redactar, diseñar o presentar documentos, contenido web, software u otros trabajos creativos, describiendo parámetros esenciales como la identidad de marca, la paleta de colores, la tipografía. 
 
 #### 4.1.1. General Style Guidelines
 **Branding:**
 
-Patita Solidaria representa el compromiso, la empatía y la transformación social en el ámbito de la adopción responsable de mascotas. Nuestra plataforma está diseñada para conectar refugios, adoptantes y protectores, facilitando la creación de hogares amorosos para cada animal. Con servicios de gestión transparentes y una tecnología open source, buscamos potenciar la labor de quienes trabajan en favor del bienestar animal y brindar a cada mascota la oportunidad de encontrar un hogar seguro.
+**Overview:** El diseño web es una parte fundamental de nuestro proyecto. Debe ser consistente con lo que queremos transmitir como empresa, así como agradable y fácil de procesar por los usuarios.
 
-**Logotipo:**
+**Brand Name:** "Patita Solidaria" es un nombre que busca transmitir empatía, ternura y compromiso con el bienestar animal. Surge de nuestro deseo de tender una mano —o mejor dicho, una patita— a los animales en situación de vulnerabilidad, conectando a personas solidarias con causas que salvan vidas. Representa una comunidad unida por el amor a los animales, la acción responsable y el apoyo mutuo.
 
-El logotipo de Patita Solidaria se ha creado para comunicar de manera clara la misión y los valores fundamentales de la plataforma, fusionando elementos visuales que simbolizan el amor, la esperanza y la conexión con los animales:
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/LogoPatitaSolidaria.jpg">
 
-**Integración del Corazón:**
+**¿Qué debe tener?**
 
-La incorporación de un corazón entrelazado a los dos animales, enfatiza la empatía y el cariño que impulsa nuestra labor. Este detalle visual comunica que detrás de cada adopción está la pasión y el compromiso de ofrecer un hogar lleno de amor.
+1. Colores cálidos (beige, marrón suave, naranja pastel).
+2. Tipografía redondeada y amigable.
+3. Diseño simple y minimalista.
 
-**Integración del perro y gato:**
+**¿Qué no debe tener?**
 
-Para enfatizar la dedicación de la plataforma a la diversidad animal, el logotipo incorpora las imágenes de un perro y un gato juntos. Esta integración simboliza la unión y la inclusividad en la búsqueda de hogares amorosos, dejando claro que Patita Solidaria apoya tanto a perros como a gatos.
+1. Colores brillantes o estridentes.
 
-**Colores y Estética:**
+**Tipography:**
 
-Los colores predominantes en el logotipo se extraen de nuestra paleta: tonos cálidos y naturales que evocan calidez, esperanza y solidez. El uso de verdes, naranjas y tonos claros refuerza la conexión con la naturaleza y la empatía, consolidando la imagen de Patita Solidaria como una plataforma confiable, humanizada y comprometida con el bienestar animal.
+Open Sans.
 
-<p align="center"> <img src="/assets/images/commons/Logo%20Patita%20Solidaria.jpeg" alt="Logo Patita Solidaria" width="50%"> </p>
+![alt text](assets/images/commons/sans-typo.png)
 
-**Tipografías:**
+Elegimos Open Sans para todo el landing porque transmite claridad y modernidad, manteniendo una excelente legibilidad en cualquier dispositivo. Su estilo limpio y amigable crea una experiencia accesible para todos los usuarios, alineándose con los valores de cercanía y confianza de nuestra plataforma.
 
-Para garantizar una apariencia moderna, amigable y legible, hemos seleccionado la tipografía Open Sans para todos los textos, tanto en títulos como en cuerpo de contenido. Esta elección refuerza la identidad visual de Patita Solidaria, ofreciendo claridad y coherencia en cada interacción.
+**Buttons:**
 
-<p align="center"> <img src="/assets/images/commons/Open%20Sans.jpg" alt="Open Sans" width="50%"> </p>
-
+![alt text](assets/images/commons/buttons.png)
 
 **Paleta de Colores:**
 
 La selección de la paleta de colores de Patita Solidaria se fundamenta en principios estratégicos que refuerzan la identidad visual y la funcionalidad de la plataforma:
 
--Verde Oliva Suave (#A3B18A):
-Transmite esperanza y la conexión con la naturaleza, evocando la vitalidad y el cuidado.
-
--Tierra Clara / Beige Arena (#EDE6DB):
-Aporta calidez y naturalidad, creando una atmósfera acogedora y serena.
-
--Naranja Suave (#F4A261):
-Ideal para botones y llamados a la acción, este tono genera un efecto visual amigable y enérgico sin resultar agresivo.
-
--Verde Bosque (#588157):
-Se utiliza para encabezados y acentos, ofreciendo un matiz serio y confiable en la comunicación visual.
-
--Terracota (#D5896F):
-Representa la calidez y la empatía, reforzando el compromiso emocional hacia cada mascota.
-
--Marrón Claro / Toffee (#DDB892):
-Funciona como fondo de secciones, proporcionando estabilidad y una sensación de orden.
-
-<p align="center"> <img src="/assets/images/commons/colores.jpg" alt="Paleta de Colores" width="100%"> </p>
-
-
-
-**Tonos de Comunicación:**
-
-El estilo de comunicación en Patita Solidaria es esencial para crear una conexión genuina con los usuarios. Se establecen los siguientes lineamientos:
-
-
--Cercano y Empático:
-
-Adoptamos un tono amistoso y compasivo, que demuestre comprensión ante las necesidades y preocupaciones tanto de adoptantes como de refugios y protectores.
-
-
--Confianza y Profesionalismo:
-
-Si bien la comunicación es cercana, se mantiene un nivel de seriedad que transmita profesionalismo y seguridad en los procesos de adopción.
-
-
--Memorable y Reconocible:
-
-La identidad de marca debe ser única y fácil de recordar, permitiendo que Patita Solidaria se distinga en el mercado y sea recordada con cariño por los usuarios.
-
-
--Claro y Directo:
-
-El lenguaje empleado es simple, conciso y orientado a la acción, facilitando la comprensión y promoviendo la usabilidad de la plataforma.
-
-
-
-**Lenguaje Aplicado:**
-
-El lenguaje en nuestros textos es claro, accesible y directo, con el propósito de facilitar la interacción de usuarios de todas las edades y niveles de conocimiento tecnológico. Se evita la jerga excesivamente técnica y se prioriza un tono conversacional que invite a la acción y a la participación.
-
-
-**Marca:**
-
-El nombre Patita Solidaria evoca la esencia misma de la misión: brindar un hogar amoroso y seguro para cada patita. Es un juego de palabras que fusiona la ternura y la solidaridad, reflejando la idea de unión entre la tecnología, la comunidad y el bienestar animal.
-
-
-**Spacing:**
-
-El espaciado entre elementos es uniforme y equilibrado para generar una sensación de orden y armonía en la interfaz. Se recomienda:
-
-Espacios entre 0 y 16 px en los elementos del logotipo, garantizando legibilidad y consistencia.
-
-Márgenes de 20 px entre secciones principales y 10 px entre componentes individuales en todas las páginas.
-
-
-
-Esta actualización de las General Style Guidelines consolida la identidad visual y comunicacional de Patita Solidaria, asegurando que cada elemento – desde el logotipo hasta el uso de colores y tipografías – trabaje en conjunto para transmitir confianza, empatía y profesionalismo en el proceso de adopción de mascotas.
+<p align="center"> <img src="assets/images/commons/Colors.png" alt="Paleta de Colores" width="100%"> </p>
 
 ## 4.1.2. Web Style Guidelines
 
 **Patita Solidaria** se compromete a ofrecer una interfaz web que no solo sea atractiva, sino que también responda de manera impecable en distintos dispositivos, priorizando la usabilidad, la accesibilidad y la coherencia visual. A continuación, se detallan los lineamientos para garantizar una experiencia unificada y eficiente:
 
-### 1. Responsive Typography
-
-- **Tipografía principal:** Open Sans en todos los idiomas y dispositivos. Esta fuente sin serif ofrece un equilibrio perfecto entre profesionalismo y calidez, alineándose con nuestra identidad amigable.
-- **Escalado fluido de tamaños:** Utilizamos la técnica de "modular scale" para definir proporciones tipográficas armoniosas:
-
-  - Móvil (<480px): H1 = 2.5rem, H2 = 2rem, H3 = 1.75rem, cuerpo = 1rem.  
-  - Tablet (481–768px): H1 = 3rem, H2 = 2.5rem, H3 = 2rem, cuerpo = 1.125rem.  
-  - Desktop (>768px): H1 = 3.5rem, H2 = 3rem, H3 = 2.5rem, cuerpo = 1.25rem.
-
-- **Line-height y espaciado de letra:** 1.6 y letter-spacing de 0.5px para asegurar legibilidad.
-- **Adaptación contextual:** Títulos en pantallas pequeñas pueden truncarse con puntos suspensivos si exceden 2 líneas.
-
-### 2. Color Usage
-
-- **Primarios:** Verde Oliva Suave (#A3B18A), Naranja Suave (#F4A261).
-- **Secundarios:** Tierra Clara (#EDE6DB), Marrón Claro (#DDB892).
-- **Acentos:** Verde Bosque (#588157), Terracota (#D5896F).
-- **Contraste y accesibilidad:** Ratio mínimo de 4.5:1 entre texto y fondo.
-- **Estados de componentes:**
-  - Hover: Opacidad al 90% o desaturación de 10%.
-  - Active: Sombra interior sutil.
-  - Disabled: Grises suaves (#CCCCCC), cursor de espera.
-
-### 3. Spacing y Layout
-
-- **Sistema de grilla:** 12 columnas (desktop), 6 (tablet), 4 (móvil).
-- **Padding y márgenes:** Escalas modulares: 0.5rem, 1rem, 2rem, 4rem.
-- **Contenedores:** Máximo de 1200px, centrado.
-- **Stacking patterns:** Componentes apilados verticalmente en móviles.
-
-### 4. Componentes e Interactions
-
-- **Botones:** Border-radius de 8px, padding 0.75rem x 1.5rem.
-  - Primary: #F4A261 con texto #FFFFFF.
-  - Secondary: borde #588157.
-- **Forms & Inputs:** Borde 1px #A3B18A, border-radius 6px, placeholder #888888, focus #F4A261.
-- **Cards y Tiles:** Sombras suaves, border-radius 12px, hover con sombra elevada.
-- **Iconografía:** Íconos lineales en #588157, versión filled (#A3B18A).
-- **Micro-interactions:** Icono de "Favorito" con animación pulse, "Solicitud enviada" con toast notification (200ms).
-
-### 5. Accesibilidad
-
-- Navegación con teclado (TAB), outline visible.
-- ARIA labels y roles correctos.
-- Alt text descriptivo en imágenes.
-- Modo alto contraste (`prefers-contrast: more`).
-
----
+<p align="center"> <img src="assets/images/commons/WebStyle_Guide.png" alt="Web_Style_Guidelines" width="100%"> </p>
 
 ## 4.2. Information Architecture
 
@@ -1278,48 +1165,142 @@ La arquitectura de información (IA) en **Patita Solidaria** busca reducir la ca
 
 ### 4.2.1. Organization Systems
 
-- **Estructura basada en roles:** Adoptante, Refugio y Administrador con vistas diferenciadas.
-- **Mapas de sitio (Sitemap):**  
-  `Home → Search → Profile → Dashboard → Admin`
-- **Content Chunking:** Secciones temáticas: Hero, Benefits, How It Works, Testimonials, Donations.
-- **Progressive Disclosure:** Funciones avanzadas ocultas tras botón “More Filters”.
+Nuestro objetivo con Patita Solidaria es ofrecer una experiencia clara, accesible y emocionalmente conectada en nuestra página web y aplicación móvil. La estructura visual está diseñada para responder a las necesidades de nuestros dos segmentos clave: adoptantes y voluntarios solidarios.
+
+Este sistema está pensado para personas comprometidas con el bienestar animal. En Inicio, se presenta una galería de animales en adopción con perfiles destacados, mostrando fotos, historias breves y datos relevantes como edad, tamaño y estado de salud, permitiendo una conexión inmediata. También se incluyen llamados a la acción para apadrinar o colaborar, destacando casos urgentes o especiales.
+
+La sección de Adopciones permite aplicar filtros por ubicación, tipo de mascota, edad y necesidades especiales, facilitando la búsqueda de compañeros ideales. Cada ficha de animal incluye un botón de "Solicitar Adopción" y una estimación del tiempo de respuesta de los refugios, haciendo que el proceso sea más transparente y ágil.
+
+En Perfil, los usuarios gestionan sus solicitudes de adopción y notificaciones personalizadas sobre sus solicitudes.
+
+Por último, la estructura incluye accesos con ubicaciones de donación que priorizan la facilidad y la confianza en cada aporte.
+
+<p align="center"> <img src="assets/images/commons/Adoptante_system.png" alt="sistema de adoptante" width="100%"> </p>
+
+[Anexo B](#anexos)<br><br>
+
+Este segmento está diseñado para apoyar a refugios y rescatistas que trabajan día a día por el bienestar animal, facilitando la gestión de adopciones, difusión de casos urgentes y organización de sus actividades. En Inicio, pueden destacar animales recién rescatados o en busca urgente de hogar, personalizando la presentación con fotos, historia y necesidades especiales. Esta sección permite generar visibilidad inmediata y conectar con adoptantes potenciales.
+
+En Publicaciones, los refugios pueden crear y editar fichas de adopción, agregar detalles clave como estado de salud, vacunas, comportamiento y adjuntar imágenes o videos.
+
+La sección de Gestión de Adopciones brinda herramientas para hacer seguimiento de cada solicitud recibida, ordenar por estado (pendiente, en proceso, finalizada), y registrar observaciones sobre cada caso. Esto asegura un control detallado del flujo de adopciones y permite identificar cuellos de botella o necesidades específicas de apoyo.
+
+En Perfil, pueden configurar la información del refugio o perfil de rescatista, incluyendo contacto, ubicación, redes sociales y métodos de recepción de donaciones. También pueden recibir notificaciones sobre adopciones completadas, solicitudes nuevas o alertas sobre animales con pocos días en la plataforma.
+
+Con estas herramientas, Patita Solidaria busca reducir la carga administrativa y aumentar la efectividad de quienes están al frente del rescate y cuidado de animales, brindando una plataforma que entiende sus desafíos y potencia sus esfuerzos.
+
+<p align="center"> <img src="assets/images/commons/Refugio_system.png" alt="sistema de refugio/rescatista" width="100%"> </p>
+
+[Anexo C](#anexos)<br><br>
 
 ### 4.2.2. Labeling Systems
 
-- **Taxonomía clara:**  
-  Ej. "Adopt Now", "Search Pets", "My Favorites", "Donation Plan".
-- **UX Writing:** Lenguaje claro, orientado a la acción, sin jerga técnica.
-- **Icon + Label Combo:** Íconos + texto en todos los elementos de menú y botones.
+El equipo de Patita Solidaria optó por utilizar etiquetas claras, sencillas y coherentes con el propósito social de la plataforma. Estas etiquetas están diseñadas para facilitar la navegación tanto de adoptantes como de rescatistas y refugios, garantizando una experiencia accesible, empática y funcional. A continuación, se describen las principales secciones y sus funciones:
+
+* Inicio:<br>
+
+    Esta sección presenta casos destacados de animales en busca de adopción. Se incluye información básica del animal (nombre, edad, raza y estado de salud) y del refugio o rescatista a cargo.
+
+* Adopciones:<br>
+
+    En esta sección, los usuarios pueden explorar el catálogo completo de animales disponibles, filtrando por tipo, tamaño, edad, ubicación o necesidades especiales. Cada ficha incluye una galería de imágenes, historia del animal, requisitos para la adopción y un botón para enviar una solicitud directa. La gestión de adopciones permite a los refugios hacer seguimiento de cada proceso, desde la solicitud hasta la finalización.
+
+* Donaciones:<br>
+
+    Aquí se presentan distintas formas en que los usuarios pueden ayudar: donaciones monetarias y donación de insumos. Se incluye información clara sobre el destino de los aportes. 
+
+* Publicaciones: <br>
+
+    Las publicaciones pueden incluir imágenes, videos y descripciones detalladas. La gestión de publicaciones permite editar, actualizar o eliminar contenido según sea necesario.
+
+* Perfil:<br>
+
+    En esta sección, tanto usuarios adoptantes como refugios pueden personalizar su experiencia. Se permite actualizar información de contacto, cargar foto de perfil, definir preferencias (tipo de animales de interés, zonas de adopción, formas de ayuda), y gestionar notificaciones. Los refugios también pueden configurar métodos de recepción de donaciones y administrar su presencia en la plataforma de forma profesional.
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-- **Title tags:** Adaptados por sección (Ej. “Search Dogs in Lima - Patita Solidaria”).
-- **Meta descriptions:** Hasta 155 caracteres con palabras clave:  
-  Ej. “adoptar perro Perú, refuge mascotas”.
-- **Open Graph & Twitter Cards:**  
-  Imágenes de vista previa 1200×630 px con logo y lema.
-- **Structured Data (JSON-LD):**  
-  `schema.org` para `adoptableAnimal` y `Organization`.
+Para mejorar la visibilidad de **Patita Solidaria** en los motores de búsqueda y atraer a los usuarios adecuados, se han definido los siguientes datos por cada sección principal de la plataforma:
+
+* **Inicio**
+  * **Title**: Patita Solidaria - Adopta con Amor
+  * **Meta Description**: Descubre casos destacados de animales en busca de hogar. Conoce su historia y ayuda a transformar vidas con un solo clic.
+  * **Keywords**: adopción animal, casos urgentes, refugios, rescatistas, animales en adopción
+  * **Author**: Equipo de Patita Solidaria
+
+* **Adopciones**
+  * **Title**: Animales en Adopción - Patita Solidaria
+  * **Meta Description**: Explora nuestro catálogo de animales disponibles para adopción. Filtra por características y encuentra a tu nuevo mejor amigo.
+  * **Keywords**: adopciones, perros en adopción, gatos en adopción, filtro por edad, filtro por ubicación
+  * **Author**: Equipo de Patita Solidaria
+
+* **Donaciones**
+  * **Title**: Ayuda a un Refugio - Donaciones en Patita Solidaria
+  * **Meta Description**: Dona insumos o dinero para apoyar a refugios y rescatistas. Conoce sus necesidades y colabora desde donde estés.
+  * **Keywords**: donaciones, ayuda a animales, insumos para refugios, apoyar rescatistas, apadrina un animal
+  * **Author**: Equipo de Patita Solidaria
+
+* **Publicaciones**
+  * **Title**: Historias y Rescates - Blog de Patita Solidaria
+  * **Meta Description**: Lee historias reales de rescate, adopción y solidaridad. Comparte contenido y mantente al día con nuestras novedades.
+  * **Keywords**: historias de rescate, publicaciones de animales, adopciones exitosas, contenido solidario
+  * **Author**: Equipo de Patita Solidaria
+
+* **Perfil**
+  * **Title**: Tu Perfil en Patita Solidaria
+  * **Meta Description**: Personaliza tu perfil, gestiona tus datos y recibe notificaciones sobre adopciones y campañas. Un espacio solo para ti.
+  * **Keywords**: perfil de usuario, configuración de cuenta, notificaciones, preferencias de adopción, gestión de donaciones
+  * **Author**: Equipo de Patita Solidaria
+
+Estos metadatos están orientados a mejorar el posicionamiento orgánico (SEO) y garantizar que los usuarios encuentren fácilmente la información más relevante en los motores de búsqueda.
 
 ### 4.2.4. Searching Systems
 
-- **Búsqueda por facets:** Sidebar con filtros dinámicos y contadores en tiempo real.
-- **Search-as-you-type:** Sugerencias inmediatas de razas y refugios.
-- **Relevancia personalizada:** Algoritmo por historial del usuario y popularidad.
-- **Lazy Loading:** Carga progresiva con placeholders animados.
+Nuestro sistema de búsqueda está diseñado para facilitar la exploración de animales en adopción, oportunidades de ayuda y contenido relevante. Buscamos ofrecer una experiencia accesible, rápida y organizada para todos los usuarios de Patita Solidaria.
+
+* **Opciones de Búsqueda Generales**
+  * **Barra de Búsqueda**: Una barra accesible estará disponible en las principales secciones del sitio. Permitirá ingresar palabras clave como nombre del animal, tipo de especie, ubicación, refugio o rescatista.
+  * **Búsqueda Avanzada**: Los usuarios podrán filtrar por criterios más detallados como tamaño del animal, edad, estado de salud, tipo de ayuda requerida o zona geográfica.
+
+* **Filtros por Sección**
+
+  * **Adopciones**
+    * **Filtros**: Tipo de animal (perro, gato, otros), tamaño, edad, ubicación, necesidades especiales.
+    * **Resultados**: Fichas detalladas con fotos, historia del animal, requisitos de adopción y botón para enviar solicitud.
+
+  * **Donaciones**
+    * **Filtros**: Tipo de donación (monetaria o insumos), refugio o rescatista destinatario, urgencia.
+    * **Resultados**: Listado de campañas o necesidades activas con detalles del destino y forma de colaboración.
+
+  * **Publicaciones**
+    * **Filtros**: Nombre del animal, tipo de publicación (rescate, adopción, actualización), fecha o refugio.
+    * **Resultados**: Tarjetas de publicaciones con imágenes, videos, descripciones y enlaces a fichas completas o contacto.
+
+  * **Perfil**
+    * **Filtros**: Tipo de actividad reciente (solicitudes, publicaciones, donaciones), notificaciones y configuraciones activas.
+    * **Resultados**: Vista personalizada del perfil, con enlaces para editar datos o acceder a historial de actividades.
+
+* **Presentación de Datos Tras la Búsqueda**
+  * **Diseño de Resultados**: Se utilizarán tarjetas o listas visuales con imágenes del animal o contenido asociado, destacando la información más relevante de forma clara y amigable.
+  * **Interactividad**: Al seleccionar un resultado, se abrirá una vista detallada con toda la información disponible (incluyendo formas de contacto o acción inmediata como adoptar o donar).
 
 ### 4.2.5. Navigation Systems
 
-- **Landing Page Navigation:** Navbar fija con anclajes y scroll suave; menú hamburger en móvil.
-- **Web App Navigation:**  
-  - Sidebar colapsable en desktop.  
-  - Bottom navigation en móvil con ítems clave: Search, Favorites, Requests, Profile.
-- **Breadcrumbs:** Rastros en vistas profundas (ej. Home > Search > Pet Profile).
-- **Contextual Menus & Shortcuts:**  
-  Refugios pueden crear publicaciones desde cualquier vista.
-- **Help & Support:**  
-  Ícono de chat en vivo y sección FAQ accesible desde la navbar.
+La navegación en Patita Solidaria ha sido diseñada para que cualquier persona —ya sea un rescatista, adoptante o donante— pueda moverse por la plataforma de forma fluida, encontrando lo que necesita sin esfuerzo. Esta estructura mejora la experiencia del usuario, fomenta la interacción y facilita el cumplimiento de nuestra misión solidaria.
 
+1. **Estructura de Navegación Principal**
+   * **Menú de Navegación Superior**: Presente en la parte superior de todas las páginas, con accesos directos a las secciones clave: Inicio, Adopciones, Donaciones, Publicaciones y Perfil. Este menú es fijo, lo que permite cambiar de sección en cualquier momento sin necesidad de volver atrás.
+   * **Iconos de Navegación**: Cada enlace del menú estará acompañado por un ícono representativo (como una huella para Adopciones o una caja de regalo para Donaciones), facilitando la navegación visual y haciéndola más amigable.
+
+2. **Accesibilidad y Efectividad en la Navegación**
+   * **Navegación por Tarjetas**: El contenido se mostrará en tarjetas visuales, que resumen información clave como la foto de un animal, su nombre y estado. Al hacer clic en una tarjeta, se abrirá una vista detallada, permitiendo una exploración eficiente sin perder el contexto.
+
+3. **Navegación Contextual y Ayuda Visual**
+   * **Navegación Contextual**: Dentro de cada ficha o publicación, se ofrecerán enlaces a contenido relacionado. Por ejemplo, desde el perfil de un perro, se podrá acceder a publicaciones del mismo refugio o a animales con características similares.
+   * **Sugerencias Visuales**: Elementos como botones, indicadores de progreso y colores distintivos guiarán la navegación del usuario de forma intuitiva.
+
+4. **Opciones de Búsqueda y Filtrado Avanzadas**
+   * **Filtros en Navegación**: En las secciones de Adopciones y Donaciones, se integrarán filtros desplegables visibles que permitan ajustar la visualización según edad, especie, ubicación o tipo de ayuda requerida.
+   * **Búsqueda Rápida**: Una barra de búsqueda global estará disponible en la mayoría de las páginas. Los resultados aparecerán en una lista dinámica mientras el usuario escribe, facilitando el acceso a fichas, publicaciones o campañas específicas de forma inmediata.
 
 ### 4.3. Landing Page UI Design
 
@@ -1890,4 +1871,8 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 
 Anexo A: https://miro.com/welcomeonboard/VnVaYmRaYVpRSUh5Q25pb0lNYVNJU3dBRGJWaHU4azh1bHI4dkRwak56NWRWQ0RwOHQxSUdpMUpSejQ5QnNMb3lPaFA5S0Frd0NicjREVzErMStuMVc4M3pDYWsxVTk1elE4YzBqWVRXdFI5Z3NERGgyS1ErMWlCMWQwb2dGMVZ3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=247947402560
 
+Link de Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2740810
 
+Anexo B: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?viewport_loc=1525%2C-12684%2C2993%2C1352%2C0_0&invitationId=inv_66143621-8c9e-4f70-9ef8-5d1094b12372
+
+Anexo C: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?viewport_loc=1525%2C-12684%2C2993%2C1352%2C0_0&invitationId=inv_66143621-8c9e-4f70-9ef8-5d1094b12372
