@@ -40,7 +40,7 @@ Product: Pata Solidaria
 |---------|----------|--------------|--------------------------------------------------------------------|
 | TB1     | 09/04/25 | Diego Rosado | Creación organización y repositorios en GitHub para proyecto final |
 | TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final       |
-| TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe                              | 
+| TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe e implementación del diagrama de clases y el diccionario de clases| 
 
 ## Project Report Collaboration Insights
 
@@ -57,7 +57,7 @@ TB1:<br>
 |Integrante| Tarea Asignada                             |
 |-|--------------------------------------------|
 |Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
-|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento, desarrollo del informe de participación|
+|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento e implementación del diagrama de clases y el diccionario de clases|
 ## Contenido
 
 ## Tabla de contenidos
