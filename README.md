@@ -441,6 +441,35 @@ Aspectos psicográficos:
 
 #### 4.7.1. Class Diagrams
 
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/Patita Solidaria UML.png"> </p>
+
+#### 4.7.2. Class Dictionary
+
+|Clase|Descripción|Atributos|Metodos|
+|-----|-----------|---------|-------|
+|Usuario (Interface)|Interface base para todos los usuarios.|No presenta atributos|autenticar(), completarPerfil()|
+|UsuarioBase (Abstracta)|Clase base para Adoptante, Refugio y Rescatista.|id: string, correo: string, contrasena: string|Hereda los metodos de la clase Usuario|
+|Adoptante|Usuario que desea adoptar una mascota.|Hereda de UsuarioBase|completarFormulario(), verEstadoSolicitud()|
+|Refugio|Institución que aloja y da en adopción mascotas.|ruc: string (además de atributos heredados)|registrarMascota(), validarCertificado()|
+|Rescatista|Usuario que rescata y registra mascotas.|Hereda de UsuarioBase|registrarMascota()|
+|UsuarioFactory|Crea instancias de usuarios.|No presenta atributos|crearUsuario(tipo: string): UsuarioBase|
+|Mascota|Representa una mascota del sistema.|id: string, nombre: string, descripcionEmocional: string, necesidadesEspeciales: bool, disponible: bool, fotos: List<string>, historial: List<HistorialMedico>|agregarFoto(), actualizarEstado(), agregarHistorial()|
+|HistorialMedico|Guarda registros médicos de una mascota.|fecha: string, detalle: string, veterinario: string|No presenta metodos|
+|FormularioAdopcion|Cuestionario respondido por el adoptante.|idAdoptante: string, idMascota: string, respuestas: List<string>, estado: string|evaluar(), notificar()|
+|SolicitudAdopcion|Solicitud formal de adopción, con lógica de estado.|estado: EstadoSolicitud, adoptante: Adoptante, mascota: Mascota|aprobar(), rechazar(), cambiarEstado()|
+|EstadoSolicitud (Interface)|Representa los estados de la solicitud de adopción.|no presenta atributos|manejar()|
+|EstadoEnRevision|Estado inicial donde se revisa la solicitud.|No presenta atributos|manejar()|
+|EstadoAprobada|Estado cuando se aprueba la solicitud.|no presenta atributos|manejar()|
+|EstadoRechazada|Estado cuando se rechaza la solicitud.|no presenta atributos|manejar()|
+|Observador (Interface)|Observador que reacciona a eventos.|No presenta atributos|actualizar()|
+|Notificador|Publicador que notifica a todos los observadores.|observadores: List<Observador>|agregarObservador(), notificarTodos()|
+|NotificacionEstado|Observador concreto que reacciona a cambios de estado.|No presenta atributos|actualizar()|
+|EstrategiaVerificacion (Interface)|Estrategia general para verificar documentos.|no presenta atributos|verificar()|
+|VerificadorDNI|Verifica usando DNI.|no presenta atributos|verificar()|
+|VerificadorAPIOnfido|Verifica usando API externa Onfido.|No presenta atributos|verificar()|
+|VerificadorAPIValidarID|Verifica usando otra API externa.|no presenta atributos|verificar()|
+|SistemaVerificacion|Utiliza una estrategia de verificación que puede cambiar dinámicamente.|estrategia: EstrategiaVerificacion|setEstrategia(e), verificar()|
+
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
