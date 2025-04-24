@@ -1485,82 +1485,121 @@ Pruebas de usabilidad realizadas para validar navegación e intuitividad.
 ### 4.8. Database Design
 
 #### 4.8.1. Database Diagram
-<p align="center"><img width="auto" height="auto" src="assets/images/commons/db.jpg">
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/diagramabd.png">
 
 #### 4.8.2. Database Dictionary
+### Tabla: `Usuario`
 
-##  Tabla: `roles`
-
-| Campo  | Tipo        | Clave | Nulo | Descripción                             |
-|--------|-------------|-------|------|-----------------------------------------|
-| id     | INT         | PK    | No   | Identificador único del rol             |
-| nombre | VARCHAR(20) |       | No   | Nombre del rol (adoptante, refugio, etc.) |
-
----
-
-##  Tabla: `usuarios`
-
-| Campo      | Tipo          | Clave   | Nulo | Descripción                            |
-|------------|---------------|---------|------|----------------------------------------|
-| id         | INT           | PK      | No   | Identificador único del usuario        |
-| email      | VARCHAR(100)  | ÚNICO   | No   | Correo electrónico                     |
-| contrasena | VARCHAR(100)  |         | No   | Contraseña encriptada                  |
-| rol_id     | INT           | FK      | Sí   | Relación al rol que cumple el usuario  |
+| Campo         | Tipo           | Clave            | Nulo | Descripción                                |
+|---------------|----------------|------------------|------|--------------------------------------------|
+| id            | VARCHAR(50)    | PK               | No   | Identificador único del usuario            |
+| correo        | VARCHAR(100)   |                  | No   | Correo electrónico del usuario             |
+| contrasena    | VARCHAR(100)   |                  | No   | Contraseña del usuario                     |
+| tipo_usuario  | VARCHAR(50)    |                  | No   | Tipo de usuario (Adoptante, Refugio, etc.) |
 
 ---
 
-##  Tabla: `profiles`
+### Tabla: `Adoptante`
 
-| Campo      | Tipo         | Clave      | Nulo | Descripción                           |
-|------------|--------------|------------|------|---------------------------------------|
-| id         | INT          | PK         | No   | Identificador único del perfil        |
-| usuario_id | INT          | FK, ÚNICO  | No   | Relación 1:1 con la tabla `usuarios`  |
-| nombre     | VARCHAR(50)  |            | Sí   | Nombre del usuario                    |
-| apellido   | VARCHAR(50)  |            | Sí   | Apellido del usuario                  |
-| telefono   | VARCHAR(20)  |            | Sí   | Número de contacto                    |
-| direccion  | TEXT         |            | Sí   | Dirección del usuario                 |
-| imagen     | MEDIUMBLOB   |            | Sí   | Foto de perfil                        |
+| Campo       | Tipo         | Clave                     | Nulo | Descripción                            |
+|-------------|--------------|---------------------------|------|----------------------------------------|
+| id_usuario  | VARCHAR(50)  | PK, FK → Usuario(id)      | No   | Referencia al usuario que es adoptante |
 
 ---
 
-##  Tabla: `mascotas`
+### Tabla: `Refugio`
 
-| Campo       | Tipo         | Clave | Nulo | Descripción                           |
-|-------------|--------------|-------|------|---------------------------------------|
-| id          | INT          | PK    | No   | Identificador único de la mascota     |
-| nombre      | VARCHAR(50)  |       | Sí   | Nombre de la mascota                  |
-| edad        | INT          |       | Sí   | Edad de la mascota en años            |
-| sexo        | ENUM         |       | Sí   | Sexo: Macho o Hembra                  |
-| tamanio     | VARCHAR(20)  |       | Sí   | Tamaño: pequeño, mediano, grande      |
-| descripcion | TEXT         |       | Sí   | Descripción general                   |
-| foto        | MEDIUMBLOB   |       | Sí   | Imagen de la mascota                  |
-| estado      | ENUM         |       | No   | Estado de adopción                    |
-| refugio_id  | INT          | FK    | Sí   | Relación con el refugio responsable   |
+| Campo       | Tipo         | Clave                     | Nulo | Descripción                          |
+|-------------|--------------|---------------------------|------|--------------------------------------|
+| id_usuario  | VARCHAR(50)  | PK, FK → Usuario(id)      | No   | Referencia al usuario que es refugio |
+| ruc         | VARCHAR(20)  |                           | No   | RUC del refugio                      |
 
 ---
 
-##  Tabla: `solicitudes`
+### Tabla: `Rescatista`
 
-| Campo           | Tipo        | Clave | Nulo | Descripción                            |
-|------------------|-------------|-------|------|----------------------------------------|
-| id               | INT         | PK    | No   | Identificador único de solicitud       |
-| mascota_id       | INT         | FK    | No   | Mascota solicitada                     |
-| adoptante_id     | INT         | FK    | No   | Usuario que desea adoptar              |
-| fecha_solicitud  | DATE        |       | No   | Fecha de envío de la solicitud         |
-| estado           | ENUM        |       | No   | Estado: Pendiente, Aprobado, Rechazado |
-| mensaje          | TEXT        |       | Sí   | Mensaje adicional del adoptante        |
+| Campo       | Tipo         | Clave                     | Nulo | Descripción                            |
+|-------------|--------------|---------------------------|------|----------------------------------------|
+| id_usuario  | VARCHAR(50)  | PK, FK → Usuario(id)      | No   | Referencia al usuario que es rescatista |
 
 ---
 
-##  Tabla: `donaciones`
+### Tabla: `Mascota`
 
-| Campo      | Tipo          | Clave | Nulo | Descripción                          |
-|------------|---------------|-------|------|--------------------------------------|
-| id         | INT           | PK    | No   | Identificador único de la donación   |
-| usuario_id | INT           | FK    | No   | Usuario que realiza la donación      |
-| monto      | DECIMAL(10,2) |       | No   | Monto donado                         |
-| fecha      | DATETIME      |       | No   | Fecha y hora de la donación          |
-| mensaje    | TEXT          |       | Sí   | Comentario opcional del donante      |
+| Campo                   | Tipo         | Clave                                | Nulo | Descripción                                           |
+|------------------------|--------------|--------------------------------------|------|-------------------------------------------------------|
+| id                     | VARCHAR(50)  | PK                                   | No   | Identificador único de la mascota                    |
+| nombre                 | VARCHAR(100) |                                      | No   | Nombre de la mascota                                 |
+| descripcion_emocional  | TEXT         |                                      | No   | Descripción emocional de la mascota                  |
+| necesidades_especiales | BOOLEAN      |                                      | No   | Indica si la mascota tiene necesidades especiales    |
+| disponible             | BOOLEAN      |                                      | No   | Disponibilidad de la mascota para adopción           |
+| adoptada_por           | VARCHAR(50)  | FK → Adoptante(id_usuario)           | Sí   | Adoptante que adoptó la mascota                      |
+| registrada_por         | VARCHAR(50)  | FK → Usuario(id)                     | Sí   | Usuario que registró la mascota                      |
+
+---
+
+### Tabla: `FotoMascota`
+
+| Campo      | Tipo         | Clave                    | Nulo | Descripción                          |
+|------------|--------------|--------------------------|------|--------------------------------------|
+| id         | INT          | PK                       | No   | Identificador único de la foto       |
+| id_mascota | VARCHAR(50)  | FK → Mascota(id)         | No   | ID de la mascota asociada a la foto  |
+| url_foto   | TEXT         |                          | No   | URL de la foto de la mascota         |
+
+---
+
+### Tabla: `HistorialMedico`
+
+| Campo       | Tipo         | Clave                    | Nulo | Descripción                             |
+|-------------|--------------|--------------------------|------|-----------------------------------------|
+| id          | INT          | PK                       | No   | Identificador del historial médico      |
+| id_mascota  | VARCHAR(50)  | FK → Mascota(id)         | No   | ID de la mascota                        |
+| fecha       | DATE         |                          | No   | Fecha del evento médico                 |
+| detalle     | TEXT         |                          | No   | Detalles del historial médico           |
+| veterinario | VARCHAR(100) |                          | No   | Nombre del veterinario responsable      |
+
+---
+
+### Tabla: `SolicitudAdopcion`
+
+| Campo        | Tipo         | Clave                                | Nulo | Descripción                               |
+|--------------|--------------|--------------------------------------|------|-------------------------------------------|
+| id           | INT          | PK                                   | No   | ID de la solicitud                        |
+| id_adoptante | VARCHAR(50)  | FK → Adoptante(id_usuario)           | No   | Adoptante que realiza la solicitud        |
+| id_mascota   | VARCHAR(50)  | FK → Mascota(id)                     | No   | Mascota solicitada                        |
+| estado       | VARCHAR(50)  |                                      | No   | Estado de la solicitud                    |
+
+---
+
+### Tabla: `FormularioAdopcion`
+
+| Campo        | Tipo         | Clave                                | Nulo | Descripción                                  |
+|--------------|--------------|--------------------------------------|------|----------------------------------------------|
+| id           | INT          | PK                                   | No   | ID del formulario                            |
+| id_adoptante | VARCHAR(50)  | FK → Adoptante(id_usuario)           | No   | Adoptante que llena el formulario            |
+| id_mascota   | VARCHAR(50)  | FK → Mascota(id)                     | No   | Mascota a adoptar                            |
+| estado       | VARCHAR(50)  |                                      | No   | Estado del formulario                        |
+
+---
+
+### Tabla: `NotificacionEstado`
+
+| Campo         | Tipo         | Clave                          | Nulo | Descripción                               |
+|---------------|--------------|--------------------------------|------|-------------------------------------------|
+| id            | INT          | PK                             | No   | ID de la notificación                     |
+| id_solicitud  | INT          | FK → SolicitudAdopcion(id)     | No   | Solicitud asociada                        |
+| fecha         | DATE         |                                | No   | Fecha de la notificación                  |
+| detalle       | TEXT         |                                | No   | Detalle del cambio de estado              |
+
+---
+
+### Tabla: `SistemaVerificacion`
+
+| Campo           | Tipo           | Clave   | Nulo | Descripción                                 |
+|------------------|----------------|---------|------|---------------------------------------------|
+| id               | INT            | PK      | No   | Identificador del sistema de verificación   |
+| tipo_estrategia  | VARCHAR(100)   |         | No   | Tipo de estrategia de verificación usada    |
+
 
 
 ## Capítulo V: Product Implementation, Validation & Deployment
