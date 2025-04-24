@@ -1080,7 +1080,7 @@ Botones destacados y secciones bien diferenciadas visualmente.
 
 ![Landing-Page-Mockup](/assets/images/commons/LandingPage-Mockup.png)
 
-![Landing-Page-Movil-Mockup](/assets/images/commons/LandingPage-Mockup.png)
+![Landing-Page-Movil-Mockup](/assets/images/commons/LandingPage%20Movil.png)
 
 
 ### 4.4. Web Applications UX/UI Design
