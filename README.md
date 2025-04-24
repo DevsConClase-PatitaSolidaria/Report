@@ -42,6 +42,7 @@ Product: Patita Solidaria
 | TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final       |
 | TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 del informe                              | 
 | TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 del informe                              |
+| TB1     | 20/04/25 | Pedro Lecca  | Documentación completa (5.2.1 -  5.2.1.8)                          |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                | 
 
 ## Project Report Collaboration Insights
@@ -59,8 +60,8 @@ TB1:<br>
 |Integrante| Tarea Asignada                             |
 |-|--------------------------------------------|
 |Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
-|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento, desarrollo del informe de participación|
-|Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento|
+|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento e implementación del diagrama de clases y el diccionario de clases|
+|Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento, desarrollo de todo el punto 5.2.1 y sus subpuntos|
 |Ramirez Escalante, Carlo Patricio | Desarrollo del Capitulo 3 del documento|
 |Morales Sosa, Arnold Gabriel | Desarrollo del Capitulo 4 del documento, desarrollo del figma| 
 
@@ -179,8 +180,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales.                                                                                                               | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución                                                                                                                                                                                                     |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. |
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br>**Pedro Omar Lecca Villalobos** <br> TB1: Durante el desarrollo del informe y las evidencias del Sprint 1, he estructurado técnicamente los entregables de manera clara y coherente para facilitar su presentación oral.                                                                                                           | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución <br><br><br>**Pedro Omar Lecca Villalobos** <br> TB1: La forma en que desarrolle los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.                                                                                                                                                                                                    |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> Además, desarrolle y documentó completamente los puntos 5.2.1.1 al 5.2.1.8 del Sprint 1, incluyendo commits, validaciones JS, despliegue y evidencias Markdown. | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. |
 
 ## Capítulo I: Introducción
 
@@ -1663,17 +1664,210 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ##### 5.2.1.2. Sprint Backlog 1
 
-##### 5.2.1.3. Development Evidence for Sprint Review
+En esta sección se detallan los aspectos principales de la reunión de planificación del Sprint 1 del proyecto “Patita Solidaria”. Se priorizó el diseño e implementación de la Landing Page inicial y la visualización de perfiles informativos de mascotas, enfocándose en usabilidad, diseño adaptable y estructura de navegación básica.
 
-##### 5.2.1.4. Testing Suite Evidence for Sprint Review
+| Elemento                                | Detalle                                                                                   |
+|-----------------------------------------|-------------------------------------------------------------------------------------------|
+| **Sprint #**                             | Sprint 1                                                                                 |
+| **Date**                                 | 2025-04-05                                                                               |
+| **Time**                                 | 07:00 PM                                                                                 |
+| **Location**                             | Google Meet (virtual)                                                                    |
+| **Prepared By**                          | Carlos Andrés, Coca Lavado                                                               |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar(desarrolladora principal del sprint)                        |
+| **Sprint n – 1 Review Summary**          | No aplica (este es el primer Sprint)                                                     |
+| **Sprint n – 1 Retrospective Summary**   | No aplica (no hay iteración anterior para retroalimentación)                             |
+| **Sprint n Goal**                        | Construir y estilizar la Landing Page y vistas individuales de mascotas, asegurando diseño responsive y navegación funcional |
+| **Sprint n Velocity**                    | 5 Story Points                                                                           |
+| **Sum of Story Points**                  | 5                                                                                        |
 
-##### 5.2.1.5. Execution Evidence for Sprint Review
 
-##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.3. Sprint Backlog 1
 
-##### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundamentales para la experiencia del usuario adoptante y la presentación visual del sistema. A continuación, se detallan las tareas asociadas a las historias de usuario priorizadas para este Sprint.
 
-##### 5.2.1.8. Team Collaboration Insights during Sprint
+| User Story ID | User Story Title             | Task ID  | Task Title                                                    | Description                                                                                       | Estimation (Hours) | Assigned To   | Status     |
+|---------------|------------------------------|----------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------|----------------|------------|
+| US01          | Registro de cuenta           | T01-01   | Diseño de formulario de registro                              | Maquetación básica del formulario HTML con campos requeridos.                                    | 1                  | Pedro Lecca    | Done      |
+| US01          | Registro de cuenta           | T01-02   | Validaciones básicas (JS)                                     | Validar campos obligatorios y formato de email.                                                   | 3                  | Pedro Lecca    | Done      |
+| US01          | Registro de cuenta           | T01-03   | Estilos personalizados                                        | Aplicación de estilos coherentes con la landing (`index.css`).                                   | 1                  | Pedro Lecca    | Done      |
+| US02          | Iniciar sesión               | T02-01   | Diseño de formulario de login                                 | HTML del formulario con campos de acceso.                                                         | 3                  | Pedro Lecca    | Doneo      |
+| US02          | Iniciar sesión               | T02-02   | Validaciones de campos (JS)                                   | Verificación de campos vacíos y formato de usuario.                                               | 4                  | Pedro Lecca    | Done      |
+| US02          | Iniciar sesión               | T02-03   | Integración visual con estilos globales                       | Estilos de formulario de login y botón de acción.                                                 | 5                  | Pedro Lecca    | Done      |
+| US04          | Buscar mascotas              | T04-01   | Diseño de filtros de búsqueda y menú lateral                  | Estructura y estilo visual del sistema de filtros.                                                | 4                  | Pedro Lecca    | Done       |
+| US04          | Buscar mascotas              | T04-02   | Funcionalidad de filtros dinámicos                            | Activación de filtros por sexo, edad, tamaño, etc.                                                | 4                  | Pedro Lecca    | Done       |
+| US04          | Buscar mascotas              | T04-03   | Barra de búsqueda y ordenamiento                             | Input para búsqueda por nombre y `select` para orden alfabético.                                 | 2                  | Pedro Lecca    | Done       |
+| US05          | Ver perfil de mascota        | T05-01   | Estructura del HTML para perfiles individuales                | Maquetación de `luna.html`, `toribio.html`, etc.                                                  | 5                  | Pedro Lecca    | Done       |
+| US05          | Ver perfil de mascota        | T05-02   | Aplicación de estilos CSS                                     | Aplicación de `perfil-mascota.css` y `mascotas.css` para diseño responsive.                      | 3                  | Pedro Lecca    | Done       |
+| US10          | Publicar mascota en adopción | T10-01   | Diseño de estructura estática de ficha de adopción            | HTML simulado de mascota publicada enlazada desde galería.                                       | 3                  | Pedro Lecca    | Done       |
+| US10          | Publicar mascota en adopción | T10-02   | Conexión a galería de `mascotas.html`                         | Integración de enlaces desde galería a páginas individuales.                                     | 3                  | Pedro Lecca    | Done       |
+
+
+**Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas.
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante este Sprint se realizaron múltiples avances en la implementación de la solución, particularmente en la construcción de la Landing Page, formularios de autenticación y perfiles de mascotas. A continuación, se presenta la evidencia de commits relacionados al Sprint 1.
+
+| Repository                               | Branch | Commit Id | Commit Message                         | Commit Message Body                                                                 | Committed on (Date) |
+|------------------------------------------|--------|-----------|----------------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| DevsConClase-PatitaSolidaria/LandingPage | main   | caf624c   | **feat:** add login & register validations | Se agregaron validaciones en tiempo real para los formularios de login y registro. | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 1cb30a6   | **feat:** add login & register design     | Se diseñaron las páginas de login y registro con estilos consistentes.             | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 8244e03   | **refactor:** remove obsolete login.html  | Se eliminó el archivo login.html obsoleto.                                          | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 2f14fee   | **refactor:** remove unused login.css     | Se eliminó el archivo login.css no utilizado.                                       | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 301b6d2   | **fix:** update mascotas.html             | Se actualizó la página de mascotas con nuevos datos y mejoras de diseño.            | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | baa1afe   | **style:** update index.html for navigation | Se realizaron ajustes en la página principal para mejorar la navegación.            | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | bf46def   | **feat:** initial commit for Landing Page v1 | Se agregaron todas las páginas de la Landing Page en su versión inicial.         | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | e086ca2   | **data:** add animal adoption data        | Se incorporaron datos de animales para la sección de adopciones.                    | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | 7071f55   | **feat:** add mascotas.js for dynamic filters | Se añadió el script mascotas.js para funcionalidad de filtros.                   | 2025-04-24           |
+| DevsConClase-PatitaSolidaria/LandingPage | main   | cc9be84   | **feat:** add hamburger menu for responsive nav | Se implementó el menú hamburguesa en `index.html` para dispositivos móviles.     | 2025-04-24           |
+
+#### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+Durante este Sprint, se realizaron pruebas funcionales manuales para verificar el correcto funcionamiento de las funcionalidades implementadas. Aún no se han incorporado pruebas automatizadas (unitarias, integración o aceptación), ya que la prioridad del equipo fue consolidar las funcionalidades de la Landing Page. Se planea incluir un conjunto completo de pruebas automatizadas en los siguientes sprints.
+
+
+| Branch | Commit Id | Commit Message                         | Commit Message Body                                                                 | Committed on (Date) |
+|--------|-----------|----------------------------------------|--------------------------------------------------------------------------------------|---------------------|
+| main   | caf624c   | **test:** add login & register validations | Se agregaron validaciones completas en JS para login y registro.                    | 2025-04-24          |
+| main   | 1cb30a6   | **test:** visual testing login/reg     | Se validaron los formularios en navegador con inputs válidos e inválidos.           | 2025-04-24          |
+| main   | 301b6d2   | **test:** filtros en mascotas          | Pruebas funcionales de filtros múltiples y búsqueda por nombre.                     | 2025-04-24          |
+| main   | bf46def   | **test:** navegación landing           | Se probaron enlaces, navegación fluida y diseño responsivo en distintas vistas.     | 2025-04-24          |
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+
+Durante este Sprint se logró implementar de forma funcional las vistas clave del sistema web “Patita Solidaria”, enfocándose en ofrecer una experiencia inicial de navegación completa para los usuarios adoptantes. Las vistas fueron desarrolladas con estructura HTML, estilos personalizados y validaciones en tiempo real mediante JavaScript.
+
+---
+
+- **Landing Page principal (index.html)**: incluye secciones de bienvenida, quienes somos, beneficios, perfiles de usuarios y llamado a la acción.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index.png">
+
+- **Página de búsqueda de mascotas (mascotas.html)**: galería con tarjetas dinámicas de mascotas, filtros por características, y campo de búsqueda.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/mascotas.png">
+
+- **Perfiles individuales de mascotas (guapisimo.html, luna.html, etc.)**: fichas con información detallada y botones de contacto.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/perfiles.png">
+
+- **Formulario de inicio de sesión (login.html)**: diseño estilizado con validaciones JS al enviar el formulario.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/login.png">
+  
+- **Formulario de registro (register.html)**: incluye validaciones de contraseña, confirmación y términos requeridos.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/register.png">
+
+---
+
+**Video de navegación y ejecución**  
+Enlace al video explicativo con la ejecución completa del Sprint 1:  
+[https://youtu.be/GnGUlkga2v4?si=MECXe7OqUcTiwZhL](https://youtu.be/GnGUlkga2v4?si=MECXe7OqUcTiwZhL)
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page, perfiles de mascotas y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
+
+La prioridad fue lograr una experiencia de usuario funcional desde el cliente. En futuras iteraciones se documentarán las rutas REST necesarias para la gestión de adopciones y usuarios, usando OpenAPI como herramienta de especificación.
+
+---
+
+#### GitHub - Proyecto Web Services (planeado para Sprint 2)
+
+> URL estimada del repositorio de backend:  
+> `[https://github.com/DevsConClase-PatitaSolidaria/](https://github.com/DevsConClase-PatitaSolidaria/BackEnd)`
+
+---
+
+#### Resumen de Acciones del Equipo
+
+| Integrante    | Acciones Realizadas                                                                               |
+|---------------|---------------------------------------------------------------------------------------------------|
+| Pedro Lecca   | Desarrollo completo de la Landing Page, galería de mascotas, perfiles individuales, login, registro y validaciones JS. |
+
+---
+
+> Nota: No se han generado commits relacionados a endpoints o servicios, ya que no fueron parte del alcance del Sprint 1.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de usuario del sistema *Patita Solidaria* utilizando GitHub Pages como entorno de publicación. Esto permitió hacer accesible el desarrollo desde cualquier navegador, facilitando las pruebas funcionales, demostraciones al equipo y feedback en tiempo real.
+
+---
+
+#### Proceso de Deployment realizado
+
+- Se creó un repositorio GitHub para el proyecto: `https://github.com/DevsConClase-PatitaSolidaria/LandingPage`
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/fotolanding.png">
+
+- Se organizó el proyecto con estructura de carpetas (`assets/`, `scripts/`)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/fotoestructura.png">
+
+- Se subieron los archivos HTML, CSS y JS de las vistas (index, login, registro, mascotas, perfiles)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/fotogeneral.png">
+
+- Se verificó el acceso público y funcionamiento multiplataforma
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index.png">
+
+---
+
+#### URL de despliegue
+
+> [https://9l7f3r.csb.app/](https://9l7f3r.csb.app/)
+
+---
+
+#### Capturas de Evidencia del Despliegue
+
+- C1: Vista general de la Landing Page desplegada
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index1.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index2.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index3.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index4.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/index5.png">
+
+- 2: Página de registro funcional en producción
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/login.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/register.png">
+
+- 3: Perfiles de mascotas accesibles desde la galería
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/mascotas.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/mascotas2.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/perfiles.png">
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/perfiles2.png">
+
+---
+
+#### Responsable
+
+- **Pedro Lecca**: configuración del repositorio, estructura del proyecto.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada por **Pedro Lecca**, quien asumió todas las funciones de diseño, codificación, validación y despliegue de la solución.
+
+| Integrante   | Acciones realizadas durante el Sprint 1 |
+|--------------|------------------------------------------|
+| Lecca Pedro  | - Desarrollo de toda la interfaz HTML y maquetado CSS<br>- Implementación de validaciones en JavaScript<br>- Estructura de carpetas y componentes<br>- Subida al repositorio y despliegue |
+
+#### Evidencia de colaboración en GitHub (Sprint 1)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionlandingpage.png">
 
 ## Conclusiones
 
