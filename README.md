@@ -1129,6 +1129,22 @@ Botones destacados y secciones bien diferenciadas visualmente.
     
 ![animal shelters-Wireframe](/assets/images/commons/Web%20application%20animal%20shelter.png)
 
+
+- View Profile Wireframe: Este wireframe muestra tu perfil y puedes editarlo a tu gusto para que los demás sepan más acerca de ti. Para los dos casos es igual el diseño.
+  
+![Profile-Wireframe](/assets/images/commons/Wireframe%20-%20Ver%20perfil.png)
+
+
+- Profile Edit Wireframe:
+
+  ![Profile-Edit-Wireframe](/assets/images/commons/Wireframe%20-%20Editar%20cuenta.png)
+
+
+- Delete account Wireframe:
+
+  ![Delete-account-Wireframe](/assets/images/commons/Wireframe%20-%20Borrar%20cuenta.png)
+  
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 Flujo desde el registro hasta la adopción:
 Usuario se registra → busca mascota → guarda favoritas → solicita adopción → recibe notificación.
