@@ -1326,13 +1326,99 @@ Botones destacados y secciones bien diferenciadas visualmente.
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
-Estructura de páginas clave: búsqueda de mascotas, perfil de mascota, formulario de solicitud, panel de refugio, administración de usuarios.
+- Web application login wireframe: Este wireframe muestra la pantalla de inicio de sesión de la aplicación web, con campos para correo electrónico y contraseña, y botón para iniciar sesión.
+
+![Login-Wireframe](/assets/images/commons/Login%20Wireflow.png)
+
+ - Incorrect password Wireframe:
+   ![incorrect-password](/assets/images/commons/incorrect%20password%20Wireflow.png)
+
+ - Reset password Wireframe: digitas tu correo vinculado a tu cuenta, luego lo confirmas mediante un enlace mandado al correo digitado que requiere el 
+   cambio (debe existir una cuenta para hacerlo, sino no saldrá nada en el correo) y podrás seguir con el cambio de contraseña.
+   ![reset-password](/assets/images/commons/Reset%20password%20Wireflow.png)
+
+ - Reset password Wireframe #2:
+   ![reset-password-part2](/assets/images/commons/Reset%20password%20Wireflow%20%232.png)
+   
+
+- Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, tipo de usuario que va a usar la aplicación (adopter y animal shelter/rescue) y botón para registrarse.
+![Register-Wireframe](/assets/images/commons/Register%20Wireflow.png)
+
+
+- Web application Adopters: Este wireframe muestra la pantalla de bienvenida, animales disponibles para adopción, una barra en la que se puede acceder a la landing page desde home, al buscador de mascotas, tu perfil y un apartado para donaciones, también aparece el formulario para que puedan aceptarte más rápido a la hora de solcitar adoptar a una mascota. Por último, está la sección de poder ve las reviews y nuestras redes sociales como startup.
+  
+![adopters-Wireframe](/assets/images/commons/Web%20application%20Adopters.png)
+
+
+- Web application Rescuers and Animal Shelters: Este wireframe muestra la pantalla de bienvenida y más opciones para que el rescatista o refugio pueda ubicarse fácilmente a donde quiere ir.
+
+![rescuers-Wireframe](/assets/images/commons/Web%20application%20Rescuers.png)
+
+
+- View Profile Wireframe: Este wireframe muestra tu perfil y puedes editarlo a tu gusto para que los demás sepan más acerca de ti. Para los dos casos es igual el diseño.
+  
+![Profile-Wireframe](/assets/images/commons/Wireframe%20-%20Ver%20perfil.png)
+
+
+- Profile Edit Wireframe:
+
+  ![Profile-Edit-Wireframe](/assets/images/commons/Wireframe%20-%20Editar%20cuenta.png)
+
+
+- Delete account Wireframe:
+
+  ![Delete-account-Wireframe](/assets/images/commons/Wireframe%20-%20Borrar%20cuenta.png)
+  
+
+- Buscar mascotas disponibles:
+
+  ![buscar-mascotas](/assets/images/commons/Desktop%20-%20Buscar%20Animalitos.png)
+
+
+- Ver información de la mascota que se quiere adoptar:
+  
+  ![ver-información](/assets/images/commons/Desktop%20-%20Detalle%20de%20la%20mascota.png)
+
+
+- Editar información de la mascota (para rescatistas y refugios):
+  
+  ![editar-info-mascota](/assets/images/commons/Desktop%20-%20Editar%20información%20de%20la%20mascota.png)
+
+
+- Ver y agregar animalitos publicados (para rescatistas y refugios):
+
+  ![ver-animalitos-publicados](/assets/images/commons/Desktop%20-%20Ver%20Animalitos.png)
+
+
+- Ver tu historial de mascotas adoptadas y aprobadas: lista de mascotas adoptadas con fecha y adoptante (para rescatistas y refugios)
+  
+  - historial completo:
+  ![ver-historial](/assets/images/commons/Desktop%20-%20Ver%20historial.png) 
+
+  - historial detallado específico de una mascota en concreto:
+  ![ver-especifica-mascota-historial](/assets/images/commons/Desktop%20-%20Ver%20la%20mascota%20historial.png)
+
 
 #### 4.4.2. Web Applications Wireflow Diagrams
-Flujo desde el registro hasta la adopción:
-Usuario se registra → busca mascota → guarda favoritas → solicita adopción → recibe notificación.
-Refugio publica mascota → recibe solicitud → acepta/rechaza → se actualiza estado.
 
+##### User Goal: Registro e Inicio de Sesión
+
+User Persona: Adoptantes y rescatistas/refugio
+
+Explicación del Flujo:
+
+El usuario accede a la aplicación desplegada y visualiza un formulario que solicita su correo electrónico y contraseña. Una vez que se ingresan las credenciales, el sistema valida la información. Si la autenticación es exitosa, el usuario es redirigido a la página principal de su perfil. Si las credenciales son incorrectas, el sistema muestra un mensaje de error y permanece en la pantalla de inicio de sesión. En ese momento, el usuario tiene la opción de reintroducir sus credenciales o seleccionar “Olvidé mi contraseña” para iniciar el proceso de restablecimiento.
+
+![wireflow-inicio-sesión](/assets/images/commons/wireflow%20inicio%20de%20sesion.png)
+
+##### User Goal: Navegación Rápida a Funciones Principales
+User Persona: Adoptantes y rescatistas/refugio
+
+Explicación del Flujo:
+
+El usuario puede navegar de manera rápida e intuitiva por las secciones principales de la plataforma. Si es adoptante, podrá acceder a su "perfil" y editarlo con toda la información posible para que los rescatistas o refugios puedan tenerle mayor confianza. Además, puede buscar y filtrar las mascotas que quiera adoptar, puede ver recomendaciones de animales basado en búsquedas anteriores y preferencias, puede actualizar sus preferencias de adopción, puede ver el estado del proceso de adopción y puede ver el historial médico de cualquier mascota de su interés. Si es rescatista o del refugio, tienen la opción de publicar una mascota que requiere dueño, editar dicha información, borrar si es necesario o si tuvieron algún error. También pueden ver el historial de las mascotas que ya han sido adoptadas y limpiar dicho historial si quiere, ver solicitudes de adopción recibidas y rechazarlas o aceptar las solicitudes según convenga. 
+
+![wireflow-funciones-principales](/assets/images/commons/wireflow%20funciones.png)
 #### 4.4.3. Web Applications Mock-ups
 Pantallas diseñadas con la identidad visual definida.
 Uso de cards para mostrar mascotas, formularios intuitivos, paneles organizados.
