@@ -36,16 +36,6 @@ Product: Patita Solidaria
 **Url del proyecto**: https://github.com/DevsConClase-PatitaSolidaria
 
 ## Registro de Versiones del Informe
-| Version | Fecha    | Autor        | Descripción                                                        |
-|---------|----------|--------------|--------------------------------------------------------------------|
-| TB1     | 09/04/25 | Diego Rosado | Creación organización y repositorios en GitHub para proyecto final |
-| TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final y desarrollo del capitulo 5|
-| TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 y 4 del informe e implementación del diagrama de clases y el diccionario de clases| 
-| TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 y 5 del informe                              |
-| TB1     | 12/04/25 | Carlo Ramirez  | Desarrollo del Capítulo 3 del informe                            |
-| TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                |
-| TB1     | 14/04/25 | Sebastian Carbajal | Desarrollo de los diagramas de contexto, contenedores y componentes API| 
-
 | Version | Fecha    | Autor          | Descripción                                                                                                                                                                                                                               |
 |---------|----------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TB1     | 09/04/25 | Diego Rosado   | Creación organización y repositorios en GitHub para proyecto final                                                                                                                                                                        |
