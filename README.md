@@ -2166,27 +2166,6 @@ Anexo C: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?
 
 Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Landing-Page-Wireframe?node-id=0-1&t=JY8vru63cOEGScfn-1
 
-Diagrama de clases: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimfjbZSRxTsQRTIXhLdHeXvGM1Lpc/edit?usp=sharing 
-
-Diagrama de base de datos: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
-
-URL de la organización del proyecto: https://github.com/DevsConClase-PatitaSolidaria
-
-URL del repositorio del reporte: https://github.com/DevsConClase-PatitaSolidaria/Report
-
-URL del repositorio de la landing page: https://github.com/DevsConClase-PatitaSolidaria/LandingPage
-
-URL del repositorio del Frontend: https://github.com/DevsConClase-PatitaSolidaria/FrontEnd
-
-URL del repositorio del backend: https://github.com/DevsConClase-PatitaSolidaria/BackEnd
-
-URL deploy Landing Page: https://9l7f3r.csb.app/
-
-Link de Trello(Sprints Backlog): https://trello.com/invite/b/68069749695e82f09e91d3b6/ATTI6b725a8ef290b77d41a60034bd82cd13C5257AED/finalprojecttasks
-
-
-Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Landing-Page-Wireframe?node-id=0-1&t=JY8vru63cOEGScfn-1
-
 Web Applications Wireflow Diagrams: https://lucid.app/lucidchart/7705da30-aaf6-426a-b8bd-6cf9756bfd99/edit?viewport_loc=-2160%2C-2196%2C6476%2C3152%2C0_0&invitationId=inv_9d07f7c9-bd37-4952-8fde-d0405d436ed0
 
 Diagrama de clases: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
@@ -2195,7 +2174,7 @@ Diagrama de base de datos: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimf
 
 Domain-Driven Software Architecture: https://docs.google.com/document/d/1mWc4SVJLIUIM9qCMvw6McwkCnD9GFrYSK5azknZeub8/edit?tab=t.0
 
- Web Applications User Flow Diagrams: https://lucid.app/lucidchart/ed1b1f57-cbe4-47b7-8862-f60b523dc950/edit?viewport_loc=3913%2C-1287%2C6931%2C3131%2C0_0&invitationId=inv_aba17cea-690b-407b-8b64-1fc2ebf142f6
+Web Applications User Flow Diagrams: https://lucid.app/lucidchart/ed1b1f57-cbe4-47b7-8862-f60b523dc950/edit?viewport_loc=3913%2C-1287%2C6931%2C3131%2C0_0&invitationId=inv_aba17cea-690b-407b-8b64-1fc2ebf142f6
  
 URL de la organización del proyecto: https://github.com/DevsConClase-PatitaSolidaria
 
