@@ -1442,7 +1442,6 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ![wireflow-funciones-principales](/assets/images/commons/wireflow%20funciones.png)
 
-
 #### 4.4.3. Web Applications Mock-ups
 
 ##### Register Mockup: 
@@ -1511,9 +1510,6 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 ##### Web Application Rescuers/Animal-Shelter Mock-up:
 ![Rescuers-Mockup](/assets/images/commons/Web%20application%20Rescuers%20-%20Mockup.png)
-
-
-
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
@@ -1703,11 +1699,23 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
 
 - Project Management 
 
-     - Meet 
+     - Discord 
 
      Una herramienta de videoconferencias que posibilita la comunicación en tiempo real del grupo para reuniones de coordinación.
 
-     Imagen de evidencia de uso: 
+     - Zoom
+
+     Una plataforma de videollamadas utilizada para realizar y grabar la exposición final, permitiendo registrar la presentación del equipo de forma clara y accesible.
+
+    - Trello
+
+    Una herramienta de gestión de tareas basada en tableros, que permite organizar y coordinar el trabajo del equipo en tiempo real mediante listas, tarjetas y etiquetas.
+
+    Imagen de evidencia de uso:
+
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/Trello.png">
+
+
 
 - Requirements Management 
 
@@ -1717,6 +1725,9 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
 
     Imagen de evidencia de uso
 
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/structurizr.png">
+
+
 - Product UX/UI Design
 
     - Figma 
@@ -1725,11 +1736,16 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
 
     Imagen de evidencia de uso
 
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/figma_wireframe.png">
+
+
     - Lucidchart
 
     Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
 
     Imagen de evidencia de uso
+
+
 
 - Software Development 
 
@@ -1739,17 +1755,25 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
 
     Imagen de evidencia de uso
 
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/Code_landing.png">
+
+
     - CSS 
 
     Lenguaje de diseño gráfico utilizado para dar formato al código escrito en HTML.
 
     Imagen de evidencia de uso
 
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/Css_landing.png">
+
+
     - JavaScript
 
     Lenguaje de programación orientado a objetos dinámico que utilizamos para implementar funcionalidades en un documento HTML.
 
     Imagen de evidencia de uso
+
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/Js_landing.png">
 
 - Software Documentation
 
@@ -1877,6 +1901,19 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 #### 5.2.1. Sprint 1
 
 ##### 5.2.1.1. Sprint Planning 1
+
+|Sprint#|Srint 1|
+|:--:|:--:|
+|Sprint Planning Background|---------|
+|Date|2025-20-04|
+|Time|10:10 PM|
+|Location|Reunión virtual en Google Meet|
+|Prepared by|Diego Alonso Rosado Iporre|
+|Attendees (to <br>planning meeting)|Diego Alonso Rosado Iporre, Carlos Andrés Coca, Arnold Morales Sosa, Pedro Lecca, Carlo Ramirez, Sebastián Carbajal Santivañez|
+|Sprint Goal & User<br>stories|---------|
+|Sprint 1 Goal|Construir y diseñar una landing page interactiva, llamativa, profesional e informativa para la aplicación web "Patita Solidaria".|
+|Sprint 1 Velocity|------|
+|Sum of story points|8|
 
 ##### 5.2.1.2. Sprint Backlog 1
 
@@ -2101,9 +2138,14 @@ Anexo C: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?
 
 Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Landing-Page-Wireframe?node-id=0-1&t=JY8vru63cOEGScfn-1
 
-Diagrama de clases:
+Web Applications Wireflow Diagrams: 
 
-Diagrama de base de datos:
+
+Diagrama de clases: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
+
+Diagrama de base de datos: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimfjbZSRxTsQRTIXhLdHeXvGM1Lpc/edit?tab=t.0
+
+Domain-Driven Software Architecture: https://docs.google.com/document/d/1mWc4SVJLIUIM9qCMvw6McwkCnD9GFrYSK5azknZeub8/edit?tab=t.0
 
 URL de la organización del proyecto: https://github.com/DevsConClase-PatitaSolidaria
 
@@ -2117,5 +2159,5 @@ URL del repositorio del backend: https://github.com/DevsConClase-PatitaSolidaria
 
 URL deploy Landing Page: https://9l7f3r.csb.app/
 
-Link de Trello(Sprints Backlog): https://trello.com/invite/b/68069749695e82f09e91d3b6/ATTI6b725a8ef290b77d41a60034bd82cd13C5257AED/finalprojecttasks
+Link de Trello(Sprints Backlog): https://trello.com/b/3DnjiCdf/finalprojecttasks
 
