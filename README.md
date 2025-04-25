@@ -45,7 +45,6 @@ Product: Patita Solidaria
 | TB1     | 12/04/25 | Carlo Ramirez  | Desarrollo del Capítulo 3 del informe                            |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                |
 | TB1     | 14/04/25 | Sebastian Carbajal | Desarrollo de los diagramas de contexto, contenedores y componentes API| 
-=======
 
 | Version | Fecha    | Autor          | Descripción                                                                                                                                                                                                                               |
 |---------|----------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
