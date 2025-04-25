@@ -1445,6 +1445,67 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 #### 4.4.3. Web Applications Mock-ups
 
+##### Register Mockup: 
+![RM](/assets/images/commons/Register%20Mockup.png)
+
+##### Login Mockup: 
+![LM](/assets/images/commons/Login%20Mockup.png)
+
+##### Login Mockup (password or username incorrect): 
+![incorrect](/assets/images/commons/Login%20Mockup%20(1).png)
+
+##### Reset password Mockup: 
+![resetpassword](/assets/images/commons/Reset%20password%20Mockup.png)
+
+##### Reset password Mockup #2: 
+![resetpassword2](/assets/images/commons/Reset%20password%20Mockup%20%232.png)
+
+##### Reset password Mockup (password doesn't match): 
+![match](/assets/images/commons/Reset%20password%20Mockup%20%233.png)
+
+##### Rescuer Mockups functions: 
+![RF](/assets/images/commons/Mockup%20Rescatista%20-%20Ver%20perfil.png)
+
+![RF2](/assets/images/commons/Mockup%20Rescatista%20-%20Editar%20datos.png)
+
+![RF3](/assets/images/commons/Mockup%20Rescatista%20-%20Borrar%20cuenta.png)
+
+![RF4](/assets/images/commons/Mockup%20Rescatista%20-%20registrar%20mascotas%20y%20ver%20las%20que%20has%20publicado.png)
+
+![RF5](/assets/images/commons/Mockup%20Rescatista%20-%20Crear%20mascota.png)
+
+![RF6](/assets/images/commons/Mockup%20Rescatista%20-%20Editar%20mascota.png)
+
+![RF7](/assets/images/commons/Mockup%20Rescatista%20-%20Editar%20mascota%20(1).png)
+
+![RF8](/assets/images/commons/Mockup%20Rescatista%20-%20Eliminar%20mascota.png)
+
+![RF9](/assets/images/commons/Mockup%20Rescatista%20-%20Ver%20Historial%20de%20mascotas%20finalmente%20adoptadas.png)
+
+![RF10](/assets/images/commons/Mockup%20Rescatista%20-%20Ver%20detalladamente%20los%20datos%20de%20la%20mascota%20más%20los%20detalles%20del%20adoptante.png)
+
+![RF11](/assets/images/commons/Mockup%20Rescatista%20-%20Ver%20perfil%20del%20actual%20dueño%20de%20la%20mascota%20anteriormente%20publicada.png)
+
+![RF12](/assets/images/commons/Mockup%20Rescatista%20-%20Eliminar%20Historial.png)
+
+![RF13](/assets/images/commons/Mockup%20Rescatista%20-%20Historial%20actualizado.png)
+
+
+##### Adopts Mockups functions:
+
+![AM1](/assets/images/commons/Mockup%20Adoptante%20-%20Ver%20perfil.png)
+
+![AM2](/assets/images/commons/Mockup%20Adoptante%20-%20Editar%20datos.png)
+
+![AM3](/assets/images/commons/Mockup%20Adoptante%20-%20Borrar%20cuenta.png)
+
+![AM4](/assets/images/commons/Mockup%20Adoptante%20-%20Buscar%20Mascotas.png)
+
+![AM5](/assets/images/commons/Mockup%20Adoptante%20-%20Ver%20detalle%20de%20la%20mascota.png)
+
+![AM6](/assets/images/commons/Mockup%20Adoptante%20-%20Ver%20historial%20médico%20de%20la%20mascota%20a%20adoptar.png)
+
+
 ##### Web application Adopters - Mockup:
 ![adopters-Mockup](/assets/images/commons/Web%20application%20Adopters%20-%20Mockup.png)
 
@@ -1452,16 +1513,11 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 ![Rescuers-Mockup](/assets/images/commons/Web%20application%20Rescuers%20-%20Mockup.png)
 
 
+
+
 #### 4.4.4. Web Applications User Flow Diagrams
-Diagramas de flujo centrados en tareas:
-Flujo del adoptante: búsqueda → favoritos → solicitud.
-Flujo del refugio: publicación → gestión de mascotas → respuesta a solicitudes.
-Flujo del administrador: gestión de usuarios → vista de estadísticas.
 
 ### 4.5. Web Applications Prototyping
-Prototipo funcional desarrollado con herramientas como Figma.
-Simulación de interacciones clave: registro, búsqueda, solicitud y administración.
-Pruebas de usabilidad realizadas para validar navegación e intuitividad.
 
 ### 4.6. Domain-Driven Software Architecture
 
