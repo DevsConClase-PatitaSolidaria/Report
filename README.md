@@ -56,7 +56,7 @@ Product: Patita Solidaria
 | TB1     | 20/04/25 | Pedro Lecca    | Documentación completa (5.2.1 -  5.2.1.8)                                                                                                                                                                                                 |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                                                                                                                                                                                         | 
 | TB1     | 14/04/25 | Carlo Ramirez        | Desarrollo del Capitulo 3 del informe 4.8                                                                                                                                                                                                 | 
-| TB1     | 24/04/25 | Diego Rosado   | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping |
+| TB1     | 24/04/25 | Diego Rosado   | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping, seccion 4.4.4 |
 
 ## Project Report Collaboration Insights
 
@@ -196,14 +196,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br> *Sebastian Aaron Anibal Carbajal Santivañez*: <br> TB1:Cuando todo el equipo designo sus puntos a realizar, yo tuve que realizar un analisis para posteriormente realizar diagramas del contexto en el que se iba a basar nuestra solución, luego encontrar todo tipo de componentes necesarios para llevarla a cabo de forma correcta.                                                                                                               | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución TB1:<br> He creado un entorno <br><br> Sebastian Aaron Anibal Carbajal Santivañez <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que es importante realizar un analisis previo del contexto que abarca un determinado problema, todos sus actores y encontrar los tipos de relación que tendran con el sistema a tener en cuenta para nuestra solución                                                                                                                                                                                                        |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> *Sebastian Aaron Anibal Carbajal Santivañez*: <br> TB1:Durante el desarrollo de los respectivos diagramas busque que fuese lo mas claro posible para los usuarios puedan tener esa facilidad de entendimiento.| **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. <br><br> *Sebastian Aaron Anibal Carbajal Santivañez*: <br> TB1:Durante mi participación en el trabajo, comprendí la importancia de la elaboración correcta de los diagramas de contexto,contenedores y los componentes API,cuando definí cada componente de forma coherente y bien estructurado|
-=======
-
-| Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br>**Pedro Omar Lecca Villalobos** <br> TB1: Durante el desarrollo del informe y las evidencias del Sprint 1, he estructurado técnicamente los entregables de manera clara y coherente para facilitar su presentación oral.<br><br>  **Carlo Patricio Ramirez Escalante**: <br> TB1: Durante el desarrollo del informe buscamos explicar de forma clara y concisa los entregables <br>                                                                                                                                                    | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución <br><br><br>**Pedro Omar Lecca Villalobos** <br> TB1: La forma en que desarrolle los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.<br><br>**Carlo Patricio Ramirez Escalante**<br> TB1:<br> Luego de desarrollar los puntos del informe permitimos transmitir con claridad los objetivos del sistema, facilitando la comprensión del proyecto ante audiencias técnicas y no técnicas. <br><br>                                                                                                                                           |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> Además, desarrolle y documentó completamente los puntos 5.2.1.1 al 5.2.1.8 del Sprint 1, incluyendo commits, validaciones JS, despliegue y evidencias Markdown.<br><br>**Carlo Patricio Ramirez Escalante**<br> TB1: <br>Elaboré el Capítulo 3: Requirements Specification, desarrollando el To-Be Scenario Mapping, las User Stories, el Impact Mapping y el Product Backlog y el punto 4.8 Database Design <br><br> | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5.<br><br>**Carlo Patricio Ramirez Escalante**<br> TB1: <br> Mi participación permitió estructurar y comunicar de forma clara los requisitos del sistema mediante el desarrollo del capítulo "Requirements Specification", integrando herramientas como Scenario Mapping, User Stories, Impact Mapping, Product Backlog y el diseño de base de datos, lo que facilitó la comprensión técnica del proyecto por parte del equipo <br><br> |
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: A través de una planificación estructurada de la exposición y la asignación clara de roles, el equipo ha desarrollado la capacidad de comunicar el proyecto 'Patita Solidaria' con efectividad. <br><br> **Carlos Andrés Coca Lavado** <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez** <br> TB1:Cuando todo el equipo designo sus puntos a realizar, yo tuve que realizar un analisis para posteriormente realizar diagramas del contexto en el que se iba a basar nuestra solución, luego encontrar todo tipo de componentes necesarios para llevarla a cabo de forma correcta.  <br><br> **Carlo Patricio Ramirez Escalante** <br> TB1: Durante el desarrollo del informe buscamos explicar de forma clara y concisa los entregables. <br><br> **Pedro Omar Lecca Villalobos** <br> TB1:  Durante el desarrollo del informe y las evidencias del Sprint 1, he estructurado técnicamente los entregables de manera clara y coherente para facilitar su presentación oral.                                                                                                            | **Diego Alonso Rosado Iporre**<br> TB1:<br> Hemos logrado comunicar Patita Solidaria de forma clara y efectiva, adaptando nuestro mensaje según la audiencia, ya sea en contextos técnicos o sociales. <br><br> **Carlos Andrés Coca Lavado** <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución <br><br> **Sebastian Aaron Anibal Carbajal Santivañez** <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que es importante realizar un analisis previo del contexto que abarca un determinado problema, todos sus actores y encontrar los tipos de relación que tendran con el sistema a tener en cuenta para nuestra solución. <br><br> **Carlo Patricio Ramirez Escalante** <br>TB1:<br> Luego de desarrollar los puntos del informe permitimos transmitir con claridad los objetivos del sistema, facilitando la comprensión del proyecto ante audiencias técnicas y no técnicas. <br><br>  **Pedro Omar Lecca Villalobos** <br>TB1:<br> La forma en que desarrolle los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios. <br><br>                                                                                                                                                                                                          |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Diego Alonso Rosado Iporre**<br> TB1: <br> Redacción del informe por completo, etiquetas de navegación y descripción de anexos tanto para usuarios técnicos como no técnicos. <br><br> **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez**: <br> TB1:Durante el desarrollo de los respectivos diagramas busque que fuese lo mas claro posible para los usuarios puedan tener esa facilidad de entendimiento. <br><br>**Carlo Patricio Ramirez Escalante**<br> TB1: Elaboré el Capítulo 3: Requirements Specification, desarrollando el To-Be Scenario Mapping, las User Stories, el Impact Mapping y el Product Backlog y el punto 4.8 Database Design.| **Diego Alonso Rosado Iporre**<br> TB1: <br> La documentación escrita fue elaborada con un enfoque inclusivo y preciso, facilitando la comprensión del proyecto tanto a especialistas como a usuarios generales. <br><br>  **Carlos Andrés Coca Lavado**<br> TB1: <br> Se comunicó de manera clara y accesible el propósito y funcionamiento de Patita Solidaria, ajustando el lenguaje según la audiencia para garantizar comprensión y efectividad. <br><br>  **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez**: <br> TB1:Durante mi participación en el trabajo, comprendí la importancia de la elaboración correcta de los diagramas de contexto,contenedores y los componentes API,cuando definí cada componente de forma coherente y bien estructurado <br><br>**Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> |
 
 ## Capítulo I: Introducción
 
@@ -1513,7 +1507,15 @@ El usuario puede navegar de manera rápida e intuitiva por las secciones princip
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
-### 4.5. Web Applications Prototyping
+- **Goal: El usuario quiere adoptar una mascota**
+
+![UserFlow_1](/assets/images/commons/Goal-Adoptante.png)
+
+- **Goal: El usuario registra una mascota para su adopción**
+
+![UserFlow_1](/assets/images/commons/Goal-Usuario.png)
+
+
 
 ### 4.6. Domain-Driven Software Architecture
 
@@ -2078,7 +2080,6 @@ Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de us
 #### Capturas de Evidencia del Despliegue
 
 - C1: Vista general de la Landing Page desplegada
-<p align="center"><img width="auto" height="auto" src="assets/images/commons/index1.png">
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/index2.png">
 
@@ -2124,7 +2125,45 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 
 ## Conclusiones
 
+- TB1:
+
+El proyecto "Patita Solidaria" reflejó un enfoque empático y colaborativo, orientado a resolver una problemática social relevante como es la adopción responsable y el apoyo a refugios y rescatistas. Se logró estructurar una plataforma funcional y accesible mediante el uso de herramientas como User Stories, wireframes y organización por funciones clave, lo cual permitió priorizar la experiencia del usuario. Las decisiones en torno a la navegación, búsqueda y etiquetas fueron coherentes con el propósito de facilitar la interacción de adoptantes y rescatistas. Asimismo, la claridad en la definición de funciones y flujos mejoró la organización del equipo y evidenció un compromiso con el impacto social de la propuesta, marcando una base sólida para su desarrollo y escalabilidad futura.
+
 ## Bibliografía
+
+- Miro. (2024). Miro. Miro Corporation. https://miro.com
+
+- LucidChart. (2024). LucidChart. Lucid Software Inc. https://www.lucidchart.com
+
+- Canva. (2024). Canva: Herramienta de diseño para presentaciones y prototipos. https://www.canva.com
+
+- Trello. (2024). Trello: Gestión de tareas por tableros. Atlassian. https://trello.com
+
+- Cohn, M. (2006). Historias de usuario: Un enfoque ágil. Pearson Educación. https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf
+
+- Pressman, R. S. (2010). Ingeniería de Software: Un enfoque práctico. McGraw-Hill. https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
+
+- The C4 model for visualising software architecture. (2024). https://c4model.com/
+
+- Structurizr. (2024). https://www.structurizr.com/
+
+- GitHub. (2024). GitHub. https://github.com
+
+- GitHub Pages. (2024). Servicio de despliegue estático de GitHub. https://pages.github.com
+
+- Google Meet. (2024). Google Meet. https://meet.google.com
+
+- Pivotal Tracker. (2024). Pivotal Tracker. VMware. https://www.pivotaltracker.com
+
+- Figma. (2024). Figma. https://www.figma.com
+
+- Asociación Protectora Animalista de Perú – APAP. (2024). Protección animal y promoción de la adopción. https://asociacionprotectoraanimalistadeperu.wordpress.com/
+
+- WUF. (2024). Plataforma de adopciones y bienestar animal en Perú. https://www.wuf.pe
+
+- Wukha. (2024). Adopciones y comunidad pet-friendly. https://wukha.com
+
+- Voz Animal Perú. (2024). Rescate y adopción responsable. https://www.vozanimalperu.org
 
 ## Anexos
 
@@ -2138,9 +2177,9 @@ Anexo C: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?
 
 Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Landing-Page-Wireframe?node-id=0-1&t=JY8vru63cOEGScfn-1
 
-Diagrama de clases:
+Diagrama de clases: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimfjbZSRxTsQRTIXhLdHeXvGM1Lpc/edit?usp=sharing 
 
-Diagrama de base de datos:
+Diagrama de base de datos: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
 
 URL de la organización del proyecto: https://github.com/DevsConClase-PatitaSolidaria
 
@@ -2159,8 +2198,7 @@ Link de Trello(Sprints Backlog): https://trello.com/invite/b/68069749695e82f09e9
 
 Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Landing-Page-Wireframe?node-id=0-1&t=JY8vru63cOEGScfn-1
 
-Web Applications Wireflow Diagrams: 
-
+Web Applications Wireflow Diagrams: https://lucid.app/lucidchart/7705da30-aaf6-426a-b8bd-6cf9756bfd99/edit?viewport_loc=-2160%2C-2196%2C6476%2C3152%2C0_0&invitationId=inv_9d07f7c9-bd37-4952-8fde-d0405d436ed0
 
 Diagrama de clases: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
 
@@ -2168,6 +2206,8 @@ Diagrama de base de datos: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimf
 
 Domain-Driven Software Architecture: https://docs.google.com/document/d/1mWc4SVJLIUIM9qCMvw6McwkCnD9GFrYSK5azknZeub8/edit?tab=t.0
 
+ Web Applications User Flow Diagrams: https://lucid.app/lucidchart/ed1b1f57-cbe4-47b7-8862-f60b523dc950/edit?viewport_loc=3913%2C-1287%2C6931%2C3131%2C0_0&invitationId=inv_aba17cea-690b-407b-8b64-1fc2ebf142f6
+ 
 URL de la organización del proyecto: https://github.com/DevsConClase-PatitaSolidaria
 
 URL del repositorio del reporte: https://github.com/DevsConClase-PatitaSolidaria/Report
