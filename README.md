@@ -2098,3 +2098,24 @@ Link de Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2740810
 Anexo B: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?viewport_loc=1525%2C-12684%2C2993%2C1352%2C0_0&invitationId=inv_66143621-8c9e-4f70-9ef8-5d1094b12372
 
 Anexo C: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?viewport_loc=1525%2C-12684%2C2993%2C1352%2C0_0&invitationId=inv_66143621-8c9e-4f70-9ef8-5d1094b12372
+
+Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Landing-Page-Wireframe?node-id=0-1&t=JY8vru63cOEGScfn-1
+
+Diagrama de clases:
+
+Diagrama de base de datos:
+
+URL de la organización del proyecto: https://github.com/DevsConClase-PatitaSolidaria
+
+URL del repositorio del reporte: https://github.com/DevsConClase-PatitaSolidaria/Report
+
+URL del repositorio de la landing page: https://github.com/DevsConClase-PatitaSolidaria/LandingPage
+
+URL del repositorio del Frontend: https://github.com/DevsConClase-PatitaSolidaria/FrontEnd
+
+URL del repositorio del backend: https://github.com/DevsConClase-PatitaSolidaria/BackEnd
+
+URL deploy Landing Page: https://9l7f3r.csb.app/
+
+Link de Trello(Sprints Backlog): https://trello.com/invite/b/68069749695e82f09e91d3b6/ATTI6b725a8ef290b77d41a60034bd82cd13C5257AED/finalprojecttasks
+
