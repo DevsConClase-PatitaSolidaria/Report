@@ -1893,21 +1893,6 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ##### 5.2.1.1. Sprint Planning 1
 
-|Sprint#|Srint 1|
-|:--:|:--:|
-|Sprint Planning Background|---------|
-|Date|2025-20-04|
-|Time|10:10 PM|
-|Location|Reunión virtual en Google Meet|
-|Prepared by|Diego Alonso Rosado Iporre|
-|Attendees (to <br>planning meeting)|Diego Alonso Rosado Iporre, Carlos Andrés Coca, Arnold Morales Sosa, Pedro Lecca, Carlo Ramirez, Sebastián Carbajal Santivañez|
-|Sprint Goal & User<br>stories|---------|
-|Sprint 1 Goal|Construir y diseñar una landing page interactiva, llamativa, profesional e informativa para la aplicación web "Patita Solidaria".|
-|Sprint 1 Velocity|------|
-|Sum of story points|8|
-
-##### 5.2.1.2. Sprint Backlog 1
-
 En esta sección se detallan los aspectos principales de la reunión de planificación del Sprint 1 del proyecto “Patita Solidaria”. Se priorizó el diseño e implementación de la Landing Page inicial y la visualización de perfiles informativos de mascotas, enfocándose en usabilidad, diseño adaptable y estructura de navegación básica.
 
 | Elemento                                | Detalle                                                                                   |
@@ -1924,8 +1909,7 @@ En esta sección se detallan los aspectos principales de la reunión de planific
 | **Sprint n Velocity**                    | 5 Story Points                                                                           |
 | **Sum of Story Points**                  | 5                                                                                        |
 
-
-#### 5.2.1.3. Sprint Backlog 1
+##### 5.2.1.2. Sprint Backlog 1
 
 Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundamentales para la experiencia del usuario adoptante y la presentación visual del sistema. A continuación, se detallan las tareas asociadas a las historias de usuario priorizadas para este Sprint.
 
@@ -1945,10 +1929,9 @@ Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundament
 | US10          | Publicar mascota en adopción | T10-01   | Diseño de estructura estática de ficha de adopción            | HTML simulado de mascota publicada enlazada desde galería.                                       | 3                  | Pedro Lecca    | Done       |
 | US10          | Publicar mascota en adopción | T10-02   | Conexión a galería de `mascotas.html`                         | Integración de enlaces desde galería a páginas individuales.                                     | 3                  | Pedro Lecca    | Done       |
 
-
 **Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas.
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.3. Development Evidence for Sprint Review
 
 Durante este Sprint se realizaron múltiples avances en la implementación de la solución, particularmente en la construcción de la Landing Page, formularios de autenticación y perfiles de mascotas. A continuación, se presenta la evidencia de commits relacionados al Sprint 1.
 
