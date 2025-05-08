@@ -2150,9 +2150,9 @@ Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Land
 
 Web Applications Wireflow Diagrams: https://lucid.app/lucidchart/7705da30-aaf6-426a-b8bd-6cf9756bfd99/edit?viewport_loc=-2160%2C-2196%2C6476%2C3152%2C0_0&invitationId=inv_9d07f7c9-bd37-4952-8fde-d0405d436ed0
 
-Diagrama de clases: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
+Diagrama de clases: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimfjbZSRxTsQRTIXhLdHeXvGM1Lpc/edit?tab=t.0
 
-Diagrama de base de datos: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimfjbZSRxTsQRTIXhLdHeXvGM1Lpc/edit?tab=t.0
+Diagrama de base de datos: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
 
 Domain-Driven Software Architecture: https://docs.google.com/document/d/1mWc4SVJLIUIM9qCMvw6McwkCnD9GFrYSK5azknZeub8/edit?tab=t.0
 
