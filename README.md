@@ -1313,18 +1313,17 @@ Beneficios de adoptar con la plataforma.
 Testimonios de adoptantes y refugios.
 CTA final: "Únete como adoptante" / "Registra tu refugio".
 
-![Landing-Page-Wireframe](/assets/images/commons/LandingPage-Wireframe.png)
+![Landing-Page-Wireframe](assets/images/commons/LandingPage-Wireframe.png)
 
-![Landing-Page-Movil-Wireframe](/assets/images/commons/LandingPage%20Movil%20Wireframes.png)
-
+![Landing-Page-Movil-Wireframe](assets/images/commons/LandingPage%20Movil%20Wireframes.png)
 
 #### 4.3.2. Landing Page Mock-up
 Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico.
 Botones destacados y secciones bien diferenciadas visualmente.
 
-![Landing-Page-Mockup](/assets/images/commons/LandingPage-Mockup.png)
+![Landing-Page-Mockup](assets/images/commons/LandingPage-Mockup.png)
 
-![Landing-Page-Movil-Mockup](/assets/images/commons/LandingPage%20Movil.png)
+![Landing-Page-Movil-Mockup](assets/images/commons/LandingPage%20Movil.png)
 
 
 ### 4.4. Web Applications UX/UI Design
@@ -1332,75 +1331,75 @@ Botones destacados y secciones bien diferenciadas visualmente.
 #### 4.4.1. Web Applications Wireframes
 - Web application login wireframe: Este wireframe muestra la pantalla de inicio de sesión de la aplicación web, con campos para correo electrónico y contraseña, y botón para iniciar sesión.
 
-![Login-Wireframe](/assets/images/commons/Login%20Wireflow.png)
+![Login-Wireframe](assets/images/commons/Login%20Wireflow.png)
 
  - Incorrect password Wireframe:
-   ![incorrect-password](/assets/images/commons/incorrect%20password%20Wireflow.png)
+   ![incorrect-password](assets/images/commons/incorrect%20password%20Wireflow.png)
 
  - Reset password Wireframe: digitas tu correo vinculado a tu cuenta, luego lo confirmas mediante un enlace mandado al correo digitado que requiere el 
    cambio (debe existir una cuenta para hacerlo, sino no saldrá nada en el correo) y podrás seguir con el cambio de contraseña.
-   ![reset-password](/assets/images/commons/Reset%20password%20Wireflow.png)
+   ![reset-password](assets/images/commons/Reset%20password%20Wireflow.png)
 
  - Reset password Wireframe #2:
-   ![reset-password-part2](/assets/images/commons/Reset%20password%20Wireflow%20%232.png)
+   ![reset-password-part2](assets/images/commons/Reset%20password%20Wireflow%20%232.png)
    
 
 - Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, tipo de usuario que va a usar la aplicación (adopter y animal shelter/rescue) y botón para registrarse.
-![Register-Wireframe](/assets/images/commons/Register%20Wireflow.png)
+![Register-Wireframe](assets/images/commons/Register%20Wireflow.png)
 
 
 - Web application Adopters: Este wireframe muestra la pantalla de bienvenida, animales disponibles para adopción, una barra en la que se puede acceder a la landing page desde home, al buscador de mascotas, tu perfil y un apartado para donaciones, también aparece el formulario para que puedan aceptarte más rápido a la hora de solcitar adoptar a una mascota. Por último, está la sección de poder ve las reviews y nuestras redes sociales como startup.
   
-![adopters-Wireframe](/assets/images/commons/Web%20application%20Adopters.png)
+![adopters-Wireframe](assets/images/commons/Web%20application%20Adopters.png)
 
 
 - Web application Rescuers and Animal Shelters: Este wireframe muestra la pantalla de bienvenida y más opciones para que el rescatista o refugio pueda ubicarse fácilmente a donde quiere ir.
 
-![rescuers-Wireframe](/assets/images/commons/Web%20application%20Rescuers.png)
+![rescuers-Wireframe](assets/images/commons/Web%20application%20Rescuers.png)
 
 
 - View Profile Wireframe: Este wireframe muestra tu perfil y puedes editarlo a tu gusto para que los demás sepan más acerca de ti. Para los dos casos es igual el diseño.
   
-![Profile-Wireframe](/assets/images/commons/Wireframe%20-%20Ver%20perfil.png)
+![Profile-Wireframe](assets/images/commons/Wireframe%20-%20Ver%20perfil.png)
 
 
 - Profile Edit Wireframe:
 
-  ![Profile-Edit-Wireframe](/assets/images/commons/Wireframe%20-%20Editar%20cuenta.png)
+  ![Profile-Edit-Wireframe](assets/images/commons/Wireframe%20-%20Editar%20cuenta.png)
 
 
 - Delete account Wireframe:
 
-  ![Delete-account-Wireframe](/assets/images/commons/Wireframe%20-%20Borrar%20cuenta.png)
+  ![Delete-account-Wireframe](assets/images/commons/Wireframe%20-%20Borrar%20cuenta.png)
   
 
 - Buscar mascotas disponibles:
 
-  ![buscar-mascotas](/assets/images/commons/Desktop%20-%20Buscar%20Animalitos.png)
+  ![buscar-mascotas](assets/images/commons/Desktop%20-%20Buscar%20Animalitos.png)
 
 
 - Ver información de la mascota que se quiere adoptar:
   
-  ![ver-información](/assets/images/commons/Desktop%20-%20Detalle%20de%20la%20mascota.png)
+  ![ver-información](assets/images/commons/Desktop%20-%20Detalle%20de%20la%20mascota.png)
 
 
 - Editar información de la mascota (para rescatistas y refugios):
   
-  ![editar-info-mascota](/assets/images/commons/Desktop%20-%20Editar%20información%20de%20la%20mascota.png)
+  ![editar-info-mascota](assets/images/commons/Desktop%20-%20Editar%20información%20de%20la%20mascota.png)
 
 
 - Ver y agregar animalitos publicados (para rescatistas y refugios):
 
-  ![ver-animalitos-publicados](/assets/images/commons/Desktop%20-%20Ver%20Animalitos.png)
+  ![ver-animalitos-publicados](assets/images/commons/Desktop%20-%20Ver%20Animalitos.png)
 
 
 - Ver tu historial de mascotas adoptadas y aprobadas: lista de mascotas adoptadas con fecha y adoptante (para rescatistas y refugios)
   
   - historial completo:
-  ![ver-historial](/assets/images/commons/Desktop%20-%20Ver%20historial.png) 
+  ![ver-historial](assets/images/commons/Desktop%20-%20Ver%20historial.png) 
 
   - historial detallado específico de una mascota en concreto:
-  ![ver-especifica-mascota-historial](/assets/images/commons/Desktop%20-%20Ver%20la%20mascota%20historial.png)
+  ![ver-especifica-mascota-historial](assets/images/commons/Desktop%20-%20Ver%20la%20mascota%20historial.png)
 
 
 #### 4.4.2. Web Applications Wireflow Diagrams
@@ -1413,7 +1412,7 @@ Explicación del Flujo:
 
 El usuario accede a la aplicación desplegada y visualiza un formulario que solicita su correo electrónico y contraseña. Una vez que se ingresan las credenciales, el sistema valida la información. Si la autenticación es exitosa, el usuario es redirigido a la página principal de su perfil. Si las credenciales son incorrectas, el sistema muestra un mensaje de error y permanece en la pantalla de inicio de sesión. En ese momento, el usuario tiene la opción de reintroducir sus credenciales o seleccionar “Olvidé mi contraseña” para iniciar el proceso de restablecimiento.
 
-![wireflow-inicio-sesión](/assets/images/commons/wireflow%20inicio%20de%20sesion.png)
+![wireflow-inicio-sesión](assets/images/commons/wireflow%20inicio%20de%20sesion.png)
 
 ##### User Goal: Navegación Rápida a Funciones Principales
 User Persona: Adoptantes y rescatistas/refugio
@@ -1422,86 +1421,86 @@ Explicación del Flujo:
 
 El usuario puede navegar de manera rápida e intuitiva por las secciones principales de la plataforma. Si es adoptante, podrá acceder a su "perfil" y editarlo con toda la información posible para que los rescatistas o refugios puedan tenerle mayor confianza. Además, puede buscar y filtrar las mascotas que quiera adoptar, puede ver recomendaciones de animales basado en búsquedas anteriores y preferencias, puede actualizar sus preferencias de adopción, puede ver el estado del proceso de adopción y puede ver el historial médico de cualquier mascota de su interés. Si es rescatista o del refugio, tienen la opción de publicar una mascota que requiere dueño, editar dicha información, borrar si es necesario o si tuvieron algún error. También pueden ver el historial de las mascotas que ya han sido adoptadas y limpiar dicho historial si quiere, ver solicitudes de adopción recibidas y rechazarlas o aceptar las solicitudes según convenga. 
 
-![wireflow-funciones-principales](/assets/images/commons/wireflow%20funciones.png)
+![wireflow-funciones-principales](assets/images/commons/wireflow%20funciones.png)
 
 #### 4.4.3. Web Applications Mock-ups
 
 ##### Register Mockup: 
-![RM](/assets/images/commons/Register%20Mockup.png)
+![RM](assets/images/commons/Register%20Mockup.png)
 
 ##### Login Mockup: 
-![LM](/assets/images/commons/Login%20Mockup.png)
+![LM](assets/images/commons/Login%20Mockup.png)
 
 ##### Login Mockup (password or username incorrect): 
-![incorrect](/assets/images/commons/Login%20Mockup%20(1).png)
+![incorrect](assets/images/commons/Login%20Mockup%20(1).png)
 
 ##### Reset password Mockup: 
-![resetpassword](/assets/images/commons/Reset%20password%20Mockup.png)
+![resetpassword](assets/images/commons/Reset%20password%20Mockup.png)
 
 ##### Reset password Mockup #2: 
-![resetpassword2](/assets/images/commons/Reset%20password%20Mockup%20%232.png)
+![resetpassword2](assets/images/commons/Reset%20password%20Mockup%20%232.png)
 
 ##### Reset password Mockup (password doesn't match): 
-![match](/assets/images/commons/Reset%20password%20Mockup%20%233.png)
+![match](assets/images/commons/Reset%20password%20Mockup%20%233.png)
 
 ##### Rescuer Mockups functions: 
-![RF](/assets/images/commons/Mockup%20Rescatista%20-%20Ver%20perfil.png)
+![RF](assets/images/commons/Mockup%20Rescatista%20-%20Ver%20perfil.png)
 
-![RF2](/assets/images/commons/Mockup%20Rescatista%20-%20Editar%20datos.png)
+![RF2](assets/images/commons/Mockup%20Rescatista%20-%20Editar%20datos.png)
 
-![RF3](/assets/images/commons/Mockup%20Rescatista%20-%20Borrar%20cuenta.png)
+![RF3](assets/images/commons/Mockup%20Rescatista%20-%20Borrar%20cuenta.png)
 
-![RF4](/assets/images/commons/Mockup%20Rescatista%20-%20registrar%20mascotas%20y%20ver%20las%20que%20has%20publicado.png)
+![RF4](assets/images/commons/Mockup%20Rescatista%20-%20registrar%20mascotas%20y%20ver%20las%20que%20has%20publicado.png)
 
-![RF5](/assets/images/commons/Mockup%20Rescatista%20-%20Crear%20mascota.png)
+![RF5](assets/images/commons/Mockup%20Rescatista%20-%20Crear%20mascota.png)
 
-![RF6](/assets/images/commons/Mockup%20Rescatista%20-%20Editar%20mascota.png)
+![RF6](assets/images/commons/Mockup%20Rescatista%20-%20Editar%20mascota.png)
 
-![RF7](/assets/images/commons/Mockup%20Rescatista%20-%20Editar%20mascota%20(1).png)
+![RF7](assets/images/commons/Mockup%20Rescatista%20-%20Editar%20mascota%20(1).png)
 
-![RF8](/assets/images/commons/Mockup%20Rescatista%20-%20Eliminar%20mascota.png)
+![RF8](assets/images/commons/Mockup%20Rescatista%20-%20Eliminar%20mascota.png)
 
-![RF9](/assets/images/commons/Mockup%20Rescatista%20-%20Ver%20Historial%20de%20mascotas%20finalmente%20adoptadas.png)
+![RF9](assets/images/commons/Mockup%20Rescatista%20-%20Ver%20Historial%20de%20mascotas%20finalmente%20adoptadas.png)
 
-![RF10](/assets/images/commons/Mockup%20Rescatista%20-%20Ver%20detalladamente%20los%20datos%20de%20la%20mascota%20más%20los%20detalles%20del%20adoptante.png)
+![RF10](assets/images/commons/Mockup%20Rescatista%20-%20Ver%20detalladamente%20los%20datos%20de%20la%20mascota%20más%20los%20detalles%20del%20adoptante.png)
 
-![RF11](/assets/images/commons/Mockup%20Rescatista%20-%20Ver%20perfil%20del%20actual%20dueño%20de%20la%20mascota%20anteriormente%20publicada.png)
+![RF11](assets/images/commons/Mockup%20Rescatista%20-%20Ver%20perfil%20del%20actual%20dueño%20de%20la%20mascota%20anteriormente%20publicada.png)
 
-![RF12](/assets/images/commons/Mockup%20Rescatista%20-%20Eliminar%20Historial.png)
+![RF12](assets/images/commons/Mockup%20Rescatista%20-%20Eliminar%20Historial.png)
 
-![RF13](/assets/images/commons/Mockup%20Rescatista%20-%20Historial%20actualizado.png)
+![RF13](assets/images/commons/Mockup%20Rescatista%20-%20Historial%20actualizado.png)
 
 
 ##### Adopts Mockups functions:
 
-![AM1](/assets/images/commons/Mockup%20Adoptante%20-%20Ver%20perfil.png)
+![AM1](assets/images/commons/Mockup%20Adoptante%20-%20Ver%20perfil.png)
 
-![AM2](/assets/images/commons/Mockup%20Adoptante%20-%20Editar%20datos.png)
+![AM2](assets/images/commons/Mockup%20Adoptante%20-%20Editar%20datos.png)
 
-![AM3](/assets/images/commons/Mockup%20Adoptante%20-%20Borrar%20cuenta.png)
+![AM3](assets/images/commons/Mockup%20Adoptante%20-%20Borrar%20cuenta.png)
 
-![AM4](/assets/images/commons/Mockup%20Adoptante%20-%20Buscar%20Mascotas.png)
+![AM4](assets/images/commons/Mockup%20Adoptante%20-%20Buscar%20Mascotas.png)
 
-![AM5](/assets/images/commons/Mockup%20Adoptante%20-%20Ver%20detalle%20de%20la%20mascota.png)
+![AM5](assets/images/commons/Mockup%20Adoptante%20-%20Ver%20detalle%20de%20la%20mascota.png)
 
-![AM6](/assets/images/commons/Mockup%20Adoptante%20-%20Ver%20historial%20médico%20de%20la%20mascota%20a%20adoptar.png)
+![AM6](assets/images/commons/Mockup%20Adoptante%20-%20Ver%20historial%20médico%20de%20la%20mascota%20a%20adoptar.png)
 
 
 ##### Web application Adopters - Mockup:
-![adopters-Mockup](/assets/images/commons/Web%20application%20Adopters%20-%20Mockup.png)
+![adopters-Mockup](assets/images/commons/Web%20application%20Adopters%20-%20Mockup.png)
 
 ##### Web Application Rescuers/Animal-Shelter Mock-up:
-![Rescuers-Mockup](/assets/images/commons/Web%20application%20Rescuers%20-%20Mockup.png)
+![Rescuers-Mockup](assets/images/commons/Web%20application%20Rescuers%20-%20Mockup.png)
 
 #### 4.4.4. Web Applications User Flow Diagrams
 
 - **Goal: El usuario quiere adoptar una mascota**
 
-![UserFlow_1](/assets/images/commons/Goal-Adoptante.png)
+![UserFlow_1](assets/images/commons/Goal-Adoptante.png)
 
 - **Goal: El usuario registra una mascota para su adopción**
 
-![UserFlow_1](/assets/images/commons/Goal-Usuario.png)
+![UserFlow_1](assets/images/commons/Goal-Usuario.png)
 
 
 
@@ -1899,7 +1898,6 @@ Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundament
 | US10          | Publicar mascota en adopción | T10-01   | Diseño de estructura estática de ficha de adopción            | HTML simulado de mascota publicada enlazada desde galería.                                       | 3                  | Pedro Lecca    | Done       |
 | US10          | Publicar mascota en adopción | T10-02   | Conexión a galería de `mascotas.html`                         | Integración de enlaces desde galería a páginas individuales.                                     | 3                  | Pedro Lecca    | Done       |
 
-
 **Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas.
 
 #### 5.2.1.3. Development Evidence for Sprint Review
@@ -2122,9 +2120,9 @@ Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Land
 
 Web Applications Wireflow Diagrams: https://lucid.app/lucidchart/7705da30-aaf6-426a-b8bd-6cf9756bfd99/edit?viewport_loc=-2160%2C-2196%2C6476%2C3152%2C0_0&invitationId=inv_9d07f7c9-bd37-4952-8fde-d0405d436ed0
 
-Diagrama de clases: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
+Diagrama de clases: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimfjbZSRxTsQRTIXhLdHeXvGM1Lpc/edit?tab=t.0
 
-Diagrama de base de datos: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimfjbZSRxTsQRTIXhLdHeXvGM1Lpc/edit?tab=t.0
+Diagrama de base de datos: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
 
 Domain-Driven Software Architecture: https://docs.google.com/document/d/1mWc4SVJLIUIM9qCMvw6McwkCnD9GFrYSK5azknZeub8/edit?tab=t.0
 
