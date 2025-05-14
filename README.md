@@ -2124,6 +2124,54 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionlandingpage.png">
 
+#### 5.2.2. Sprint 2
+
+##### 5.2.2.1. Sprint Planning 2
+
+| Elemento                                | Detalle                                                                                   |
+|-----------------------------------------|-------------------------------------------------------------------------------------------|
+| **Sprint #**                             | Sprint 2                                                                                 |
+| **Date**                                 | 2025-05-11                                                                               |
+| **Time**                                 | 10:00 PM                                                                                 |
+| **Location**                             | Google Meet (virtual)                                                                    |
+| **Prepared By**                          | Carlos Andrés, Coca Lavado                                                               |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Morales Sosa, Arnold Gabriel<br>Rosado Iporre, Diego Alonso<br>Ramirez Escalante, Carlo Patricio<br>Carbajal Santivañez, Sebastian Aaron Anibal                        |
+| **Sprint n – 1 Review Summary**          | Estructura básica de la Landing Page                                                    |
+| **Sprint n – 1 Retrospective Summary**   | Se mejoró el diseño con los comentarios del profesor                             |
+| **Sprint n Goal**                        | Construir los apartados de Mascotas, adopción de mascotas, donaciones, manejo de mascotas, perfiles de usuario y todos con su diseño responsive y navegación funcional |
+| **Sprint n Velocity**                    | 5 Story Points                                                                           |
+| **Sum of Story Points**                  | 5                                                                                        |
+
+##### 5.2.2.2. Sprint Backlog 2
+
+| User Story ID | User Story Title                           | Task ID | Task Title                                         | Description                                                                                       | Estimation (Hours) | Assigned To   | Status   |
+|---------------|--------------------------------------------|---------|----------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------|----------------|----------|
+| US03          | Visualizar listado de mascotas adoptables  | T03-01  | Crear `adoptions-list.component`                  | Componente que integra búsqueda, ordenamiento, filtro y renderizado de mascotas                  | 4                  | @leccapedro     | Done     |
+| US03          | Visualizar listado de mascotas adoptables  | T03-02  | Crear `adoption-card.component`                   | Tarjeta visual con nombre, raza, edad, género, ubicación y botón de adopción                     | 3                  | @leccapedro     | Done     |
+| US04          | Aplicar filtros de búsqueda por atributos   | T04-01  | Crear `adoption-filters.component`                | Componente lateral para aplicar filtros por género, edad, tamaño, etc.                           | 4                  | @leccapedro     | Done     |
+| US04          | Aplicar filtros de búsqueda por atributos   | T04-02  | Integrar lógica de `filtersChanged`               | Implementar emisión de filtros al componente padre                                               | 2                  | @leccapedro     | Done     |
+| US05          | Ver detalles completos de la mascota        | T05-01  | Crear `adoption-details.component`                | Componente que muestra información completa y vacunas de una mascota seleccionada                | 4                  | @leccapedro     | Done     |
+| US06          | Cambiar idioma de la interfaz               | T06-01  | Crear `language-switcher.component`               | Componente standalone que permite seleccionar idioma con `ngx-translate`                         | 3                  | @leccapedro     | Done     |
+| US06          | Cambiar idioma de la interfaz               | T06-02  | Crear archivos `en.json` y `es.json`              | Definir claves y traducciones necesarias para adopciones, filtros y botones                      | 3                  | @leccapedro     | Done     |
+| US06          | Cambiar idioma de la interfaz               | T06-03  | Integrar internacionalización en vistas HTML      | Refactorizar templates (`adoptions`, `card`, `filters`, `details`) para usar pipe `translate`    | 5                  | @leccapedro     | Done     |
+| US07          | Ver mi información de usuario              | T07-01  | Crear `user-info.component`                      | Componente que muestra datos personales del usuario (nombre, correo, tipo de cuenta, etc.)       | 3                  | @MrAndres08DV   | Done     |
+| US07          | Ver mi información de usuario              | T07-02  | Crear `profile-page.component`                   | Página principal del perfil que contiene al componente `user-info`                              | 2                  | @MrAndres08DV   | Done     |
+| US07          | Ver mi información de usuario              | T07-03  | Crear `user-profile.service.ts`                  | Servicio para obtener la información del usuario autenticado                                     | 2                  | @MrAndres08DV   | Done     |
+| US02          | Ver galería de mascotas rescatadas        | T02-01  | Crear `pets-gallery.component`                   | Página que muestra un conjunto de mascotas rescatadas en formato de galería                     | 3                  | @diegoroip       | Done     |
+| US02          | Ver galería de mascotas rescatadas        | T02-02  | Crear `pet-card.component`                       | Componente visual de tarjeta individual de mascota rescatada                                     | 2                  | @diegoroip       | Done     |
+| US02          | Ver galería de mascotas rescatadas        | T02-03  | Crear `pets.service.ts`                          | Servicio encargado de obtener y gestionar el listado de mascotas desde JSON                     | 2                  | @diegoroip       | Done     |
+| US08          | Consultar opciones de donación            | T08-01  | Crear `donation-options.component`               | Página principal con opciones y categorías de donación                                          | 3                  | @Carlo211       | Done     |
+| US08          | Consultar opciones de donación            | T08-02  | Crear `donation-card.component`                  | Tarjeta visual que muestra detalles de cada tipo de donación                                    | 2                  | @Carlo211       | Done     |
+| US08          | Consultar opciones de donación            | T08-03  | Crear `donations.service.ts`                     | Servicio para obtener la lista de opciones de donación desde archivo local                      | 2                  | @Carlo211       | Done     |
+| US09          | Gestionar solicitudes de adopción         | T09-01  | Crear `adoption-management.component`            | Página principal para listar y gestionar solicitudes de adopción                                | 3                  | @Arnold24x24    | Done     |
+| US09          | Gestionar solicitudes de adopción         | T09-02  | Crear `adoption-detail.component`                | Componente que muestra los datos completos de una solicitud de adopción                         | 3                  | @Arnold24x24    | Done     |
+| US09          | Gestionar solicitudes de adopción         | T09-03  | Crear `adoption-status-badge.component`          | Componente visual para mostrar el estado de cada solicitud (pendiente, aprobada, rechazada)     | 2                  | @Arnold24x24    | Done     |
+| US09          | Gestionar solicitudes de adopción         | T09-04  | Crear `manage-adoptions.service.ts`              | Servicio que permite obtener y actualizar solicitudes de adopción desde archivo local           | 2                  | @Arnold24x24    | Done     |
+| US10          | Publicar información relevante             | T10-01  | Crear `publications-dashboard.component`         | Página principal para mostrar publicaciones del sistema                                          | 3                  | @sxaxcxs        | Done     |
+| US10          | Publicar información relevante             | T10-02  | Crear `publication-card.component`               | Componente visual de tarjeta de publicación (título, fecha, resumen, etc.)                      | 2                  | @sxaxcxs        | Done     |
+| US10          | Publicar información relevante             | T10-03  | Crear `publication-form.component`               | Formulario para ingresar nueva publicación al sistema                                            | 3                  | @sxaxcxs        | Done     |
+| US10          | Publicar información relevante             | T10-04  | Crear `publications.service.ts`                  | Servicio para gestionar las publicaciones y persistencia desde archivo local                    | 2                  | @sxaxcxs        | Done     |
+
 ## Conclusiones
 
 - TB1:
