@@ -58,21 +58,20 @@ Product: Patita Solidaria
 |:---------------------------------------------------------:|
 | https://github.com/DevsConClase-PatitaSolidaria/LandingPage |
 
-TB1:<br>
-
-|Integrante| Tarea Asignada                             |
-|-|--------------------------------------------|
-|Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
-|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento e implementación del diagrama de clases y el diccionario de clases|
-|Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento, desarrollo de todo el punto 5.2.1 y sus subpuntos|
-|Ramirez Escalante, Carlo Patricio | Desarrollo del Capitulo 3 del documento|
-|Morales Sosa, Arnold Gabriel | Desarrollo del Capitulo 4 del documento, desarrollo del figma|
-|Anibal Carbajal Santivañez, Sebastian Aaron| Desarrollo de los diagramas de contexto, contenedores y ComponentesAPI| 
+|          URL del repositorio del frontend          |
+|:---------------------------------------------------------:|
+| https://github.com/DevsConClase-PatitaSolidaria/FrontEnd |
 
 TP1:<br>
 | Integrante | Tarea Asignada |
 |------------|----------------|
-| Lecca Villalobos, Pedro Omar | Documentación de la Sprint 2 |
+|Rosado Iporre, Diego Alonso| Bounded Context Pets |
+|Coca Lavado, Carlos Andrés| Bounded Context Profile |
+|Lecca Villalobos, Pedro Omar | Bounded Context Adoptions |
+|Ramirez Escalante, Carlo Patricio | Bounded Context Donations |
+|Morales Sosa, Arnold Gabriel | Bounded Context anage adoptions | 
+|Carbajal Santivañez, Sebastian Aaron Anibal| Bounded Context publications | 
+
 
 *Pull requests evidence*:
 
@@ -2223,6 +2222,82 @@ Durante este Sprint, se realizaron pruebas funcionales manuales para verificar e
 | develop | 842970e   | **update:** adoption-management.component.ts             | Comprobación de lógica de gestión de solicitudes en el panel administrativo.                          | 2025-05-14          |
 | develop | 99bbedd   | **manage adoption configured and structured**            | Se validó la estructura del módulo, carga de datos y comportamiento de la vista.                      | 2025-05-14          |
 
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante este Sprint trabajamos el desarrollo del frontend del sistema web “Patita Solidaria” utilizando el entorno de desarrollo WebStorm, siguiendo los principios de Domain-Driven Design (DDD) para organizar la estructura y responsabilidades del sistema. Se lograron implementar de forma funcional las vistas principales orientadas a brindar una experiencia inicial clara y amigable para los usuarios adoptantes.
+
+- **Inicio de Sesión**: 
+
+<p align="center"><img width="auto" height="auto" src="assets/images/evidence/La1.png">
+
+- **Página de búsqueda de mascotas (mascotas.html)**: galería con tarjetas dinámicas de mascotas, filtros por características, y campo de búsqueda.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/La2.png">
+
+- **Perfiles individuales de mascotas (guapisimo.html, luna.html, etc.)**: fichas con información detallada y botones de contacto.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/la3.png">
+
+
+---
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page, perfiles de mascotas y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
+
+La prioridad fue lograr una experiencia de usuario funcional desde el cliente. En futuras iteraciones se documentarán las rutas REST necesarias para la gestión de adopciones y usuarios, usando OpenAPI como herramienta de especificación.
+
+---
+
+#### GitHub - Proyecto Web Services (planeado para Sprint 3)
+
+> URL estimada del repositorio de backend:  
+> `[https://github.com/DevsConClase-PatitaSolidaria/](https://github.com/DevsConClase-PatitaSolidaria/BackEnd)`
+
+---
+
+#### Resumen de Acciones del Equipo
+
+| Integrante    | Acciones Realizadas                                                                               |
+|---------------|---------------------------------------------------------------------------------------------------|
+| Pedro Lecca   | Desarrollo completo de la Landing Page, galería de mascotas, perfiles individuales, login, registro y validaciones JS. |
+
+---
+
+> Nota: No se han generado commits relacionados a endpoints o servicios, ya que no fueron parte del alcance del Sprint 1.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se realizó el despliegue del frontend del sistema Patita Solidaria, incluyendo la Landing Page y las vistas principales para el usuario adoptante. Utilizamos GitHub Pages como entorno de publicación, lo cual permitió acceder fácilmente al desarrollo desde cualquier navegador, facilitando las pruebas funcionales, demostraciones internas y la recolección de feedback en tiempo real.
+
+---
+
+#### Proceso de Deployment realizado
+
+- Se creó un repositorio GitHub para el proyecto: `https://github.com/DevsConClase-PatitaSolidaria/FrontEnd`
+
+<p align="center"><img width="auto" height="auto" src="assets/images/evidence/frontend.png">
+
+#### URL de despliegue
+
+> [https://patitasolidaria-front.onrender.com](https://patitasolidaria-front.onrender.com)
+
+#### Responsable
+
+- **Diego Rosado**: configuración del repositorio, estructura del proyecto.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada por todo el equipo, quienes asumimos todas las funciones de diseño, codificación, validación y despliegue de la solución.
+
+| Integrante   | Acciones realizadas durante el Sprint 1 |
+|--------------|------------------------------------------|
+| DevsConClase (Todo el equipo)  | - Desarrollo de toda la interfaz HTML y maquetado CSS<br>- Implementación de validaciones en JavaScript<br>- Estructura de carpetas y componentes<br>- Subida al repositorio y despliegue |
+
+#### Evidencia de colaboración en GitHub (Sprint 1)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionfrontend.png">
+
 ## Conclusiones
 
 - TB1:
@@ -2305,3 +2380,4 @@ URL deploy Landing Page: https://9l7f3r.csb.app/
 
 Link de Trello(Sprints Backlog): https://trello.com/b/3DnjiCdf/finalprojecttasks
 
+URL del Frontend desplegado: https://patitasolidaria-front.onrender.com 
