@@ -2064,6 +2064,24 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionlandingpage.png">
 
+#### 5.2.2. Sprint 2
+
+##### 5.2.2.1. Sprint Planning 2
+
+| Elemento                                | Detalle                                                                                   |
+|-----------------------------------------|-------------------------------------------------------------------------------------------|
+| **Sprint #**                             | Sprint 2                                                                                 |
+| **Date**                                 | 2025-05-11                                                                               |
+| **Time**                                 | 10:00 PM                                                                                 |
+| **Location**                             | Google Meet (virtual)                                                                    |
+| **Prepared By**                          | Carlos Andrés, Coca Lavado                                                               |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Morales Sosa, Arnold Gabriel<br>Rosado Iporre, Diego Alonso<br>Ramirez Escalante, Carlo Patricio<br>Carbajal Santivañez, Sebastian Aaron Anibal                        |
+| **Sprint n – 1 Review Summary**          | Estructura básica de la Landing Page                                                    |
+| **Sprint n – 1 Retrospective Summary**   | Se mejoró el diseño con los comentarios del profesor                             |
+| **Sprint n Goal**                        | Construir los apartados de Mascotas, adopción de mascotas, donaciones, manejo de mascotas, perfiles de usuario y todos con su diseño responsive y navegación funcional |
+| **Sprint n Velocity**                    | 5 Story Points                                                                           |
+| **Sum of Story Points**                  | 5                                                                                        |
+
 ## Conclusiones
 
 - TB1:
