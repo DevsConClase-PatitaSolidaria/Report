@@ -46,6 +46,7 @@ Product: Patita Solidaria
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                                                                                                                                                                                         | 
 | TB1     | 14/04/25 | Carlo Ramirez        | Desarrollo del Capitulo 3 del informe 4.8                                                                                                                                                                                                 | 
 | TB1     | 24/04/25 | Diego Rosado   | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping, seccion 4.4.4 |
+| TP1     | 14/05/2025 | Pedro Lecca | Agregar Sprint 2. |
 
 ## Project Report Collaboration Insights
 
@@ -67,6 +68,11 @@ TB1:<br>
 |Ramirez Escalante, Carlo Patricio | Desarrollo del Capitulo 3 del documento|
 |Morales Sosa, Arnold Gabriel | Desarrollo del Capitulo 4 del documento, desarrollo del figma|
 |Anibal Carbajal Santivañez, Sebastian Aaron| Desarrollo de los diagramas de contexto, contenedores y ComponentesAPI| 
+
+TP1:<br>
+| Integrante | Tarea Asignada |
+|------------|----------------|
+| Lecca Villalobos, Pedro Omar | Documentación de la Sprint 2 |
 
 *Pull requests evidence*:
 
@@ -2222,6 +2228,10 @@ Durante este Sprint, se realizaron pruebas funcionales manuales para verificar e
 - TB1:
 
 El proyecto "Patita Solidaria" reflejó un enfoque empático y colaborativo, orientado a resolver una problemática social relevante como es la adopción responsable y el apoyo a refugios y rescatistas. Se logró estructurar una plataforma funcional y accesible mediante el uso de herramientas como User Stories, wireframes y organización por funciones clave, lo cual permitió priorizar la experiencia del usuario. Las decisiones en torno a la navegación, búsqueda y etiquetas fueron coherentes con el propósito de facilitar la interacción de adoptantes y rescatistas. Asimismo, la claridad en la definición de funciones y flujos mejoró la organización del equipo y evidenció un compromiso con el impacto social de la propuesta, marcando una base sólida para su desarrollo y escalabilidad futura.
+
+- TP1:
+
+El desarrollo del Trabajo Parcial permitió consolidar los módulos principales de la plataforma Patita Solidaria, destacando la implementación del sistema de adopciones con soporte multilenguaje, así como las secciones de perfil, donaciones y publicaciones. Se logró una correcta distribución de tareas, cumplimiento de las User Stories asignadas y validación funcional mediante pruebas manuales, lo que evidencia un avance sólido y coordinado en la construcción del producto.
 
 ## Bibliografía
 
