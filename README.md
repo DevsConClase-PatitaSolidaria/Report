@@ -2172,6 +2172,51 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 | US10          | Publicar información relevante             | T10-03  | Crear `publication-form.component`               | Formulario para ingresar nueva publicación al sistema                                            | 3                  | @sxaxcxs        | Done     |
 | US10          | Publicar información relevante             | T10-04  | Crear `publications.service.ts`                  | Servicio para gestionar las publicaciones y persistencia desde archivo local                    | 2                  | @sxaxcxs        | Done     |
 
+#### 5.2.2.3. Development Evidence for Sprint Review
+
+### 5.2.2.3. Development Evidence for Sprint Review (continuación)
+
+| Repository                               | Branch  | Commit Id | Commit Message                                        | Commit Message Body                                                                            | Committed on (Date) |
+|------------------------------------------|---------|-----------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------|
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 113f4c7   | **feat(routing):** add dynamic route for adoption details by pet ID | Se agregó una ruta con parámetro dinámico para acceder a los detalles de mascota.         | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 1b1ae17   | **data:** add mock data for pets including health and vaccination info | Datos simulados de mascotas con información de salud y vacunación.                      | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 26181f9   | **feat(service):** create AdoptionsService to fetch pets from static JSON | Servicio para cargar datos de mascotas desde archivo estático.                          | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | fc3aab5   | **feat(pipe):** implement PetNameFilterPipe to filter pets by name | Pipe personalizado para filtrar mascotas por nombre.                                     | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 0c29809   | **feat(adoptions-list):** implement filtering, sorting and search logic | Lógica funcional para filtrar, ordenar y buscar mascotas en la lista.                   | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 6c60eb2   | **feat(adoptions-list):** structure HTML for searchable and sortable pet list | Maquetación base para lista de mascotas.                                               | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 9b9fa5    | **style(adoptions-list):** add responsive layout styles for pet list and filter panel | Estilos CSS para visualización adaptable de la lista de mascotas.                     | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | ba1f9e5   | **feat(adoption-details):** implement logic to load and display selected pet by ID | Lógica para mostrar detalles según el ID desde la URL.                                 | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 8c57fb5   | **feat(adoption-details):** add full HTML structure for detailed pet profile | Plantilla completa HTML para los detalles de mascota.                                   | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 3d0efd4   | **style(adoption-details):** add styles for detailed pet view layout | Estilos visuales para los detalles de mascota.                                          | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 3758796   | **feat(model):** define AdoptionFilter interface for advanced search | Interfaz para representar filtros complejos de búsqueda.                               | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | ac588a0   | **feat(model):** extend AdoptionEntity with health, rescue story and vaccination data | Se añadió más detalle a la entidad de mascota.                                          | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | d292fd1   | **feat(adoption-filters):** implement filtering logic and expand/collapse behavior | Lógica funcional de filtros con secciones plegables.                                   | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 614a8b5   | **feat(adoption-filters):** add filter panel markup and bindings | HTML e inputs para filtros de mascota.                                                  | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 515018b   | **style(adoption-filters):** add visual styles for filtering panel | Estilos CSS para los filtros.                                                           | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 1d47ef4   | **feat(adoption-card):** create component logic for displaying pet data | Componente funcional para mostrar datos de mascota.                                     | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 982131c   | **feat(adoption-card):** add markup structure for pet adoption card | Estructura HTML para la tarjeta de mascota.                                             | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 8765d67   | **style(adoption-card):** add visual styles for pet adoption card | Estilos CSS para la tarjeta visual.                                                    | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 37a32f1   | **feat(profile-card):** create component logic for profile data | Se creó la lógica del componente para mostrar datos del perfil del usuario.                      | 2025-05-14           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 842970e   | **update:** adoption-management.component.ts             | Se actualizaron componentes del módulo de gestión de adopciones.                                  | 2025-05-14           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 99bbedd   | **manage adoption configured and structured**            | Se configuró `manage-adoptions` con soporte i18n en `en.json` y `es.json`.                        | 2025-05-14           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 6a0f2b0   | **add donations**                                        | Se agregaron los componentes y lógica inicial del módulo de donaciones.                           | 2025-05-13           |
+
+### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+Durante este Sprint, se realizaron pruebas funcionales manuales para verificar el correcto funcionamiento de las funcionalidades implementadas. 
+
+| Branch  | Commit Id | Commit Message                                          | Commit Message Body                                                                                  | Committed on (Date) |
+|---------|-----------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------------|
+| develop | 0c29809   | **feat(adoptions-list):** implement filtering, sorting and search logic | Validación exitosa del comportamiento de búsqueda y filtros en la lista de adopciones.                | 2025-05-13          |
+| develop | ba1f9e5   | **feat(adoption-details):** implement logic to load and display selected pet by ID | Se verificó el correcto renderizado dinámico de la vista de detalle mediante pruebas de navegación.   | 2025-05-13          |
+| develop | 614a8b5   | **feat(adoption-filters):** add filter panel markup and bindings | Se testearon correctamente los filtros visuales y eventos de selección.                              | 2025-05-13          |
+| develop | 1d47ef4   | **feat(adoption-card):** create component logic for displaying pet data | Se confirmó que cada tarjeta muestra correctamente los datos de la mascota asignada.                  | 2025-05-13          |
+| develop | a36de96   | **feat(language-switcher):** enable dynamic translations | Se comprobó que el cambio de idioma se refleja correctamente en todos los componentes integrados.     | 2025-05-11          |
+| develop | 37a32f1   | **feat(profile-card):** create component logic for profile data | Validación de renderizado de datos del perfil del usuario autenticado en la vista de perfil.          | 2025-05-14          |
+| develop | 6a0f2b0   | **add donations**                                        | Se probaron visualmente las tarjetas de opciones de donación y su correcta carga desde el servicio.   | 2025-05-13          |
+| develop | 842970e   | **update:** adoption-management.component.ts             | Comprobación de lógica de gestión de solicitudes en el panel administrativo.                          | 2025-05-14          |
+| develop | 99bbedd   | **manage adoption configured and structured**            | Se validó la estructura del módulo, carga de datos y comportamiento de la vista.                      | 2025-05-14          |
+
 ## Conclusiones
 
 - TB1:
