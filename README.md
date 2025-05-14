@@ -36,17 +36,6 @@ Product: Patita Solidaria
 **Url del proyecto**: https://github.com/DevsConClase-PatitaSolidaria
 
 ## Registro de Versiones del Informe
-| Version | Fecha    | Autor        | Descripción                                                        |
-|---------|----------|--------------|--------------------------------------------------------------------|
-| TB1     | 09/04/25 | Diego Rosado | Creación organización y repositorios en GitHub para proyecto final |
-| TB1     | 10/04/25 | Diego Rosado | Adición de la documentación en formato .md del informe final y desarrollo del capitulo 5|
-| TB1     | 11/04/25 | Andrés Coca  | Desarrollo del Capitulo 1 y 4 del informe e implementación del diagrama de clases y el diccionario de clases| 
-| TB1     | 12/04/25 | Pedro Lecca  | Desarrollo del Capítulo 2 y 5 del informe                              |
-| TB1     | 12/04/25 | Carlo Ramirez  | Desarrollo del Capítulo 3 del informe                            |
-| TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                |
-| TB1     | 14/04/25 | Sebastian Carbajal | Desarrollo de los diagramas de contexto, contenedores y componentes API| 
-=======
-
 | Version | Fecha    | Autor          | Descripción                                                                                                                                                                                                                               |
 |---------|----------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TB1     | 09/04/25 | Diego Rosado   | Creación organización y repositorios en GitHub para proyecto final                                                                                                                                                                        |
@@ -56,7 +45,7 @@ Product: Patita Solidaria
 | TB1     | 20/04/25 | Pedro Lecca    | Documentación completa (5.2.1 -  5.2.1.8)                                                                                                                                                                                                 |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                                                                                                                                                                                         | 
 | TB1     | 14/04/25 | Carlo Ramirez        | Desarrollo del Capitulo 3 del informe 4.8                                                                                                                                                                                                 | 
-| TB1     | 24/04/25 | Diego Rosado   | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping |
+| TB1     | 24/04/25 | Diego Rosado   | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping, seccion 4.4.4 |
 
 ## Project Report Collaboration Insights
 
@@ -196,14 +185,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br> *Sebastian Aaron Anibal Carbajal Santivañez*: <br> TB1:Cuando todo el equipo designo sus puntos a realizar, yo tuve que realizar un analisis para posteriormente realizar diagramas del contexto en el que se iba a basar nuestra solución, luego encontrar todo tipo de componentes necesarios para llevarla a cabo de forma correcta.                                                                                                               | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución TB1:<br> He creado un entorno <br><br> Sebastian Aaron Anibal Carbajal Santivañez <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que es importante realizar un analisis previo del contexto que abarca un determinado problema, todos sus actores y encontrar los tipos de relación que tendran con el sistema a tener en cuenta para nuestra solución                                                                                                                                                                                                        |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> *Sebastian Aaron Anibal Carbajal Santivañez*: <br> TB1:Durante el desarrollo de los respectivos diagramas busque que fuese lo mas claro posible para los usuarios puedan tener esa facilidad de entendimiento.| **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. <br><br> *Sebastian Aaron Anibal Carbajal Santivañez*: <br> TB1:Durante mi participación en el trabajo, comprendí la importancia de la elaboración correcta de los diagramas de contexto,contenedores y los componentes API,cuando definí cada componente de forma coherente y bien estructurado|
-=======
-
-| Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: Organización con mi equipo para organizarnos en un meet <br><br> *Carlos Andrés Coca Lavado*: <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br>**Pedro Omar Lecca Villalobos** <br> TB1: Durante el desarrollo del informe y las evidencias del Sprint 1, he estructurado técnicamente los entregables de manera clara y coherente para facilitar su presentación oral.<br><br>  **Carlo Patricio Ramirez Escalante**: <br> TB1: Durante el desarrollo del informe buscamos explicar de forma clara y concisa los entregables <br>                                                                                                                                                    | **Diego Alonso Rosado Iporre**<br> TB1:<br> He creado un entorno <br><br> Carlos Andrés Coca Lavado <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución <br><br><br>**Pedro Omar Lecca Villalobos** <br> TB1: La forma en que desarrolle los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.<br><br>**Carlo Patricio Ramirez Escalante**<br> TB1:<br> Luego de desarrollar los puntos del informe permitimos transmitir con claridad los objetivos del sistema, facilitando la comprensión del proyecto ante audiencias técnicas y no técnicas. <br><br>                                                                                                                                           |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> Además, desarrolle y documentó completamente los puntos 5.2.1.1 al 5.2.1.8 del Sprint 1, incluyendo commits, validaciones JS, despliegue y evidencias Markdown.<br><br>**Carlo Patricio Ramirez Escalante**<br> TB1: <br>Elaboré el Capítulo 3: Requirements Specification, desarrollando el To-Be Scenario Mapping, las User Stories, el Impact Mapping y el Product Backlog y el punto 4.8 Database Design <br><br> | **Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5.<br><br>**Carlo Patricio Ramirez Escalante**<br> TB1: <br> Mi participación permitió estructurar y comunicar de forma clara los requisitos del sistema mediante el desarrollo del capítulo "Requirements Specification", integrando herramientas como Scenario Mapping, User Stories, Impact Mapping, Product Backlog y el diseño de base de datos, lo que facilitó la comprensión técnica del proyecto por parte del equipo <br><br> |
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: A través de una planificación estructurada de la exposición y la asignación clara de roles, el equipo ha desarrollado la capacidad de comunicar el proyecto 'Patita Solidaria' con efectividad. <br><br> **Carlos Andrés Coca Lavado** <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez** <br> TB1:Cuando todo el equipo designo sus puntos a realizar, yo tuve que realizar un analisis para posteriormente realizar diagramas del contexto en el que se iba a basar nuestra solución, luego encontrar todo tipo de componentes necesarios para llevarla a cabo de forma correcta.  <br><br> **Carlo Patricio Ramirez Escalante** <br> TB1: Durante el desarrollo del informe buscamos explicar de forma clara y concisa los entregables. <br><br> **Pedro Omar Lecca Villalobos** <br> TB1:  Durante el desarrollo del informe y las evidencias del Sprint 1, he estructurado técnicamente los entregables de manera clara y coherente para facilitar su presentación oral.  <br><br> **Arnold Gabriel Morales Sosa** <br> TB1: Repartimos el trabajo para cada integrante del equipo para que nos sea más factible acabar con el trabajo y ayudar al intregrante que tenga problemas. Se explicó el proyecto de forma intuitiva y coherente dentro del contexto de la aplicación y de los usos que los segmentos objetivos harán con respecto a los user goals puestos en las user stories. A raiz de esto se diseñó la Landing Page y Front-end en wireframes y después en mockups en figma con colores que nos representen como amadores de animales, una fuente que sea "amigable" de ver, e imágenes que acompañen lo que el usuario hará en cada goal. Diseñando así también los wireflows desde LucidChart.                                                                                                          | **Diego Alonso Rosado Iporre**<br> TB1:<br> Hemos logrado comunicar Patita Solidaria de forma clara y efectiva, adaptando nuestro mensaje según la audiencia, ya sea en contextos técnicos o sociales. <br><br> **Carlos Andrés Coca Lavado** <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución <br><br> **Sebastian Aaron Anibal Carbajal Santivañez** <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que es importante realizar un analisis previo del contexto que abarca un determinado problema, todos sus actores y encontrar los tipos de relación que tendran con el sistema a tener en cuenta para nuestra solución. <br><br> **Carlo Patricio Ramirez Escalante** <br>TB1:<br> Luego de desarrollar los puntos del informe permitimos transmitir con claridad los objetivos del sistema, facilitando la comprensión del proyecto ante audiencias técnicas y no técnicas. <br><br>  **Pedro Omar Lecca Villalobos** <br>TB1:<br> La forma en que desarrolle los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.  <br><br>  **Arnold Gabriel Morales Sosa** <br>TB1:<br> Con el avance del proyecto concluimos que los usuarios necesitan una app que sea rápida, eficaz e intuitiva para que no se pierdan por tantas opciones en pantalla, sea simple, pero a la vez compleja en características y que el usuario no se entere gracias a la interfaz u diseño amigable.                                                                                                                                                                                                       |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Diego Alonso Rosado Iporre**<br> TB1: <br> Redacción del informe por completo, etiquetas de navegación y descripción de anexos tanto para usuarios técnicos como no técnicos. <br><br> **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez**: <br> TB1:Durante el desarrollo de los respectivos diagramas busque que fuese lo mas claro posible para los usuarios puedan tener esa facilidad de entendimiento. <br><br>**Carlo Patricio Ramirez Escalante**<br> TB1: Elaboré el Capítulo 3: Requirements Specification, desarrollando el To-Be Scenario Mapping, las User Stories, el Impact Mapping y el Product Backlog y el punto 4.8 Database Design. <br><br>**Arnold Gabriel Morales Sosa**<br> TB1: Usando herramientas de comunicación escrita nos apoyamos mutuamente y completamos lo necesario para la TB1. Gracias a GitHub se pudo ver el avance de cada integrante y ver en que aspectos se podría mejorar y apoyar moralmente a los que hicieron un buen trabajo. En el caso de los usuarios objetivos se sacaron conclusiones a raiz de las etrevistas y ejemplos de manera de gráficos y resumenes para poder proseguir con las necesidades del público objetivo. | **Diego Alonso Rosado Iporre**<br> TB1: <br> La documentación escrita fue elaborada con un enfoque inclusivo y preciso, facilitando la comprensión del proyecto tanto a especialistas como a usuarios generales. <br><br>  **Carlos Andrés Coca Lavado**<br> TB1: <br> Se comunicó de manera clara y accesible el propósito y funcionamiento de Patita Solidaria, ajustando el lenguaje según la audiencia para garantizar comprensión y efectividad. <br><br>  **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez**: <br> TB1:Durante mi participación en el trabajo, comprendí la importancia de la elaboración correcta de los diagramas de contexto,contenedores y los componentes API,cuando definí cada componente de forma coherente y bien estructurado <br><br>**Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Arnold Gabriel Morales Sosa**<br> TB1: <br> Con el avance del proyecto concluimos que es esencial el haber usado GitHub para la monitorización constante y feedback interno entre todos los integrantes del proyecto. Además, vimos que existen varias similitudes en lo que desean los usuarios de la aplicación al juntar sus ideas y plasmarlas en gráficos y cuadros relacionales. Así, pudimos proseguir con el proyecto satisfactoriamente, al tener una visión más concisa y clara. |
 
 ## Capítulo I: Introducción
 
@@ -787,7 +770,14 @@ El presente diseño permitirá recopilar información clave sobre ambos segmento
 | Juan Pérez, de 24 años, dedica aproximadamente 20 a 25 horas semanales al rescate y protección animal. Durante la conversación, Juan explicó que gestiona los procesos de adopción manteniendo registros manuales en hojas de cálculo, realizando entrevistas telefónicas y visitas domiciliarias cuando es posible. Además, mencionó que utiliza plataformas como Facebook, Instagram y WhatsApp para difundir los casos de animales en adopción. Aunque ha probado aplicaciones como Adopta.pe y Animalia Perú, las considera limitadas debido a su alcance reducido y herramientas básicas. En cuanto a las dificultades, destacó la falta de compromiso de algunos adoptantes, la escasez de recursos para visitas domiciliarias y la falta de visibilidad para casos urgentes. Para mejorar el proceso, Juan expresó interés en funcionalidades digitales como seguimientos posadopción, historiales completos de los animales, perfiles verificados de adoptantes con sistemas de calificación, y asesorías veterinarias o descuentos para incentivar el uso de nuevas plataformas. Finalmente, enfatizó la importancia de que los adoptantes mantengan un compromiso firme, realicen visitas domiciliarias, cumplan con la esterilización y revisión veterinaria periódica, y compartan reportes fotográficos o videos de los animales adoptados. |
 
 
-
+=======
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/EntrevistaIsaias.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Isaias Sorogastua Moran                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Género:** Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Edad:** 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Link de la entrevista (YouTube):** https://youtu.be/iZ3VszyIqE8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Isaias Sorogastua, protector independiente de animales, dedica alrededor de 20 horas semanales al rescate y cuidado, rescatando entre 3 y 5 animales al mes. Aunque trabaja por cuenta propia, mantiene colaboración ocasional con refugios. Para gestionar adopciones, utiliza herramientas como hojas de Excel y WhatsApp, realizando seguimiento post-adopción por mensajes. Difunde casos principalmente por Instagram, Facebook y grupos de rescate en WhatsApp. Antes de entregar un animal, se asegura de tener información sobre su salud, esterilización y comportamiento. Carolina identifica como problema la falta de compromiso de algunos adoptantes, quienes a veces incumplen con las visitas o desaparecen tras la adopción. No ha usado una app especializada, pero sí formularios de Google. Le gustaría contar con una plataforma que permita gestionar fichas, realizar seguimientos y facilitar el contacto con interesados. Considera esencial que los adoptantes se comprometan genuinamente, muestren paciencia durante la adaptación del animal y mantengan comunicación constante. |
 #### 2. Entrevistas del Segmento N°2: Adoptantes Potenciales (Personas interesadas en adoptar animales)
 
 | <p align="center"><img width="auto" height="auto" src="assets/images/commons/CeciliaEvidence.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -808,6 +798,7 @@ El presente diseño permitirá recopilar información clave sobre ambos segmento
 | Marcelo Barrientos, un joven de 20 años residente cerca de Lima, expresó que siempre ha sentido una conexión especial con los animales y que adoptar una mascota representa darle una segunda oportunidad a un ser que haya pasado por situaciones difíciles como el abandono o la calle. Comentó que ya había adoptado un perro anteriormente, lo cual fue un desafío inicial debido a la timidez del animal, pero que con paciencia logró integrarlo exitosamente a su familia. Marcelo manifestó interés en adoptar otra mascota, preferiblemente un perro mediano de entre uno y tres años de edad, con mucha energía y sociabilidad. Durante la entrevista, se discutieron aspectos clave como la salud, el comportamiento y la historia previa de las mascotas, además de las plataformas digitales que utiliza para buscar animales en adopción, como Instagram, Facebook, TikTok y páginas web de refugios. También habló sobre la importancia de recibir seguimiento post-adopción para asegurar el bienestar del animal y fortalecer la relación con él. |
 
 
+=======
 
 
 #### 2.2.3. Análisis de entrevistas
@@ -1353,18 +1344,17 @@ Beneficios de adoptar con la plataforma.
 Testimonios de adoptantes y refugios.
 CTA final: "Únete como adoptante" / "Registra tu refugio".
 
-![Landing-Page-Wireframe](/assets/images/commons/LandingPage-Wireframe.png)
+![Landing-Page-Wireframe](assets/images/commons/LandingPage-Wireframe.png)
 
-![Landing-Page-Movil-Wireframe](/assets/images/commons/LandingPage%20Movil%20Wireframes.png)
-
+![Landing-Page-Movil-Wireframe](assets/images/commons/LandingPage%20Movil%20Wireframes.png)
 
 #### 4.3.2. Landing Page Mock-up
 Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico.
 Botones destacados y secciones bien diferenciadas visualmente.
 
-![Landing-Page-Mockup](/assets/images/commons/LandingPage-Mockup.png)
+![Landing-Page-Mockup](assets/images/commons/LandingPage-Mockup.png)
 
-![Landing-Page-Movil-Mockup](/assets/images/commons/LandingPage%20Movil.png)
+![Landing-Page-Movil-Mockup](assets/images/commons/LandingPage%20Movil.png)
 
 
 ### 4.4. Web Applications UX/UI Design
@@ -1372,75 +1362,75 @@ Botones destacados y secciones bien diferenciadas visualmente.
 #### 4.4.1. Web Applications Wireframes
 - Web application login wireframe: Este wireframe muestra la pantalla de inicio de sesión de la aplicación web, con campos para correo electrónico y contraseña, y botón para iniciar sesión.
 
-![Login-Wireframe](/assets/images/commons/Login%20Wireflow.png)
+![Login-Wireframe](assets/images/commons/Login%20Wireflow.png)
 
  - Incorrect password Wireframe:
-   ![incorrect-password](/assets/images/commons/incorrect%20password%20Wireflow.png)
+   ![incorrect-password](assets/images/commons/incorrect%20password%20Wireflow.png)
 
  - Reset password Wireframe: digitas tu correo vinculado a tu cuenta, luego lo confirmas mediante un enlace mandado al correo digitado que requiere el 
    cambio (debe existir una cuenta para hacerlo, sino no saldrá nada en el correo) y podrás seguir con el cambio de contraseña.
-   ![reset-password](/assets/images/commons/Reset%20password%20Wireflow.png)
+   ![reset-password](assets/images/commons/Reset%20password%20Wireflow.png)
 
  - Reset password Wireframe #2:
-   ![reset-password-part2](/assets/images/commons/Reset%20password%20Wireflow%20%232.png)
+   ![reset-password-part2](assets/images/commons/Reset%20password%20Wireflow%20%232.png)
    
 
 - Web application registration wireframe: Este wireframe muestra la pantalla de registro de la aplicación web, con campos para nombre, correo electrónico, contraseña, tipo de usuario que va a usar la aplicación (adopter y animal shelter/rescue) y botón para registrarse.
-![Register-Wireframe](/assets/images/commons/Register%20Wireflow.png)
+![Register-Wireframe](assets/images/commons/Register%20Wireflow.png)
 
 
 - Web application Adopters: Este wireframe muestra la pantalla de bienvenida, animales disponibles para adopción, una barra en la que se puede acceder a la landing page desde home, al buscador de mascotas, tu perfil y un apartado para donaciones, también aparece el formulario para que puedan aceptarte más rápido a la hora de solcitar adoptar a una mascota. Por último, está la sección de poder ve las reviews y nuestras redes sociales como startup.
   
-![adopters-Wireframe](/assets/images/commons/Web%20application%20Adopters.png)
+![adopters-Wireframe](assets/images/commons/Web%20application%20Adopters.png)
 
 
 - Web application Rescuers and Animal Shelters: Este wireframe muestra la pantalla de bienvenida y más opciones para que el rescatista o refugio pueda ubicarse fácilmente a donde quiere ir.
 
-![rescuers-Wireframe](/assets/images/commons/Web%20application%20Rescuers.png)
+![rescuers-Wireframe](assets/images/commons/Web%20application%20Rescuers.png)
 
 
 - View Profile Wireframe: Este wireframe muestra tu perfil y puedes editarlo a tu gusto para que los demás sepan más acerca de ti. Para los dos casos es igual el diseño.
   
-![Profile-Wireframe](/assets/images/commons/Wireframe%20-%20Ver%20perfil.png)
+![Profile-Wireframe](assets/images/commons/Wireframe%20-%20Ver%20perfil.png)
 
 
 - Profile Edit Wireframe:
 
-  ![Profile-Edit-Wireframe](/assets/images/commons/Wireframe%20-%20Editar%20cuenta.png)
+  ![Profile-Edit-Wireframe](assets/images/commons/Wireframe%20-%20Editar%20cuenta.png)
 
 
 - Delete account Wireframe:
 
-  ![Delete-account-Wireframe](/assets/images/commons/Wireframe%20-%20Borrar%20cuenta.png)
+  ![Delete-account-Wireframe](assets/images/commons/Wireframe%20-%20Borrar%20cuenta.png)
   
 
 - Buscar mascotas disponibles:
 
-  ![buscar-mascotas](/assets/images/commons/Desktop%20-%20Buscar%20Animalitos.png)
+  ![buscar-mascotas](assets/images/commons/Desktop%20-%20Buscar%20Animalitos.png)
 
 
 - Ver información de la mascota que se quiere adoptar:
   
-  ![ver-información](/assets/images/commons/Desktop%20-%20Detalle%20de%20la%20mascota.png)
+  ![ver-información](assets/images/commons/Desktop%20-%20Detalle%20de%20la%20mascota.png)
 
 
 - Editar información de la mascota (para rescatistas y refugios):
   
-  ![editar-info-mascota](/assets/images/commons/Desktop%20-%20Editar%20información%20de%20la%20mascota.png)
+  ![editar-info-mascota](assets/images/commons/Desktop%20-%20Editar%20información%20de%20la%20mascota.png)
 
 
 - Ver y agregar animalitos publicados (para rescatistas y refugios):
 
-  ![ver-animalitos-publicados](/assets/images/commons/Desktop%20-%20Ver%20Animalitos.png)
+  ![ver-animalitos-publicados](assets/images/commons/Desktop%20-%20Ver%20Animalitos.png)
 
 
 - Ver tu historial de mascotas adoptadas y aprobadas: lista de mascotas adoptadas con fecha y adoptante (para rescatistas y refugios)
   
   - historial completo:
-  ![ver-historial](/assets/images/commons/Desktop%20-%20Ver%20historial.png) 
+  ![ver-historial](assets/images/commons/Desktop%20-%20Ver%20historial.png) 
 
   - historial detallado específico de una mascota en concreto:
-  ![ver-especifica-mascota-historial](/assets/images/commons/Desktop%20-%20Ver%20la%20mascota%20historial.png)
+  ![ver-especifica-mascota-historial](assets/images/commons/Desktop%20-%20Ver%20la%20mascota%20historial.png)
 
 
 #### 4.4.2. Web Applications Wireflow Diagrams
@@ -1453,7 +1443,7 @@ Explicación del Flujo:
 
 El usuario accede a la aplicación desplegada y visualiza un formulario que solicita su correo electrónico y contraseña. Una vez que se ingresan las credenciales, el sistema valida la información. Si la autenticación es exitosa, el usuario es redirigido a la página principal de su perfil. Si las credenciales son incorrectas, el sistema muestra un mensaje de error y permanece en la pantalla de inicio de sesión. En ese momento, el usuario tiene la opción de reintroducir sus credenciales o seleccionar “Olvidé mi contraseña” para iniciar el proceso de restablecimiento.
 
-![wireflow-inicio-sesión](/assets/images/commons/wireflow%20inicio%20de%20sesion.png)
+![wireflow-inicio-sesión](assets/images/commons/wireflow%20inicio%20de%20sesion.png)
 
 ##### User Goal: Navegación Rápida a Funciones Principales
 User Persona: Adoptantes y rescatistas/refugio
@@ -1462,28 +1452,88 @@ Explicación del Flujo:
 
 El usuario puede navegar de manera rápida e intuitiva por las secciones principales de la plataforma. Si es adoptante, podrá acceder a su "perfil" y editarlo con toda la información posible para que los rescatistas o refugios puedan tenerle mayor confianza. Además, puede buscar y filtrar las mascotas que quiera adoptar, puede ver recomendaciones de animales basado en búsquedas anteriores y preferencias, puede actualizar sus preferencias de adopción, puede ver el estado del proceso de adopción y puede ver el historial médico de cualquier mascota de su interés. Si es rescatista o del refugio, tienen la opción de publicar una mascota que requiere dueño, editar dicha información, borrar si es necesario o si tuvieron algún error. También pueden ver el historial de las mascotas que ya han sido adoptadas y limpiar dicho historial si quiere, ver solicitudes de adopción recibidas y rechazarlas o aceptar las solicitudes según convenga. 
 
-![wireflow-funciones-principales](/assets/images/commons/wireflow%20funciones.png)
-
+![wireflow-funciones-principales](assets/images/commons/wireflow%20funciones.png)
 
 #### 4.4.3. Web Applications Mock-ups
 
+##### Register Mockup: 
+![RM](assets/images/commons/Register%20Mockup.png)
+
+##### Login Mockup: 
+![LM](assets/images/commons/Login%20Mockup.png)
+
+##### Login Mockup (password or username incorrect): 
+![incorrect](assets/images/commons/Login%20Mockup%20(1).png)
+
+##### Reset password Mockup: 
+![resetpassword](assets/images/commons/Reset%20password%20Mockup.png)
+
+##### Reset password Mockup #2: 
+![resetpassword2](assets/images/commons/Reset%20password%20Mockup%20%232.png)
+
+##### Reset password Mockup (password doesn't match): 
+![match](assets/images/commons/Reset%20password%20Mockup%20%233.png)
+
+##### Rescuer Mockups functions: 
+![RF](assets/images/commons/Mockup%20Rescatista%20-%20Ver%20perfil.png)
+
+![RF2](assets/images/commons/Mockup%20Rescatista%20-%20Editar%20datos.png)
+
+![RF3](assets/images/commons/Mockup%20Rescatista%20-%20Borrar%20cuenta.png)
+
+![RF4](assets/images/commons/Mockup%20Rescatista%20-%20registrar%20mascotas%20y%20ver%20las%20que%20has%20publicado.png)
+
+![RF5](assets/images/commons/Mockup%20Rescatista%20-%20Crear%20mascota.png)
+
+![RF6](assets/images/commons/Mockup%20Rescatista%20-%20Editar%20mascota.png)
+
+![RF7](assets/images/commons/Mockup%20Rescatista%20-%20Editar%20mascota%20(1).png)
+
+![RF8](assets/images/commons/Mockup%20Rescatista%20-%20Eliminar%20mascota.png)
+
+![RF9](assets/images/commons/Mockup%20Rescatista%20-%20Ver%20Historial%20de%20mascotas%20finalmente%20adoptadas.png)
+
+![RF10](assets/images/commons/Mockup%20Rescatista%20-%20Ver%20detalladamente%20los%20datos%20de%20la%20mascota%20más%20los%20detalles%20del%20adoptante.png)
+
+![RF11](assets/images/commons/Mockup%20Rescatista%20-%20Ver%20perfil%20del%20actual%20dueño%20de%20la%20mascota%20anteriormente%20publicada.png)
+
+![RF12](assets/images/commons/Mockup%20Rescatista%20-%20Eliminar%20Historial.png)
+
+![RF13](assets/images/commons/Mockup%20Rescatista%20-%20Historial%20actualizado.png)
+
+
+##### Adopts Mockups functions:
+
+![AM1](assets/images/commons/Mockup%20Adoptante%20-%20Ver%20perfil.png)
+
+![AM2](assets/images/commons/Mockup%20Adoptante%20-%20Editar%20datos.png)
+
+![AM3](assets/images/commons/Mockup%20Adoptante%20-%20Borrar%20cuenta.png)
+
+![AM4](assets/images/commons/Mockup%20Adoptante%20-%20Buscar%20Mascotas.png)
+
+![AM5](assets/images/commons/Mockup%20Adoptante%20-%20Ver%20detalle%20de%20la%20mascota.png)
+
+![AM6](assets/images/commons/Mockup%20Adoptante%20-%20Ver%20historial%20médico%20de%20la%20mascota%20a%20adoptar.png)
+
+
 ##### Web application Adopters - Mockup:
-![adopters-Mockup](/assets/images/commons/Web%20application%20Adopters%20-%20Mockup.png)
+![adopters-Mockup](assets/images/commons/Web%20application%20Adopters%20-%20Mockup.png)
 
 ##### Web Application Rescuers/Animal-Shelter Mock-up:
-![Rescuers-Mockup](/assets/images/commons/Web%20application%20Rescuers%20-%20Mockup.png)
-
+![Rescuers-Mockup](assets/images/commons/Web%20application%20Rescuers%20-%20Mockup.png)
 
 #### 4.4.4. Web Applications User Flow Diagrams
-Diagramas de flujo centrados en tareas:
-Flujo del adoptante: búsqueda → favoritos → solicitud.
-Flujo del refugio: publicación → gestión de mascotas → respuesta a solicitudes.
-Flujo del administrador: gestión de usuarios → vista de estadísticas.
 
-### 4.5. Web Applications Prototyping
-Prototipo funcional desarrollado con herramientas como Figma.
-Simulación de interacciones clave: registro, búsqueda, solicitud y administración.
-Pruebas de usabilidad realizadas para validar navegación e intuitividad.
+- **Goal: El usuario quiere adoptar una mascota**
+
+![UserFlow_1](assets/images/commons/Goal-Adoptante.png)
+
+- **Goal: El usuario registra una mascota para su adopción**
+
+![UserFlow_1](assets/images/commons/Goal-Usuario.png)
+
+
 
 ### 4.6. Domain-Driven Software Architecture
 
@@ -1669,11 +1719,23 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
 
 - Project Management 
 
-     - Meet 
+     - Discord 
 
      Una herramienta de videoconferencias que posibilita la comunicación en tiempo real del grupo para reuniones de coordinación.
 
-     Imagen de evidencia de uso: 
+     - Zoom
+
+     Una plataforma de videollamadas utilizada para realizar y grabar la exposición final, permitiendo registrar la presentación del equipo de forma clara y accesible.
+
+    - Trello
+
+    Una herramienta de gestión de tareas basada en tableros, que permite organizar y coordinar el trabajo del equipo en tiempo real mediante listas, tarjetas y etiquetas.
+
+    Imagen de evidencia de uso:
+
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/Trello.png">
+
+
 
 - Requirements Management 
 
@@ -1683,6 +1745,9 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
 
     Imagen de evidencia de uso
 
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/structurizr.png">
+
+
 - Product UX/UI Design
 
     - Figma 
@@ -1691,11 +1756,16 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
 
     Imagen de evidencia de uso
 
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/figma_wireframe.png">
+
+
     - Lucidchart
 
     Una herramienta colaborativa que posibilita la creación conjunta de wireframes flow y mockups flow.
 
     Imagen de evidencia de uso
+
+
 
 - Software Development 
 
@@ -1705,17 +1775,25 @@ La gestión de la configuración del software es fundamental para nuestro trabaj
 
     Imagen de evidencia de uso
 
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/Code_landing.png">
+
+
     - CSS 
 
     Lenguaje de diseño gráfico utilizado para dar formato al código escrito en HTML.
 
     Imagen de evidencia de uso
 
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/Css_landing.png">
+
+
     - JavaScript
 
     Lenguaje de programación orientado a objetos dinámico que utilizamos para implementar funcionalidades en un documento HTML.
 
     Imagen de evidencia de uso
+
+    <p align="center"><img width="auto" height="auto" src="assets/images/evidence/Js_landing.png">
 
 - Software Documentation
 
@@ -1844,8 +1922,6 @@ git commit -m "<type>[optional scope]: <title>" -m "<description>"
 
 ##### 5.2.1.1. Sprint Planning 1
 
-##### 5.2.1.2. Sprint Backlog 1
-
 En esta sección se detallan los aspectos principales de la reunión de planificación del Sprint 1 del proyecto “Patita Solidaria”. Se priorizó el diseño e implementación de la Landing Page inicial y la visualización de perfiles informativos de mascotas, enfocándose en usabilidad, diseño adaptable y estructura de navegación básica.
 
 | Elemento                                | Detalle                                                                                   |
@@ -1862,8 +1938,7 @@ En esta sección se detallan los aspectos principales de la reunión de planific
 | **Sprint n Velocity**                    | 5 Story Points                                                                           |
 | **Sum of Story Points**                  | 5                                                                                        |
 
-
-#### 5.2.1.3. Sprint Backlog 1
+##### 5.2.1.2. Sprint Backlog 1
 
 Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundamentales para la experiencia del usuario adoptante y la presentación visual del sistema. A continuación, se detallan las tareas asociadas a las historias de usuario priorizadas para este Sprint.
 
@@ -1883,10 +1958,9 @@ Durante el primer Sprint se priorizó el desarrollo de funcionalidades fundament
 | US10          | Publicar mascota en adopción | T10-01   | Diseño de estructura estática de ficha de adopción            | HTML simulado de mascota publicada enlazada desde galería.                                       | 3                  | Pedro Lecca    | Done       |
 | US10          | Publicar mascota en adopción | T10-02   | Conexión a galería de `mascotas.html`                         | Integración de enlaces desde galería a páginas individuales.                                     | 3                  | Pedro Lecca    | Done       |
 
-
 **Nota:** El Sprint Backlog está sujeto a cambios conforme avancen las tareas.
 
-#### 5.2.1.4. Development Evidence for Sprint Review
+#### 5.2.1.3. Development Evidence for Sprint Review
 
 Durante este Sprint se realizaron múltiples avances en la implementación de la solución, particularmente en la construcción de la Landing Page, formularios de autenticación y perfiles de mascotas. A continuación, se presenta la evidencia de commits relacionados al Sprint 1.
 
@@ -2007,7 +2081,6 @@ Durante este Sprint, se realizó el despliegue de la Landing Page y vistas de us
 #### Capturas de Evidencia del Despliegue
 
 - C1: Vista general de la Landing Page desplegada
-<p align="center"><img width="auto" height="auto" src="assets/images/commons/index1.png">
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/index2.png">
 
@@ -2053,7 +2126,45 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 
 ## Conclusiones
 
+- TB1:
+
+El proyecto "Patita Solidaria" reflejó un enfoque empático y colaborativo, orientado a resolver una problemática social relevante como es la adopción responsable y el apoyo a refugios y rescatistas. Se logró estructurar una plataforma funcional y accesible mediante el uso de herramientas como User Stories, wireframes y organización por funciones clave, lo cual permitió priorizar la experiencia del usuario. Las decisiones en torno a la navegación, búsqueda y etiquetas fueron coherentes con el propósito de facilitar la interacción de adoptantes y rescatistas. Asimismo, la claridad en la definición de funciones y flujos mejoró la organización del equipo y evidenció un compromiso con el impacto social de la propuesta, marcando una base sólida para su desarrollo y escalabilidad futura.
+
 ## Bibliografía
+
+- Miro. (2024). Miro. Miro Corporation. https://miro.com
+
+- LucidChart. (2024). LucidChart. Lucid Software Inc. https://www.lucidchart.com
+
+- Canva. (2024). Canva: Herramienta de diseño para presentaciones y prototipos. https://www.canva.com
+
+- Trello. (2024). Trello: Gestión de tareas por tableros. Atlassian. https://trello.com
+
+- Cohn, M. (2006). Historias de usuario: Un enfoque ágil. Pearson Educación. https://www.scrummanager.com/files/scrum_manager_historias_usuario.pdf
+
+- Pressman, R. S. (2010). Ingeniería de Software: Un enfoque práctico. McGraw-Hill. https://www.javier8a.com/itc/bd1/ld-Ingenieria.de.software.enfoque.practico.7ed.Pressman.PDF
+
+- The C4 model for visualising software architecture. (2024). https://c4model.com/
+
+- Structurizr. (2024). https://www.structurizr.com/
+
+- GitHub. (2024). GitHub. https://github.com
+
+- GitHub Pages. (2024). Servicio de despliegue estático de GitHub. https://pages.github.com
+
+- Google Meet. (2024). Google Meet. https://meet.google.com
+
+- Pivotal Tracker. (2024). Pivotal Tracker. VMware. https://www.pivotaltracker.com
+
+- Figma. (2024). Figma. https://www.figma.com
+
+- Asociación Protectora Animalista de Perú – APAP. (2024). Protección animal y promoción de la adopción. https://asociacionprotectoraanimalistadeperu.wordpress.com/
+
+- WUF. (2024). Plataforma de adopciones y bienestar animal en Perú. https://www.wuf.pe
+
+- Wukha. (2024). Adopciones y comunidad pet-friendly. https://wukha.com
+
+- Voz Animal Perú. (2024). Rescate y adopción responsable. https://www.vozanimalperu.org
 
 ## Anexos
 
@@ -2064,3 +2175,30 @@ Link de Pivotal Tracker: https://www.pivotaltracker.com/n/projects/2740810
 Anexo B: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?viewport_loc=1525%2C-12684%2C2993%2C1352%2C0_0&invitationId=inv_66143621-8c9e-4f70-9ef8-5d1094b12372
 
 Anexo C: https://lucid.app/lucidchart/004aeb1e-1b02-4259-b222-79da69a88429/edit?viewport_loc=1525%2C-12684%2C2993%2C1352%2C0_0&invitationId=inv_66143621-8c9e-4f70-9ef8-5d1094b12372
+
+Wireframes and Mockups: https://www.figma.com/design/hCI247q67W54qodrpXKbGl/Landing-Page-Wireframe?node-id=0-1&t=JY8vru63cOEGScfn-1
+
+Web Applications Wireflow Diagrams: https://lucid.app/lucidchart/7705da30-aaf6-426a-b8bd-6cf9756bfd99/edit?viewport_loc=-2160%2C-2196%2C6476%2C3152%2C0_0&invitationId=inv_9d07f7c9-bd37-4952-8fde-d0405d436ed0
+
+Diagrama de clases: https://docs.google.com/document/d/1Uz6WbOcBTsSIagimfjbZSRxTsQRTIXhLdHeXvGM1Lpc/edit?tab=t.0
+
+Diagrama de base de datos: https://docs.google.com/document/d/1CwRoPs1gYFE9-AcQbDboaEoiQ5iwVMqI8cLhm9jqoIw/edit?tab=t.0
+
+Domain-Driven Software Architecture: https://docs.google.com/document/d/1mWc4SVJLIUIM9qCMvw6McwkCnD9GFrYSK5azknZeub8/edit?tab=t.0
+
+Web Applications User Flow Diagrams: https://lucid.app/lucidchart/ed1b1f57-cbe4-47b7-8862-f60b523dc950/edit?viewport_loc=3913%2C-1287%2C6931%2C3131%2C0_0&invitationId=inv_aba17cea-690b-407b-8b64-1fc2ebf142f6
+ 
+URL de la organización del proyecto: https://github.com/DevsConClase-PatitaSolidaria
+
+URL del repositorio del reporte: https://github.com/DevsConClase-PatitaSolidaria/Report
+
+URL del repositorio de la landing page: https://github.com/DevsConClase-PatitaSolidaria/LandingPage
+
+URL del repositorio del Frontend: https://github.com/DevsConClase-PatitaSolidaria/FrontEnd
+
+URL del repositorio del backend: https://github.com/DevsConClase-PatitaSolidaria/BackEnd
+
+URL deploy Landing Page: https://9l7f3r.csb.app/
+
+Link de Trello(Sprints Backlog): https://trello.com/b/3DnjiCdf/finalprojecttasks
+
