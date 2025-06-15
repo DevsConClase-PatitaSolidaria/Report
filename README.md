@@ -39,14 +39,24 @@ Product: Patita Solidaria
 | Version | Fecha    | Autor          | Descripción                                                                                                                                                                                                                               |
 |---------|----------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TB1     | 09/04/25 | Diego Rosado   | Creación organización y repositorios en GitHub para proyecto final                                                                                                                                                                        |
-| TB1     | 10/04/25 | Diego Rosado   | Adición de la documentación en formato .md del informe final                                                                                                                                                                              |
 | TB1     | 11/04/25 | Andrés Coca    | Desarrollo del Capitulo 1 del informe                                                                                                                                                                                                     | 
-| TB1     | 12/04/25 | Pedro Lecca    | Desarrollo del Capítulo 2 del informe                                                                                                                                                                                                     |
 | TB1     | 20/04/25 | Pedro Lecca    | Documentación completa (5.2.1 -  5.2.1.8)                                                                                                                                                                                                 |
 | TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                                                                                                                                                                                         | 
 | TB1     | 14/04/25 | Carlo Ramirez        | Desarrollo del Capitulo 3 del informe 4.8                                                                                                                                                                                                 | 
-| TB1     | 24/04/25 | Diego Rosado   | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping, seccion 4.4.4 |
+| TB1 | FECHA | Sebastian Carbajal | COMPLETAR. |
+| TP1     | 24/05/25 | Diego Rosado   | Implementación de Frontend - Sección Pets. Revisión de documentos. Deploy de Frontend |
 | TP1     | 14/05/2025 | Pedro Lecca | Agregar Sprint 2. |
+| TP1 | FECHA | Carlo Ramirez | COMPLETAR. |
+| TP1 | FECHA | Arnold Morales | COMPLETAR. |
+| TP1 | FECHA | Sebastian Carbajal | COMPLETAR. |
+| TP1 | FECHA | Andres Coca | COMPLETAR. |
+| TB2     | 14/06/25 | Diego Rosado   | Deploy de Backend en Render. Realicé de Bounded context Pets en el backend funcional. Hice el punto 6.2.2  |
+| TB2 | FECHA | Pedro Lecca | COMPLETAR. |
+| TB2 | FECHA | Carlo Ramirez | COMPLETAR. |
+| TB2 | FECHA | Arnold Morales | COMPLETAR. |
+| TB2 | FECHA | Sebastian Carbajal | COMPLETAR. |
+| TB2 | FECHA | Andres Coca | COMPLETAR. |
+
 
 ## Project Report Collaboration Insights
 
@@ -62,32 +72,28 @@ Product: Patita Solidaria
 |:---------------------------------------------------------:|
 | https://github.com/DevsConClase-PatitaSolidaria/FrontEnd |
 
-TP1:<br>
+|          URL del repositorio del backend          |
+|:---------------------------------------------------------:|
+| https://github.com/DevsConClase-PatitaSolidaria/BackEnd |
+
+TB2:<br>
 | Integrante | Tarea Asignada |
 |------------|----------------|
 |Rosado Iporre, Diego Alonso| Bounded Context Pets |
 |Coca Lavado, Carlos Andrés| Bounded Context Profile |
-|Lecca Villalobos, Pedro Omar | Bounded Context Adoptions |
+|Lecca Villalobos, Pedro Omar | Bounded Context Adoptions & Bounded Context Vaccines |
 |Ramirez Escalante, Carlo Patricio | Bounded Context Donations |
-|Morales Sosa, Arnold Gabriel | Bounded Context anage adoptions | 
+|Morales Sosa, Arnold Gabriel | Bounded Context manage adoptions | 
 |Carbajal Santivañez, Sebastian Aaron Anibal| Bounded Context publications | 
 
 
 *Pull requests evidence*:
 
-![alt text](assets/images/evidence/Pull-requests.png)
-
-![alt text](assets/images/evidence/Pull-request_closed.png)
-
-![alt text](assets/images/evidence/Merge.png)
+COMPLETAR
 
 *Commits evidence*:
 
-![alt text](assets/images/evidence/Commits.png)
-
-![alt text](assets/images/evidence/Commit_change.png)
-
-![alt text](assets/images/evidence/Commit-2.png)
+COMPLETAR
 
 ## Contenido
 
@@ -172,6 +178,15 @@ TP1:<br>
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+        - [5.2.2. Sprint 2](#522-sprint-1)
+            - [5.2.2.1. Sprint Planning 1](#5221-sprint-planning-1)
+            - [5.2.2.2. Sprint Backlog 1](#5222-sprint-backlog-1)
+            - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+            - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -2179,8 +2194,6 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 
 #### 5.2.2.3. Development Evidence for Sprint Review
 
-### 5.2.2.3. Development Evidence for Sprint Review (continuación)
-
 | Repository                               | Branch  | Commit Id | Commit Message                                        | Commit Message Body                                                                            | Committed on (Date) |
 |------------------------------------------|---------|-----------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------|
 | DevsConClase-PatitaSolidaria/FrontEnd    | develop | 113f4c7   | **feat(routing):** add dynamic route for adoption details by pet ID | Se agregó una ruta con parámetro dinámico para acceder a los detalles de mascota.         | 2025-05-13           |
@@ -2206,7 +2219,7 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 | DevsConClase-PatitaSolidaria/FrontEnd    | develop | 99bbedd   | **manage adoption configured and structured**            | Se configuró `manage-adoptions` con soporte i18n en `en.json` y `es.json`.                        | 2025-05-14           |
 | DevsConClase-PatitaSolidaria/FrontEnd    | develop | 6a0f2b0   | **add donations**                                        | Se agregaron los componentes y lógica inicial del módulo de donaciones.                           | 2025-05-13           |
 
-### 5.2.2.4. Testing Suite Evidence for Sprint Review
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review
 
 Durante este Sprint, se realizaron pruebas funcionales manuales para verificar el correcto funcionamiento de las funcionalidades implementadas. 
 
@@ -2241,7 +2254,7 @@ Durante este Sprint trabajamos el desarrollo del frontend del sistema web “Pat
 
 ---
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page, perfiles de mascotas y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
 
@@ -2266,7 +2279,7 @@ La prioridad fue lograr una experiencia de usuario funcional desde el cliente. E
 
 > Nota: No se han generado commits relacionados a endpoints o servicios, ya que no fueron parte del alcance del Sprint 1.
 
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
 Durante este Sprint, se realizó el despliegue del frontend del sistema Patita Solidaria, incluyendo la Landing Page y las vistas principales para el usuario adoptante. Utilizamos GitHub Pages como entorno de publicación, lo cual permitió acceder fácilmente al desarrollo desde cualquier navegador, facilitando las pruebas funcionales, demostraciones internas y la recolección de feedback en tiempo real.
 
@@ -2286,7 +2299,7 @@ Durante este Sprint, se realizó el despliegue del frontend del sistema Patita S
 
 - **Diego Rosado**: configuración del repositorio, estructura del proyecto.
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.2.8. Team Collaboration Insights during Sprint
 
 Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada por todo el equipo, quienes asumimos todas las funciones de diseño, codificación, validación y despliegue de la solución.
 
@@ -2294,9 +2307,39 @@ Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada p
 |--------------|------------------------------------------|
 | DevsConClase (Todo el equipo)  | - Desarrollo de toda la interfaz HTML y maquetado CSS<br>- Implementación de validaciones en JavaScript<br>- Estructura de carpetas y componentes<br>- Subida al repositorio y despliegue |
 
-#### Evidencia de colaboración en GitHub (Sprint 1)
+#### Evidencia de colaboración en GitHub (Sprint 2)
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionfrontend.png">
+
+### 5.2.3. Sprint 2
+
+#### 5.2.3.1. Sprint Planning 2
+
+
+
+#### 5.2.3.2. Sprint Backlog 2
+
+#### 5.2.3.3. Development Evidence for Sprint Review
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+### 5.2.4. Validation Interviews
+
+#### 5.2.4.1. Diseño de Entrevistas
+
+#### 5.2.4.2. Registro de Entrevistas
+
+#### 5.2.4.3. Evaluaciones según heurísticas
+
+### 5.2.5. Video About-the-Product
 
 ## Conclusiones
 
