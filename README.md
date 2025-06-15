@@ -2311,13 +2311,26 @@ Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada p
 
 <p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionfrontend.png">
 
-### 5.2.3. Sprint 2
+### 5.2.3. Sprint 3
 
-#### 5.2.3.1. Sprint Planning 2
+#### 5.2.3.1. Sprint Planning 3
+
+| Elemento                                | Detalle                                                                                                                                                            |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                             | Sprint 3                                                                                                                                                          |
+| **Date**                                 | 2025-06-10                                                                                                                                                        |
+| **Time**                                 | 10:00 PM                                                                                                                                                          |
+| **Location**                             | Google Meet (virtual)                                                                                                                                             |
+| **Prepared By**                          | Rosado Iporre, Diego Alonso                                                                                                                                         |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Morales Sosa, Arnold Gabriel<br>Carlos Andrés, Coca Lavado<br>Ramirez Escalante, Carlo Patricio<br>Carbajal Santivañez, Sebastian Aaron Anibal |
+| **Sprint n – 3 Review Summary**          | Se implementaron las secciones clave de la aplicación: mascotas, adopción, donaciones, perfiles de usuario, y su diseño responsive.                              |
+| **Sprint n – 3 Retrospective Summary**   | Se identificó la necesidad de mejorar la navegación y optimizar el rendimiento en móviles.                                                                        |
+| **Sprint 3 Goal**                        | Finalizar funcionalidades pendientes, pulir la interfaz de usuario, integrar servicios externos y preparar el producto para pruebas de validación con usuarios.  |
+| **Sprint 3 Velocity**                    | 8 Story Points                                                                                                                                                    |
+| **Sum of Story Points**                  | 8                                                                                                                                                                 |
 
 
-
-#### 5.2.3.2. Sprint Backlog 2
+#### 5.2.3.2. Sprint Backlog 3
 
 #### 5.2.3.3. Development Evidence for Sprint Review
 
@@ -2334,6 +2347,86 @@ Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada p
 ### 5.2.4. Validation Interviews
 
 #### 5.2.4.1. Diseño de Entrevistas
+
+#### **Preguntas para Adoptantes**
+
+#### Diseño general y navegación
+
+- ¿Sentiste que sabías hacia dónde ir desde la pantalla principal?
+- ¿Te perdiste en algún momento navegando entre las secciones? ¿Dónde?
+- ¿Los íconos o botones te parecieron intuitivos? ¿Hay alguno que no entendiste?
+- ¿Qué botón o función agregarías para mejorar tu experiencia?
+
+#### Sección de Mascotas
+
+- ¿Pudiste identificar claramente que esta es la sección para ver mascotas disponibles para adopción?
+- ¿La información de cada mascota (nombre, edad, estado, etc.) está clara y completa?
+- ¿Te resultó fácil filtrar o buscar por tipo de mascota, tamaño, edad u otra característica?
+- ¿Qué cambiarías en la forma en que se presentan las mascotas?
+
+#### Sección de Adopciones
+
+- ¿Comprendiste para qué sirve esta sección?
+- ¿Sabrías qué pasos deberías seguir si quisieras adoptar una mascota?
+- ¿Te parecieron claros los pasos para enviar solicitud?
+
+#### Sección de Donaciones
+
+- ¿Identificaste con facilidad esta sección?
+- ¿Te inspira confianza el diseño como para hacer una donación?
+- ¿Qué te motivaría a donar con mayor frecuencia o recomendarlo a otros?
+- ¿Qué mejorarías visual o funcionalmente en esta parte?
+
+#### Opinión general
+
+- ¿Qué parte de la app te pareció más clara y cuál más confusa?
+- ¿Hubo algo que no entendiste o que te pareció innecesario?
+- ¿Qué tan fácil te resultó moverte entre las diferentes secciones?
+
+#### Seguridad y confianza
+
+- ¿Confías en la plataforma como medio para adoptar o donar? ¿Por qué?
+- ¿Qué elementos adicionales te harían sentir más seguro/a usando esta aplicación?
+
+#### Recomendación e interés futuro
+
+- ¿Recomendarías esta aplicación a otras personas interesadas en adoptar o apoyar refugios?
+- ¿Qué crees que falta para que esta app sea aún más útil para alguien como tú?
+
+---
+
+#### **Preguntas para Refugios / Cuidadores**
+
+#### Diseño y navegación general
+
+- ¿Cómo describirías el diseño de la aplicación? ¿Te parece clara la distribución de los elementos?
+- ¿Entendiste fácilmente qué secciones están pensadas para ti como cuidador o refugio?
+- ¿Cambiarías la ubicación o el nombre de algún botón?
+
+#### Publicaciones
+
+- ¿Pudiste identificar fácilmente cómo publicar una nueva mascota?
+- ¿La plantilla para ingresar información de mascotas te pareció completa?
+- ¿Qué cambiarías del diseño de esta parte?
+
+#### Gestión de Adopciones
+
+- ¿Faltó información o botones para controlar el estado de las solicitudes?
+- ¿Te resultó fácil filtrar o buscar por pendiente, aceptado, rechazado u otra característica?
+- ¿Cómo mejorarías esta sección para que sea más útil para ti?
+
+#### Percepción general
+
+- ¿Qué parte te pareció mejor lograda en el diseño?
+- ¿Qué agregarías para que la app te ayude más en tu labor como cuidador?
+- ¿Pudiste moverte por la plataforma sin perderte? ¿Qué parte te pareció más útil?
+- ¿Hay alguna función que crees que debería añadirse para facilitar tu labor?
+
+#### Impacto y adopción institucional
+
+- ¿Crees que esta app podría facilitar la gestión de tu refugio?
+- ¿Qué barreras posibles ves para que esta plataforma sea usada de forma constante por otros cuidadores o refugios?
+- ¿Recomendarías esta herramienta a otros cuidadores o centros de adopción?
 
 #### 5.2.4.2. Registro de Entrevistas
 
