@@ -2334,7 +2334,7 @@ Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada p
 | **Prepared By**                          | Rosado Iporre, Diego Alonso                                                                                                                                         |
 | **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Morales Sosa, Arnold Gabriel<br>Carlos Andrés, Coca Lavado<br>Ramirez Escalante, Carlo Patricio<br>Carbajal Santivañez, Sebastian Aaron Anibal |
 | **Sprint n – 3 Review Summary**          | Se implementaron las secciones clave de la aplicación: mascotas, adopción, donaciones, perfiles de usuario, y su diseño responsive.                              |
-| **Sprint n – 3 Retrospective Summary**   | Se identificó la necesidad de mejorar la navegación y optimizar el rendimiento en móviles.                                                                        |
+| **Sprint n – 3 Retrospective Summary**   | Se identificó la necesidad de mejorar la navegación y optimizar el rendimiento en el landing page                                                                        |
 | **Sprint 3 Goal**                        | Finalizar funcionalidades pendientes, pulir la interfaz de usuario, integrar servicios externos y preparar el producto para pruebas de validación con usuarios.  |
 | **Sprint 3 Velocity**                    | 8 Story Points                                                                                                                                                    |
 | **Sum of Story Points**                  | 8                                                                                                                                                                 |
@@ -2342,17 +2342,198 @@ Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada p
 
 #### 5.2.3.2. Sprint Backlog 3
 
+En el tercer sprint backlog, enfocamos nuestros esfuerzos principalmente en el desarrollo del backend del sistema. Utilizando herramientas como IntelliJ, PGAdmin 4 y Swagger, avanzamos significativamente en la implementación de la lógica del servidor y en la estructuración de los distintos *bounded contexts* definidos en la arquitectura del proyecto.
+
+Entre las principales tareas realizadas durante este sprint, destaca la integración de un sistema de autenticación robusto, así como el desarrollo de los métodos necesarios para los módulos funcionales del backend. Estas actividades permitieron sentar las bases para una gestión segura de usuarios y una interacción consistente con los datos del sistema. El trabajo se organizó en tareas específicas asignadas a los miembros del equipo, lo que permitió mantener un flujo colaborativo y ordenado. Este avance nos acerca a una versión funcional del backend, alineada con los objetivos del proyecto y preparada para futuras integraciones con el frontend y los servicios externos.
+
+Link Trello: https://trello.com/b/3DnjiCdf/finalprojecttasks
+
+| sprint # | Sprint 3 | | | | | | |
+|-|-|-|-|-|-|-|-|
+| User<br>Story | | Work-Item / Task | | | | | |
+| ID | Title | ID | Title | Description | Estimation<br>(Hours) | Assigned<br>To | Status<br>(To-do<br>/InProcess<br>/To-Review<br>/Done) |
+| US01 | Registro de cuenta | *TA001* | Implementar Registro de Usuario | Crear endpoint POST para registrar usuarios adoptantes, refugios o rescatistas, validando campos obligatorios y asegurando persistencia en la base de datos. | 5 horas | Diego Rosado | Done |
+| US02 | Iniciar sesión | *TA002* | Implementar Inicio de Sesión | Desarrollar endpoint POST para autenticación de usuarios, devolviendo un token JWT tras verificación de credenciales. | 4 horas | Diego Rosado | Done |
+| US04 | Buscar mascotas | *TA003* | Filtrado de Mascotas | Desarrollar endpoint GET que permita filtrar mascotas por tamaño, especie, ubicación y necesidades especiales. | 6 horas | Pedro Lecca | To-Review |
+| US05 | Ver perfil de mascota | *TA004* | Visualización de Detalles de Mascota | Implementar endpoint GET para obtener información detallada de una mascota específica por su ID. | 4 horas | Carlos Coca | Done |
+| US06 | Guardar mascota favorita | *TA005* | Gestión de Favoritos | Crear funcionalidad para guardar y listar mascotas favoritas por usuario, persistiendo la relación en la base de datos. | 6 horas | Arnold Morales | InProcess |
+| US07 | Solicitar adopción | *TA006* | Solicitud de Adopción | Desarrollar endpoint POST para que el usuario adopte una mascota, registrando la solicitud con su estado inicial en base de datos. | 6 horas | Diego Rosado | Done |
+| US09 | Registrarse como refugio | *TA007* | Registro de Refugio | Extender el registro para aceptar tipo de usuario 'refugio', validando datos adicionales como nombre del refugio, RUC y ubicación. | 5 horas | Carlos Coca | Done |
+
 #### 5.2.3.3. Development Evidence for Sprint Review
+
+Durante el tercer sprint, se implementaron funcionalidades clave como el CRUD de adopciones, estructura de dominios para mascotas, integración de Swagger para documentación, despliegue en Render, y configuración de infraestructura básica. A continuación se presenta la evidencia de desarrollo con los commits realizados:
+
+| **Repository**      | **Branch** | **Commit Id** | **Author**       | **Type**   | **Commit Message**                                                           | **Committed on (Date)** |
+|---------------------|------------|---------------|------------------|------------|-------------------------------------------------------------------------------|--------------------------|
+| PatitaSolidaria     | develop    | f8b11d3       | Pedro Lecca      | authored   | feat(api): add Swagger tag and description to AdoptionController             | 2025-06-14               |
+| PatitaSolidaria     | develop    | 913e53d       | rhylow           | authored   | Delete test folder in domain model                                           | 2025-06-14               |
+| PatitaSolidaria     | develop    | 4679b6a       | rhylow           | authored   | Delete test folder in rest resources                                         | 2025-06-14               |
+| PatitaSolidaria     | develop    | fa75bd3       | rhylow           | authored   | feat(api): REST endpoints for adoptions                                      | 2025-06-14               |
+| PatitaSolidaria     | develop    | de3464f       | rhylow           | authored   | feat(domain): add VaccinationRecord                                          | 2025-06-14               |
+| PatitaSolidaria     | develop    | aba41d7       | rhylow           | authored   | feat(domain): add AdoptionFilter                                             | 2025-06-14               |
+| PatitaSolidaria     | develop    | 3ffdf1d       | rhylow           | authored   | feat(domain): add Adoption model                                             | 2025-06-14               |
+| PatitaSolidaria     | develop    | 831a1a5       | rhylow           | authored   | Delete test folder in application internal                                   | 2025-06-14               |
+| PatitaSolidaria     | develop    | 829ccb8       | rhylow           | authored   | feat(internal): implement in-memory service                                  | 2025-06-14               |
+| PatitaSolidaria     | develop    | 476fec9       | rhylow           | authored   | feat(internal): define AdoptionService interface                             | 2025-06-14               |
+| PatitaSolidaria     | develop    | 8914c5b       | Diego Rosado     | authored   | Merge pull request #1 from DevsConClase-PatitaSolidaria/feat/adding-pets-bc | 2025-06-14               |
+| PatitaSolidaria     | develop    | bbc267c       | Diegoroip        | authored   | feat: agregando Pet bounded context                                          | 2025-06-14               |
+| PatitaSolidaria     | develop    | d5d6f86       | Diegoroip        | authored   | Cambios para clonar y probar en develop local                                | 2025-06-12               |
+| PatitaSolidaria     | develop    | cabab13       | Diegoroip        | authored   | Corrigiendo Dockerfile para Render                                           | 2025-06-12               |
+| PatitaSolidaria     | develop    | 0c8c042       | Diegoroip        | authored   | Añadiedo Dockerfile para Render                                              | 2025-06-12               |
+| PatitaSolidaria     | develop    | 6f18b9d       | Diegoroip        | authored   | Corregiendo el render.yaml                                                   | 2025-06-12               |
+| PatitaSolidaria     | develop    | bc0e94b       | Diegoroip        | authored   | Corregiendo el render.yaml                                                   | 2025-06-12               |
+| PatitaSolidaria     | develop    | 7c90ab4       | Diegoroip        | authored   | Trigger deploy                                                               | 2025-06-12               |
+| PatitaSolidaria     | develop    | 476fd81       | Diegoroip        | authored   | Agrega configuracion de Render                                               | 2025-06-12               |
+| PatitaSolidaria     | develop    | eb1a1f0       | Diegoroip        | authored   | Fix: Permisos de ejecución para mvnw                                         | 2025-06-12               |
+| PatitaSolidaria     | develop    | c04d1ac       | Diegoroip        | authored   | Agregar archivo render.yaml para despliegue                                  | 2025-06-12               |
+| PatitaSolidaria     | develop    | 85b1fae       | Diegoroip        | authored   | Initial commit - PatitaSolidaria backend                                     | 2025-06-12               |
 
 #### 5.2.3.4. Testing Suite Evidence for Sprint Review
 
+Durante el Sprint 3 se sentaron las bases para la integración de pruebas automatizadas siguiendo el enfoque BDD (Desarrollo Dirigido por el Comportamiento). Aunque no se completaron archivos `.feature` durante este sprint, se implementaron múltiples endpoints funcionales que serán validados en los siguientes sprints mediante pruebas escritas en lenguaje Gherkin, utilizando herramientas como **Cucumber** o **JBehave**.
+
+Adicionalmente, se realizaron pruebas manuales a los endpoints desplegados en producción utilizando **Render**, con verificación de persistencia y consistencia de datos a través de la herramienta **pgAdmin 4**, conectándose directamente a la base de datos PostgreSQL del entorno en la nube. Estas pruebas permitieron validar la creación, edición y eliminación de registros clave dentro del sistema, como parte de la verificación funcional del backend.
+
+A continuación, se muestra un resumen del estado de testing al cierre del Sprint 3:
+
+| **Aspecto Evaluado**          | **Resultado**                                                                 |
+|------------------------------|------------------------------------------------------------------------------|
+| Pruebas BDD automatizadas    | En planificación. No se completaron archivos `.feature` aún.                |
+| Pruebas manuales             | Realizadas usando herramientas como Postman y pgAdmin 4.                    |
+| Herramientas utilizadas      | Render (deploy), pgAdmin 4 (visualización de DB), Spring Boot (REST APIs). |
+| Estado general de testing    | Funcionalidad básica validada manualmente.                                   |
+
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3, se logró un progreso significativo en la implementación del backend del sistema. Nos enfocamos en la creación de múltiples endpoints RESTful que permiten la gestión de entidades clave como recetas, usuarios y adopciones. Todo el código fue desarrollado siguiendo principios de arquitectura limpia, con especial énfasis en la separación de capas y la persistencia adecuada de datos.
+
+Además, se realizó el despliegue exitoso del backend en **Render**, lo que permitió validar el comportamiento del sistema en un entorno de producción. Para verificar la creación, edición y eliminación de datos, se utilizó **pgAdmin 4**, accediendo directamente a la base de datos PostgreSQL vinculada al servicio de Render.
+
+<h3>Backend</h3>
+En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos PostgreSQL. También se configuró el despliegue en Render y se verificó el funcionamiento mediante la conexión a pgAdmin 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
+
+**Evidencias Incluidas:**
+
+- Capturas de pantalla de la base de datos en pgAdmin 4, mostrando datos creados mediante los endpoints.
+- Enlace al repositorio del backend donde se encuentra el código fuente implementado.
+
+**Capturas de Pantalla**
+
+> 🖼️ **Capturas**: [Incluir capturas de pgAdmin mostrando tablas con datos reales]
+
+- Sección inicio de sesión: ![Screenshot1](assets/images/tb2/1.png)
+- Sección users: ![Screenshot1](assets/images/tb2/2.png)
+- Sección pets: ![Screenshot1](assets/images/tb2/3.png)
+
+A continuacion se muestra la evidencia de despliegue del backend entrando al siguiente enlace:   
+https://patita-solidaria-backend.onrender.com/swagger-ui/index.html
+
+**Enlace a Video About the product**  
+Ademas presentamos un video explicativo de las funcionalidades en el Backend:
+https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
+En esta sección se incluye la relación de endpoints documentados con OpenAPI, desarrollados como parte del alcance del Sprint 3. Se resumen los logros alcanzados en relación con la implementación y documentación de los servicios REST del Backend.
+
+#### Backend en IntelliJ IDEA
+
+![Backend Context](assets/images/Sprint3/backend_patitasolidaria.png)
+
+---
+
+## Bounded Contexts
+
+### 🐾 Adoptions Bounded Context
+
+**AdoptionController**
+
+| Tag      | HTTP Verbs | Endpoint                  | Summary               | Description                                                  | OperationId       |
+|----------|------------|---------------------------|-----------------------|--------------------------------------------------------------|-------------------|
+| Adoptions| GET        | /api/v1/adoptions         | List all adoptions    | Retrieve a list of all adoption requests                     | GetAllAdoptions   |
+| Adoptions| POST       | /api/v1/adoptions         | Create new adoption   | Register a new adoption request                              | CreateAdoption    |
+| Adoptions| GET        | /api/v1/adoptions/{id}    | Get adoption by ID    | Retrieve a specific adoption request by its ID               | GetAdoptionById   |
+
+---
+
+### 🐶 Pets Bounded Context
+
+**PetController**
+
+| Tag   | HTTP Verbs | Endpoint               | Summary               | Description                                                  | OperationId     |
+|-------|------------|------------------------|-----------------------|--------------------------------------------------------------|-----------------|
+| Pets  | GET        | /api/v1/pets           | List all pets         | Retrieve all registered pets                                 | GetAllPets      |
+| Pets  | POST       | /api/v1/pets           | Create a pet          | Register a new pet available for adoption                    | CreatePet       |
+| Pets  | GET        | /api/v1/pets/{id}      | Get pet by ID         | Retrieve pet details using its ID                            | GetPetById      |
+| Pets  | PUT        | /api/v1/pets/{id}      | Update pet information| Update details for a specific pet                            | UpdatePet       |
+| Pets  | DELETE     | /api/v1/pets/{id}      | Delete a pet          | Remove a pet from the system                                 | DeletePet       |
+
+---
+
+### 🔧 Infraestructura y Despliegue
+
+Durante este sprint también se configuró correctamente el entorno de despliegue en **Render**, y se utilizó **pgAdmin 4** para verificar la persistencia de datos en la base de datos PostgreSQL remota.
+
+<h3>Schemas</h3>
+
+
+
+Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace:  
+https://patita-solidaria-backend.onrender.com/swagger-ui/index.html
+
+Link del repositorio del backend: https://github.com/DevsConClase-PatitaSolidaria/BackEnd
+
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
+Durante el Sprint 3, se logró desplegar exitosamente la API del backend del proyecto **Patita Solidaria** utilizando la plataforma **Render**, permitiendo el acceso público a los endpoints implementados y documentados. Esta acción asegura que las funcionalidades desarrolladas estén accesibles para pruebas externas y validación del producto en un entorno de staging.
+
+El despliegue incluye una instancia de servidor corriendo la aplicación Spring Boot y una base de datos PostgreSQL conectada de manera remota. Para la gestión de la base de datos, se utilizó **pgAdmin 4**, lo cual permitió visualizar y verificar en tiempo real la persistencia de los datos ingresados mediante los endpoints REST.
+
+#### Entorno de Despliegue
+
+- **Plataforma**: Render.com  
+- **Base de datos**: PostgreSQL (Render)  
+- **Gestor de Base de Datos**: pgAdmin 4  
+- **Tipo de despliegue**: Backend como servicio (BaaS) con build automático desde rama `develop`  
+
+#### Archivos de configuración clave
+
+- `render.yaml`: Define la configuración del servicio, variables de entorno, tipo de instancia y comandos de arranque.
+- `Dockerfile`: Utilizado para construir la imagen personalizada de la aplicación y facilitar el despliegue en Render.
+
+#### Verificación de Despliegue
+
+Se realizaron pruebas en entorno de Render utilizando herramientas como Postman y verificación manual en pgAdmin 4. Estas pruebas confirmaron:
+
+- El correcto funcionamiento de los endpoints (`/api/v1/pets`, `/api/v1/adoptions`, etc.).
+- La persistencia de datos en la base de datos remota.
+- El despliegue estable del backend en entorno web accesible.
+
+#### Evidencia Visual
+
+**Consola de Render - Servicio desplegado**
+
+![Render Deployment](assets/images/Sprint3/render_console.png)
+
+**pgAdmin 4 - Tablas de la base de datos**
+
+![pgAdmin Tables](assets/images/Sprint3/pgadmin_tables.png)
+
+---
+
+Este despliegue forma parte esencial del ciclo de desarrollo continuo y prepara el entorno para las pruebas de integración y validación de funcionalidades desarrolladas durante el Sprint.
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+| Integrante | Acciones realizadas durante el sprint |
+|------------|----------------------------------------|
+| Diego Alonso Rosado Iporre | Desarrollo de los bounded contexts de **Pets** e **IAM (Identity and Access Management)** |
+| Pedro Lecca | Desarrollo del bounded context de **Adoptions** |
+
+**Contribucion en el repositorio del Backend**
+
+![Project Insights Del Backend](assets/images/TB3/contri_backend.png)
 
 ### 5.2.4. Validation Interviews
 
@@ -2444,6 +2625,8 @@ Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada p
 
 ### 5.2.5. Video About-the-Product
 
+
+
 ## Conclusiones
 
 - TB1:
@@ -2453,6 +2636,14 @@ El proyecto "Patita Solidaria" reflejó un enfoque empático y colaborativo, ori
 - TP1:
 
 El desarrollo del Trabajo Parcial permitió consolidar los módulos principales de la plataforma Patita Solidaria, destacando la implementación del sistema de adopciones con soporte multilenguaje, así como las secciones de perfil, donaciones y publicaciones. Se logró una correcta distribución de tareas, cumplimiento de las User Stories asignadas y validación funcional mediante pruebas manuales, lo que evidencia un avance sólido y coordinado en la construcción del producto.
+
+- TB2: 
+
+El desarrollo del Trabajo Parcial TB2 permitió sentar las bases sólidas del backend de la plataforma Patita Solidaria, logrando avances significativos en la implementación de múltiples Bounded Contexts como Pets, IAM (Identity and Access Management) y Adoptions. Durante este sprint se priorizó la creación de endpoints RESTful siguiendo buenas prácticas, con soporte para operaciones CRUD y principios de diseño orientados al dominio.
+
+Se destacó una adecuada organización del equipo, con una clara distribución de responsabilidades entre los integrantes, lo cual permitió cumplir con las User Stories planificadas y mantener una integración fluida en el repositorio. Además, se desplegó exitosamente la aplicación mediante Render, y se validó el funcionamiento correcto del sistema usando PGAdmin para verificar la persistencia de datos en la base de datos remota.
+
+Aunque la automatización de pruebas BDD aún está en proceso de integración, se establecieron las estructuras necesarias para su implementación en los próximos sprints, asegurando así la calidad del software. En conjunto, el trabajo realizado evidencia un desarrollo enfocado, colaborativo y con visión a largo plazo hacia un producto robusto y funcional.
 
 ## Bibliografía
 
