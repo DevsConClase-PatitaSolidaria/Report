@@ -197,7 +197,12 @@ TB2:<br>
             - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
             - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
             - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-
+        - [5.2.4. Validation Interviews](#524-validation-interviews)
+          - [5.2.4.1. Diseño de Entrevistas](#5241-diseño-de-entrevistas)
+          - [5.2.4.2. Registro de Entrevistas](#5242-registro-de-entrevistas)
+          - [5.2.4.3. Evaluaciones según heurísticas](#5243-evaluaciones-según-heurísticas)
+        
+        - [5.2.5. Video About-the-Product](#525-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
