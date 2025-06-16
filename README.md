@@ -43,12 +43,14 @@ Product: Patita Solidaria
 | TB1     | 14/04/25 | Carlo Ramirez        | Desarrollo del Capitulo 3 del informe 4.8                                                                                                                                                                                                 | 
 | TP1     | 24/05/25 | Diego Rosado   | Implementación de Frontend - Sección Pets. Revisión de documentos. Deploy de Frontend |
 | TP1     | 14/05/2025 | Pedro Lecca | Agregar Sprint 2. |
-| TP1 | FECHA | Carlo Ramirez | COMPLETAR. |
+| TP1 | 14/05/ | Carlo Ramirez | Desarrollo del Bounded Context Donations. |
 | TP1 | 14/05/2025 | Andres Coca | Desarrollo del Bounded Context Profile para el FrontEnd. |
-=======
 | TP1 | 14/05/2025 | Carlo Ramirez | Desarrollo de la seccion Donations  |
 | TP1 | FECHA | Andres Coca | Desarrollo del Bounded Context Profile para el FrontEnd. |
 | TB2     | 14/06/25 | Diego Rosado   | Deploy de Backend en Render. Realicé de Bounded context Pets, Bounded Context publications en el backend funcional. Hice el punto 6.2.2  |
+| TB2 | 16/06/2025 | Pedro Lecca | Realizó entrevistas para mostrar el producto final a los segmentos objetivos, además creo los bounded context de Adoptions, Vaccines y Manage Adoptions de manera funcional para el backed. |
+| TB2 | 16/06/2025 | Carlo Ramirez | Realicé de Bounded context Donations en el backend funcional y el punto 6.3.1 del informe. |
+| TB2 | 16/06/2025 | Andres Coca | Desarrollo de entrevistas para mostrar el producto a los usuarios del segmento objetivo, desarrollo del Bounded Context Profiles funcional para el BackEnd|
 | TB2 | 16/06/25 | Pedro Lecca | Realizó entrevistas para mostrar el producto final a los segmentos objetivos, además creo los bounded context de Adoptions, Vaccines y Manage Adoptions de manera funcional para el backed. |
 | TB2 | 15/06/25 | Carlo Ramirez | Realicé de Bounded context Donations en el backend funcional y el punto 6.3.1 del informe |
 | TB2 | 16/06/25 | Andres Coca | Desarrollo de entrevistas para mostrar el producto a los usuarios del segmento objetivo, desarrollo del Bounded Context Profiles funcional para el BackEnd|
