@@ -51,7 +51,7 @@ Product: Patita Solidaria
 | TP1 | FECHA | Sebastian Carbajal | COMPLETAR. |
 | TP1 | FECHA | Andres Coca | COMPLETAR. |
 | TB2     | 14/06/25 | Diego Rosado   | Deploy de Backend en Render. Realicé de Bounded context Pets en el backend funcional. Hice el punto 6.2.2  |
-| TB2 | 16/06/25 | Pedro Lecca | Realizó entrevistas para mostrar el producto final. |
+| TB2 | 16/06/25 | Pedro Lecca | Realizó entrevistas para mostrar el producto final a los segmentos objetivos, además creo los bounded context de Adoptions, Vaccines y Manage Adoptions de manera funcional para el backed. |
 | TB2 | FECHA | Carlo Ramirez | COMPLETAR. |
 | TB2 | FECHA | Arnold Morales | COMPLETAR. |
 | TB2 | FECHA | Sebastian Carbajal | COMPLETAR. |
