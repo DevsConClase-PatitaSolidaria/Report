@@ -72,19 +72,28 @@ Product: Patita Solidaria
 TB2:<br>
 | Integrante | Tarea Asignada |
 |------------|----------------|
-|Rosado Iporre, Diego Alonso| Bounded Context Pets & Bounded Context publications |
+|Rosado Iporre, Diego Alonso| Bounded Context Pets & Bounded Context publications & IAM |
 |Coca Lavado, Carlos Andrés| Bounded Context Profile |
 |Lecca Villalobos, Pedro Omar | Bounded Context Adoptions & Bounded Context Vaccines & Bounded Context Manage Adoptions|
 |Ramirez Escalante, Carlo Patricio | Bounded Context Donations |
 
-
 *Pull requests evidence*:
 
-COMPLETAR
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/pull_request_1.png"></p>
+
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/pull_request_2.png"></p>
+
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/pull_request_3.png"></p>
+
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/pull_request_4.png"></p>
 
 *Commits evidence*:
 
-COMPLETAR
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/commits_1.png"></p>
+
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/commits_2.png"></p>
+
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/commits_3.png"></p>
 
 ## Contenido
 
@@ -733,7 +742,7 @@ Como parte del proceso de validación del modelo de negocio de **Patita Solidari
 
 ---
 
-#### b) Diseño de entrevista - Segmento 2: Protectores
+#### Diseño de entrevista - Segmento 2: Protectores
 
 1. **Datos generales:**
    - Nombre.
@@ -815,9 +824,6 @@ El presente diseño permitirá recopilar información clave sobre ambos segmento
 | **Edad:** 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Link de la entrevista (YouTube):** https://youtu.be/Ou98ct9wLuU                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | Marcelo Barrientos, un joven de 20 años residente cerca de Lima, expresó que siempre ha sentido una conexión especial con los animales y que adoptar una mascota representa darle una segunda oportunidad a un ser que haya pasado por situaciones difíciles como el abandono o la calle. Comentó que ya había adoptado un perro anteriormente, lo cual fue un desafío inicial debido a la timidez del animal, pero que con paciencia logró integrarlo exitosamente a su familia. Marcelo manifestó interés en adoptar otra mascota, preferiblemente un perro mediano de entre uno y tres años de edad, con mucha energía y sociabilidad. Durante la entrevista, se discutieron aspectos clave como la salud, el comportamiento y la historia previa de las mascotas, además de las plataformas digitales que utiliza para buscar animales en adopción, como Instagram, Facebook, TikTok y páginas web de refugios. También habló sobre la importancia de recibir seguimiento post-adopción para asegurar el bienestar del animal y fortalecer la relación con él. |
-
-
-=======
 
 
 #### 2.2.3. Análisis de entrevistas
@@ -2321,7 +2327,7 @@ Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada p
 | **Time**                                 | 10:00 PM                                                                                                                                                          |
 | **Location**                             | Google Meet (virtual)                                                                                                                                             |
 | **Prepared By**                          | Rosado Iporre, Diego Alonso                                                                                                                                         |
-| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Morales Sosa, Arnold Gabriel<br>Carlos Andrés, Coca Lavado<br>Ramirez Escalante, Carlo Patricio<br>Carbajal Santivañez, Sebastian Aaron Anibal |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Carlos Andrés, Coca Lavado<br>Ramirez Escalante, Carlo Patricio |
 | **Sprint n – 3 Review Summary**          | Se implementaron las secciones clave de la aplicación: mascotas, adopción, donaciones, perfiles de usuario, y su diseño responsive.                              |
 | **Sprint n – 3 Retrospective Summary**   | Se identificó la necesidad de mejorar la navegación y optimizar el rendimiento en el landing page                                                                        |
 | **Sprint 3 Goal**                        | Finalizar funcionalidades pendientes, pulir la interfaz de usuario, integrar servicios externos y preparar el producto para pruebas de validación con usuarios.  |
@@ -2402,18 +2408,45 @@ Además, se realizó el despliegue exitoso del backend en **Render**, lo que per
 <h3>Backend</h3>
 En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos PostgreSQL. También se configuró el despliegue en Render y se verificó el funcionamiento mediante la conexión a pgAdmin 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
 
-**Evidencias Incluidas:**
+**Capturas de Pantalla de pgadmin 4 conectado a la database de Render**
 
-- Capturas de pantalla de la base de datos en pgAdmin 4, mostrando datos creados mediante los endpoints.
-- Enlace al repositorio del backend donde se encuentra el código fuente implementado.
+- Datos en bounded context Users
 
-**Capturas de Pantalla**
+![pgadmin2](assets/images/tb2/pgadmin_2.png)
 
-> 🖼️ **Capturas**: [Incluir capturas de pgAdmin mostrando tablas con datos reales]
+- Datos en bounded context Pets
 
-- Sección inicio de sesión: ![Screenshot1](assets/images/tb2/1.png)
-- Sección users: ![Screenshot1](assets/images/tb2/2.png)
-- Sección pets: ![Screenshot1](assets/images/tb2/3.png)
+![pgadmin1](assets/images/tb2/pgadmin_1.png)
+
+- Datos en bounded context Publications
+
+![pgadmin3](assets/images/tb2/pgadmin_3.png)
+
+- Datos en bounded context Profiles
+
+![pgadmin4](assets/images/tb2/pgadmin_4.png)
+
+- Datos en bounded context Donations
+
+![pgadmin5](assets/images/tb2/pgadmin_5.png)
+
+- Datos en bounded context Adoptions
+
+![pgadmin6](assets/images/tb2/pgadmin_6.png)
+
+- Datos en bounded context Adoption Requests
+
+![pgadmin7](assets/images/tb2/pgadmin_7.png)
+
+**Capturas del Backend deployado**
+
+![backend1](assets/images/tb2/backenddeploy_1.png)
+
+![backend2](assets/images/tb2/backenddeploy_2.png)
+
+**Funcionamiento de Backend deployado**
+
+![backend3](assets/images/tb2/backend_works.png)
 
 A continuacion se muestra la evidencia de despliegue del backend entrando al siguiente enlace:   
 https://patita-solidaria-backend.onrender.com/swagger-ui/index.html
@@ -2428,21 +2461,60 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI, 
 
 #### Backend en IntelliJ IDEA
 
-![Backend Context](assets/images/Sprint3/backend_patitasolidaria.png)
+Este backend está desarrollado siguiendo el patrón **Domain-Driven Design (DDD)**, estructurando la lógica en **Bounded Contexts** claramente definidos y separados. Cada contexto encapsula su propio modelo de dominio, comportamientos y reglas de negocio, lo que permite una arquitectura modular, mantenible y alineada con el negocio.
+
+
+![backend4](assets/images/tb2/backendcode_1.png)
+
+![backend5](assets/images/tb2/backendcode_2.png)
+
+
+#### Bounded Contexts
+
+- **Authentication** – Manejo de registros, inicio de sesión y autenticación JWT.
+- **Profiles** – Gestión de perfiles (adoptantes, refugios, administradores).
+- **Pets** – Registro y administración de mascotas disponibles para adopción.
+- **Adoptions** – Gestión de adopciones, historial médico y vacunas.
+- **Donations** – Registro de donaciones y métodos de pago.
+- **Publications** – Publicaciones públicas de mascotas y contenido social.
+- **Adoption Requests** – Solicitudes de adopción con seguimiento de estado.
+- **Users** – Información general y roles del sistema.
+
+#### 📡 API
+
+Todos los endpoints están organizados siguiendo la convención RESTful bajo la ruta `/api/v1/` y están documentados según contexto.
+
+#### ✅ Buenas Prácticas Aplicadas
+
+- Uso de **Enums tipados** para valores restringidos.
+- Colecciones embebidas con `@ElementCollection` en modelos.
+- Separación clara de **entidades de dominio** y **DTOs**.
+- Control de errores centralizado.
+- **Mappers** para transformar entre recursos y entidades.
+- Arquitectura lista para pruebas, integración y ampliación.
+
+### 🐾 Authentication Bounded Context
+
+**AuthenticationController**
+
+| Tag            | HTTP Verbs | Endpoint                       | Summary       | Description                                   | OperationId |
+|----------------|------------|--------------------------------|---------------|-----------------------------------------------|-------------|
+| Authentication | POST       | /api/v1/authentication/sign-up | User Sign-Up  | Register a new user into the system           | SignUp      |
+| Authentication | POST       | /api/v1/authentication/sign-in | User Sign-In  | Authenticate a user and return access token   | SignIn      |
 
 ---
 
-## Bounded Contexts
+### 🧑‍🤝‍🧑 Profiles Bounded Context
 
-### 🐾 Adoptions Bounded Context
+**ProfileController**
 
-**AdoptionController**
-
-| Tag      | HTTP Verbs | Endpoint                  | Summary               | Description                                                  | OperationId       |
-|----------|------------|---------------------------|-----------------------|--------------------------------------------------------------|-------------------|
-| Adoptions| GET        | /api/v1/adoptions         | List all adoptions    | Retrieve a list of all adoption requests                     | GetAllAdoptions   |
-| Adoptions| POST       | /api/v1/adoptions         | Create new adoption   | Register a new adoption request                              | CreateAdoption    |
-| Adoptions| GET        | /api/v1/adoptions/{id}    | Get adoption by ID    | Retrieve a specific adoption request by its ID               | GetAdoptionById   |
+| Tag      | HTTP Verbs | Endpoint                     | Summary           | Description                           | OperationId    |
+|----------|------------|------------------------------|-------------------|---------------------------------------|----------------|
+| Profiles | GET        | /api/v1/profiles             | List profiles     | Retrieve all registered profiles      | GetAllProfiles |
+| Profiles | POST       | /api/v1/profiles             | Create profile    | Register a new profile                | CreateProfile  |
+| Profiles | GET        | /api/v1/profiles/{profileId} | Get profile by ID | Retrieve a profile by its ID          | GetProfileById |
+| Profiles | PUT        | /api/v1/profiles/{profileId} | Update profile    | Update existing profile information   | UpdateProfile  |
+| Profiles | DELETE     | /api/v1/profiles/{profileId} | Delete profile    | Remove a profile from the system      | DeleteProfile  |
 
 ---
 
@@ -2450,28 +2522,103 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI, 
 
 **PetController**
 
-| Tag   | HTTP Verbs | Endpoint               | Summary               | Description                                                  | OperationId     |
-|-------|------------|------------------------|-----------------------|--------------------------------------------------------------|-----------------|
-| Pets  | GET        | /api/v1/pets           | List all pets         | Retrieve all registered pets                                 | GetAllPets      |
-| Pets  | POST       | /api/v1/pets           | Create a pet          | Register a new pet available for adoption                    | CreatePet       |
-| Pets  | GET        | /api/v1/pets/{id}      | Get pet by ID         | Retrieve pet details using its ID                            | GetPetById      |
-| Pets  | PUT        | /api/v1/pets/{id}      | Update pet information| Update details for a specific pet                            | UpdatePet       |
-| Pets  | DELETE     | /api/v1/pets/{id}      | Delete a pet          | Remove a pet from the system                                 | DeletePet       |
+| Tag   | HTTP Verbs | Endpoint             | Summary                | Description                                 | OperationId   |
+|-------|------------|----------------------|------------------------|---------------------------------------------|---------------|
+| Pets  | GET        | /api/v1/pets         | List all pets          | Retrieve all registered pets                | GetAllPets    |
+| Pets  | POST       | /api/v1/pets         | Create a pet           | Register a new pet available for adoption   | CreatePet     |
+| Pets  | GET        | /api/v1/pets/{petId} | Get pet by ID          | Retrieve pet details using its ID           | GetPetById    |
+| Pets  | PUT        | /api/v1/pets/{petId} | Update pet information | Update details for a specific pet           | UpdatePet     |
+| Pets  | DELETE     | /api/v1/pets/{petId} | Delete a pet           | Remove a pet from the system                | DeletePet     |
 
 ---
+
+### 📢 Publications Bounded Context
+
+**PublicationController**
+
+| Tag          | HTTP Verbs | Endpoint                             | Summary               | Description                                | OperationId            |
+|--------------|------------|--------------------------------------|-----------------------|--------------------------------------------|------------------------|
+| Publications | GET        | /api/v1/publications                 | List publications     | Retrieve all pet publications              | GetAllPublications     |
+| Publications | POST       | /api/v1/publications                 | Create publication    | Create a new publication for a pet         | CreatePublication      |
+| Publications | GET        | /api/v1/publications/{publicationId} | Get publication by ID | Retrieve publication details               | GetPublicationById     |
+| Publications | PUT        | /api/v1/publications/{publicationId} | Update publication    | Update existing publication                | UpdatePublication      |
+| Publications | DELETE     | /api/v1/publications/{publicationId} | Delete publication    | Remove a publication from the system       | DeletePublication      |
+| Publications | GET        | /api/v1/publications/pet/{petId}     | Get by pet ID         | Get all publications for a specific pet    | GetPublicationsByPetId |
+
+---
+
+### 🏠 Adoptions Bounded Context
+
+**AdoptionController**
+
+| Tag       | HTTP Verbs | Endpoint                          | Summary              | Description                                      | OperationId             |
+|-----------|------------|-----------------------------------|----------------------|--------------------------------------------------|-------------------------|
+| Adoptions | GET        | /api/adoptions                    | List all adoptions   | Get all adoption cases, optionally filtered      | GetAllAdoptions         |
+| Adoptions | POST       | /api/adoptions                    | Create an adoption   | Register a new pet for adoption                  | CreateAdoption          |
+| Adoptions | GET        | /api/adoptions/{id}               | Get adoption by ID   | Retrieve adoption record details                 | GetAdoptionById         |
+| Adoptions | PUT        | /api/adoptions/{id}               | Update adoption      | Update existing adoption record                  | UpdateAdoption          |
+| Adoptions | DELETE     | /api/adoptions/{id}               | Delete adoption      | Remove adoption record from the system           | DeleteAdoption          |
+| Adoptions | PUT        | /api/adoptions/{id}/vaccines      | Update vaccination   | Update vaccination record for an adoption        | UpdateVaccinationRecord |
+| Adoptions | GET        | /api/adoptions/by-vaccine         | Get by vaccine       | Retrieve adoptions filtered by vaccine name      | GetAdoptionsByVaccine   |
+
+---
+
+### 📩 Adoption Requests Bounded Context
+
+**AdoptionRequestController**
+
+| Tag              | HTTP Verbs | Endpoint                                  | Summary              | Description                                              | OperationId                  |
+|------------------|------------|-------------------------------------------|----------------------|----------------------------------------------------------|------------------------------|
+| AdoptionRequests | GET        | /api/adoption-requests                    | List requests        | Retrieve all adoption requests, optionally by status     | GetAllAdoptionRequests       |
+| AdoptionRequests | POST       | /api/adoption-requests                    | Create request       | Submit a new adoption request                            | CreateAdoptionRequest        |
+| AdoptionRequests | GET        | /api/adoption-requests/{id}              | Get request by ID    | Retrieve a specific adoption request by ID               | GetAdoptionRequestById       |
+| AdoptionRequests | PUT        | /api/adoption-requests/{id}/status       | Update request status| Approve or reject an adoption request                    | UpdateAdoptionRequestStatus  |
+
+---
+
+### 💰 Donations Bounded Context
+
+**DonationController**
+
+| Tag       | HTTP Verbs | Endpoint                 | Summary         | Description                        | OperationId     |
+|-----------|------------|--------------------------|-----------------|------------------------------------|-----------------|
+| Donations | GET        | /api/v1/donations        | List donations  | Retrieve all donation records      | GetAllDonations |
+| Donations | POST       | /api/v1/donations        | Create donation | Register a new donation            | CreateDonation  |
+| Donations | PUT        | /api/v1/donations/{id}   | Update donation | Update existing donation details   | UpdateDonation  |
+| Donations | DELETE     | /api/v1/donations/{id}   | Delete donation | Remove a donation from the system  | DeleteDonation  |
+
+---
+
+### 👥 Users Bounded Context
+
+**UserController**
+
+| Tag   | HTTP Verbs | Endpoint              | Summary         | Description                       | OperationId   |
+|-------|------------|-----------------------|-----------------|-----------------------------------|---------------|
+| Users | GET        | /api/v1/users         | List users      | Retrieve all system users         | GetAllUsers   |
+| Users | GET        | /api/v1/users/{userId}| Get user by ID  | Retrieve user details by ID       | GetUserById   |
+
+---
+
+### 🔐 Roles Bounded Context
+
+**RoleController**
+
+| Tag   | HTTP Verbs | Endpoint           | Summary      | Description                        | OperationId   |
+|-------|------------|--------------------|--------------|------------------------------------|---------------|
+| Roles | GET        | /ap/v1/roles       | List roles   | Retrieve all available user roles  | GetAllRoles   |
+"""
 
 ### 🔧 Infraestructura y Despliegue
 
 Durante este sprint también se configuró correctamente el entorno de despliegue en **Render**, y se utilizó **pgAdmin 4** para verificar la persistencia de datos en la base de datos PostgreSQL remota.
 
-<h3>Schemas</h3>
-
-
-
 Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace:  
 https://patita-solidaria-backend.onrender.com/swagger-ui/index.html
 
 Link del repositorio del backend: https://github.com/DevsConClase-PatitaSolidaria/BackEnd
+
+Este backend es parte de una solución completa para conectar adoptantes con refugios de animales, promover la adopción responsable y gestionar el proceso de forma eficiente.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
@@ -2484,7 +2631,7 @@ El despliegue incluye una instancia de servidor corriendo la aplicación Spring 
 - **Plataforma**: Render.com  
 - **Base de datos**: PostgreSQL (Render)  
 - **Gestor de Base de Datos**: pgAdmin 4  
-- **Tipo de despliegue**: Backend como servicio (BaaS) con build automático desde rama `develop`  
+- **Tipo de despliegue**: Backend como servicio (BaaS) con build automático desde rama `main`  
 
 #### Archivos de configuración clave
 
@@ -2503,11 +2650,13 @@ Se realizaron pruebas en entorno de Render utilizando herramientas como Postman 
 
 **Consola de Render - Servicio desplegado**
 
-![Render Deployment](assets/images/Sprint3/render_console.png)
+![Render Deployment](assets/images/tb2/render_1.png)
+
+![Render Deployment](assets/images/tb2/render_2.png)
 
 **pgAdmin 4 - Tablas de la base de datos**
 
-![pgAdmin Tables](assets/images/Sprint3/pgadmin_tables.png)
+![pgAdmin Tables](assets/images/tb2/render_3.png)
 
 ---
 
@@ -2517,12 +2666,14 @@ Este despliegue forma parte esencial del ciclo de desarrollo continuo y prepara 
 
 | Integrante | Acciones realizadas durante el sprint |
 |------------|----------------------------------------|
-| Diego Alonso Rosado Iporre | Desarrollo de los bounded contexts de **Pets** e **IAM (Identity and Access Management)** |
+| Diego Alonso Rosado Iporre | Desarrollo de los bounded contexts de **Pets** && **IAM (Identity and Access Management)** && **Publications** |
 | Pedro Lecca | Desarrollo del bounded context de **Adoptions** |
+| Carlo Ramirez | Desarrollo del bounded context de **Donations** && **Vaccines** && **Manage Adoptions** |
+| Andres Coca  | Desarrollo del bounded context de **Profiles** |
 
 **Contribucion en el repositorio del Backend**
 
-![Project Insights Del Backend](assets/images/TB3/contri_backend.png)
+![Project Insights Del Backend](assets/images/tb2/back_contributors.png)
 
 ### 5.2.4. Validation Interviews
 
