@@ -39,8 +39,7 @@ Product: Patita Solidaria
 |---------|----------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TB1     | 09/04/25 | Diego Rosado   | Creación organización y repositorios en GitHub para proyecto final                                                                                                                                                                        |
 | TB1     | 11/04/25 | Andrés Coca    | Desarrollo del Capitulo 1 del informe                                                                                                                                                                                                     | 
-| TB1     | 20/04/25 | Pedro Lecca    | Documentación completa (5.2.1 -  5.2.1.8)                                                                                                                                                                                                 |
-| TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                                                                                                                                                                                         | 
+| TB1     | 20/04/25 | Pedro Lecca    | Documentación completa (5.2.1 -  5.2.1.8)                                                                                                                                                                                                 | 
 | TB1     | 14/04/25 | Carlo Ramirez        | Desarrollo del Capitulo 3 del informe 4.8                                                                                                                                                                                                 | 
 | TP1     | 24/05/25 | Diego Rosado   | Implementación de Frontend - Sección Pets. Revisión de documentos. Deploy de Frontend |
 | TP1     | 14/05/2025 | Pedro Lecca | Agregar Sprint 2. |
@@ -2610,7 +2609,7 @@ Todos los endpoints están organizados siguiendo la convención RESTful bajo la 
 | Tag   | HTTP Verbs | Endpoint           | Summary      | Description                        | OperationId   |
 |-------|------------|--------------------|--------------|------------------------------------|---------------|
 | Roles | GET        | /ap/v1/roles       | List roles   | Retrieve all available user roles  | GetAllRoles   |
-"""
+
 
 ### 🔧 Infraestructura y Despliegue
 
@@ -2871,3 +2870,5 @@ URL deploy Landing Page: https://9l7f3r.csb.app/
 Link de Trello(Sprints Backlog): https://trello.com/b/3DnjiCdf/finalprojecttasks
 
 URL del Frontend desplegado: https://patitasolidaria-front.onrender.com 
+
+URL del Backend desplegado: https://patita-solidaria-backend.onrender.com/swagger-ui/index.html#/
