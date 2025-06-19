@@ -45,17 +45,10 @@ Product: Patita Solidaria
 | TP1     | 14/05/2025 | Pedro Lecca | Agregar Sprint 2. |
 | TP1 | 14/05/ | Carlo Ramirez | Desarrollo del Bounded Context Donations. |
 | TP1 | 14/05/2025 | Andres Coca | Desarrollo del Bounded Context Profile para el FrontEnd. |
-| TP1 | 14/05/2025 | Carlo Ramirez | Desarrollo de la seccion Donations  |
-| TP1 | FECHA | Andres Coca | Desarrollo del Bounded Context Profile para el FrontEnd. |
 | TB2     | 14/06/25 | Diego Rosado   | Deploy de Backend en Render. Realicé de Bounded context Pets, Bounded Context publications en el backend funcional. Hice el punto 6.2.2  |
 | TB2 | 16/06/2025 | Pedro Lecca | Realizó entrevistas para mostrar el producto final a los segmentos objetivos, además creo los bounded context de Adoptions, Vaccines y Manage Adoptions de manera funcional para el backed. |
-| TB2 | 16/06/2025 | Carlo Ramirez | Realicé de Bounded context Donations en el backend funcional y el punto 6.3.1 del informe. |
 | TB2 | 16/06/2025 | Andres Coca | Desarrollo de entrevistas para mostrar el producto a los usuarios del segmento objetivo, desarrollo del Bounded Context Profiles funcional para el BackEnd|
-| TB2 | 16/06/25 | Pedro Lecca | Realizó entrevistas para mostrar el producto final a los segmentos objetivos, además creo los bounded context de Adoptions, Vaccines y Manage Adoptions de manera funcional para el backed. |
 | TB2 | 15/06/25 | Carlo Ramirez | Realicé de Bounded context Donations en el backend funcional y el punto 6.3.1 del informe |
-| TB2 | 16/06/25 | Andres Coca | Desarrollo de entrevistas para mostrar el producto a los usuarios del segmento objetivo, desarrollo del Bounded Context Profiles funcional para el BackEnd|
-
-
 
 ## Project Report Collaboration Insights
 
@@ -78,7 +71,7 @@ Product: Patita Solidaria
 TB2:<br>
 | Integrante | Tarea Asignada |
 |------------|----------------|
-|Rosado Iporre, Diego Alonso| Bounded Context Pets & Bounded Context publications & IAM |
+|Rosado Iporre, Diego Alonso| Bounded Context Pets & Bounded Context publications & IAM & Video About The Product. Todo el capitulo 5.2.2 |
 |Coca Lavado, Carlos Andrés| Bounded Context Profile |
 |Lecca Villalobos, Pedro Omar | Bounded Context Adoptions & Bounded Context Vaccines & Bounded Context Manage Adoptions|
 |Ramirez Escalante, Carlo Patricio | Bounded Context Donations |
@@ -207,7 +200,8 @@ TB2:<br>
           - [5.2.4.2. Registro de Entrevistas](#5242-registro-de-entrevistas)
           - [5.2.4.3. Evaluaciones según heurísticas](#5243-evaluaciones-según-heurísticas)
         
-        - [5.2.5. Video About-the-Product](#525-video-about-the-product)
+        - [5.2.5. Video About-the-Team](#525-video-about-the-team)
+        - [5.2.6. Video About-the-Product](#526-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -2464,8 +2458,8 @@ A continuacion se muestra la evidencia de despliegue del backend entrando al sig
 https://patita-solidaria-backend.onrender.com/swagger-ui/index.html
 
 **Enlace a Video About the product**  
-Ademas presentamos un video explicativo de las funcionalidades en el Backend:
-https://drive.google.com/file/d/1ZnlCrrpk9SlRjT9ExwuQyAYMFVaTtNH_/view?usp=sharing
+Ademas presentamos un video explicativo de las funcionalidades en el frontend:
+https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review
 
@@ -2475,11 +2469,9 @@ En esta sección se incluye la relación de endpoints documentados con OpenAPI, 
 
 Este backend está desarrollado siguiendo el patrón **Domain-Driven Design (DDD)**, estructurando la lógica en **Bounded Contexts** claramente definidos y separados. Cada contexto encapsula su propio modelo de dominio, comportamientos y reglas de negocio, lo que permite una arquitectura modular, mantenible y alineada con el negocio.
 
-
 ![backend4](assets/images/tb2/backendcode_1.png)
 
 ![backend5](assets/images/tb2/backendcode_2.png)
-
 
 #### Bounded Contexts
 
@@ -2931,9 +2923,41 @@ Incluir un recorrido inicial con explicaciones breves, un botón de ayuda perman
 
 ---
 
-### 5.2.5. Video About-the-Product
+### 5.2.5. Video About-the-Team
 
+En esta sección, el equipo presenta un resumen de los aspectos más destacados del video "About The Team – PatitaSolidaria". El video documenta el proceso de desarrollo de la aplicación, mostrando imágenes y clips de sesiones reales de trabajo colaborativo entre los integrantes del equipo.
 
+A través de una narración fluida, se explican las distintas etapas del proyecto: desde la ideación inicial de PatitaSolidaria, pasando por las fases de diseño y desarrollo, hasta llegar a su implementación. Los testimonios de los miembros del equipo enriquecen la experiencia, detallando las tareas que cada uno desempeñó, los desafíos que enfrentaron y las soluciones implementadas.
+
+Además, se destacan los logros alcanzados, como la integración de funcionalidades clave para facilitar la adopción responsable de mascotas, la colaboración con refugios locales y la creación de una interfaz intuitiva y accesible para todos los usuarios.
+
+Finalmente, el video refleja el crecimiento profesional y personal de cada participante, subrayando el desarrollo de habilidades técnicas (como programación, diseño de interfaces, manejo de bases de datos) y competencias blandas (trabajo en equipo, comunicación, gestión del tiempo).
+
+**Imagen Representativa del Video**
+
+![AboutTeam_Video](assets/images/tb2/backendcode.png)
+
+**URLs de la Versión Publicada**
+
+- Versión en Google Drive: CORREGIR [https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link](https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link)
+
+### 5.2.6. Video About-the-Product
+
+En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About The Product – PatitaSolidaria". El video muestra en detalle las características principales de la aplicación, enfocándose en cómo cada funcionalidad ha sido diseñada para responder a las necesidades reales de los usuarios interesados en la adopción responsable de mascotas.
+
+A lo largo del video, se presentan demostraciones visuales de la aplicación en funcionamiento, incluyendo flujos clave como la búsqueda de animales disponibles, el contacto con refugios, la gestión de perfiles de mascotas y el seguimiento del proceso de adopción.
+
+La narración guía al espectador a través de la experiencia del usuario, mientras que testimonios reales aportan valor, reflejando el impacto positivo que PatitaSolidaria ha tenido tanto en adoptantes como en organizaciones protectoras de animales. Estos relatos destacan la facilidad de uso, la mejora en la visibilidad de las mascotas en adopción y el fortalecimiento del vínculo entre la comunidad y los refugios.
+
+Este video no solo presenta el producto, sino que lo contextualiza como una solución digital efectiva para un problema social, demostrando su utilidad, usabilidad e impacto.
+
+**Cuadro Representativo del Video**
+
+![AboutTeam_Video](assets/images/tb2/aboutproduct.png)
+
+**URLs de la Versión Publicada**
+
+- Versión en Google Drive: [https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link](https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link)
 
 ## Conclusiones
 
@@ -3028,3 +3052,7 @@ Link de Trello(Sprints Backlog): https://trello.com/b/3DnjiCdf/finalprojecttasks
 URL del Frontend desplegado: https://patitasolidaria-front.onrender.com 
 
 URL del Backend desplegado: https://patita-solidaria-backend.onrender.com/swagger-ui/index.html#/
+
+Video About-The-Team: 
+
+Video About-The-Product: https://drive.google.com/drive/folders/1nr6SgYV-kaxnDUhwW-iKhUaBW0IeCrAU?usp=sharing
