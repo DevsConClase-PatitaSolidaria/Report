@@ -2817,6 +2817,120 @@ Este despliegue forma parte esencial del ciclo de desarrollo continuo y prepara 
 
 #### 5.2.4.3. Evaluaciones según heurísticas
 
+## SITE o APP A EVALUAR
+**Nombre:** Patita Solidaria  
+**Objetivo:** Identificar problemas de usabilidad en el sistema web de adopción de mascotas usando la Lista Heurística de Nielsen.
+
+---
+
+##  TAREAS A EVALUAR
+
+1. Visualización y navegación en la página principal 
+2. Visualización de mascotas (galería, fichas, presentación de información)
+3. Navegación por la sección de adopciones (flujo, claridad de información, pasos a seguir)
+4. Accesibilidad y claridad del menú lateral (ubicación, iconos, estructura)
+5. Filtros por características (edad, tamaño, estado, salud, etc.)
+6. Diferenciación entre las secciones “Adopciones” y “Solicitudes”
+7. Visualización de detalles de mascotas (salud, historia, fotos)
+8. Gestión de donaciones (proceso, confianza, recurrencia)
+9. Claridad de iconografía y etiquetas
+10. Navegación lateral y localización de sección activa
+11. Estructura y claridad del formulario de adopción
+12. Proceso de cambio de idioma
+13. Personalización y curva de aprendizaje
+
+---
+
+## PROBLEMAS DETECTADOS 
+
+| # | Problema detectado | Heurística violada | Severidad |
+|---|--------------------|--------------------|-----------|
+| 1 | Falta de detalles clave en fichas de mascotas | Ayuda y documentación | 3 |
+| 2 | Confusión entre “Adopciones” y “Solicitudes” | Coincidencia entre el sistema y el mundo real | 3 |
+| 3 | La navegación no indica cuál es la sección actual activa | Visibilidad del estado del sistema | 2 |
+| 4 | Iconos poco claros o poco intuitivos | Reconocimiento antes que recuerdo | 2 |
+| 5 | Falta de tutoriales o guía para nuevos usuarios | Ayuda y documentación | 2 |
+
+---
+
+## ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: fácilmente superado por el usuario o muy poco frecuente. No es prioritario. |
+| **2** | Problema menor: algo más frecuente o confuso; se debe resolver en una próxima versión. |
+| **3** | Problema mayor: ocurre frecuentemente y afecta el uso normal. Prioridad alta. |
+| **4** | Problema muy grave: impide el uso del sistema. Debe corregirse antes del lanzamiento. |
+
+---
+
+## ANÁLISIS HEURÍSTICO DETALLADO
+
+### 🔶 Problema #01: Falta de detalles clave en las fichas de mascotas
+
+**Severidad:** 3  
+**Heurística violada:** Ayuda y documentación
+
+**Descripción:**  
+Las fichas no muestran información esencial como estado de salud, historia del animal o fotos ampliadas. Esto afecta la confianza del usuario y dificulta tomar decisiones informadas.
+
+**Recomendación:**  
+Incluir datos de salud, vacunas, historia y permitir ampliar las fotos. Esto mejora la transparencia y ayuda al usuario a conectar emocionalmente con el proceso de adopción.
+
+---
+
+### 🔶 Problema #02: Confusión entre “Adopciones” y “Solicitudes”
+
+**Severidad:** 3  
+**Heurística violada:** Coincidencia entre el sistema y el mundo real
+
+**Descripción:**  
+Los usuarios no diferencian bien entre ambas secciones. Esto puede generar errores de navegación y frustración.
+
+**Recomendación:**  
+Renombrar las secciones con etiquetas claras y explicativas (ej. “Mascotas para adoptar” y “Mis solicitudes”), e incluir iconos o textos de apoyo.
+
+---
+
+### 🔶 Problema #03: La navegación no indica cuál es la sección actual activa
+
+**Severidad:** 2  
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Descripción:**  
+La interfaz no resalta la sección activa, lo que desorienta al usuario y dificulta saber en qué parte del sitio se encuentra.
+
+**Recomendación:**  
+Resaltar el ítem activo en el menú con un color distinto, subrayado o encabezado visible que indique la ubicación actual.
+
+---
+
+### 🔶 Problema #04: Iconos poco claros o poco intuitivos
+
+**Severidad:** 2  
+**Heurística violada:** Reconocimiento antes que recuerdo
+
+**Descripción:**  
+Varios iconos no son fácilmente comprensibles, lo que obliga al usuario a adivinar su función, aumentando errores o tiempo de navegación.
+
+**Recomendación:**  
+Agregar etiquetas de texto junto a los íconos o tooltips al pasar el cursor. Usar íconos estándar validados por usuarios reales.
+
+---
+
+### 🔶 Problema #05: Falta de tutoriales o guía para nuevos usuarios
+
+**Severidad:** 2  
+**Heurística violada:** Ayuda y documentación
+
+**Descripción:**  
+No hay tutorial, guía ni sección de ayuda visible. Esto afecta la curva de aprendizaje, especialmente en usuarios no expertos.
+
+**Recomendación:**  
+Incluir un recorrido inicial con explicaciones breves, un botón de ayuda permanente o una sección de preguntas frecuentes.
+
+---
+
 ### 5.2.5. Video About-the-Product
 
 
