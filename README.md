@@ -2367,6 +2367,14 @@ Link Trello: https://trello.com/b/3DnjiCdf/finalprojecttasks
 | US07 | Solicitar adopción | *TA006* | Solicitud de Adopción | Desarrollar endpoint POST para que el usuario adopte una mascota, registrando la solicitud con su estado inicial en base de datos. | 6 horas | Diego Rosado | Done |
 | US09 | Registrarse como refugio | *TA007* | Registro de Refugio | Extender el registro para aceptar tipo de usuario 'refugio', validando datos adicionales como nombre del refugio, RUC y ubicación. | 5 horas | Carlos Coca | Done |
 
+
+
+
+**Captura del Trello**
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/TrelloSprint3.png">
+
+
 #### 5.2.3.3. Development Evidence for Sprint Review
 
 Durante el tercer sprint, se implementaron funcionalidades clave como el CRUD de adopciones, estructura de dominios para mascotas, integración de Swagger para documentación, despliegue en Render, y configuración de infraestructura básica. A continuación se presenta la evidencia de desarrollo con los commits realizados:
