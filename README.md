@@ -2943,11 +2943,11 @@ Finalmente, el video refleja el crecimiento profesional y personal de cada parti
 
 **Imagen Representativa del Video**
 
-![AboutTeam_Video](assets/images/tb2/backendcode.png)
+![AboutTeam_Video](assets/images/tb2/aboutteam.png)
 
 **URLs de la Versión Publicada**
 
-- Versión en Google Drive: CORREGIR [https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link](https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link)
+- Versión en Google Drive: [https://drive.google.com/file/d/1TUoqEsSCmmArpQHDLEGUib_zkRoW_kd5/view?usp=drive_link](https://drive.google.com/file/d/1TUoqEsSCmmArpQHDLEGUib_zkRoW_kd5/view?usp=drive_link)
 
 ### 5.2.6. Video About-the-Product
 
@@ -3061,6 +3061,6 @@ URL del Frontend desplegado: https://patitasolidaria-front.onrender.com
 
 URL del Backend desplegado: https://patita-solidaria-backend.onrender.com/swagger-ui/index.html#/
 
-Video About-The-Team: 
+Video About-The-Team: https://drive.google.com/file/d/1TUoqEsSCmmArpQHDLEGUib_zkRoW_kd5/view?usp=drive_link
 
 Video About-The-Product: https://drive.google.com/drive/folders/1nr6SgYV-kaxnDUhwW-iKhUaBW0IeCrAU?usp=sharing
