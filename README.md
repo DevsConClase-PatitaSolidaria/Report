@@ -49,6 +49,10 @@ Product: Patita Solidaria
 | TB2 | 16/06/2025 | Pedro Lecca | Realizó entrevistas para mostrar el producto final a los segmentos objetivos, además creo los bounded context de Adoptions, Vaccines y Manage Adoptions de manera funcional para el backed. |
 | TB2 | 16/06/2025 | Andres Coca | Desarrollo de entrevistas para mostrar el producto a los usuarios del segmento objetivo, desarrollo del Bounded Context Profiles funcional para el BackEnd|
 | TB2 | 15/06/25 | Carlo Ramirez | Realicé de Bounded context Donations en el backend funcional y el punto 6.3.1 del informe |
+| TF     | 05/07/25 | Diego Rosado   | Actualización de los Bounded Context IAM & Pets y Conexión del contenido al BackEnd |
+| TF | 05/07/2025 | Pedro Lecca | Actualziación de los Bounded Context Publications & Adoption Requests y Conexión del contenido al Backend |
+| TF | 03/07/2025 | Andres Coca | Actualización del Bounded Context Profile en el FrontEnd y Conexión del contenido al BackEnd|
+| TF | 04/07/25 | Carlo Ramirez | Actualizaciónb del Bounded Context Donations en el FrontEnd y Conexión del contenido al BackEnd |
 
 ## Project Report Collaboration Insights
 
@@ -68,13 +72,13 @@ Product: Patita Solidaria
 |:---------------------------------------------------------:|
 | https://github.com/DevsConClase-PatitaSolidaria/BackEnd |
 
-TB2:<br>
+TF:<br>
 | Integrante | Tarea Asignada |
 |------------|----------------|
-|Rosado Iporre, Diego Alonso| Bounded Context Pets & Bounded Context publications & IAM & Video About The Product. Todo el capitulo 5.2.2 |
-|Coca Lavado, Carlos Andrés| Bounded Context Profile |
-|Lecca Villalobos, Pedro Omar | Bounded Context Adoptions & Bounded Context Vaccines & Bounded Context Manage Adoptions|
-|Ramirez Escalante, Carlo Patricio | Bounded Context Donations |
+|Rosado Iporre, Diego Alonso| Conexión de los Bounded Context IAM & Pets del FrontEnd al BackEnd |
+|Coca Lavado, Carlos Andrés| Conexión del Bounded Context Profile del FrontEnd al BackEnd |
+|Lecca Villalobos, Pedro Omar | Conexión de los Bounded Context Publications & Adoption Requests del FrontEnd al BackEnd|
+|Ramirez Escalante, Carlo Patricio | Conexión del Bounded Context Donations del FrontEnd al BackEnd |
 
 *Pull requests evidence*:
 
@@ -220,8 +224,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio especifico                                                          | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones |
 | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre** <br> TB2: He comunicado oralmente con efectividad a diferentes rangos de audiencia al participar en la elaboración y presentación del video *About the Product*, realizar una entrevista a una cuidadora como parte del testeo, y explicar el funcionamiento del backend y base de datos, así como el *bounded context* **Pets** y la sección **5.2.2** del informe técnico. <br><br> **Carlos Andrés Coca Lavado** <br> TB2: Durante el presente entregable participé activamente tanto en el desarrollo de mi respectivo Bounded Context (Bounded Context Profiles) para el BackEnd ya implementado, ademas de mi participación en el video About the Product, asi mismo de presentarle nuestra solución ya implementada con su respectivo BackEnd a nuestros entrevistados<br><br> **Carlo Patricio Ramirez Escalante** <br> TB2: He comunicado oralmente con efectividad a diferentes rangos de audiencia al participar en el desarrollo del bounded context Donations del backend, realizar una entrevista a un adoptante como parte del testeo, y explicar el funcionamiento de este módulo, así como la sección 6.3.1 del informe técnico. <br><br> **Pedro Omar Lecca Villalobos** <br> TB2: Realicé las entrevistas para comunicar al equipo de desarrolo los las diferentes opiniones de nuestros segmentos objetivos acerca de nuestro producto final, mostrando los principales bounded context que realicé (Adoptions, Vaccines y Manage Adoptions). <br><br>                                               | **Diego Alonso Rosado Iporre**<br> TB2: A través de mi participación en la elaboración del video *About the Product*, la entrevista realizada a una cuidadora durante el testeo, y la explicación técnica del backend, base de datos, el *bounded context* **Pets** y la sección **5.2.2** del informe, he logrado comunicar oralmente de forma efectiva ante diversas audiencias, cumpliendo con el resultado de aprendizaje ABET correspondiente. <br><br> **Carlos Andrés Coca Lavado** <br> TB2: Gracias a este nuevo entregable de nuestro proyecto, pudimos comprender la importancia de la organización y la comunicación en el equipo, sobre todo hago enfasis en la segunda mencionada, ya que sin una comunicación idonea no podria haber buenos resultados <br><br> **Carlo Patricio Ramirez Escalante** <br> TB2: A través de mi participación en el desarrollo del bounded context Donations en el backend, la entrevista realizada a un adoptante durante el proceso de testeo, y la elaboración de la sección 6.3.1 del informe técnico, he logrado comunicar de manera oral conceptos técnicos y funcionales a distintas audiencias. Estas actividades evidencian el cumplimiento del resultado de aprendizaje ABET TB2, relacionado con la comunicación oral efectiva. <br><br> **Pedro Omar Lecca Villalobos** <br> TB2: Completé el mostrar el producto final a cliente objetivo, de esta forma ver si llegamos a la solución esperada. Además, hice los bounded context Adoptions, Vaccines y Manage Adoptions. <br>                                                                                                                                                 |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Diego Alonso Rosado Iporre**<br> TB2: He comunicado por escrito con efectividad a diferentes rangos de audiencia mediante la redacción completa del informe, incluyendo etiquetas de navegación y la descripción de anexos, estructurando la información de forma clara tanto para usuarios técnicos como no técnicos, cumpliendo con el resultado de aprendizaje ABET 2. <br><br> **Carlos Andrés Coca Lavado**<br> TB2: Pude comunicarle al publico con mucho mas detalle la funcionalidad y el impacto positivo que tiene nuestra solución en el mundo actual, ademas que durante mi explicación emplee un lenguaje práctico y no muy técnico para comprensión de nuestros usuarios <br><br> **Pedro Omar Lecca Villalobos**<br> TB2: He comunicado al público a detalle como funciona nuestra aplicación, dando información sin usar palabras técnicas, todo siendo entendible para el usuario promedio. <br><br> **Carlo Patricio Ramirez Escalante**<br> TB2: He comunicado por escrito con efectividad a diferentes rangos de audiencia mediante la elaboración de la sección 6.3.1 del informe técnico y la documentación técnica del bounded context Donations, estructurando la información de forma clara para usuarios tanto técnicos como no técnicos, cumpliendo con el resultado de aprendizaje ABET 2. <br><br> | **Diego Alonso Rosado Iporre**<br> TB2: A partir de la redacción integral del informe, la incorporación de etiquetas de navegación y la elaboración de anexos explicativos, he logrado comunicar por escrito con claridad y precisión a distintos públicos. Esta documentación permitió transmitir eficazmente tanto los aspectos técnicos como los funcionales del proyecto, cumpliendo con el resultado ABET 2: comunicar por escrito con efectividad a diferentes rangos de audiencia. <br><br> **Carlos Andrés Coca Lavado**<br> TB2: Gracias a la retroalimentación realizada por los usuarios respecto a nuestra solución, tenemos conocimento de mejoras y objetivos completados, asu vez es importante saber como se sienten nuestros usuarios al tener nuestra solución en mente <br><br> **Pedro Omar Lecca Villalobos**<br> TB2: Incorporé el análisis respectivo y la opinión del entrevistado acerca de la solución 'PatitaSolidaria' viendo los temas de mejora o objetivos completados. <br><br> **Carlo Patricio Ramirez Escalante** <br> TB2: A partir del desarrollo del bounded context Donations, la documentación técnica asociada y la redacción de la sección 6.3.1 del informe, he logrado comunicar por escrito con claridad y precisión a distintos públicos. Esta documentación permitió transmitir eficazmente tanto los aspectos técnicos como los funcionales del proyecto, cumpliendo con el resultado ABET 2: comunicar por escrito con efectividad a diferentes rangos de audiencia. <br> |
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre** <br> TF: <br><br> **Carlos Andrés Coca Lavado** <br> TF: Durante el presente avance mostramos comunicación constante entre nosotros, lo cual facilitó organizarnos y realizar todas las actividades en un tiempo ideal<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: <br><br> **Pedro Omar Lecca Villalobos** <br> TF:  <br><br>                                               | **Diego Alonso Rosado Iporre**<br> TF: <br><br> **Carlos Andrés Coca Lavado** <br> TF: <br><br> **Carlo Patricio Ramirez Escalante** <br> TF: A la conclusión que llego a lo largo de estos entregables es que es importante una comunicación fluida y constante con todo el equipo para la designación de tareas, coordinar reuniones y demas. Ademas de siempre llevar un orden y organización para ello. <br><br> **Pedro Omar Lecca Villalobos** <br> TF:  <br>                                                                                                                                                 |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Diego Alonso Rosado Iporre**<br> TF:  <br><br> **Carlos Andrés Coca Lavado**<br> TF: Gracias a la retroalimentación recibida por nuestros usuarios nos ayudo a realizar una labor mejor no solo como equipo sino como desarrolladores de Software al satisfacer las necesidades de nuestros usuarios.<br><br> **Pedro Omar Lecca Villalobos**<br> TF:  <br><br> **Carlo Patricio Ramirez Escalante**<br> TF: <br><br> | **Diego Alonso Rosado Iporre**<br> TF:  <br><br> **Carlos Andrés Coca Lavado**<br> TF: Gracias a este entregable final, pude indetificar la importancia de una solución innovadora y bien implementada, la cual pudo ayudar a muchos rescatistas, refugios e incluso adoptantes los cuales necesitaban una solución fresca la cual sirva para optimizar su labor diaria y poder expanderse a nuevos rumbos. <br><br> **Pedro Omar Lecca Villalobos**<br> TF:<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: <br> |
 
 
 ## Capítulo I: Introducción
@@ -1375,9 +1379,42 @@ Beneficios de adoptar con la plataforma.
 Testimonios de adoptantes y refugios.
 CTA final: "Únete como adoptante" / "Registra tu refugio".
 
-![Landing-Page-Wireframe](assets/images/commons/LandingPage-Wireframe.png)
 
-![Landing-Page-Movil-Wireframe](assets/images/commons/LandingPage%20Movil%20Wireframes.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 style="text-align: center;">Wireframe - Escritorio</h2>
+<p align="center">
+  <img src="assets/images/commons/LandingPage-Wireframe.png" width="600">
+</p>
+
+---
+
+<h2 style="text-align: center;">Wireframe - Móvil</h2>
+<p align="center">
+  <img src="assets/images/commons/LandingPage%20Movil%20Wireframes.png" width="300">
+</p>
+
 
 #### 4.3.2. Landing Page Mock-up
 Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico.
@@ -2929,7 +2966,57 @@ No hay tutorial, guía ni sección de ayuda visible. Esto afecta la curva de apr
 **Recomendación:**  
 Incluir un recorrido inicial con explicaciones breves, un botón de ayuda permanente o una sección de preguntas frecuentes.
 
+
+#### 5.2.4.4. Sprint 4
+#### 5.2.4.5. Sprint Planning 4
+
+| Elemento                                | Detalle                                                                                                                                                            |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                             | Sprint 4                                                                                                                                                          |
+| **Date**                                 | 2025-07-03                                                                                                                                                        |
+| **Time**                                 | 8:00 PM                                                                                                                                                          |
+| **Location**                             | Google Meet (virtual)                                                                                                                                             |
+| **Prepared By**                          | Rosado Iporre, Diego Alonso                                                                                                                                         |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Carlos Andrés, Coca Lavado<br>Ramirez Escalante, Carlo Patricio |
+| **Sprint n – 4 Review Summary**          | Se implementaron las mejoras respectivas en los endpoints de nuestro BackEnd.                              |
+| **Sprint n – 4 Retrospective Summary**   | Se identificó la necesidad de la vinculación del contenido de nuestro FrontEnd con nuestro BackEnd                                                                        |
+| **Sprint 4 Goal**                        | Finalizar con las mejoras pendientes, integrar los endpoints del BackEnd con el contenido del FrontEnd para brindar una experiencia del usuario.  |
+| **Sprint 4 Velocity**                    | 8 Story Points                                                                                                                                                    |
+| **Sum of Story Points**                  | 8                                                                                                                                                                 |
+
+
+
+
 ---
+
+
+#### 5.2.4.6. Development Evidence for Sprint Review
+
+Durante el cuarto sprint, se mejoraron funcionalidades clave en el backEnd y FrontEnd de nuestra solución, con el fin de mostrar una solución solida para los usuarios. A continuación se presenta la evidencia de desarrollo con los commits realizados:
+
+| **Repository**      | **Branch** | **Commit Id** | **Author**       | **Type**   | **Commit Message**                                                           | **Committed on (Date)** |
+|---------------------|------------|---------------|------------------|------------|-------------------------------------------------------------------------------|--------------------------|
+| PatitaSolidaria BackEnd    | develop    |  b311dc8      |  Diegoroip     | authored   | feat: Cambios para arreglar la lógica entre BC             | 2025-06-03               |
+| PatitaSolidaria FrontEnd     | develop    |   7ed1046    | rhylow           | authored   | feat(publications): add backend support to frontend                          | 2025-07-05               |
+| PatitaSolidaria FrontEnd     | develop    |   39662be    | MrAndres08DV           | authored   | feat: update of the Profile FrontEnd                      | 2025-07-02               |
+|PatitaSolidaria FrontEnd    | develop    |  f3a9f24      | Diegorip           | authored   | fix: publication-bc                                    | 2025-07-02               |
+| PatitaSolidaria FrontEnd     | develop    |  378d908     |    Diegorip        | authored   | fix: publication-bc                                         | 2025-06-17               |
+| PatitaSolidaria FrontEnd     | develop    |  fffe438  |   Diegorip     | authored   | feat: cambios para el main, jalar info del backend                                            | 2025-06-26               |
+| PatitaSolidaria FrontEnd     | develop    |  f20e2d2      |   Diegorip        | authored   | feat: cambios para el main, front conectado al backend en local                                            | 2025-07-02|
+
+#### 5.2.4.7. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 4 nos enfocamos en la conexión entre nuestro FrontEnd y BackEnd, para ello tuvimos que realizar moficiaciones en nuestros respectivos Bounded Context
+
+A continuación, se muestra un resumen del estado de testing al cierre del Sprint 4:
+
+| **Aspecto Evaluado**          | **Resultado**                                                                 |
+|------------------------------|------------------------------------------------------------------------------|
+| Conexión FrontEnd-BackEnd    | Se concreto de forma efectiva la conexión entre el ForntEnd y BackEnd del proyecto para mostrar el contenido respectivo                |
+| Pruebas locales            | De manera local cada uno de los miembros del equipo realizó pruebas de manera local para probar la respuesta entre los servicios que se mostraban en el BackEnd y como se reflejarian estos en nuestro FrontEnd                     |
+| Herramientas utilizadas      | IntelliJ IDEA, PgAdmin4, Swagger UI. |
+| Estado general de testing    | Funcionalidad comprobada de forma exitosa                                   |
+
 
 ### 5.2.5. Video About-the-Team
 
@@ -2984,6 +3071,15 @@ El desarrollo del Trabajo Parcial TB2 permitió sentar las bases sólidas del ba
 Se destacó una adecuada organización del equipo, con una clara distribución de responsabilidades entre los integrantes, lo cual permitió cumplir con las User Stories planificadas y mantener una integración fluida en el repositorio. Además, se desplegó exitosamente la aplicación mediante Render, y se validó el funcionamiento correcto del sistema usando PGAdmin para verificar la persistencia de datos en la base de datos remota.
 
 Aunque la automatización de pruebas BDD aún está en proceso de integración, se establecieron las estructuras necesarias para su implementación en los próximos sprints, asegurando así la calidad del software. En conjunto, el trabajo realizado evidencia un desarrollo enfocado, colaborativo y con visión a largo plazo hacia un producto robusto y funcional.
+
+
+- TF:
+
+El desarrollo del Trabajo Final consolidó todos los componentes trabajados a lo largo del ciclo, integrando de manera efectiva tanto el frontend como el backend de la plataforma Patita Solidaria. Se logró materializar una solución funcional, accesible y orientada a generar impacto social, con un sistema de adopciones completo, soporte multilenguaje, autenticación segura y una interfaz intuitiva para adoptantes, rescatistas y donantes.
+
+El equipo demostró una evolución notable en cuanto a organización, comunicación y buenas prácticas de desarrollo, reflejada en la integración fluida de los distintos módulos, el uso adecuado de herramientas colaborativas, pruebas funcionales y la implementación progresiva de automatización mediante BDD. La experiencia adquirida permitió validar el modelo de negocio propuesto, y sentó las bases para su posible escalabilidad y mantenimiento futuro.
+
+En resumen, el Trabajo Final representa la culminación exitosa de un proceso iterativo, colaborativo y centrado en el usuario, que no solo cumplió con los objetivos planteados, sino que evidenció el compromiso del equipo con la calidad, la responsabilidad social y la mejora continua del producto.
 
 ## Bibliografía
 
