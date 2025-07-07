@@ -3047,13 +3047,11 @@ En este sprint, hemos logrado mejoras significativas en el desarrollo del fronte
 
 ### 5.2.5. Video About-the-Team
 
-En esta sección, el equipo presenta un resumen de los aspectos más destacados del video "About The Team – PatitaSolidaria". El video documenta el proceso de desarrollo de la aplicación, mostrando imágenes y clips de sesiones reales de trabajo colaborativo entre los integrantes del equipo.
+En este video, el equipo presenta a cámara una narración sobre el desarrollo de PatitaSolidaria, recorriendo las distintas etapas del proyecto: desde la idea inicial hasta su implementación final.
 
-A través de una narración fluida, se explican las distintas etapas del proyecto: desde la ideación inicial de PatitaSolidaria, pasando por las fases de diseño y desarrollo, hasta llegar a su implementación. Los testimonios de los miembros del equipo enriquecen la experiencia, detallando las tareas que cada uno desempeñó, los desafíos que enfrentaron y las soluciones implementadas.
+Cada integrante comparte su experiencia, explicando su rol, los desafíos enfrentados y las soluciones aplicadas. También se destacan los principales logros del equipo, como la creación de una interfaz accesible, la colaboración con refugios y la incorporación de funciones clave para la adopción responsable.
 
-Además, se destacan los logros alcanzados, como la integración de funcionalidades clave para facilitar la adopción responsable de mascotas, la colaboración con refugios locales y la creación de una interfaz intuitiva y accesible para todos los usuarios.
-
-Finalmente, el video refleja el crecimiento profesional y personal de cada participante, subrayando el desarrollo de habilidades técnicas (como programación, diseño de interfaces, manejo de bases de datos) y competencias blandas (trabajo en equipo, comunicación, gestión del tiempo).
+El video cierra con una reflexión grupal sobre lo aprendido, valorando tanto el crecimiento técnico como las habilidades blandas desarrolladas. Todos agradecemos la experiencia y mencionamos nuestro aporte al proyecto.
 
 **Imagen Representativa del Video**
 
@@ -3061,7 +3059,7 @@ Finalmente, el video refleja el crecimiento profesional y personal de cada parti
 
 **URLs de la Versión Publicada**
 
-- Versión en Google Drive: [https://drive.google.com/file/d/1TUoqEsSCmmArpQHDLEGUib_zkRoW_kd5/view?usp=drive_link](https://drive.google.com/file/d/1TUoqEsSCmmArpQHDLEGUib_zkRoW_kd5/view?usp=drive_link)
+- Versión en Google Drive: [https://drive.google.com/file/d/1fPRxBUpUYCzoIVf4P4FS2tqN2bThZTKK/view?usp=drive_link](https://drive.google.com/file/d/1fPRxBUpUYCzoIVf4P4FS2tqN2bThZTKK/view?usp=drive_link)
 
 ### 5.2.6. Video About-the-Product
 
@@ -3185,6 +3183,6 @@ URL del Frontend desplegado: https://patitasolidaria-front.onrender.com
 
 URL del Backend desplegado: https://patita-solidaria-backend.onrender.com/swagger-ui/index.html#/
 
-Video About-The-Team: https://drive.google.com/file/d/1TUoqEsSCmmArpQHDLEGUib_zkRoW_kd5/view?usp=drive_link
+Video About-The-Team: https://drive.google.com/file/d/1fPRxBUpUYCzoIVf4P4FS2tqN2bThZTKK/view?usp=drive_link
 
 Video About-The-Product: https://drive.google.com/drive/folders/1nr6SgYV-kaxnDUhwW-iKhUaBW0IeCrAU?usp=sharing
