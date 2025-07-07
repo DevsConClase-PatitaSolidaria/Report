@@ -225,11 +225,8 @@ del ABET – EAC - Student Outcome 3.
 
 | Criterio especifico                                                          | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones |
 | :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre** <br> TF: <br><br> **Carlos Andrés Coca Lavado** <br> TF: Durante el presente avance mostramos comunicación constante entre nosotros, lo cual facilitó organizarnos y realizar todas las actividades en un tiempo ideal<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: <br><br> **Pedro Omar Lecca Villalobos** <br> TF:  <br><br>                                               | **Diego Alonso Rosado Iporre**<br> TF: <br><br> **Carlos Andrés Coca Lavado** <br> TF: <br><br> **Carlo Patricio Ramirez Escalante** <br> TF: A la conclusión que llego a lo largo de estos entregables es que es importante una comunicación fluida y constante con todo el equipo para la designación de tareas, coordinar reuniones y demas. Ademas de siempre llevar un orden y organización para ello. <br><br> **Pedro Omar Lecca Villalobos** <br> TF:  <br>                                                                                                                                                 |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Diego Alonso Rosado Iporre**<br> TF:  <br><br> **Carlos Andrés Coca Lavado**<br> TF: Gracias a la retroalimentación recibida por nuestros usuarios nos ayudo a realizar una labor mejor no solo como equipo sino como desarrolladores de Software al satisfacer las necesidades de nuestros usuarios.<br><br> **Pedro Omar Lecca Villalobos**<br> TF:  <br><br> **Carlo Patricio Ramirez Escalante**<br> TF: <br><br> | **Diego Alonso Rosado Iporre**<br> TF:  <br><br> **Carlos Andrés Coca Lavado**<br> TF: Gracias a este entregable final, pude indetificar la importancia de una solución innovadora y bien implementada, la cual pudo ayudar a muchos rescatistas, refugios e incluso adoptantes los cuales necesitaban una solución fresca la cual sirva para optimizar su labor diaria y poder expanderse a nuevos rumbos. <br><br> **Pedro Omar Lecca Villalobos**<br> TF:<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: <br> |
-
-
-
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre** <br> TF: Durante el proceso de conexión del Bounded Context de IAM y el Bounded Context Pets entre el FrontEnd y el BackEnd, se establecieron rutas de autenticación seguras y se integraron componentes visuales con los servicios de registro, login y gestión de mascotas. Para garantizar una implementación coherente, se mantuvo una comunicación constante con el equipo a través de reuniones vía meet donde se explicaron los requerimientos del cliente y se resolvieron dudas con claridad. <br><br> **Carlos Andrés Coca Lavado** <br> TF: Durante el presente avance mostramos comunicación constante entre nosotros, lo cual facilitó organizarnos y realizar todas las actividades en un tiempo ideal<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: Para conectar el módulo de Donations, se desarrollaron formularios en el FrontEnd que enviaban datos estructurados hacia el BackEnd, validando montos, usuarios y referencias. Se presentaron avances de forma oral en dailys, donde se expusieron los obstáculos técnicos y se propusieron soluciones ante los distintos roles presentes (desarrolladores, testers, líderes). Paralelamente, se redactaron especificaciones técnicas y se actualizaron las historias de usuario con detalles precisos del comportamiento esperado. <br><br> **Pedro Omar Lecca Villalobos** <br> TF: En la integración de los Bounded Context Publications y Adoption Requests, se tradujeron las funcionalidades requeridas por el usuario con el BackEnd. Entre los miembros del equipo, se organizaron sesiones colaborativas donde se explicó verbalmente la funcionalidad de publicación y adopción.<br><br>                                               | **Diego Alonso Rosado Iporre**<br> TF: Gracias a una comunicación oral efectiva con el equipo, logramos comprender y transmitir adecuadamente los flujos de autenticación y gestión de datos de mascotas. Asimismo, se facilitó la comprensión de las rutas API y el diseño de interfaces, lo nos permitió comprender y colaboraran eficientemente en el proceso.<br><br> **Carlos Andrés Coca Lavado** <br> TF: A la conclusión que llego a lo largo de estos entregables es que es importante una comunicación fluida y constante con todo el equipo para la designación de tareas, coordinar reuniones y demas. Ademas de siempre llevar un orden y organización para ello.<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: Gracias a una comunicación fluida con el equipo, se pudo resolver rápidamente dudas sobre validaciones y estructuras de datos entre FrontEnd y BackEnd. Además, ello fue clave para completar la conexión de forma fluida y alineada con los objetivos del proyecto.<br><br> **Pedro Omar Lecca Villalobos** <br> TF: La claridad en la comunicación, hizo que los requerimientos fueran entendidos sin ambigüedad alguna por todos los miembros del equipo. Además, Esta vía de comunicación fortaleció la colaboración y minimizó errores de interpretación.<br>                                                                                                                                                 |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Diego Alonso Rosado Iporre**<br> TF: Durante este presente entregable, pudimos explicar de manera clara a nuestros usuarios el funcionamiento del sistema de identificación (IAM) y el módulo de mascotas. Se explicaron descripciones funcionales, instrucciones de uso y observaciones importantes, pensando en que cualquiera de nuestros usuarios pudiera comprender el proceso sin necesidad de conocimientos técnicos profundos.<br><br> **Carlos Andrés Coca Lavado**<br> TF: Gracias a la retroalimentación recibida por nuestros usuarios nos ayudo a realizar una labor mejor no solo como equipo sino como desarrolladores de Software al satisfacer las necesidades de nuestros usuarios.<br><br> **Pedro Omar Lecca Villalobos**<br> TF: En este entregable, se priorizó el uso de un lenguaje preciso y claro, sin necesidad de mucho lenguaje técnico. Para presentar nuestra solución con la cual explicamos cómo se integraban las publicaciones de mascotas y las solicitudes de adopción. Esto permitiendo que nuestros usuarios objetivos, pudiesen acceder a la información y entendieran cómo funcionaban estos procesos. <br><br> **Carlo Patricio Ramirez Escalante**<br> TF: Para este entregable final. Se cuidó que el lenguaje fuera accesible, utilizando términos sencillos y ejemplos reales, lo que permitió que los usuarios pudieran interpretar el flujo de trabajo sin complicaciones. Además, se organizaron los contenidos en la solución que facilitaron su lectura.<br><br> | **Diego Alonso Rosado Iporre**<br> TF: La redacción adecuada de la información permitió que nuestros usuarios objetivos, rescaticatistas, adoptantes y Refugios, comprendieran el funcionamiento y la lógica del sistema. Esto gracias a la efectividad de la comunicación, demostrando que una solución bien estructurada debe servir como puente entre personas que tienes conocimiento técnico y las que no lo tienen.  <br><br> **Carlos Andrés Coca Lavado**<br> TF: Gracias a este entregable final, pude indetificar la importancia de una solución innovadora y bien implementada, la cual pudo ayudar a muchos rescatistas, refugios e incluso adoptantes los cuales necesitaban una solución fresca la cual sirva para optimizar su labor diaria y poder expanderse a nuevos rumbos. <br><br> **Pedro Omar Lecca Villalobos**<br> TF: El esfuerzo por escribir de forma clara y adaptadarla a nuestros usuarios objetivos, logró que personas externas al área técnica pudieran participar activamente en la validación del sistema. Esto con el fin de facilitar el seguimiento del proyecto y tomar decisiones informadas en base a un lenguaje no muy técnico y bien redactado.<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: Gracias al presente avance final, se cumplió un rol clave para asegurar que el funcionamiento del sistema de donaciones fuera comprendido por todas las personas involucradas, sin importar su rol. Esta experiencia reforzó la importancia de adaptar el lenguaje escrito a las necesidades de nuestros diferentes usuarios, contribuyendo a una comunicación más inclusiva y efectiva dentro del proyecto.<br> |
 
 
 ## Capítulo I: Introducción
@@ -2992,6 +2989,60 @@ A continuación, se muestra un resumen del estado de testing al cierre del Sprin
 | Pruebas locales            | De manera local cada uno de los miembros del equipo realizó pruebas de manera local para probar la respuesta entre los servicios que se mostraban en el BackEnd y como se reflejarian estos en nuestro FrontEnd                     |
 | Herramientas utilizadas      | IntelliJ IDEA, PgAdmin4, Swagger UI. |
 | Estado general de testing    | Funcionalidad comprobada de forma exitosa                                   |
+
+#### 5.2.4.8. Execution Evidence for Sprint Review
+
+Durante el Sprint 4. Nos enfocamos en la mejora de nuestro Frontend y la conexión de su contenido con nuestro BackEnd, todo el código fue desarrollado se desarrollo mantiendo principios de arquitectura limpia, con especial énfasis en la separación de capas y la persistencia adecuada de datos.
+
+<h3>Frontend</h3>
+En este sprint, hemos logrado mejoras significativas en el desarrollo del frontend de nuestro producto. Nos hemos concentrado en conectar múltiples nuestros multiples endpoints RESTful con el contenido presentado en nuestro FrontEnd. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
+
+**Capturas de Pantalla del FrontEnd mejorado**
+
+- Mejora en bounded context IAM - Crear cuenta
+
+![IAM](assets/images/commons/Crear%20Cuenta%20FrontEnd.jpg)
+
+- Mejora en bounded context IAM - Iniciar Sesión
+
+![IAM](assets/images/commons/Inicio%20Sesion%20FrontEnd.jpg)
+
+- Mejora en bounded context Profile - Visualización de Información
+
+![Profile](assets/images/commons/BC%20Profile%20FrontEnd%20Mejorado.jpg)
+
+- Mejora en bounded context Profile - Formulario de Edición de Información
+
+![Profile](assets/images/commons/Formulario%20Edicion%20BC%20Profile.jpg)
+
+- Mejora en bounded context Pets - Visualización de las mascotas y su información
+
+![Pets](assets/images/commons/BC%20Pets.jpg)
+
+- Mejora en bounded context Publications - Visualización de las publicaciones activas.
+
+![Publications](assets/images/commons/BC%20Publications%20FrontEnd.jpg)
+
+- Mejora en bounded context Adoption Request - Solicitudes activas.
+
+![AdoptionRequest](assets/images/commons/AdoptionRequests%20BC%20FrontEnd%20Mejorado.jpg)
+
+- Mejora en bounded context Adoption Request - Visualización de las solicitudes del historial de adopción.
+
+![AdoptionRequest](assets/images/commons/MejoraAdoptionRequestFrontEnd.jpg)
+
+- Mejora en bounded context Donations - Visualización de las opciones de tipo de Donación a realizar
+
+![Donations](assets/images/commons/DonationsBCFrontEndMejora.jpg)
+
+- Mejora en bounded context Donations - Visualización de las campañas de donación en progreso
+
+![Donations](assets/images/commons/DonationsBCFrontEndMejorado.jpg)
+
+- Mejora en bounded context Donations - Infomarción y detalles de la donación
+
+![Donations](assets/images/commons/DonationsBCFrontEndMejorado2.jpg)
+
 
 
 ### 5.2.5. Video About-the-Team
