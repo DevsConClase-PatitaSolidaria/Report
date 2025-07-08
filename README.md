@@ -26,26 +26,33 @@ Product: Patita Solidaria
 
 - Coca Lavado Carlos Andrés - u202313172
 - Pedro Omar Lecca Villalobos - u202223293
-- Arnold Gabriel Morales Sosa - u201822516
 - Diego Alonso Rosado Iporre - u201620127
 - Carlo Patricio Ramirez Escalante - u202210787
-- Sebastian Aaron Anibal Carbajal Santivañez - u202111461
 
 ### Abril, 2025
 
 **Url del proyecto**: https://github.com/DevsConClase-PatitaSolidaria
 
 ## Registro de Versiones del Informe
+
 | Version | Fecha    | Autor          | Descripción                                                                                                                                                                                                                               |
 |---------|----------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | TB1     | 09/04/25 | Diego Rosado   | Creación organización y repositorios en GitHub para proyecto final                                                                                                                                                                        |
-| TB1     | 10/04/25 | Diego Rosado   | Adición de la documentación en formato .md del informe final                                                                                                                                                                              |
 | TB1     | 11/04/25 | Andrés Coca    | Desarrollo del Capitulo 1 del informe                                                                                                                                                                                                     | 
-| TB1     | 12/04/25 | Pedro Lecca    | Desarrollo del Capítulo 2 del informe                                                                                                                                                                                                     |
-| TB1     | 20/04/25 | Pedro Lecca    | Documentación completa (5.2.1 -  5.2.1.8)                                                                                                                                                                                                 |
-| TB1     | 14/04/25 | Arnold Morales | Desarrollo del Capitulo 4 del informe y del figma                                                                                                                                                                                         | 
+| TB1     | 20/04/25 | Pedro Lecca    | Documentación completa (5.2.1 -  5.2.1.8)                                                                                                                                                                                                 | 
 | TB1     | 14/04/25 | Carlo Ramirez        | Desarrollo del Capitulo 3 del informe 4.8                                                                                                                                                                                                 | 
-| TB1     | 24/04/25 | Diego Rosado   | Correción de capitulo 1 y 2, Descripción de la Startup, Antecedentes y problemática, Lean UX Process, Segmentos objetivo, Competidores, As-is Scenario Mapping, Ubiquitous Language, To-Be Scenario Mapping, User Stories, Impact Mapping, seccion 4.4.4 |
+| TP1     | 24/05/25 | Diego Rosado   | Implementación de Frontend - Sección Pets. Revisión de documentos. Deploy de Frontend |
+| TP1     | 14/05/2025 | Pedro Lecca | Agregar Sprint 2. |
+| TP1 | 14/05/ | Carlo Ramirez | Desarrollo del Bounded Context Donations. |
+| TP1 | 14/05/2025 | Andres Coca | Desarrollo del Bounded Context Profile para el FrontEnd. |
+| TB2     | 14/06/25 | Diego Rosado   | Deploy de Backend en Render. Realicé de Bounded context Pets, Bounded Context publications en el backend funcional. Hice el punto 6.2.2  |
+| TB2 | 16/06/2025 | Pedro Lecca | Realizó entrevistas para mostrar el producto final a los segmentos objetivos, además creo los bounded context de Adoptions, Vaccines y Manage Adoptions de manera funcional para el backed. |
+| TB2 | 16/06/2025 | Andres Coca | Desarrollo de entrevistas para mostrar el producto a los usuarios del segmento objetivo, desarrollo del Bounded Context Profiles funcional para el BackEnd|
+| TB2 | 15/06/25 | Carlo Ramirez | Realicé de Bounded context Donations en el backend funcional y el punto 6.3.1 del informe |
+| TF     | 05/07/25 | Diego Rosado   | Actualización de los Bounded Context IAM & Pets y Conexión del contenido al BackEnd |
+| TF | 05/07/2025 | Pedro Lecca | Actualziación de los Bounded Context Publications & Adoption Requests y Conexión del contenido al Backend |
+| TF | 03/07/2025 | Andres Coca | Actualización del Bounded Context Profile en el FrontEnd y Conexión del contenido al BackEnd|
+| TF | 04/07/25 | Carlo Ramirez | Actualizaciónb del Bounded Context Donations en el FrontEnd y Conexión del contenido al BackEnd |
 
 ## Project Report Collaboration Insights
 
@@ -57,32 +64,39 @@ Product: Patita Solidaria
 |:---------------------------------------------------------:|
 | https://github.com/DevsConClase-PatitaSolidaria/LandingPage |
 
-TB1:<br>
+|          URL del repositorio del frontend          |
+|:---------------------------------------------------------:|
+| https://github.com/DevsConClase-PatitaSolidaria/FrontEnd |
 
-|Integrante| Tarea Asignada                             |
-|-|--------------------------------------------|
-|Rosado Iporre, Diego Alonso| Creación de github y Documentación Inicial |
-|Coca Lavado, Carlos Andrés|Desarrollo del Capitulo 1 del documento e implementación del diagrama de clases y el diccionario de clases|
-|Lecca Villalobos, Pedro Omar | Desarrollo del Capitulo 2 del documento, desarrollo de todo el punto 5.2.1 y sus subpuntos|
-|Ramirez Escalante, Carlo Patricio | Desarrollo del Capitulo 3 del documento|
-|Morales Sosa, Arnold Gabriel | Desarrollo del Capitulo 4 del documento, desarrollo del figma|
-|Anibal Carbajal Santivañez, Sebastian Aaron| Desarrollo de los diagramas de contexto, contenedores y ComponentesAPI| 
+|          URL del repositorio del backend          |
+|:---------------------------------------------------------:|
+| https://github.com/DevsConClase-PatitaSolidaria/BackEnd |
+
+TF:<br>
+| Integrante | Tarea Asignada |
+|------------|----------------|
+|Rosado Iporre, Diego Alonso| Conexión de los Bounded Context IAM & Pets del FrontEnd al BackEnd |
+|Coca Lavado, Carlos Andrés| Conexión del Bounded Context Profile del FrontEnd al BackEnd |
+|Lecca Villalobos, Pedro Omar | Conexión de los Bounded Context Publications & Adoption Requests del FrontEnd al BackEnd|
+|Ramirez Escalante, Carlo Patricio | Conexión del Bounded Context Donations del FrontEnd al BackEnd |
 
 *Pull requests evidence*:
 
-![alt text](assets/images/evidence/Pull-requests.png)
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/pull_request_1.png"></p>
 
-![alt text](assets/images/evidence/Pull-request_closed.png)
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/pull_request_2.png"></p>
 
-![alt text](assets/images/evidence/Merge.png)
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/pull_request_3.png"></p>
+
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/pull_request_4.png"></p>
 
 *Commits evidence*:
 
-![alt text](assets/images/evidence/Commits.png)
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/commits_1.png"></p>
 
-![alt text](assets/images/evidence/Commit_change.png)
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/commits_2.png"></p>
 
-![alt text](assets/images/evidence/Commit-2.png)
+<p align="center"><img width="auto" height="auto" src="assets/images/tb2/commits_3.png"></p>
 
 ## Contenido
 
@@ -167,6 +181,31 @@ TB1:<br>
             - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
             - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
             - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+        - [5.2.2. Sprint 2](#522-sprint-1)
+            - [5.2.2.1. Sprint Planning 1](#5221-sprint-planning-1)
+            - [5.2.2.2. Sprint Backlog 1](#5222-sprint-backlog-1)
+            - [5.2.2.3. Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review)
+            - [5.2.2.4. Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+        - [5.2.3. Sprint 3](#523-sprint-3)
+            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+            - [5.2.3.2. Sprint Backlog 3](#5232-sprint-backlog-3)
+            - [5.2.3.3. Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review)
+            - [5.2.3.4. Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review)
+            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+        - [5.2.4. Validation Interviews](#524-validation-interviews)
+          - [5.2.4.1. Diseño de Entrevistas](#5241-diseño-de-entrevistas)
+          - [5.2.4.2. Registro de Entrevistas](#5242-registro-de-entrevistas)
+          - [5.2.4.3. Evaluaciones según heurísticas](#5243-evaluaciones-según-heurísticas)
+        
+        - [5.2.5. Video About-the-Team](#525-video-about-the-team)
+        - [5.2.6. Video About-the-Product](#526-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -182,10 +221,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-| Criterio especifico                                                    | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                | Conclusiones                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre**<br> TB1: A través de una planificación estructurada de la exposición y la asignación clara de roles, el equipo ha desarrollado la capacidad de comunicar el proyecto 'Patita Solidaria' con efectividad. <br><br> **Carlos Andrés Coca Lavado** <br> TB1: Con los puntos definidos para cada integrante del equipo, hemos buscado explicar el proyecto de forma clara y coherente en distintos contextos orales, tanto técnicos como sociales. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez** <br> TB1:Cuando todo el equipo designo sus puntos a realizar, yo tuve que realizar un analisis para posteriormente realizar diagramas del contexto en el que se iba a basar nuestra solución, luego encontrar todo tipo de componentes necesarios para llevarla a cabo de forma correcta.  <br><br> **Carlo Patricio Ramirez Escalante** <br> TB1: Durante el desarrollo del informe buscamos explicar de forma clara y concisa los entregables. <br><br> **Pedro Omar Lecca Villalobos** <br> TB1:  Durante el desarrollo del informe y las evidencias del Sprint 1, he estructurado técnicamente los entregables de manera clara y coherente para facilitar su presentación oral.  <br><br> **Arnold Gabriel Morales Sosa** <br> TB1: Repartimos el trabajo para cada integrante del equipo para que nos sea más factible acabar con el trabajo y ayudar al intregrante que tenga problemas. Se explicó el proyecto de forma intuitiva y coherente dentro del contexto de la aplicación y de los usos que los segmentos objetivos harán con respecto a los user goals puestos en las user stories. A raiz de esto se diseñó la Landing Page y Front-end en wireframes y después en mockups en figma con colores que nos representen como amadores de animales, una fuente que sea "amigable" de ver, e imágenes que acompañen lo que el usuario hará en cada goal. Diseñando así también los wireflows desde LucidChart.                                                                                                          | **Diego Alonso Rosado Iporre**<br> TB1:<br> Hemos logrado comunicar Patita Solidaria de forma clara y efectiva, adaptando nuestro mensaje según la audiencia, ya sea en contextos técnicos o sociales. <br><br> **Carlos Andrés Coca Lavado** <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que para una buena solución era fundamental el escuchar las necesidades de nuestros usuarios a quienes van dirigidos la presente solución <br><br> **Sebastian Aaron Anibal Carbajal Santivañez** <br>TB1:<br> Con el avance del presente proyecto como conclusión llegamos a que es importante realizar un analisis previo del contexto que abarca un determinado problema, todos sus actores y encontrar los tipos de relación que tendran con el sistema a tener en cuenta para nuestra solución. <br><br> **Carlo Patricio Ramirez Escalante** <br>TB1:<br> Luego de desarrollar los puntos del informe permitimos transmitir con claridad los objetivos del sistema, facilitando la comprensión del proyecto ante audiencias técnicas y no técnicas. <br><br>  **Pedro Omar Lecca Villalobos** <br>TB1:<br> La forma en que desarrolle los puntos del informe permite una comunicación efectiva del avance del proyecto ante distintos tipos de audiencia, desde tutores hasta usuarios.  <br><br>  **Arnold Gabriel Morales Sosa** <br>TB1:<br> Con el avance del proyecto concluimos que los usuarios necesitan una app que sea rápida, eficaz e intuitiva para que no se pierdan por tantas opciones en pantalla, sea simple, pero a la vez compleja en características y que el usuario no se entere gracias a la interfaz u diseño amigable.                                                                                                                                                                                                       |
-| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Diego Alonso Rosado Iporre**<br> TB1: <br> Redacción del informe por completo, etiquetas de navegación y descripción de anexos tanto para usuarios técnicos como no técnicos. <br><br> **Carlos Andrés Coca Lavado**<br> TB1: <br> La documentación generada (informe Y repositorio en GitHub) refleja una comunicación escrita ordenada, comprensible y profesional, adaptada al tipo de lector. <br><br>**Pedro Omar Lecca Villalobos**<br> TB1: Elaboré el "Capítulo 2: *Requirements Elicitation & Analysis*", desarrollando entrevistas, análisis de segmentos, user personas y escenarios, con redacción clara y estructura adecuada. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez**: <br> TB1:Durante el desarrollo de los respectivos diagramas busque que fuese lo mas claro posible para los usuarios puedan tener esa facilidad de entendimiento. <br><br>**Carlo Patricio Ramirez Escalante**<br> TB1: Elaboré el Capítulo 3: Requirements Specification, desarrollando el To-Be Scenario Mapping, las User Stories, el Impact Mapping y el Product Backlog y el punto 4.8 Database Design. <br><br>**Arnold Gabriel Morales Sosa**<br> TB1: Usando herramientas de comunicación escrita nos apoyamos mutuamente y completamos lo necesario para la TB1. Gracias a GitHub se pudo ver el avance de cada integrante y ver en que aspectos se podría mejorar y apoyar moralmente a los que hicieron un buen trabajo. En el caso de los usuarios objetivos se sacaron conclusiones a raiz de las etrevistas y ejemplos de manera de gráficos y resumenes para poder proseguir con las necesidades del público objetivo. | **Diego Alonso Rosado Iporre**<br> TB1: <br> La documentación escrita fue elaborada con un enfoque inclusivo y preciso, facilitando la comprensión del proyecto tanto a especialistas como a usuarios generales. <br><br>  **Carlos Andrés Coca Lavado**<br> TB1: <br> Se comunicó de manera clara y accesible el propósito y funcionamiento de Patita Solidaria, ajustando el lenguaje según la audiencia para garantizar comprensión y efectividad. <br><br>  **Pedro Omar Lecca Villalobos**<br> TB1: Mi participación permitió presentar la información técnica de manera clara, estructurada y coherente, contribuyendo al desarrollo de competencias comunicativas conforme al Student Outcome 5. <br><br> **Sebastian Aaron Anibal Carbajal Santivañez**: <br> TB1:Durante mi participación en el trabajo, comprendí la importancia de la elaboración correcta de los diagramas de contexto,contenedores y los componentes API,cuando definí cada componente de forma coherente y bien estructurado <br><br>**Carlos Andrés Coca Lavado**<br> TB1: <br> Se logró explicar desde los aspectos generales del problema social hasta la arquitectura técnica del sistema, facilitando que tanto evaluadores técnicos como públicos externos puedan entender el alcance y valor del proyecto. <br><br> **Arnold Gabriel Morales Sosa**<br> TB1: <br> Con el avance del proyecto concluimos que es esencial el haber usado GitHub para la monitorización constante y feedback interno entre todos los integrantes del proyecto. Además, vimos que existen varias similitudes en lo que desean los usuarios de la aplicación al juntar sus ideas y plasmarlas en gráficos y cuadros relacionales. Así, pudimos proseguir con el proyecto satisfactoriamente, al tener una visión más concisa y clara. |
+
+
+| Criterio especifico                                                          | Acciones Realizadas                                                                                                                                                                                                                                                                                                                                                                                                                                                             | Conclusiones |
+| :--------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------- |
+| 1. Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Diego Alonso Rosado Iporre** <br> TF: Durante el proceso de conexión del Bounded Context de IAM y el Bounded Context Pets entre el FrontEnd y el BackEnd, se establecieron rutas de autenticación seguras y se integraron componentes visuales con los servicios de registro, login y gestión de mascotas. Para garantizar una implementación coherente, se mantuvo una comunicación constante con el equipo a través de reuniones vía meet donde se explicaron los requerimientos del cliente y se resolvieron dudas con claridad. <br><br> **Carlos Andrés Coca Lavado** <br> TF: Durante el presente avance mostramos comunicación constante entre nosotros, lo cual facilitó organizarnos y realizar todas las actividades en un tiempo ideal<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: Para conectar el módulo de Donations, se desarrollaron formularios en el FrontEnd que enviaban datos estructurados hacia el BackEnd, validando montos, usuarios y referencias. Se presentaron avances de forma oral en dailys, donde se expusieron los obstáculos técnicos y se propusieron soluciones ante los distintos roles presentes (desarrolladores, testers, líderes). Paralelamente, se redactaron especificaciones técnicas y se actualizaron las historias de usuario con detalles precisos del comportamiento esperado. <br><br> **Pedro Omar Lecca Villalobos** <br> TF: En la integración de los Bounded Context Publications y Adoption Requests, se tradujeron las funcionalidades requeridas por el usuario con el BackEnd. Entre los miembros del equipo, se organizaron sesiones colaborativas donde se explicó verbalmente la funcionalidad de publicación y adopción.<br><br>                                               | **Diego Alonso Rosado Iporre**<br> TF: Gracias a una comunicación oral efectiva con el equipo, logramos comprender y transmitir adecuadamente los flujos de autenticación y gestión de datos de mascotas. Asimismo, se facilitó la comprensión de las rutas API y el diseño de interfaces, lo nos permitió comprender y colaboraran eficientemente en el proceso.<br><br> **Carlos Andrés Coca Lavado** <br> TF: A la conclusión que llego a lo largo de estos entregables es que es importante una comunicación fluida y constante con todo el equipo para la designación de tareas, coordinar reuniones y demas. Ademas de siempre llevar un orden y organización para ello.<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: Gracias a una comunicación fluida con el equipo, se pudo resolver rápidamente dudas sobre validaciones y estructuras de datos entre FrontEnd y BackEnd. Además, ello fue clave para completar la conexión de forma fluida y alineada con los objetivos del proyecto.<br><br> **Pedro Omar Lecca Villalobos** <br> TF: La claridad en la comunicación, hizo que los requerimientos fueran entendidos sin ambigüedad alguna por todos los miembros del equipo. Además, Esta vía de comunicación fortaleció la colaboración y minimizó errores de interpretación.<br>                                                                                                                                                 |
+| 2. Comunica por escrito con efectividad a diferentes rangos de audiencia | **Diego Alonso Rosado Iporre**<br> TF: Durante este presente entregable, pudimos explicar de manera clara a nuestros usuarios el funcionamiento del sistema de identificación (IAM) y el módulo de mascotas. Se explicaron descripciones funcionales, instrucciones de uso y observaciones importantes, pensando en que cualquiera de nuestros usuarios pudiera comprender el proceso sin necesidad de conocimientos técnicos profundos.<br><br> **Carlos Andrés Coca Lavado**<br> TF: Gracias a la retroalimentación recibida por nuestros usuarios nos ayudo a realizar una labor mejor no solo como equipo sino como desarrolladores de Software al satisfacer las necesidades de nuestros usuarios.<br><br> **Pedro Omar Lecca Villalobos**<br> TF: En este entregable, se priorizó el uso de un lenguaje preciso y claro, sin necesidad de mucho lenguaje técnico. Para presentar nuestra solución con la cual explicamos cómo se integraban las publicaciones de mascotas y las solicitudes de adopción. Esto permitiendo que nuestros usuarios objetivos, pudiesen acceder a la información y entendieran cómo funcionaban estos procesos. <br><br> **Carlo Patricio Ramirez Escalante**<br> TF: Para este entregable final. Se cuidó que el lenguaje fuera accesible, utilizando términos sencillos y ejemplos reales, lo que permitió que los usuarios pudieran interpretar el flujo de trabajo sin complicaciones. Además, se organizaron los contenidos en la solución que facilitaron su lectura.<br><br> | **Diego Alonso Rosado Iporre**<br> TF: La redacción adecuada de la información permitió que nuestros usuarios objetivos, rescaticatistas, adoptantes y Refugios, comprendieran el funcionamiento y la lógica del sistema. Esto gracias a la efectividad de la comunicación, demostrando que una solución bien estructurada debe servir como puente entre personas que tienes conocimiento técnico y las que no lo tienen.  <br><br> **Carlos Andrés Coca Lavado**<br> TF: Gracias a este entregable final, pude indetificar la importancia de una solución innovadora y bien implementada, la cual pudo ayudar a muchos rescatistas, refugios e incluso adoptantes los cuales necesitaban una solución fresca la cual sirva para optimizar su labor diaria y poder expanderse a nuevos rumbos. <br><br> **Pedro Omar Lecca Villalobos**<br> TF: El esfuerzo por escribir de forma clara y adaptadarla a nuestros usuarios objetivos, logró que personas externas al área técnica pudieran participar activamente en la validación del sistema. Esto con el fin de facilitar el seguimiento del proyecto y tomar decisiones informadas en base a un lenguaje no muy técnico y bien redactado.<br><br> **Carlo Patricio Ramirez Escalante** <br> TF: Gracias al presente avance final, se cumplió un rol clave para asegurar que el funcionamiento del sistema de donaciones fuera comprendido por todas las personas involucradas, sin importar su rol. Esta experiencia reforzó la importancia de adaptar el lenguaje escrito a las necesidades de nuestros diferentes usuarios, contribuyendo a una comunicación más inclusiva y efectiva dentro del proyecto.<br> |
+
 
 ## Capítulo I: Introducción
 
@@ -214,11 +256,9 @@ Ser la plataforma de referencia en adopción responsable en Perú y Latinoaméri
 | <div align="center">Foto</div> | <div align="center">Descripción</div> |
 |------|-------------|
 | <p align="center"><img width="auto" height="auto" src="assets/images/commons/Diegoprofile.jpg"> </p> | Mi nombre es Diego Rosado, tengo 25 años. Mi interés en las base de datos y arquitectura de páginas web me impulsó a estudiar Ingeniería de Software. Tengo conocimiento de lenguajes como C#, C++, JavaScript, Python, base de datos como MySQL y me atrae el diseño de páginas web con HTML y CSS. Me considero una persona positiva, tolerante y creativa. Mi aporte al grupo es mi total compromiso, apoyo mutuo y el esfuerzo por asegurar que todos tengamos una visión compartida del proyecto a elaborar. Mis habilidades son resolución de problemas, adaptabilidad, trabajo en equipo y toma de decisiones. |
-| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Andresprofile.png"></p> | Mi Nombre es Carlos Andrés Coca, tengo 19 años, actualmente me encuentro cursando el quinto ciclo de la carrera de Ingeniería de Software. Desde muy joven me ha interesado la ciberseguridad y el desarrollo de Software. Teniendo en cuenta el gran impacto que presentan a dia de hoy. |
-| <p align="center"><img width="auto" height="auto" src="assets/images/commons/ArnoldProfile.png?raw=true"></p> | Mi nombre es Arnold Morales Sosa, tengo 24 años y soy estudiante de la carrera de Ingeniería de Software en la UPC, con estudios intermedios en Ensamblaje, Mantenimiento, Conectividad de equipos, desarrollo de software, programación y diseño. Innovador con deseos de aprender y apoyar en este proyecto donde pueda desarrollar mis conocimientos, apoyar a la mejora y logros de los objetivos estratégicos. Soy una persona con facilidad para trabajar en equipo, bajo presión, responsable, honesto, proactivo, creativo, ordenado, y dinámico. 
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Andresprofile.png"></p> | Mi Nombre es Carlos Andrés Coca, tengo 19 años, actualmente me encuentro cursando el quinto ciclo de la carrera de Ingeniería de Software. Desde muy joven me ha interesado la ciberseguridad y el desarrollo de Software. Teniendo en cuenta el gran impacto que presentan a dia de hoy. | 
 | <p align="center"><img width="auto" height="auto" src="assets/images/commons/Pedroprofile.jpg"></p>  | Mi nombre es Pedro Lecca y actualmente estudio la carrera de Ingeniería de Software en la Universidad UPC, sede San Miguel. Tengo 20 años y me considero una persona responsable, comprometida con el cumplimiento de mis deberes académicos. Además, valoro profundamente mantener una buena relación con mi equipo de trabajo, ya que estoy convencido de que un ambiente colaborativo y respetuoso permite alcanzar mejores resultados y potencia el desarrollo colectivo.                                                                                                                                         |
-| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Carlo.png"></p>         | Mi Nombre es Carlo Ramirez, tengo 20 años y estoy estudiando la carrera de ingenieria de software. Tengo conocimiento en el lenguaje c++, mysql en base de datos y, css y html. Me considero una persona responsable y cooperativo. Mi aporte al grupo sera con total compromiso y esfuerzo para lograr los objetivos.
-|<p align="center"><img width="auto" height="auto" src="assets/images/commons/SebastianProfile.png"></p>|Mi nombre es Sebastián Carbajal Santivañez, tengo 21 años y actualmente estoy cursando el octavo ciclo de la carrera de Ingeniería de Software. Desde mis primeros años universitarios, he desarrollado un fuerte interés por la innovación tecnológica, especialmente en el desarrollo de software y la optimización de procesos digitales.|
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Carlo.png"></p>         | Mi Nombre es Carlo Ramirez, tengo 20 años y estoy estudiando la carrera de ingenieria de software. Tengo conocimiento en el lenguaje c++, mysql en base de datos y, css y html. Me considero una persona responsable y cooperativo. Mi aporte al grupo sera con total compromiso y esfuerzo para lograr los objetivos.|
 
 ### 1.2. Solution Profile
 
@@ -713,7 +753,7 @@ Como parte del proceso de validación del modelo de negocio de **Patita Solidari
 
 ---
 
-#### b) Diseño de entrevista - Segmento 2: Protectores
+#### Diseño de entrevista - Segmento 2: Protectores
 
 1. **Datos generales:**
    - Nombre.
@@ -759,6 +799,24 @@ El presente diseño permitirá recopilar información clave sobre ambos segmento
 | **Link de la entrevista (YouTube):** https://youtu.be/XUgSsGW4AyM?si=tJXBtEz_pfVtTN3F                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Briza Segura, de 25 años y residente en San Borja, trabaja vinculada a un refugio y rescata entre 5 y 20 animales al mes. Los procesos de adopción incluyen formularios, entrevistas y visitas domiciliarias. Difunde casos mediante Facebook, Instagram y ferias locales. Antes de la adopción, recopila datos sobre salud, comportamiento y preferencias del animal. Identifica como problema principal la falta de compromiso y adopciones impulsivas. Le gustaría contar con plataformas que incluyan seguimiento, recordatorios y evaluaciones de adoptantes, además de soporte técnico y certificación para su labor. Busca adoptantes comprometidos, informados y comunicativos. |
 
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Entrevista2-Andrés.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Juan Perez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Género:** Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Edad:** 24 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| **Link de la entrevista (YouTube):** https://youtu.be/1onoVPD79i8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| Juan Pérez, de 24 años, dedica aproximadamente 20 a 25 horas semanales al rescate y protección animal. Durante la conversación, Juan explicó que gestiona los procesos de adopción manteniendo registros manuales en hojas de cálculo, realizando entrevistas telefónicas y visitas domiciliarias cuando es posible. Además, mencionó que utiliza plataformas como Facebook, Instagram y WhatsApp para difundir los casos de animales en adopción. Aunque ha probado aplicaciones como Adopta.pe y Animalia Perú, las considera limitadas debido a su alcance reducido y herramientas básicas. En cuanto a las dificultades, destacó la falta de compromiso de algunos adoptantes, la escasez de recursos para visitas domiciliarias y la falta de visibilidad para casos urgentes. Para mejorar el proceso, Juan expresó interés en funcionalidades digitales como seguimientos posadopción, historiales completos de los animales, perfiles verificados de adoptantes con sistemas de calificación, y asesorías veterinarias o descuentos para incentivar el uso de nuevas plataformas. Finalmente, enfatizó la importancia de que los adoptantes mantengan un compromiso firme, realicen visitas domiciliarias, cumplan con la esterilización y revisión veterinaria periódica, y compartan reportes fotográficos o videos de los animales adoptados. |
+
+
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/EntrevistaIsaias.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Isaias Sorogastua Moran                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| **Género:** Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Edad:** 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Link de la entrevista (YouTube):** https://youtu.be/iZ3VszyIqE8                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Isaias Sorogastua, protector independiente de animales, dedica alrededor de 20 horas semanales al rescate y cuidado, rescatando entre 3 y 5 animales al mes. Aunque trabaja por cuenta propia, mantiene colaboración ocasional con refugios. Para gestionar adopciones, utiliza herramientas como hojas de Excel y WhatsApp, realizando seguimiento post-adopción por mensajes. Difunde casos principalmente por Instagram, Facebook y grupos de rescate en WhatsApp. Antes de entregar un animal, se asegura de tener información sobre su salud, esterilización y comportamiento. Carolina identifica como problema la falta de compromiso de algunos adoptantes, quienes a veces incumplen con las visitas o desaparecen tras la adopción. No ha usado una app especializada, pero sí formularios de Google. Le gustaría contar con una plataforma que permita gestionar fichas, realizar seguimientos y facilitar el contacto con interesados. Considera esencial que los adoptantes se comprometan genuinamente, muestren paciencia durante la adaptación del animal y mantengan comunicación constante. |
 #### 2. Entrevistas del Segmento N°2: Adoptantes Potenciales (Personas interesadas en adoptar animales)
 
 | <p align="center"><img width="auto" height="auto" src="assets/images/commons/CeciliaEvidence.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -768,6 +826,15 @@ El presente diseño permitirá recopilar información clave sobre ambos segmento
 | **Edad:** 21 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | **Link de la entrevista (YouTube):** https://youtu.be/_iQEJVC_PQI?si=rYEKzjlUyvX7vsPA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | Cecilia Izaguirre, una joven universitaria de 21 años de San Miguel, comparte su perspectiva sobre la adopción de mascotas. Menciona que le gustan mucho los animales y que la adopción es una forma bonita de brindarles una segunda oportunidad. Ya ha adoptado antes y valora más la necesidad del animal que factores como raza, edad o tamaño. Utiliza redes sociales como Facebook, Instagram y TikTok para buscar mascotas. Le interesa conocer la historia y salud de los animales antes de adoptar, y expresa preocupación por la falta de información transparente durante el proceso. También le gustaría recibir apoyo post-adopción. |
+
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Entrevista-Andrés.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Marcelo Barrientos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Género:** Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| **Edad:** 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| **Link de la entrevista (YouTube):** https://youtu.be/Ou98ct9wLuU                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| Marcelo Barrientos, un joven de 20 años residente cerca de Lima, expresó que siempre ha sentido una conexión especial con los animales y que adoptar una mascota representa darle una segunda oportunidad a un ser que haya pasado por situaciones difíciles como el abandono o la calle. Comentó que ya había adoptado un perro anteriormente, lo cual fue un desafío inicial debido a la timidez del animal, pero que con paciencia logró integrarlo exitosamente a su familia. Marcelo manifestó interés en adoptar otra mascota, preferiblemente un perro mediano de entre uno y tres años de edad, con mucha energía y sociabilidad. Durante la entrevista, se discutieron aspectos clave como la salud, el comportamiento y la historia previa de las mascotas, además de las plataformas digitales que utiliza para buscar animales en adopción, como Instagram, Facebook, TikTok y páginas web de refugios. También habló sobre la importancia de recibir seguimiento post-adopción para asegurar el bienestar del animal y fortalecer la relación con él. |
 
 
 #### 2.2.3. Análisis de entrevistas
@@ -780,7 +847,7 @@ Según las entrevistas registradas y sus respectivos resúmenes, hemos realizado
 
 - **Jóvenes comprometidos:**
 
-Ambas entrevistadas tienen entre 21 y 25 años y están activamente involucradas en el rescate animal de forma independiente o vinculadas a refugios.
+Los entrevistados tienen entre 20 y 25 años y están activamente involucradas en el rescate animal de forma independiente o vinculadas a refugios.
 
 - **Procesos estructurados de adopción:** 
 
@@ -792,7 +859,7 @@ Utilizan principalmente Instagram y Facebook, y en algunos casos ferias locales 
 
 - **Evaluación exhaustiva del animal:** 
 
-Ambas recopilan información sobre salud, comportamiento y antecedentes antes de darlo en adopción.
+Los entrevistados recopilan información sobre salud, comportamiento y antecedentes antes de darlo en adopción.
 
 - **Falta de compromiso de los adoptantes:** 
 
@@ -817,11 +884,11 @@ El segmento de protectores está compuesto por jóvenes altamente activos y orga
 
 - **Motivación emocional clara:** 
 
-La entrevistada muestra un fuerte vínculo emocional hacia los animales, considerando la adopción como una oportunidad para brindar amor y hogar a quienes lo necesitan.
+Los entrevistados muestran un fuerte vínculo emocional hacia los animales, considerando la adopción como una oportunidad para brindar amor y hogar a quienes lo necesitan.
 
 - **Criterios flexibles de selección:** 
 
-No prioriza raza, edad o tamaño del animal. Este patrón sugiere una tendencia a adoptar con enfoque solidario más que estético o funcional.
+No priorizan raza, edad o tamaño del animal. Este patrón sugiere una tendencia a adoptar con enfoque solidario más que estético o funcional.
 
 - **Uso de medios digitales:** 
 
@@ -833,7 +900,7 @@ Existe un miedo a que se oculte información relevante sobre la salud del animal
 
 - **Interés en el seguimiento post-adopción:** 
 
-La entrevistada estaría dispuesta a recibir orientación o acompañamiento después de adoptar, lo cual indica un deseo de asegurar el bienestar del animal.
+Los entrevistados estaría dispuesta a recibir orientación o acompañamiento después de adoptar, lo cual indica un deseo de asegurar el bienestar del animal.
 
 **Conclusiones:**
 
@@ -1313,9 +1380,42 @@ Beneficios de adoptar con la plataforma.
 Testimonios de adoptantes y refugios.
 CTA final: "Únete como adoptante" / "Registra tu refugio".
 
-![Landing-Page-Wireframe](assets/images/commons/LandingPage-Wireframe.png)
 
-![Landing-Page-Movil-Wireframe](assets/images/commons/LandingPage%20Movil%20Wireframes.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 style="text-align: center;">Wireframe - Escritorio</h2>
+<p align="center">
+  <img src="assets/images/commons/LandingPage-Wireframe.png" width="600">
+</p>
+
+---
+
+<h2 style="text-align: center;">Wireframe - Móvil</h2>
+<p align="center">
+  <img src="assets/images/commons/LandingPage%20Movil%20Wireframes.png" width="300">
+</p>
+
 
 #### 4.3.2. Landing Page Mock-up
 Diseño visual con colores cálidos, imágenes reales de mascotas y testimonios con marco gráfico.
@@ -2082,11 +2182,930 @@ Durante el Sprint 1, la totalidad del trabajo de implementación fue realizada p
 | **Sprint n Velocity**                    | 5 Story Points                                                                           |
 | **Sum of Story Points**                  | 5                                                                                        |
 
+
+##### 5.2.2.2. Sprint Backlog 2
+
+| User Story ID | User Story Title                           | Task ID | Task Title                                         | Description                                                                                       | Estimation (Hours) | Assigned To   | Status   |
+|---------------|--------------------------------------------|---------|----------------------------------------------------|---------------------------------------------------------------------------------------------------|--------------------|----------------|----------|
+| US03          | Visualizar listado de mascotas adoptables  | T03-01  | Crear `adoptions-list.component`                  | Componente que integra búsqueda, ordenamiento, filtro y renderizado de mascotas                  | 4                  | @leccapedro     | Done     |
+| US03          | Visualizar listado de mascotas adoptables  | T03-02  | Crear `adoption-card.component`                   | Tarjeta visual con nombre, raza, edad, género, ubicación y botón de adopción                     | 3                  | @leccapedro     | Done     |
+| US04          | Aplicar filtros de búsqueda por atributos   | T04-01  | Crear `adoption-filters.component`                | Componente lateral para aplicar filtros por género, edad, tamaño, etc.                           | 4                  | @leccapedro     | Done     |
+| US04          | Aplicar filtros de búsqueda por atributos   | T04-02  | Integrar lógica de `filtersChanged`               | Implementar emisión de filtros al componente padre                                               | 2                  | @leccapedro     | Done     |
+| US05          | Ver detalles completos de la mascota        | T05-01  | Crear `adoption-details.component`                | Componente que muestra información completa y vacunas de una mascota seleccionada                | 4                  | @leccapedro     | Done     |
+| US06          | Cambiar idioma de la interfaz               | T06-01  | Crear `language-switcher.component`               | Componente standalone que permite seleccionar idioma con `ngx-translate`                         | 3                  | @leccapedro     | Done     |
+| US06          | Cambiar idioma de la interfaz               | T06-02  | Crear archivos `en.json` y `es.json`              | Definir claves y traducciones necesarias para adopciones, filtros y botones                      | 3                  | @leccapedro     | Done     |
+| US06          | Cambiar idioma de la interfaz               | T06-03  | Integrar internacionalización en vistas HTML      | Refactorizar templates (`adoptions`, `card`, `filters`, `details`) para usar pipe `translate`    | 5                  | @leccapedro     | Done     |
+| US07          | Ver mi información de usuario              | T07-01  | Crear `user-info.component`                      | Componente que muestra datos personales del usuario (nombre, correo, tipo de cuenta, etc.)       | 3                  | @MrAndres08DV   | Done     |
+| US07          | Ver mi información de usuario              | T07-02  | Crear `profile-page.component`                   | Página principal del perfil que contiene al componente `user-info`                              | 2                  | @MrAndres08DV   | Done     |
+| US07          | Ver mi información de usuario              | T07-03  | Crear `user-profile.service.ts`                  | Servicio para obtener la información del usuario autenticado                                     | 2                  | @MrAndres08DV   | Done     |
+| US02          | Ver galería de mascotas rescatadas        | T02-01  | Crear `pets-gallery.component`                   | Página que muestra un conjunto de mascotas rescatadas en formato de galería                     | 3                  | @diegoroip       | Done     |
+| US02          | Ver galería de mascotas rescatadas        | T02-02  | Crear `pet-card.component`                       | Componente visual de tarjeta individual de mascota rescatada                                     | 2                  | @diegoroip       | Done     |
+| US02          | Ver galería de mascotas rescatadas        | T02-03  | Crear `pets.service.ts`                          | Servicio encargado de obtener y gestionar el listado de mascotas desde JSON                     | 2                  | @diegoroip       | Done     |
+| US08          | Consultar opciones de donación            | T08-01  | Crear `donation-options.component`               | Página principal con opciones y categorías de donación                                          | 3                  | @Carlo211       | Done     |
+| US08          | Consultar opciones de donación            | T08-02  | Crear `donation-card.component`                  | Tarjeta visual que muestra detalles de cada tipo de donación                                    | 2                  | @Carlo211       | Done     |
+| US08          | Consultar opciones de donación            | T08-03  | Crear `donations.service.ts`                     | Servicio para obtener la lista de opciones de donación desde archivo local                      | 2                  | @Carlo211       | Done     |
+| US09          | Gestionar solicitudes de adopción         | T09-01  | Crear `adoption-management.component`            | Página principal para listar y gestionar solicitudes de adopción                                | 3                  | @Carlo211    | Done     |
+| US09          | Gestionar solicitudes de adopción         | T09-02  | Crear `adoption-detail.component`                | Componente que muestra los datos completos de una solicitud de adopción                         | 3                  | @MrAndres08DV    | Done     |
+| US09          | Gestionar solicitudes de adopción         | T09-03  | Crear `adoption-status-badge.component`          | Componente visual para mostrar el estado de cada solicitud (pendiente, aprobada, rechazada)     | 2                  | @diegoroip    | Done     |
+| US09          | Gestionar solicitudes de adopción         | T09-04  | Crear `manage-adoptions.service.ts`              | Servicio que permite obtener y actualizar solicitudes de adopción desde archivo local           | 2                  | @diegoroip    | Done     |
+| US10          | Publicar información relevante             | T10-01  | Crear `publications-dashboard.component`         | Página principal para mostrar publicaciones del sistema                                          | 3                  | @sxaxcxs        | Done     |
+| US10          | Publicar información relevante             | T10-02  | Crear `publication-card.component`               | Componente visual de tarjeta de publicación (título, fecha, resumen, etc.)                      | 2                  | @leccapedro        | Done     |
+| US10          | Publicar información relevante             | T10-03  | Crear `publication-form.component`               | Formulario para ingresar nueva publicación al sistema                                            | 3                  | @leccapedro        | Done     |
+| US10          | Publicar información relevante             | T10-04  | Crear `publications.service.ts`                  | Servicio para gestionar las publicaciones y persistencia desde archivo local                    | 2                  |   @diegoroip      | Done     |
+
+#### 5.2.2.3. Development Evidence for Sprint Review
+
+| Repository                               | Branch  | Commit Id | Commit Message                                        | Commit Message Body                                                                            | Committed on (Date) |
+|------------------------------------------|---------|-----------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------|
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 113f4c7   | **feat(routing):** add dynamic route for adoption details by pet ID | Se agregó una ruta con parámetro dinámico para acceder a los detalles de mascota.         | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 1b1ae17   | **data:** add mock data for pets including health and vaccination info | Datos simulados de mascotas con información de salud y vacunación.                      | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 26181f9   | **feat(service):** create AdoptionsService to fetch pets from static JSON | Servicio para cargar datos de mascotas desde archivo estático.                          | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | fc3aab5   | **feat(pipe):** implement PetNameFilterPipe to filter pets by name | Pipe personalizado para filtrar mascotas por nombre.                                     | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 0c29809   | **feat(adoptions-list):** implement filtering, sorting and search logic | Lógica funcional para filtrar, ordenar y buscar mascotas en la lista.                   | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 6c60eb2   | **feat(adoptions-list):** structure HTML for searchable and sortable pet list | Maquetación base para lista de mascotas.                                               | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 9b9fa5    | **style(adoptions-list):** add responsive layout styles for pet list and filter panel | Estilos CSS para visualización adaptable de la lista de mascotas.                     | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | ba1f9e5   | **feat(adoption-details):** implement logic to load and display selected pet by ID | Lógica para mostrar detalles según el ID desde la URL.                                 | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 8c57fb5   | **feat(adoption-details):** add full HTML structure for detailed pet profile | Plantilla completa HTML para los detalles de mascota.                                   | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 3d0efd4   | **style(adoption-details):** add styles for detailed pet view layout | Estilos visuales para los detalles de mascota.                                          | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 3758796   | **feat(model):** define AdoptionFilter interface for advanced search | Interfaz para representar filtros complejos de búsqueda.                               | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | ac588a0   | **feat(model):** extend AdoptionEntity with health, rescue story and vaccination data | Se añadió más detalle a la entidad de mascota.                                          | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | d292fd1   | **feat(adoption-filters):** implement filtering logic and expand/collapse behavior | Lógica funcional de filtros con secciones plegables.                                   | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 614a8b5   | **feat(adoption-filters):** add filter panel markup and bindings | HTML e inputs para filtros de mascota.                                                  | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 515018b   | **style(adoption-filters):** add visual styles for filtering panel | Estilos CSS para los filtros.                                                           | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 1d47ef4   | **feat(adoption-card):** create component logic for displaying pet data | Componente funcional para mostrar datos de mascota.                                     | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 982131c   | **feat(adoption-card):** add markup structure for pet adoption card | Estructura HTML para la tarjeta de mascota.                                             | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 8765d67   | **style(adoption-card):** add visual styles for pet adoption card | Estilos CSS para la tarjeta visual.                                                    | 2025-05-13           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 37a32f1   | **feat(profile-card):** create component logic for profile data | Se creó la lógica del componente para mostrar datos del perfil del usuario.                      | 2025-05-14           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 842970e   | **update:** adoption-management.component.ts             | Se actualizaron componentes del módulo de gestión de adopciones.                                  | 2025-05-14           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 99bbedd   | **manage adoption configured and structured**            | Se configuró `manage-adoptions` con soporte i18n en `en.json` y `es.json`.                        | 2025-05-14           |
+| DevsConClase-PatitaSolidaria/FrontEnd    | develop | 6a0f2b0   | **add donations**                                        | Se agregaron los componentes y lógica inicial del módulo de donaciones.                           | 2025-05-13           |
+
+#### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+Durante este Sprint, se realizaron pruebas funcionales manuales para verificar el correcto funcionamiento de las funcionalidades implementadas. 
+
+| Branch  | Commit Id | Commit Message                                          | Commit Message Body                                                                                  | Committed on (Date) |
+|---------|-----------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------------------|
+| develop | 0c29809   | **feat(adoptions-list):** implement filtering, sorting and search logic | Validación exitosa del comportamiento de búsqueda y filtros en la lista de adopciones.                | 2025-05-13          |
+| develop | ba1f9e5   | **feat(adoption-details):** implement logic to load and display selected pet by ID | Se verificó el correcto renderizado dinámico de la vista de detalle mediante pruebas de navegación.   | 2025-05-13          |
+| develop | 614a8b5   | **feat(adoption-filters):** add filter panel markup and bindings | Se testearon correctamente los filtros visuales y eventos de selección.                              | 2025-05-13          |
+| develop | 1d47ef4   | **feat(adoption-card):** create component logic for displaying pet data | Se confirmó que cada tarjeta muestra correctamente los datos de la mascota asignada.                  | 2025-05-13          |
+| develop | a36de96   | **feat(language-switcher):** enable dynamic translations | Se comprobó que el cambio de idioma se refleja correctamente en todos los componentes integrados.     | 2025-05-11          |
+| develop | 37a32f1   | **feat(profile-card):** create component logic for profile data | Validación de renderizado de datos del perfil del usuario autenticado en la vista de perfil.          | 2025-05-14          |
+| develop | 6a0f2b0   | **add donations**                                        | Se probaron visualmente las tarjetas de opciones de donación y su correcta carga desde el servicio.   | 2025-05-13          |
+| develop | 842970e   | **update:** adoption-management.component.ts             | Comprobación de lógica de gestión de solicitudes en el panel administrativo.                          | 2025-05-14          |
+| develop | 99bbedd   | **manage adoption configured and structured**            | Se validó la estructura del módulo, carga de datos y comportamiento de la vista.                      | 2025-05-14          |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante este Sprint trabajamos el desarrollo del frontend del sistema web “Patita Solidaria” utilizando el entorno de desarrollo WebStorm, siguiendo los principios de Domain-Driven Design (DDD) para organizar la estructura y responsabilidades del sistema. Se lograron implementar de forma funcional las vistas principales orientadas a brindar una experiencia inicial clara y amigable para los usuarios adoptantes.
+
+- **Inicio de Sesión**: 
+
+<p align="center"><img width="auto" height="auto" src="assets/images/evidence/La1.png">
+
+- **Página de búsqueda de mascotas (mascotas.html)**: galería con tarjetas dinámicas de mascotas, filtros por características, y campo de búsqueda.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/La2.png">
+
+- **Perfiles individuales de mascotas (guapisimo.html, luna.html, etc.)**: fichas con información detallada y botones de contacto.
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/la3.png">
+
+
+---
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, el enfoque principal ha sido el desarrollo completo de la Landing Page, perfiles de mascotas y formularios de autenticación. Debido a que aún no se ha implementado un backend ni servicios web, no se cuenta con endpoints documentados ni documentación OpenAPI en esta fase.
+
+La prioridad fue lograr una experiencia de usuario funcional desde el cliente. En futuras iteraciones se documentarán las rutas REST necesarias para la gestión de adopciones y usuarios, usando OpenAPI como herramienta de especificación.
+
+---
+
+#### GitHub - Proyecto Web Services (planeado para Sprint 3)
+
+> URL estimada del repositorio de backend:  
+> `[https://github.com/DevsConClase-PatitaSolidaria/](https://github.com/DevsConClase-PatitaSolidaria/BackEnd)`
+
+---
+
+#### Resumen de Acciones del Equipo
+
+| Integrante    | Acciones Realizadas                                                                               |
+|---------------|---------------------------------------------------------------------------------------------------|
+| Pedro Lecca   | Desarrollo completo de la Landing Page, galería de mascotas, perfiles individuales, login, registro y validaciones JS. |
+
+---
+
+> Nota: No se han generado commits relacionados a endpoints o servicios, ya que no fueron parte del alcance del Sprint 1.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint, se realizó el despliegue del frontend del sistema Patita Solidaria, incluyendo la Landing Page y las vistas principales para el usuario adoptante. Utilizamos GitHub Pages como entorno de publicación, lo cual permitió acceder fácilmente al desarrollo desde cualquier navegador, facilitando las pruebas funcionales, demostraciones internas y la recolección de feedback en tiempo real.
+
+---
+
+#### Proceso de Deployment realizado
+
+- Se creó un repositorio GitHub para el proyecto: `https://github.com/DevsConClase-PatitaSolidaria/FrontEnd`
+
+<p align="center"><img width="auto" height="auto" src="assets/images/evidence/frontend.png">
+
+#### URL de despliegue
+
+> [https://patitasolidaria-front.onrender.com](https://patitasolidaria-front.onrender.com)
+
+#### Responsable
+
+- **Diego Rosado**: configuración del repositorio, estructura del proyecto.
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2, la totalidad del trabajo de implementación fue realizada por todo el equipo, quienes asumimos todas las funciones de diseño, codificación, validación y despliegue de la solución.
+
+| Integrante   | Acciones realizadas durante el Sprint 1 |
+|--------------|------------------------------------------|
+| DevsConClase (Todo el equipo)  | - Desarrollo de toda la interfaz HTML y maquetado CSS<br>- Implementación de validaciones en JavaScript<br>- Estructura de carpetas y componentes<br>- Subida al repositorio y despliegue |
+
+#### Evidencia de colaboración en GitHub (Sprint 2)
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/contributionfrontend.png">
+
+### 5.2.3. Sprint 3
+
+#### 5.2.3.1. Sprint Planning 3
+
+| Elemento                                | Detalle                                                                                                                                                            |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                             | Sprint 3                                                                                                                                                          |
+| **Date**                                 | 2025-06-10                                                                                                                                                        |
+| **Time**                                 | 10:00 PM                                                                                                                                                          |
+| **Location**                             | Google Meet (virtual)                                                                                                                                             |
+| **Prepared By**                          | Rosado Iporre, Diego Alonso                                                                                                                                         |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Carlos Andrés, Coca Lavado<br>Ramirez Escalante, Carlo Patricio |
+| **Sprint n – 3 Review Summary**          | Se implementaron las secciones clave de la aplicación: mascotas, adopción, donaciones, perfiles de usuario, y su diseño responsive.                              |
+| **Sprint n – 3 Retrospective Summary**   | Se identificó la necesidad de mejorar la navegación y optimizar el rendimiento en el landing page                                                                        |
+| **Sprint 3 Goal**                        | Finalizar funcionalidades pendientes, pulir la interfaz de usuario, integrar servicios externos y preparar el producto para pruebas de validación con usuarios.  |
+| **Sprint 3 Velocity**                    | 8 Story Points                                                                                                                                                    |
+| **Sum of Story Points**                  | 8                                                                                                                                                                 |
+
+
+#### 5.2.3.2. Sprint Backlog 3
+
+En el tercer sprint backlog, enfocamos nuestros esfuerzos principalmente en el desarrollo del backend del sistema. Utilizando herramientas como IntelliJ, PGAdmin 4 y Swagger, avanzamos significativamente en la implementación de la lógica del servidor y en la estructuración de los distintos *bounded contexts* definidos en la arquitectura del proyecto.
+
+Entre las principales tareas realizadas durante este sprint, destaca la integración de un sistema de autenticación robusto, así como el desarrollo de los métodos necesarios para los módulos funcionales del backend. Estas actividades permitieron sentar las bases para una gestión segura de usuarios y una interacción consistente con los datos del sistema. El trabajo se organizó en tareas específicas asignadas a los miembros del equipo, lo que permitió mantener un flujo colaborativo y ordenado. Este avance nos acerca a una versión funcional del backend, alineada con los objetivos del proyecto y preparada para futuras integraciones con el frontend y los servicios externos.
+
+Link Trello: https://trello.com/b/3DnjiCdf/finalprojecttasks
+
+| sprint # | Sprint 3 | | | | | | |
+|-|-|-|-|-|-|-|-|
+| User<br>Story | | Work-Item / Task | | | | | |
+| ID | Title | ID | Title | Description | Estimation<br>(Hours) | Assigned<br>To | Status<br>(To-do<br>/InProcess<br>/To-Review<br>/Done) |
+| US01 | Registro de cuenta | *TA001* | Implementar Registro de Usuario | Crear endpoint POST para registrar usuarios adoptantes, refugios o rescatistas, validando campos obligatorios y asegurando persistencia en la base de datos. | 5 horas | Diego Rosado | Done |
+| US02 | Iniciar sesión | *TA002* | Implementar Inicio de Sesión | Desarrollar endpoint POST para autenticación de usuarios, devolviendo un token JWT tras verificación de credenciales. | 4 horas | Diego Rosado | Done |
+| US04 | Buscar mascotas | *TA003* | Filtrado de Mascotas | Desarrollar endpoint GET que permita filtrar mascotas por tamaño, especie, ubicación y necesidades especiales. | 6 horas | Pedro Lecca | To-Review |
+| US05 | Ver perfil de mascota | *TA004* | Visualización de Detalles de Mascota | Implementar endpoint GET para obtener información detallada de una mascota específica por su ID. | 4 horas | Carlos Coca | Done |
+| US06 | Guardar mascota favorita | *TA005* | Gestión de Favoritos | Crear funcionalidad para guardar y listar mascotas favoritas por usuario, persistiendo la relación en la base de datos. | 6 horas | Diego Rosado | Done |
+| US07 | Solicitar adopción | *TA006* | Solicitud de Adopción | Desarrollar endpoint POST para que el usuario adopte una mascota, registrando la solicitud con su estado inicial en base de datos. | 6 horas | Diego Rosado | Done |
+| US09 | Registrarse como refugio | *TA007* | Registro de Refugio | Extender el registro para aceptar tipo de usuario 'refugio', validando datos adicionales como nombre del refugio, RUC y ubicación. | 5 horas | Carlos Coca | Done |
+
+
+
+
+**Captura del Trello**
+
+<p align="center"><img width="auto" height="auto" src="assets/images/commons/TrelloSprint3.png">
+
+
+#### 5.2.3.3. Development Evidence for Sprint Review
+
+Durante el tercer sprint, se implementaron funcionalidades clave como el CRUD de adopciones, estructura de dominios para mascotas, integración de Swagger para documentación, despliegue en Render, y configuración de infraestructura básica. A continuación se presenta la evidencia de desarrollo con los commits realizados:
+
+| **Repository**      | **Branch** | **Commit Id** | **Author**       | **Type**   | **Commit Message**                                                           | **Committed on (Date)** |
+|---------------------|------------|---------------|------------------|------------|-------------------------------------------------------------------------------|--------------------------|
+| PatitaSolidaria     | develop    | f8b11d3       | Pedro Lecca      | authored   | feat(api): add Swagger tag and description to AdoptionController             | 2025-06-14               |
+| PatitaSolidaria     | develop    | 913e53d       | rhylow           | authored   | Delete test folder in domain model                                           | 2025-06-14               |
+| PatitaSolidaria     | develop    | 4679b6a       | rhylow           | authored   | Delete test folder in rest resources                                         | 2025-06-14               |
+| PatitaSolidaria     | develop    | fa75bd3       | rhylow           | authored   | feat(api): REST endpoints for adoptions                                      | 2025-06-14               |
+| PatitaSolidaria     | develop    | de3464f       | rhylow           | authored   | feat(domain): add VaccinationRecord                                          | 2025-06-14               |
+| PatitaSolidaria     | develop    | aba41d7       | rhylow           | authored   | feat(domain): add AdoptionFilter                                             | 2025-06-14               |
+| PatitaSolidaria     | develop    | 3ffdf1d       | rhylow           | authored   | feat(domain): add Adoption model                                             | 2025-06-14               |
+| PatitaSolidaria     | develop    | 831a1a5       | rhylow           | authored   | Delete test folder in application internal                                   | 2025-06-14               |
+| PatitaSolidaria     | develop    | 829ccb8       | rhylow           | authored   | feat(internal): implement in-memory service                                  | 2025-06-14               |
+| PatitaSolidaria     | develop    | 476fec9       | rhylow           | authored   | feat(internal): define AdoptionService interface                             | 2025-06-14               |
+| PatitaSolidaria     | develop    | 8914c5b       | Diego Rosado     | authored   | Merge pull request #1 from DevsConClase-PatitaSolidaria/feat/adding-pets-bc | 2025-06-14               |
+| PatitaSolidaria     | develop    | bbc267c       | Diegoroip        | authored   | feat: agregando Pet bounded context                                          | 2025-06-14               |
+| PatitaSolidaria     | develop    | d5d6f86       | Diegoroip        | authored   | Cambios para clonar y probar en develop local                                | 2025-06-12               |
+| PatitaSolidaria     | develop    | cabab13       | Diegoroip        | authored   | Corrigiendo Dockerfile para Render                                           | 2025-06-12               |
+| PatitaSolidaria     | develop    | 0c8c042       | Diegoroip        | authored   | Añadiedo Dockerfile para Render                                              | 2025-06-12               |
+| PatitaSolidaria     | develop    | 6f18b9d       | Diegoroip        | authored   | Corregiendo el render.yaml                                                   | 2025-06-12               |
+| PatitaSolidaria     | develop    | bc0e94b       | Diegoroip        | authored   | Corregiendo el render.yaml                                                   | 2025-06-12               |
+| PatitaSolidaria     | develop    | 7c90ab4       | Diegoroip        | authored   | Trigger deploy                                                               | 2025-06-12               |
+| PatitaSolidaria     | develop    | 476fd81       | Diegoroip        | authored   | Agrega configuracion de Render                                               | 2025-06-12               |
+| PatitaSolidaria     | develop    | eb1a1f0       | Diegoroip        | authored   | Fix: Permisos de ejecución para mvnw                                         | 2025-06-12               |
+| PatitaSolidaria     | develop    | c04d1ac       | Diegoroip        | authored   | Agregar archivo render.yaml para despliegue                                  | 2025-06-12               |
+| PatitaSolidaria     | develop    | 85b1fae       | Diegoroip        | authored   | Initial commit - PatitaSolidaria backend                                     | 2025-06-12               |
+
+#### 5.2.3.4. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 3 se sentaron las bases para la integración de pruebas automatizadas siguiendo el enfoque BDD (Desarrollo Dirigido por el Comportamiento). Aunque no se completaron archivos `.feature` durante este sprint, se implementaron múltiples endpoints funcionales que serán validados en los siguientes sprints mediante pruebas escritas en lenguaje Gherkin, utilizando herramientas como **Cucumber** o **JBehave**.
+
+Adicionalmente, se realizaron pruebas manuales a los endpoints desplegados en producción utilizando **Render**, con verificación de persistencia y consistencia de datos a través de la herramienta **pgAdmin 4**, conectándose directamente a la base de datos PostgreSQL del entorno en la nube. Estas pruebas permitieron validar la creación, edición y eliminación de registros clave dentro del sistema, como parte de la verificación funcional del backend.
+
+A continuación, se muestra un resumen del estado de testing al cierre del Sprint 3:
+
+| **Aspecto Evaluado**          | **Resultado**                                                                 |
+|------------------------------|------------------------------------------------------------------------------|
+| Pruebas BDD automatizadas    | En planificación. No se completaron archivos `.feature` aún.                |
+| Pruebas manuales             | Realizadas usando herramientas como Postman y pgAdmin 4.                    |
+| Herramientas utilizadas      | Render (deploy), pgAdmin 4 (visualización de DB), Spring Boot (REST APIs). |
+| Estado general de testing    | Funcionalidad básica validada manualmente.                                   |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3, se logró un progreso significativo en la implementación del backend del sistema. Nos enfocamos en la creación de múltiples endpoints RESTful que permiten la gestión de entidades clave como recetas, usuarios y adopciones. Todo el código fue desarrollado siguiendo principios de arquitectura limpia, con especial énfasis en la separación de capas y la persistencia adecuada de datos.
+
+Además, se realizó el despliegue exitoso del backend en **Render**, lo que permitió validar el comportamiento del sistema en un entorno de producción. Para verificar la creación, edición y eliminación de datos, se utilizó **pgAdmin 4**, accediendo directamente a la base de datos PostgreSQL vinculada al servicio de Render.
+
+<h3>Backend</h3>
+En este sprint, hemos logrado avances significativos en el desarrollo del backend de nuestro producto. Nos hemos concentrado en implementar múltiples endpoints RESTful, así como la lógica de negocio correspondiente, asegurando la correcta persistencia de datos en la base de datos PostgreSQL. También se configuró el despliegue en Render y se verificó el funcionamiento mediante la conexión a pgAdmin 4. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
+
+**Capturas de Pantalla de pgadmin 4 conectado a la database de Render**
+
+- Datos en bounded context Users
+
+![pgadmin2](assets/images/tb2/pgadmin_2.png)
+
+- Datos en bounded context Pets
+
+![pgadmin1](assets/images/tb2/pgadmin_1.png)
+
+- Datos en bounded context Publications
+
+![pgadmin3](assets/images/tb2/pgadmin_3.png)
+
+- Datos en bounded context Profiles
+
+![pgadmin4](assets/images/tb2/pgadmin_4.png)
+
+- Datos en bounded context Donations
+
+![pgadmin5](assets/images/tb2/pgadmin_5.png)
+
+- Datos en bounded context Adoptions
+
+![pgadmin6](assets/images/tb2/pgadmin_6.png)
+
+- Datos en bounded context Adoption Requests
+
+![pgadmin7](assets/images/tb2/pgadmin_7.png)
+
+**Capturas del Backend deployado**
+
+![backend1](assets/images/tb2/backenddeploy_1.png)
+
+![backend2](assets/images/tb2/backenddeploy_2.png)
+
+**Funcionamiento de Backend deployado**
+
+![backend3](assets/images/tb2/backend_works.png)
+
+A continuacion se muestra la evidencia de despliegue del backend entrando al siguiente enlace:   
+https://patita-solidaria-backend.onrender.com/swagger-ui/index.html
+
+**Enlace a Video About the product**  
+Ademas presentamos un video explicativo de las funcionalidades en el frontend:
+https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En esta sección se incluye la relación de endpoints documentados con OpenAPI, desarrollados como parte del alcance del Sprint 3. Se resumen los logros alcanzados en relación con la implementación y documentación de los servicios REST del Backend.
+
+#### Backend en IntelliJ IDEA
+
+Este backend está desarrollado siguiendo el patrón **Domain-Driven Design (DDD)**, estructurando la lógica en **Bounded Contexts** claramente definidos y separados. Cada contexto encapsula su propio modelo de dominio, comportamientos y reglas de negocio, lo que permite una arquitectura modular, mantenible y alineada con el negocio.
+
+![backend4](assets/images/tb2/backendcode_1.png)
+
+![backend5](assets/images/tb2/backendcode_2.png)
+
+#### Bounded Contexts
+
+- **Authentication** – Manejo de registros, inicio de sesión y autenticación JWT.
+- **Profiles** – Gestión de perfiles (adoptantes, refugios, administradores).
+- **Pets** – Registro y administración de mascotas disponibles para adopción.
+- **Adoptions** – Gestión de adopciones, historial médico y vacunas.
+- **Donations** – Registro de donaciones y métodos de pago.
+- **Publications** – Publicaciones públicas de mascotas y contenido social.
+- **Adoption Requests** – Solicitudes de adopción con seguimiento de estado.
+- **Users** – Información general y roles del sistema.
+
+#### 📡 API
+
+Todos los endpoints están organizados siguiendo la convención RESTful bajo la ruta `/api/v1/` y están documentados según contexto.
+
+#### ✅ Buenas Prácticas Aplicadas
+
+- Uso de **Enums tipados** para valores restringidos.
+- Colecciones embebidas con `@ElementCollection` en modelos.
+- Separación clara de **entidades de dominio** y **DTOs**.
+- Control de errores centralizado.
+- **Mappers** para transformar entre recursos y entidades.
+- Arquitectura lista para pruebas, integración y ampliación.
+
+### 🐾 Authentication Bounded Context
+
+**AuthenticationController**
+
+| Tag            | HTTP Verbs | Endpoint                       | Summary       | Description                                   | OperationId |
+|----------------|------------|--------------------------------|---------------|-----------------------------------------------|-------------|
+| Authentication | POST       | /api/v1/authentication/sign-up | User Sign-Up  | Register a new user into the system           | SignUp      |
+| Authentication | POST       | /api/v1/authentication/sign-in | User Sign-In  | Authenticate a user and return access token   | SignIn      |
+
+---
+
+### 🧑‍🤝‍🧑 Profiles Bounded Context
+
+**ProfileController**
+
+| Tag      | HTTP Verbs | Endpoint                     | Summary           | Description                           | OperationId    |
+|----------|------------|------------------------------|-------------------|---------------------------------------|----------------|
+| Profiles | GET        | /api/v1/profiles             | List profiles     | Retrieve all registered profiles      | GetAllProfiles |
+| Profiles | POST       | /api/v1/profiles             | Create profile    | Register a new profile                | CreateProfile  |
+| Profiles | GET        | /api/v1/profiles/{profileId} | Get profile by ID | Retrieve a profile by its ID          | GetProfileById |
+| Profiles | PUT        | /api/v1/profiles/{profileId} | Update profile    | Update existing profile information   | UpdateProfile  |
+| Profiles | DELETE     | /api/v1/profiles/{profileId} | Delete profile    | Remove a profile from the system      | DeleteProfile  |
+
+---
+
+### 🐶 Pets Bounded Context
+
+**PetController**
+
+| Tag   | HTTP Verbs | Endpoint             | Summary                | Description                                 | OperationId   |
+|-------|------------|----------------------|------------------------|---------------------------------------------|---------------|
+| Pets  | GET        | /api/v1/pets         | List all pets          | Retrieve all registered pets                | GetAllPets    |
+| Pets  | POST       | /api/v1/pets         | Create a pet           | Register a new pet available for adoption   | CreatePet     |
+| Pets  | GET        | /api/v1/pets/{petId} | Get pet by ID          | Retrieve pet details using its ID           | GetPetById    |
+| Pets  | PUT        | /api/v1/pets/{petId} | Update pet information | Update details for a specific pet           | UpdatePet     |
+| Pets  | DELETE     | /api/v1/pets/{petId} | Delete a pet           | Remove a pet from the system                | DeletePet     |
+
+---
+
+### 📢 Publications Bounded Context
+
+**PublicationController**
+
+| Tag          | HTTP Verbs | Endpoint                             | Summary               | Description                                | OperationId            |
+|--------------|------------|--------------------------------------|-----------------------|--------------------------------------------|------------------------|
+| Publications | GET        | /api/v1/publications                 | List publications     | Retrieve all pet publications              | GetAllPublications     |
+| Publications | POST       | /api/v1/publications                 | Create publication    | Create a new publication for a pet         | CreatePublication      |
+| Publications | GET        | /api/v1/publications/{publicationId} | Get publication by ID | Retrieve publication details               | GetPublicationById     |
+| Publications | PUT        | /api/v1/publications/{publicationId} | Update publication    | Update existing publication                | UpdatePublication      |
+| Publications | DELETE     | /api/v1/publications/{publicationId} | Delete publication    | Remove a publication from the system       | DeletePublication      |
+| Publications | GET        | /api/v1/publications/pet/{petId}     | Get by pet ID         | Get all publications for a specific pet    | GetPublicationsByPetId |
+
+---
+
+### 🏠 Adoptions Bounded Context
+
+**AdoptionController**
+
+| Tag       | HTTP Verbs | Endpoint                          | Summary              | Description                                      | OperationId             |
+|-----------|------------|-----------------------------------|----------------------|--------------------------------------------------|-------------------------|
+| Adoptions | GET        | /api/adoptions                    | List all adoptions   | Get all adoption cases, optionally filtered      | GetAllAdoptions         |
+| Adoptions | POST       | /api/adoptions                    | Create an adoption   | Register a new pet for adoption                  | CreateAdoption          |
+| Adoptions | GET        | /api/adoptions/{id}               | Get adoption by ID   | Retrieve adoption record details                 | GetAdoptionById         |
+| Adoptions | PUT        | /api/adoptions/{id}               | Update adoption      | Update existing adoption record                  | UpdateAdoption          |
+| Adoptions | DELETE     | /api/adoptions/{id}               | Delete adoption      | Remove adoption record from the system           | DeleteAdoption          |
+| Adoptions | PUT        | /api/adoptions/{id}/vaccines      | Update vaccination   | Update vaccination record for an adoption        | UpdateVaccinationRecord |
+| Adoptions | GET        | /api/adoptions/by-vaccine         | Get by vaccine       | Retrieve adoptions filtered by vaccine name      | GetAdoptionsByVaccine   |
+
+---
+
+### 📩 Adoption Requests Bounded Context
+
+**AdoptionRequestController**
+
+| Tag              | HTTP Verbs | Endpoint                                  | Summary              | Description                                              | OperationId                  |
+|------------------|------------|-------------------------------------------|----------------------|----------------------------------------------------------|------------------------------|
+| AdoptionRequests | GET        | /api/adoption-requests                    | List requests        | Retrieve all adoption requests, optionally by status     | GetAllAdoptionRequests       |
+| AdoptionRequests | POST       | /api/adoption-requests                    | Create request       | Submit a new adoption request                            | CreateAdoptionRequest        |
+| AdoptionRequests | GET        | /api/adoption-requests/{id}              | Get request by ID    | Retrieve a specific adoption request by ID               | GetAdoptionRequestById       |
+| AdoptionRequests | PUT        | /api/adoption-requests/{id}/status       | Update request status| Approve or reject an adoption request                    | UpdateAdoptionRequestStatus  |
+
+---
+
+### 💰 Donations Bounded Context
+
+**DonationController**
+
+| Tag       | HTTP Verbs | Endpoint                 | Summary         | Description                        | OperationId     |
+|-----------|------------|--------------------------|-----------------|------------------------------------|-----------------|
+| Donations | GET        | /api/v1/donations        | List donations  | Retrieve all donation records      | GetAllDonations |
+| Donations | POST       | /api/v1/donations        | Create donation | Register a new donation            | CreateDonation  |
+| Donations | PUT        | /api/v1/donations/{id}   | Update donation | Update existing donation details   | UpdateDonation  |
+| Donations | DELETE     | /api/v1/donations/{id}   | Delete donation | Remove a donation from the system  | DeleteDonation  |
+
+---
+
+### 👥 Users Bounded Context
+
+**UserController**
+
+| Tag   | HTTP Verbs | Endpoint              | Summary         | Description                       | OperationId   |
+|-------|------------|-----------------------|-----------------|-----------------------------------|---------------|
+| Users | GET        | /api/v1/users         | List users      | Retrieve all system users         | GetAllUsers   |
+| Users | GET        | /api/v1/users/{userId}| Get user by ID  | Retrieve user details by ID       | GetUserById   |
+
+---
+
+### 🔐 Roles Bounded Context
+
+**RoleController**
+
+| Tag   | HTTP Verbs | Endpoint           | Summary      | Description                        | OperationId   |
+|-------|------------|--------------------|--------------|------------------------------------|---------------|
+| Roles | GET        | /ap/v1/roles       | List roles   | Retrieve all available user roles  | GetAllRoles   |
+
+
+### 🔧 Infraestructura y Despliegue
+
+Durante este sprint también se configuró correctamente el entorno de despliegue en **Render**, y se utilizó **pgAdmin 4** para verificar la persistencia de datos en la base de datos PostgreSQL remota.
+
+Además, puedes ver la evidencia de despliegue del backend en el siguiente enlace:  
+https://patita-solidaria-backend.onrender.com/swagger-ui/index.html
+
+Link del repositorio del backend: https://github.com/DevsConClase-PatitaSolidaria/BackEnd
+
+Este backend es parte de una solución completa para conectar adoptantes con refugios de animales, promover la adopción responsable y gestionar el proceso de forma eficiente.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 3, se logró desplegar exitosamente la API del backend del proyecto **Patita Solidaria** utilizando la plataforma **Render**, permitiendo el acceso público a los endpoints implementados y documentados. Esta acción asegura que las funcionalidades desarrolladas estén accesibles para pruebas externas y validación del producto en un entorno de staging.
+
+El despliegue incluye una instancia de servidor corriendo la aplicación Spring Boot y una base de datos PostgreSQL conectada de manera remota. Para la gestión de la base de datos, se utilizó **pgAdmin 4**, lo cual permitió visualizar y verificar en tiempo real la persistencia de los datos ingresados mediante los endpoints REST.
+
+#### Entorno de Despliegue
+
+- **Plataforma**: Render.com  
+- **Base de datos**: PostgreSQL (Render)  
+- **Gestor de Base de Datos**: pgAdmin 4  
+- **Tipo de despliegue**: Backend como servicio (BaaS) con build automático desde rama `main`  
+
+#### Archivos de configuración clave
+
+- `render.yaml`: Define la configuración del servicio, variables de entorno, tipo de instancia y comandos de arranque.
+- `Dockerfile`: Utilizado para construir la imagen personalizada de la aplicación y facilitar el despliegue en Render.
+
+#### Verificación de Despliegue
+
+Se realizaron pruebas en entorno de Render utilizando herramientas como Postman y verificación manual en pgAdmin 4. Estas pruebas confirmaron:
+
+- El correcto funcionamiento de los endpoints (`/api/v1/pets`, `/api/v1/adoptions`, etc.).
+- La persistencia de datos en la base de datos remota.
+- El despliegue estable del backend en entorno web accesible.
+
+#### Evidencia Visual
+
+**Consola de Render - Servicio desplegado**
+
+![Render Deployment](assets/images/tb2/render_1.png)
+
+![Render Deployment](assets/images/tb2/render_2.png)
+
+**pgAdmin 4 - Tablas de la base de datos**
+
+![pgAdmin Tables](assets/images/tb2/render_3.png)
+
+---
+
+Este despliegue forma parte esencial del ciclo de desarrollo continuo y prepara el entorno para las pruebas de integración y validación de funcionalidades desarrolladas durante el Sprint.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+| Integrante | Acciones realizadas durante el sprint |
+|------------|----------------------------------------|
+| Diego Alonso Rosado Iporre | Desarrollo de los bounded contexts de **Pets** && **IAM (Identity and Access Management)** && **Publications** |
+| Pedro Lecca | Desarrollo del bounded context de **Adoptions** |
+| Carlo Ramirez | Desarrollo del bounded context de **Donations** && **Vaccines** && **Manage Adoptions** |
+| Andres Coca  | Desarrollo del bounded context de **Profiles** |
+
+**Contribucion en el repositorio del Backend**
+
+![Project Insights Del Backend](assets/images/tb2/back_contributors.png)
+
+### 5.2.4. Validation Interviews
+
+#### 5.2.4.1. Diseño de Entrevistas
+
+#### **Preguntas para Adoptantes**
+
+#### Diseño general y navegación
+
+- ¿Sentiste que sabías hacia dónde ir desde la pantalla principal?
+- ¿Te perdiste en algún momento navegando entre las secciones? ¿Dónde?
+- ¿Los íconos o botones te parecieron intuitivos? ¿Hay alguno que no entendiste?
+- ¿Qué botón o función agregarías para mejorar tu experiencia?
+
+#### Sección de Mascotas
+
+- ¿Pudiste identificar claramente que esta es la sección para ver mascotas disponibles para adopción?
+- ¿La información de cada mascota (nombre, edad, estado, etc.) está clara y completa?
+- ¿Te resultó fácil filtrar o buscar por tipo de mascota, tamaño, edad u otra característica?
+- ¿Qué cambiarías en la forma en que se presentan las mascotas?
+
+#### Sección de Adopciones
+
+- ¿Comprendiste para qué sirve esta sección?
+- ¿Sabrías qué pasos deberías seguir si quisieras adoptar una mascota?
+- ¿Te parecieron claros los pasos para enviar solicitud?
+
+#### Sección de Donaciones
+
+- ¿Identificaste con facilidad esta sección?
+- ¿Te inspira confianza el diseño como para hacer una donación?
+- ¿Qué te motivaría a donar con mayor frecuencia o recomendarlo a otros?
+- ¿Qué mejorarías visual o funcionalmente en esta parte?
+
+#### Opinión general
+
+- ¿Qué parte de la app te pareció más clara y cuál más confusa?
+- ¿Hubo algo que no entendiste o que te pareció innecesario?
+- ¿Qué tan fácil te resultó moverte entre las diferentes secciones?
+
+#### Seguridad y confianza
+
+- ¿Confías en la plataforma como medio para adoptar o donar? ¿Por qué?
+- ¿Qué elementos adicionales te harían sentir más seguro/a usando esta aplicación?
+
+#### Recomendación e interés futuro
+
+- ¿Recomendarías esta aplicación a otras personas interesadas en adoptar o apoyar refugios?
+- ¿Qué crees que falta para que esta app sea aún más útil para alguien como tú?
+
+
+#### **Preguntas para Refugios / Cuidadores**
+
+#### Diseño y navegación general
+
+- ¿Cómo describirías el diseño de la aplicación? ¿Te parece clara la distribución de los elementos?
+- ¿Entendiste fácilmente qué secciones están pensadas para ti como cuidador o refugio?
+- ¿Cambiarías la ubicación o el nombre de algún botón?
+
+#### Publicaciones
+
+- ¿Pudiste identificar fácilmente cómo publicar una nueva mascota?
+- ¿La plantilla para ingresar información de mascotas te pareció completa?
+- ¿Qué cambiarías del diseño de esta parte?
+
+#### Gestión de Adopciones
+
+- ¿Faltó información o botones para controlar el estado de las solicitudes?
+- ¿Te resultó fácil filtrar o buscar por pendiente, aceptado, rechazado u otra característica?
+- ¿Cómo mejorarías esta sección para que sea más útil para ti?
+
+#### Percepción general
+
+- ¿Qué parte te pareció mejor lograda en el diseño?
+- ¿Qué agregarías para que la app te ayude más en tu labor como cuidador?
+- ¿Pudiste moverte por la plataforma sin perderte? ¿Qué parte te pareció más útil?
+- ¿Hay alguna función que crees que debería añadirse para facilitar tu labor?
+
+#### Impacto y adopción institucional
+
+- ¿Crees que esta app podría facilitar la gestión de tu refugio?
+- ¿Qué barreras posibles ves para que esta plataforma sea usada de forma constante por otros cuidadores o refugios?
+- ¿Recomendarías esta herramienta a otros cuidadores o centros de adopción?
+
+#### 5.2.4.2. Registro de Entrevistas
+
+
+**User Persona del Segmento Objetivo 1: Personal de Refugios y Rescatistas de Animales**
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/entrevistaAJuan.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Juan Pérez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Género:** Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Edad:** 24 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Link de la entrevista (YouTube):** https://youtu.be/jXTvmlUyaJw?si=O6pjs7OTgpmuclMo                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Juan Perez, un rescatista que fue entrevistado en una anterior oportunidad, pudo explorar las funcionalidades clave como la gestión de publicaciones, adopciones y mascotas, ofreciendo retroalimentación valiosa. Se destacan aspectos positivos como la completitud de la información y la utilidad de los botones de acción, pero también se identifican áreas de mejora significativas, especialmente en el diseño de la interfaz de usuario, la estética visual y la necesidad de tutoriales o guías para facilitar la comprensión. La aplicación es percibida como una herramienta prometedora para agilizar la gestión de refugios y conectar a más mascotas con hogares, con potencial para ser ampliamente adoptada por cuidadores y el público en general. |
+
+
+
+**User Persona del Segmento Objetivo 2: Adoptantes Potenciales**
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/Entrevistaisaiastb2.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Isaias Sorogastua                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| **Género:** Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Edad:** 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Link de la entrevista (YouTube):** https://youtu.be/CtPjLyWjWlE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Isaias Sorogastua, adoptante interesado en brindar un hogar a un animal rescatado, utilizó la aplicación de adopciones y destacó su diseño claro, la facilidad para encontrar mascotas y comprender los pasos del proceso. Consideró útiles los filtros por características, aunque sugirió una opción para guardar favoritos y ampliar las fotos de cada animal. Inicialmente tuvo dudas al diferenciar las secciones de “Adopciones” y “Solicitudes” y mencionó que algunos íconos podrían ser más claros. En la sección de donaciones, le generó confianza, pero cree que incluir historias de impacto y una opción de donación recurrente motivaría más apoyo. Confía en la plataforma mientras se mantenga la transparencia con los refugios, y valoraría contar con una herramienta de contacto directo con ellos. Recomienda la app por su utilidad, pero considera importante seguir mejorando funciones que faciliten la comunicación y el seguimiento post-adopción. |
+
+
+
+| <p align="center"><img width="auto" height="auto" src="assets/images/commons/entrevistaAMarcelo.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Marcelo Barrientos                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| **Género:** Masculino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Edad:** 20 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Link de la entrevista (YouTube):** https://youtu.be/0MeoPcqZf-I?si=DdKKAp7z319YwOre                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Marcelo Barrientos, un adoptante que fue entrevistado en una anterior oportunidad, pudo probar y navegar por toda la pagina web de Patita Solidaria,especificamente por las secciones de mascotas, donaciones y adopciones, durante el transcurso de esta entrevista nos ha proporcionando retroalimentación sobre la claridad del diseño, la facilidad de navegación y la completitud de la información. Aunque la plataforma es generalmente bien recibida por su estructura clara y su propósito benéfico, se sugieren mejoras en la navegación para indicar la sección actual y en la sección de mascotas para una visualización más completa. |
+
+  
+| <p align="center"><img width="auto" height="auto" src="assets/images/tb2/briza2evidence.png">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Entrevistado(a):** Brza Segura                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **Género:** Femenino                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
+| **Edad:** 25 años                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Link de la entrevista (YouTube):** https://www.youtube.com/watch?v=2ToFPMqDyCI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| Briza nos comenta que el diseño de la aplicación le parece limpio, minimalista y moderno, con buena distribución y uso del color naranja como guía visual. Aunque las secciones a la izquierda son entendibles, sugiere incluir etiquetas o selección de rol para mayor claridad.<br><br>Cree que el botón de “Sign up” podría destacarse más visualmente, y considera que la publicación de mascotas es sencilla y clara, aunque propone agregar detalles como salud y vista previa de fotos. Los filtros en la zona de adopciones funcionan bien y los botones de gestión son claros.<br><br>Destaca como mejor lograda la función de filtrado por características. Para mejorar la utilidad, propone un panel con métricas clave y alertas automáticas. Ve potencial en la app para centralizar información y ahorrar tiempo, aunque advierte que la curva de aprendizaje, falta de personalización y soporte técnico pueden ser barreras. Aun así, la recomendaría si se implementan bien las funciones básicas. |
+
+
+#### 5.2.4.3. Evaluaciones según heurísticas
+
+## SITE o APP A EVALUAR
+**Nombre:** Patita Solidaria  
+**Objetivo:** Identificar problemas de usabilidad en el sistema web de adopción de mascotas usando la Lista Heurística de Nielsen.
+
+---
+
+##  TAREAS A EVALUAR
+
+1. Visualización y navegación en la página principal 
+2. Visualización de mascotas (galería, fichas, presentación de información)
+3. Navegación por la sección de adopciones (flujo, claridad de información, pasos a seguir)
+4. Accesibilidad y claridad del menú lateral (ubicación, iconos, estructura)
+5. Filtros por características (edad, tamaño, estado, salud, etc.)
+6. Diferenciación entre las secciones “Adopciones” y “Solicitudes”
+7. Visualización de detalles de mascotas (salud, historia, fotos)
+8. Gestión de donaciones (proceso, confianza, recurrencia)
+9. Claridad de iconografía y etiquetas
+10. Navegación lateral y localización de sección activa
+11. Estructura y claridad del formulario de adopción
+12. Proceso de cambio de idioma
+13. Personalización y curva de aprendizaje
+
+---
+
+## PROBLEMAS DETECTADOS 
+
+| # | Problema detectado | Heurística violada | Severidad |
+|---|--------------------|--------------------|-----------|
+| 1 | Falta de detalles clave en fichas de mascotas | Ayuda y documentación | 3 |
+| 2 | Confusión entre “Adopciones” y “Solicitudes” | Coincidencia entre el sistema y el mundo real | 3 |
+| 3 | La navegación no indica cuál es la sección actual activa | Visibilidad del estado del sistema | 2 |
+| 4 | Iconos poco claros o poco intuitivos | Reconocimiento antes que recuerdo | 2 |
+| 5 | Falta de tutoriales o guía para nuevos usuarios | Ayuda y documentación | 2 |
+
+---
+
+## ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: fácilmente superado por el usuario o muy poco frecuente. No es prioritario. |
+| **2** | Problema menor: algo más frecuente o confuso; se debe resolver en una próxima versión. |
+| **3** | Problema mayor: ocurre frecuentemente y afecta el uso normal. Prioridad alta. |
+| **4** | Problema muy grave: impide el uso del sistema. Debe corregirse antes del lanzamiento. |
+
+---
+
+## ANÁLISIS HEURÍSTICO DETALLADO
+
+### 🔶 Problema #01: Falta de detalles clave en las fichas de mascotas
+
+**Severidad:** 3  
+**Heurística violada:** Ayuda y documentación
+
+**Descripción:**  
+Las fichas no muestran información esencial como estado de salud, historia del animal o fotos ampliadas. Esto afecta la confianza del usuario y dificulta tomar decisiones informadas.
+
+**Recomendación:**  
+Incluir datos de salud, vacunas, historia y permitir ampliar las fotos. Esto mejora la transparencia y ayuda al usuario a conectar emocionalmente con el proceso de adopción.
+
+---
+
+### 🔶 Problema #02: Confusión entre “Adopciones” y “Solicitudes”
+
+**Severidad:** 3  
+**Heurística violada:** Coincidencia entre el sistema y el mundo real
+
+**Descripción:**  
+Los usuarios no diferencian bien entre ambas secciones. Esto puede generar errores de navegación y frustración.
+
+**Recomendación:**  
+Renombrar las secciones con etiquetas claras y explicativas (ej. “Mascotas para adoptar” y “Mis solicitudes”), e incluir iconos o textos de apoyo.
+
+---
+
+### 🔶 Problema #03: La navegación no indica cuál es la sección actual activa
+
+**Severidad:** 2  
+**Heurística violada:** Visibilidad del estado del sistema
+
+**Descripción:**  
+La interfaz no resalta la sección activa, lo que desorienta al usuario y dificulta saber en qué parte del sitio se encuentra.
+
+**Recomendación:**  
+Resaltar el ítem activo en el menú con un color distinto, subrayado o encabezado visible que indique la ubicación actual.
+
+---
+
+### 🔶 Problema #04: Iconos poco claros o poco intuitivos
+
+**Severidad:** 2  
+**Heurística violada:** Reconocimiento antes que recuerdo
+
+**Descripción:**  
+Varios iconos no son fácilmente comprensibles, lo que obliga al usuario a adivinar su función, aumentando errores o tiempo de navegación.
+
+**Recomendación:**  
+Agregar etiquetas de texto junto a los íconos o tooltips al pasar el cursor. Usar íconos estándar validados por usuarios reales.
+
+---
+
+### 🔶 Problema #05: Falta de tutoriales o guía para nuevos usuarios
+
+**Severidad:** 2  
+**Heurística violada:** Ayuda y documentación
+
+**Descripción:**  
+No hay tutorial, guía ni sección de ayuda visible. Esto afecta la curva de aprendizaje, especialmente en usuarios no expertos.
+
+**Recomendación:**  
+Incluir un recorrido inicial con explicaciones breves, un botón de ayuda permanente o una sección de preguntas frecuentes.
+
+
+#### 5.2.4.4. Sprint 4
+#### 5.2.4.5. Sprint Planning 4
+
+| Elemento                                | Detalle                                                                                                                                                            |
+|-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                             | Sprint 4                                                                                                                                                          |
+| **Date**                                 | 2025-07-03                                                                                                                                                        |
+| **Time**                                 | 8:00 PM                                                                                                                                                          |
+| **Location**                             | Google Meet (virtual)                                                                                                                                             |
+| **Prepared By**                          | Rosado Iporre, Diego Alonso                                                                                                                                         |
+| **Attendees (to planning meeting)**      | Lecca Villalobos, Pedro Omar<br>Carlos Andrés, Coca Lavado<br>Ramirez Escalante, Carlo Patricio |
+| **Sprint n – 4 Review Summary**          | Se implementaron las mejoras respectivas en los endpoints de nuestro BackEnd.                              |
+| **Sprint n – 4 Retrospective Summary**   | Se identificó la necesidad de la vinculación del contenido de nuestro FrontEnd con nuestro BackEnd                                                                        |
+| **Sprint 4 Goal**                        | Finalizar con las mejoras pendientes, integrar los endpoints del BackEnd con el contenido del FrontEnd para brindar una experiencia del usuario.  |
+| **Sprint 4 Velocity**                    | 8 Story Points                                                                                                                                                    |
+| **Sum of Story Points**                  | 8                                                                                                                                                                 |
+
+
+
+
+---
+
+
+#### 5.2.4.6. Development Evidence for Sprint Review
+
+Durante el cuarto sprint, se mejoraron funcionalidades clave en el backEnd y FrontEnd de nuestra solución, con el fin de mostrar una solución solida para los usuarios. A continuación se presenta la evidencia de desarrollo con los commits realizados:
+
+| **Repository**      | **Branch** | **Commit Id** | **Author**       | **Type**   | **Commit Message**                                                           | **Committed on (Date)** |
+|---------------------|------------|---------------|------------------|------------|-------------------------------------------------------------------------------|--------------------------|
+| PatitaSolidaria BackEnd    | develop    |  b311dc8      |  Diegoroip     | authored   | feat: Cambios para arreglar la lógica entre BC             | 2025-06-03               |
+| PatitaSolidaria FrontEnd     | develop    |   7ed1046    | rhylow           | authored   | feat(publications): add backend support to frontend                          | 2025-07-05               |
+| PatitaSolidaria FrontEnd     | develop    |   39662be    | MrAndres08DV           | authored   | feat: update of the Profile FrontEnd                      | 2025-07-02               |
+|PatitaSolidaria FrontEnd    | develop    |  f3a9f24      | Diegorip           | authored   | fix: publication-bc                                    | 2025-07-02               |
+| PatitaSolidaria FrontEnd     | develop    |  378d908     |    Diegorip        | authored   | fix: publication-bc                                         | 2025-06-17               |
+| PatitaSolidaria FrontEnd     | develop    |  fffe438  |   Diegorip     | authored   | feat: cambios para el main, jalar info del backend                                            | 2025-06-26               |
+| PatitaSolidaria FrontEnd     | develop    |  f20e2d2      |   Diegorip        | authored   | feat: cambios para el main, front conectado al backend en local                                            | 2025-07-02|
+
+#### 5.2.4.7. Testing Suite Evidence for Sprint Review
+
+Durante el Sprint 4 nos enfocamos en la conexión entre nuestro FrontEnd y BackEnd, para ello tuvimos que realizar moficiaciones en nuestros respectivos Bounded Context
+
+A continuación, se muestra un resumen del estado de testing al cierre del Sprint 4:
+
+| **Aspecto Evaluado**          | **Resultado**                                                                 |
+|------------------------------|------------------------------------------------------------------------------|
+| Conexión FrontEnd-BackEnd    | Se concreto de forma efectiva la conexión entre el ForntEnd y BackEnd del proyecto para mostrar el contenido respectivo                |
+| Pruebas locales            | De manera local cada uno de los miembros del equipo realizó pruebas de manera local para probar la respuesta entre los servicios que se mostraban en el BackEnd y como se reflejarian estos en nuestro FrontEnd                     |
+| Herramientas utilizadas      | IntelliJ IDEA, PgAdmin4, Swagger UI. |
+| Estado general de testing    | Funcionalidad comprobada de forma exitosa                                   |
+
+#### 5.2.4.8. Execution Evidence for Sprint Review
+
+Durante el Sprint 4. Nos enfocamos en la mejora de nuestro Frontend y la conexión de su contenido con nuestro BackEnd, todo el código fue desarrollado se desarrollo mantiendo principios de arquitectura limpia, con especial énfasis en la separación de capas y la persistencia adecuada de datos.
+
+<h3>Frontend</h3>
+En este sprint, hemos logrado mejoras significativas en el desarrollo del frontend de nuestro producto. Nos hemos concentrado en conectar múltiples nuestros multiples endpoints RESTful con el contenido presentado en nuestro FrontEnd. A continuación, se presentan evidencias técnicas del backend desarrollado durante este sprint.
+
+**Capturas de Pantalla del FrontEnd mejorado**
+
+- Mejora en bounded context IAM - Crear cuenta
+
+![IAM](assets/images/commons/Crear%20Cuenta%20FrontEnd.jpg)
+
+- Mejora en bounded context IAM - Iniciar Sesión
+
+![IAM](assets/images/commons/Inicio%20Sesion%20FrontEnd.jpg)
+
+- Mejora en bounded context Profile - Visualización de Información
+
+![Profile](assets/images/commons/BC%20Profile%20FrontEnd%20Mejorado.jpg)
+
+- Mejora en bounded context Profile - Formulario de Edición de Información
+
+![Profile](assets/images/commons/Formulario%20Edicion%20BC%20Profile.jpg)
+
+- Mejora en bounded context Pets - Visualización de las mascotas y su información
+
+![Pets](assets/images/commons/BC%20Pets.jpg)
+
+- Mejora en bounded context Publications - Visualización de las publicaciones activas.
+
+![Publications](assets/images/commons/BC%20Publications%20FrontEnd.jpg)
+
+- Mejora en bounded context Adoption Request - Solicitudes activas.
+
+![AdoptionRequest](assets/images/commons/AdoptionRequests%20BC%20FrontEnd%20Mejorado.jpg)
+
+- Mejora en bounded context Adoption Request - Visualización de las solicitudes del historial de adopción.
+
+![AdoptionRequest](assets/images/commons/MejoraAdoptionRequestFrontEnd.jpg)
+
+- Mejora en bounded context Donations - Visualización de las opciones de tipo de Donación a realizar
+
+![Donations](assets/images/commons/DonationsBCFrontEndMejora.jpg)
+
+- Mejora en bounded context Donations - Visualización de las campañas de donación en progreso
+
+![Donations](assets/images/commons/DonationsBCFrontEndMejorado.jpg)
+
+- Mejora en bounded context Donations - Infomarción y detalles de la donación
+
+![Donations](assets/images/commons/DonationsBCFrontEndMejorado2.jpg)
+
+
+
+### 5.2.5. Video About-the-Team
+
+En este video, el equipo presenta a cámara una narración sobre el desarrollo de PatitaSolidaria, recorriendo las distintas etapas del proyecto: desde la idea inicial hasta su implementación final.
+
+Cada integrante comparte su experiencia, explicando su rol, los desafíos enfrentados y las soluciones aplicadas. También se destacan los principales logros del equipo, como la creación de una interfaz accesible, la colaboración con refugios y la incorporación de funciones clave para la adopción responsable.
+
+El video cierra con una reflexión grupal sobre lo aprendido, valorando tanto el crecimiento técnico como las habilidades blandas desarrolladas. Todos agradecemos la experiencia y mencionamos nuestro aporte al proyecto.
+
+**Imagen Representativa del Video**
+
+![AboutTeam_Video](assets/images/tb2/aboutteam.png)
+
+**URLs de la Versión Publicada**
+
+- Versión en Google Drive: [https://drive.google.com/file/d/1fPRxBUpUYCzoIVf4P4FS2tqN2bThZTKK/view?usp=drive_link](https://drive.google.com/file/d/1fPRxBUpUYCzoIVf4P4FS2tqN2bThZTKK/view?usp=drive_link)
+
+### 5.2.6. Video About-the-Product
+
+En esta sección, el equipo presenta un resumen de los aspectos más relevantes del video "About The Product – PatitaSolidaria". El video muestra en detalle las características principales de la aplicación, enfocándose en cómo cada funcionalidad ha sido diseñada para responder a las necesidades reales de los usuarios interesados en la adopción responsable de mascotas.
+
+A lo largo del video, se presentan demostraciones visuales de la aplicación en funcionamiento, incluyendo flujos clave como la búsqueda de animales disponibles, el contacto con refugios, la gestión de perfiles de mascotas y el seguimiento del proceso de adopción.
+
+La narración guía al espectador a través de la experiencia del usuario, mientras que testimonios reales aportan valor, reflejando el impacto positivo que PatitaSolidaria ha tenido tanto en adoptantes como en organizaciones protectoras de animales. Estos relatos destacan la facilidad de uso, la mejora en la visibilidad de las mascotas en adopción y el fortalecimiento del vínculo entre la comunidad y los refugios.
+
+Este video no solo presenta el producto, sino que lo contextualiza como una solución digital efectiva para un problema social, demostrando su utilidad, usabilidad e impacto.
+
+**Cuadro Representativo del Video**
+
+![AboutTeam_Video](assets/images/tb2/aboutproduct.png)
+
+**URLs de la Versión Publicada**
+
+- Versión en Google Drive: [https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link](https://drive.google.com/file/d/14oLZnRl7yh718LRk9o8rAtNvAIM_aTh7/view?usp=drive_link)
+
+
 ## Conclusiones
 
 - TB1:
 
 El proyecto "Patita Solidaria" reflejó un enfoque empático y colaborativo, orientado a resolver una problemática social relevante como es la adopción responsable y el apoyo a refugios y rescatistas. Se logró estructurar una plataforma funcional y accesible mediante el uso de herramientas como User Stories, wireframes y organización por funciones clave, lo cual permitió priorizar la experiencia del usuario. Las decisiones en torno a la navegación, búsqueda y etiquetas fueron coherentes con el propósito de facilitar la interacción de adoptantes y rescatistas. Asimismo, la claridad en la definición de funciones y flujos mejoró la organización del equipo y evidenció un compromiso con el impacto social de la propuesta, marcando una base sólida para su desarrollo y escalabilidad futura.
+
+- TP1:
+
+El desarrollo del Trabajo Parcial permitió consolidar los módulos principales de la plataforma Patita Solidaria, destacando la implementación del sistema de adopciones con soporte multilenguaje, así como las secciones de perfil, donaciones y publicaciones. Se logró una correcta distribución de tareas, cumplimiento de las User Stories asignadas y validación funcional mediante pruebas manuales, lo que evidencia un avance sólido y coordinado en la construcción del producto.
+
+- TB2: 
+
+El desarrollo del Trabajo Parcial TB2 permitió sentar las bases sólidas del backend de la plataforma Patita Solidaria, logrando avances significativos en la implementación de múltiples Bounded Contexts como Pets, IAM (Identity and Access Management) y Adoptions. Durante este sprint se priorizó la creación de endpoints RESTful siguiendo buenas prácticas, con soporte para operaciones CRUD y principios de diseño orientados al dominio.
+
+Se destacó una adecuada organización del equipo, con una clara distribución de responsabilidades entre los integrantes, lo cual permitió cumplir con las User Stories planificadas y mantener una integración fluida en el repositorio. Además, se desplegó exitosamente la aplicación mediante Render, y se validó el funcionamiento correcto del sistema usando PGAdmin para verificar la persistencia de datos en la base de datos remota.
+
+Aunque la automatización de pruebas BDD aún está en proceso de integración, se establecieron las estructuras necesarias para su implementación en los próximos sprints, asegurando así la calidad del software. En conjunto, el trabajo realizado evidencia un desarrollo enfocado, colaborativo y con visión a largo plazo hacia un producto robusto y funcional.
+
+
+- TF:
+
+El desarrollo del Trabajo Final consolidó todos los componentes trabajados a lo largo del ciclo, integrando de manera efectiva tanto el frontend como el backend de la plataforma Patita Solidaria. Se logró materializar una solución funcional, accesible y orientada a generar impacto social, con un sistema de adopciones completo, soporte multilenguaje, autenticación segura y una interfaz intuitiva para adoptantes, rescatistas y donantes.
+
+El equipo demostró una evolución notable en cuanto a organización, comunicación y buenas prácticas de desarrollo, reflejada en la integración fluida de los distintos módulos, el uso adecuado de herramientas colaborativas, pruebas funcionales y la implementación progresiva de automatización mediante BDD. La experiencia adquirida permitió validar el modelo de negocio propuesto, y sentó las bases para su posible escalabilidad y mantenimiento futuro.
+
+En resumen, el Trabajo Final representa la culminación exitosa de un proceso iterativo, colaborativo y centrado en el usuario, que no solo cumplió con los objetivos planteados, sino que evidenció el compromiso del equipo con la calidad, la responsabilidad social y la mejora continua del producto.
 
 ## Bibliografía
 
@@ -2160,3 +3179,10 @@ URL deploy Landing Page: https://9l7f3r.csb.app/
 
 Link de Trello(Sprints Backlog): https://trello.com/b/3DnjiCdf/finalprojecttasks
 
+URL del Frontend desplegado: https://patitasolidaria-front.onrender.com 
+
+URL del Backend desplegado: https://patita-solidaria-backend.onrender.com/swagger-ui/index.html#/
+
+Video About-The-Team: https://drive.google.com/file/d/1fPRxBUpUYCzoIVf4P4FS2tqN2bThZTKK/view?usp=drive_link
+
+Video About-The-Product: https://drive.google.com/drive/folders/1nr6SgYV-kaxnDUhwW-iKhUaBW0IeCrAU?usp=sharing
